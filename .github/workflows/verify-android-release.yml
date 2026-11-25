@@ -1,0 +1,108 @@
+name: Verify signed Android update
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Candidate GitHub release tag
+        required: true
+        type: string
+      baseline:
+        description: Installed version before the update
+        required: true
+        type: string
+      apk_sha:
+        description: SHA-256 of Reader.apk
+        required: true
+        type: string
+      tests_sha:
+        description: SHA-256 of Reader-instrumentation.apk
+        required: true
+        type: string
+      cases:
+        description: Comma-separated instrumentation classes or class#method entries
+        required: true
+        type: string
+jobs:
+  android:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    permissions:
+      contents: write # GitHub requires collaborator access to download unpublished release assets.
+    env:
+      TAG: ${{ inputs.tag }}
+      BASE: ${{ inputs.baseline }}
+      APK_SHA: ${{ inputs.apk_sha }}
+      TEST_SHA: ${{ inputs.tests_sha }}
+      CASES: ${{ inputs.cases }}
+      PKG: io.multiread.reader.debug
+    steps:
+      - name: Fetch and verify the signed binaries
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && "$BASE" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          [[ "$APK_SHA" =~ ^[0-9a-f]{64}$ && "$TEST_SHA" =~ ^[0-9a-f]{64}$ ]]
+          gh release download "$BASE" -p Reader.apk --dir previous
+          gh release download "$TAG" -p Reader.apk -p Reader-instrumentation.apk --dir candidate
+          printf '%s  %s\n' "$APK_SHA" candidate/Reader.apk "$TEST_SHA" candidate/Reader-instrumentation.apk | sha256sum -c -
+          signer=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort -V | tail -1)
+          for file in previous/Reader.apk candidate/*.apk; do
+            "$signer" verify --print-certs "$file" > cert.txt
+            grep -Fiq 'certificate SHA-256 digest: 2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73' cert.txt
+          done
+      - name: Boot an isolated Android 15 emulator
+        run: |
+          set -euo pipefail
+          sudo chmod a+rw /dev/kvm
+          export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
+          sdkmanager "platform-tools" "emulator" "system-images;android-35;default;x86_64" >/dev/null
+          echo no | avdmanager create avd -n reader-check -k "system-images;android-35;default;x86_64" >/dev/null
+          nohup "$ANDROID_HOME/emulator/emulator" -avd reader-check -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader_indirect -memory 3072 > emulator.log 2>&1 &
+          for attempt in {1..150}; do
+            if [[ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')" == 1 ]]; then break; fi
+            sleep 2
+          done
+          [[ "$(adb shell getprop sys.boot_completed | tr -d '\r')" == 1 ]] || { tail -20 emulator.log; exit 1; }
+          adb shell wm size 720x1280
+          adb shell wm density 300
+          adb shell input keyevent KEYCODE_WAKEUP
+          adb shell wm dismiss-keyguard
+          adb shell settings put system screen_off_timeout 2147483647
+      - name: Install over the previous version and run native tests
+        run: |
+          set -euo pipefail
+          adb install previous/Reader.apk
+          adb shell run-as "$PKG" mkdir -p files
+          adb shell "run-as $PKG sh -c 'echo before-update > files/upgrade-marker'"
+          adb install -r candidate/Reader.apk
+          [[ "$(adb shell run-as "$PKG" cat files/upgrade-marker | tr -d '\r')" == before-update ]]
+          adb shell dumpsys package "$PKG" | grep -m1 'versionName='
+          adb install -r candidate/Reader-instrumentation.apk
+          IFS=',' read -ra selected <<< "$CASES"
+          (( ${#selected[@]} > 0 && ${#selected[@]} <= 40 ))
+          failures=0
+          for method in "${selected[@]}"; do
+            [[ "$method" =~ ^io\.legado\.app\.[A-Za-z0-9_.]+(#[A-Za-z0-9_]+)?$ ]]
+            # Each suite starts with an empty library on this disposable emulator.
+            adb shell pm clear "$PKG" >/dev/null
+            adb shell run-as "$PKG" mkdir -p shared_prefs
+            printf '%s\n' '<map><int name="packVersion" value="2147483647"/></map>' |
+              adb shell "run-as $PKG sh -c 'cat > shared_prefs/reader_verified_sources_v1.xml'"
+            printf '%s\n' '<map><boolean name="privacyPolicyOk" value="true"/><long name="appVersionCode" value="2147483647"/></map>' |
+              adb shell "run-as $PKG sh -c 'cat > shared_prefs/local.xml'"
+            adb shell input keyevent KEYCODE_WAKEUP
+            adb shell wm dismiss-keyguard
+            echo "::group::$method"
+            flags=()
+            if [[ "$method" == 'io.legado.app.help.ReaderDiagnosticsTest#uploadFromMyTabReturnsLiveReceipt' ]]; then
+              flags=(-e liveReceipt yes)
+            fi
+            adb shell am instrument -w -r "${flags[@]}" -e class "$method" "$PKG.test/androidx.test.runner.AndroidJUnitRunner" | tee result.txt
+            if (( ${#flags[@]} )); then adb logcat -d -s ReaderReleaseReceipt:I '*:S'; fi
+            echo "::endgroup::"
+            if ! grep -Eq '^OK \([1-9][0-9]* tests?\)' result.txt; then failures=$((failures+1)); fi
+          done
+          [[ "$failures" == 0 ]]
+
