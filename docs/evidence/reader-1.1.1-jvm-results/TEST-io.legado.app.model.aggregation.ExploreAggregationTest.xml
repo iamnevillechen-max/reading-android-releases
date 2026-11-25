@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.ExploreAggregationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-26T10:21:14.470Z" hostname="nevilledeMacBook-Neo.local" time="0.021">
+  <properties/>
+  <testcase name="differentExploreUrlsRetainIndependentFingerprints" classname="io.legado.app.model.aggregation.ExploreAggregationTest" time="0.02"/>
+  <testcase name="parsingRuleEditsInvalidateRoutesWithoutChangingSourceMetadata" classname="io.legado.app.model.aggregation.ExploreAggregationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-25",
+  "version": "1.2.9",
+  "versionCode": 10209,
+  "sourceRevision": "9da1c5d0b3bbd4ba62df426590e2261a1115336e",
+  "build": "https://github.com/iamnevillechen-max/reading-android-releases/actions/runs/45616158658",
+  "apkSha256": "becda9aab809509ef526eb4a5197d513288457c51298895bffdb711c866458f8",
+  "apkBytes": 30836618,
+  "sameSigningCertificate": true,
+  "productionRevision": "c1a29f2e4f959d60770205b8db7310f31c46db2f",
+  "productionBuild": "https://github.com/iamnevillechen-max/reading-android-releases/actions/runs/45610337843",
+  "jvm": {
+    "tests": 215,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": 36
+  },
+  "android": {
+    "distinctMethodsPassed": 46,
+    "sameProductionApk": true,
+    "overlayFrom128": true,
+    "retainedPrivateMarker": true,
+    "groups": [
+      {
+        "group": "speech",
+        "run": "https://github.com/iamnevillechen-max/reading-android-releases/actions/runs/45617372397",
+        "nativeMethods": 9,
+        "allGroupsPassed": true
+      },
+      {
+        "group": "books",
+        "run": "https://github.com/iamnevillechen-max/reading-android-releases/actions/runs/45617384029",
+        "nativeMethods": 31,
+        "allGroupsPassed": true
+      },
+      {
+        "group": "lists",
+        "run": "https://github.com/iamnevillechen-max/reading-android-releases/actions/runs/45617396153",
+        "nativeMethods": 6,
+        "allGroupsPassed": true
+      }
+    ],
+    "cases": [
+      "io.legado.app.aggregation.AggregationScaleTest#categoryStripKeepsAdapterSnapshotsConsistentWhileFlingingAndEditing",
+      "io.legado.app.aggregation.AggregationScaleTest#categoryStripRecyclesTwentyThousandLabelsAndKeepsKeyboardAndAccessibleSelection",
+      "io.legado.app.aggregation.AggregationSourceRoutingTest#mainDiscoveryHasScrollableCategoriesAndChangesBothSourcesInline",
+      "io.legado.app.aggregation.AggregationSourceRoutingTest#mainSubscriptionsFilterByRealCategoriesInlineAndKeepModeProgressAndReadHistory",
+      "io.legado.app.aggregation.LocalSourceCatalogueScaleTest#all21149SourcesReachTheLocalCatalogueWithoutReadingOrExecutingTheirLibraries",
+      "io.legado.app.aggregation.RssDynamicCategoryCatalogueTest#everyDynamicOriginalSortIsPublishedAndTheTailCategoryReadsOnlyItsOwnArticle",
+      "io.legado.app.help.ReaderDiagnosticsTest#retryReusesThePersistedRedactedCrashReport",
+      "io.legado.app.help.ReaderDiagnosticsTest#uploadFromMyTabReturnsLiveReceipt",
+      "io.legado.app.multisource.BookSourceAutoRemovalTest#missingEntryAndChapterOfferReversibleRemovalAndAHealthyReadClearsTheSuggestion",
+      "io.legado.app.multisource.BookSourceAutoRemovalTest#onlyIndependentOriginal410RemovesSourceAndKeepsReaderData",
+      "io.legado.app.multisource.BookshelfOpeningRecoveryTest#cachedEmptyShellIsRecoveredDespiteAnUnmarkedSavedPosition",
+      "io.legado.app.multisource.BookshelfOpeningRecoveryTest#deadDetailDoesNotBlockAnExistingChapterFromTheBookshelf",
+      "io.legado.app.multisource.BookshelfOpeningRecoveryTest#lostCatalogueFindsSameChapterRatherThanGuessingItsIndexAndKeepsUserData",
+      "io.legado.app.multisource.BookshelfOpeningRecoveryTest#numberOnlySavedChapterWithoutContextNeverGuessesAnIndex",
+      "io.legado.app.multisource.BookshelfOpeningRecoveryTest#pendingOpeningCannotInstallAfterTheSameBookIsReopened",
+      "io.legado.app.multisource.BookshelfOpeningRecoveryTest#unrelatedChapterCannotReplaceTheSavedBookEvenWithTheSameIndexNumber",
+      "io.legado.app.multisource.HttpReadAloudBufferTest#delayedAudioKeepsParagraphOrderAndHonorsPauseWhileRefilling",
+      "io.legado.app.multisource.HttpReadAloudBufferTest#lockWakeAndRecreateFollowThePlayingChapter",
+      "io.legado.app.multisource.HttpReadAloudBufferTest#mediaResumeWithoutAnActiveBookReturnsToIdle",
+      "io.legado.app.multisource.HttpReadAloudBufferTest#restoredViewportSkipsEmptyFramesAndOutdatedResizes",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#accessPageCannotStopMissingOriginalRecoveryWaves",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#accessPageCannotStopSupplementingReadableOriginalText",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#alternateFailureCannotDamageReadableOriginal",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#backgroundSingleSourceMissGetsOneForegroundAttemptBeforeCacheReuse",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#blankDerivedMissAndEmptyOriginalFileAreNotReadableOrDownloaded",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#cachedChapterWithAnErrorInTheMiddleIsRepairedBetweenItsOriginalParagraphs",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#cancellationNeverPublishesPartialDerivedCache",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#coldFourStageRescueCanFinishAfterTheOldForegroundDeadline",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#failedRescueThenNewManualKnownResultRecoversWithoutChangingSourceRules",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#irrelevantPrefixYieldsWithinTheSameLoadAndMergedCacheDoesNotRepeatRequests",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#missingOriginalAdvancesPastQuickUnmatchedCandidatesWithinOneLoad",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#missingPrimaryRuleAutomaticallyRecoversInNativeReader",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#paidPreviewUsesAnOpenEditionAndDoesNotFetchAnUnpurchasedCandidateChapter",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#removedPrimaryRecoversLegacyBookWithOnlyAnUpdateErrorFlag",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#removedPrimaryRecoversUntypedLegacyBookWithoutRewritingItsType",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#slowAlternateTimesOutWithoutReplacingOriginal",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#stalledPrimaryIsBoundedBeforeAutomaticRecovery",
+      "io.legado.app.multisource.MultiSourceIntegrationTest#unavailablePrimaryRecoversDespiteLegacySavedPosition",
+      "io.legado.app.multisource.PromotedChapterSpeechTest#pauseAndStopSuppressLateLayoutCompletion",
+      "io.legado.app.multisource.PromotedChapterSpeechTest#promotedLayoutResumesOnceOnlyAfterCompletion",
+      "io.legado.app.multisource.PromotedChapterSpeechTest#staleLayoutCannotResumeAfterReplacementAtTheSameChapter"
+    ]
+  },
+  "baselineObservation": {
+    "version": "1.2.8",
+    "contentTextViewOnDrawInTrace": true,
+    "exceptionObserved": "INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: visibleRect 为空"
+  },
+  "diagnostics": {
+    "workerUnitTests": 4,
+    "sourcePackagingTests": 6,
+    "nativeUiReceiptVerifiedInPrivateD1": true,
+    "nativeUiSyntheticCaseResolved": true,
+    "nativeApi": 35,
+    "formHttp": 201,
+    "dotJsonHttp": 201,
+    "duplicatePostHttp": 200,
+    "publicListingHttp": 405,
+    "accessibleFormLabelsObserved": true
+  },
+  "testDevice": {
+    "platform": "Android 15 API 35, AOSP x86_64",
+    "fixtures": "Owned synthetic book/catalogue/audio data; looping WAV served via local HTTP.",
+    "localAvdBootWatchdogBeforeAppTest": true,
+    "localAvdRemoved": true
+  },
+  "handset": {
+    "installationRequested": false,
+    "physicalDeviceTested": false,
+    "phoneSpecificCrashTraceObtained": false
+  },
+  "publication": {
+    "status": "candidate acceptance complete; public downloads checked after promotion"
+  }
+}

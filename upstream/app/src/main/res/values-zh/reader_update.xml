@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reader_update_title">阅读更新</string>
+    <string name="reader_update_notification_channel">应用更新下载</string>
+    <string name="reader_update_current_version">当前版本：%1$s（%2$d）</string>
+    <string name="reader_update_release_version">发布版本：%1$s（%2$d），%3$s</string>
+    <string name="reader_update_progress">已下载 %1$d%%，%2$s／%3$s</string>
+    <string name="reader_update_check">检查新版</string>
+    <string name="reader_update_idle">检查是否有新版阅读。</string>
+    <string name="reader_update_checking">正在检查新版…</string>
+    <string name="reader_update_available">发现新版。查看更新说明后可下载。</string>
+    <string name="reader_update_current">当前已是最新版。</string>
+    <string name="reader_update_incompatible">此版本不适用于这台设备，当前应用可继续使用。</string>
+    <string name="reader_update_check_failed">暂时无法检查新版。请检查网络，再点“检查新版”重试。</string>
+    <string name="reader_update_download">下载</string>
+    <string name="reader_update_resume">下载</string>
+    <string name="reader_update_cancel">取消</string>
+    <string name="reader_update_downloading">正在下载。离开此页面后会继续下载。</string>
+    <string name="reader_update_retrying">连接中断，正在重试；已保存下载进度。</string>
+    <string name="reader_update_paused">下载已暂停，已保存下载进度。点“下载”即可继续。</string>
+    <string name="reader_update_foreground_denied">Android 暂时无法启动后台下载。请重新打开此页，再继续下载。</string>
+    <string name="reader_update_cancelled">已取消下载，下载进度已保存，可稍后继续。</string>
+    <string name="reader_update_verifying">正在核对更新文件与签署身份…</string>
+    <string name="reader_update_ready">更新文件已核对。点“安装新版”后，由 Android 确认安装。</string>
+    <string name="reader_update_verify_failed">更新文件未通过核对。请重新检查新版或重新下载；当前应用未改动。</string>
+    <string name="reader_update_install">安装新版</string>
+    <string name="reader_update_allow_install">允许阅读安装更新</string>
+    <string name="reader_update_permission_info">Android 需要允许阅读安装更新。打开设置并允许后，返回此页点“安装新版”。</string>
+    <string name="reader_update_permission_denied">尚未允许安装更新。已保留核对好的文件，可允许安装或稍后再试。</string>
+    <string name="reader_update_permission_granted">已允许安装更新。准备好后可点“安装新版”。</string>
+    <string name="reader_update_settings_failed">暂时无法打开安装设置。请在 Android 设置中允许阅读安装应用，再返回。</string>
+    <string name="reader_update_installer_opened">已打开 Android 安装确认，请在系统页面确认更新阅读。</string>
+    <string name="reader_update_installer_returned">已返回。若取消了安装，核对好的文件仍保留，可稍后安装。</string>
+    <string name="reader_update_install_failed">暂时无法打开安装页面。已保留核对好的文件，请检查安装权限后重试。</string>
+    <string name="reader_update_preserve_data">更新使用相同应用与签署身份，保留书架、阅读位置和历史。安装前由 Android 确认。</string>
+    <string name="reader_update_startup_title">阅读有新版本</string>
+    <string name="reader_update_startup_message">阅读 %1$s 可供下载。</string>
+    <string name="reader_update_startup_view">下载</string>
+    <string name="reader_update_startup_later">取消</string>
+    <string name="reader_update_install_version">安装已下载的 %1$s</string>
+    <string name="reader_update_background">后台下载</string>
+    <string name="reader_update_changes">本次更新解决的问题</string>
+    <string name="reader_update_notes_missing">此版本尚未提供更新说明。</string>
+</resources>

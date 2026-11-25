@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.RssAggregationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:29.981Z" hostname="nevilledeMacBook-Neo.local" time="0.343">
+  <properties/>
+  <testcase name="knownDatesSortNewestFirstUnknownDatesKeepFairOrder" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.005"/>
+  <testcase name="lightweightCatalogueRetains443FeedsAndLiteralCategoriesWithoutRunningScripts" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.337"/>
+  <testcase name="identicalLinksDeduplicateButSimilarTitlesKeepBothArticles" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

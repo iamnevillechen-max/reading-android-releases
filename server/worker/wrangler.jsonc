@@ -1,0 +1,46 @@
+{
+  "name": "reading-source-cloud",
+  "main": "src/runtime-entry.ts",
+  "compatibility_date": "2026-10-28",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "reading-source-cloud",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": {
+    "enabled": false
+  },
+  "triggers": {
+    "crons": [
+      "*/30 * * * *"
+    ]
+  },
+  "vars": {
+    "MAINTENANCE_ENABLED": "true",
+    "MAINTENANCE_DAILY_WRITES": "5000"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "SOURCE_RUNTIME",
+        "class_name": "ReaderSourceRuntime"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "reader-source-runtime-sqlite-v1",
+      "new_sqlite_classes": [
+        "ReaderSourceRuntime"
+      ]
+    }
+  ]
+}

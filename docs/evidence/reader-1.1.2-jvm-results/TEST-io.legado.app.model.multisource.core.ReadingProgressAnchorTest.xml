@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-26T15:30:38.444Z" hostname="nevilledeMacBook-Neo.local" time="0.008">
+  <properties/>
+  <testcase name="supplementaryCharactersDoNotSplitAtTheSavedPositionOrQuoteBoundary" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.001"/>
+  <testcase name="quotesAndTextAreBoundedAndInvalidVersionsAreRejected" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.002"/>
+  <testcase name="reopeningTheSameDerivedVersionDoesNotMapFromRawAgain" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.001"/>
+  <testcase name="missingOrRepeatedQuoteKeepsTheAbsoluteOffsetNotTheQuoteLocalOffset" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.002"/>
+  <testcase name="aLaterVersionAndDisablingDerivedContentBothUseTheSavedWords" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.001"/>
+  <testcase name="knownRenderedRawAnchorMovesToTheSameWordsAfterAnInsertion" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.001"/>
+  <testcase name="changedChapterBookOrExplicitPositionCannotReuseTheMarker" classname="io.legado.app.model.multisource.core.ReadingProgressAnchorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

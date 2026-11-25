@@ -1,0 +1,73 @@
+{
+  "device": "emulator-5554",
+  "scope": "owned synthetic fixture only",
+  "upgrade": "1.1.0-rc.1 (10099) to 1.1.0 (10100)",
+  "method": "same package adb install -r, before first launch",
+  "identical": true,
+  "files": {
+    "databases/legado.db": {
+      "beforeSha256": "264e442d6b733f5b321e15b1113025b7c0ab604c8d51779103b26eb74b46a901",
+      "afterSha256": "264e442d6b733f5b321e15b1113025b7c0ab604c8d51779103b26eb74b46a901",
+      "equal": true
+    },
+    "databases/legado.db-wal": {
+      "beforeSha256": "58287fa84ff499556967ce2c9c92031ff7462458dde53223349c874cb4e766e4",
+      "afterSha256": "58287fa84ff499556967ce2c9c92031ff7462458dde53223349c874cb4e766e4",
+      "equal": true
+    },
+    "databases/legado.db-shm": {
+      "beforeSha256": "e1c2802770633d05a247600234754319237382971b8ab55edee3e2c3b32e1303",
+      "afterSha256": "e1c2802770633d05a247600234754319237382971b8ab55edee3e2c3b32e1303",
+      "equal": true
+    },
+    "shared_prefs/app_themes.xml": {
+      "beforeSha256": "26c0692cfe4127605b032f53ab26e2a7ecd61f15dd3ccac20c8980070a166d36",
+      "afterSha256": "26c0692cfe4127605b032f53ab26e2a7ecd61f15dd3ccac20c8980070a166d36",
+      "equal": true
+    },
+    "shared_prefs/WebViewChromiumPrefs.xml": {
+      "beforeSha256": "424775c24a3a39e07d7c19a9af4067b73f370934048eaa4b145dcd73e0eeb0f1",
+      "afterSha256": "424775c24a3a39e07d7c19a9af4067b73f370934048eaa4b145dcd73e0eeb0f1",
+      "equal": true
+    },
+    "shared_prefs/local.xml": {
+      "beforeSha256": "1703fbaf05bbe1ba99817226c18a782edc17fccc420bfc004a21e67fe5eaae19",
+      "afterSha256": "1703fbaf05bbe1ba99817226c18a782edc17fccc420bfc004a21e67fe5eaae19",
+      "equal": true
+    },
+    "shared_prefs/io.multiread.reader.debug_preferences.xml": {
+      "beforeSha256": "d8fba8d7f42faa16ffc85541e6b8b3b538bf00b0343e3de4f71ba7a7b1a522f6",
+      "afterSha256": "d8fba8d7f42faa16ffc85541e6b8b3b538bf00b0343e3de4f71ba7a7b1a522f6",
+      "equal": true
+    },
+    "shared_prefs/AwOriginVisitLoggerPrefs.xml": {
+      "beforeSha256": "33cee72a4a41be07611dc6c2d2790f68f236ea0a52f83944297a22612c19b285",
+      "afterSha256": "33cee72a4a41be07611dc6c2d2790f68f236ea0a52f83944297a22612c19b285",
+      "equal": true
+    },
+    "shared_prefs/aggregation_categories.xml": {
+      "beforeSha256": "3325d2a819fdd8062c2cdc48a09b995c9b012915bcdf88b1cf9742a7f057c793",
+      "afterSha256": "3325d2a819fdd8062c2cdc48a09b995c9b012915bcdf88b1cf9742a7f057c793",
+      "equal": true
+    },
+    "shared_prefs/multisource.xml": {
+      "beforeSha256": "8ef87e2c143080b1858782a7031b4092d17365d2815dddcefc86f4ca7b7b9de7",
+      "afterSha256": "8ef87e2c143080b1858782a7031b4092d17365d2815dddcefc86f4ca7b7b9de7",
+      "equal": true
+    },
+    "shared_prefs/reader_update_v1.xml": {
+      "beforeSha256": "ade51affa95cc78a1b13b74265934650a4d15d2d91122ba0928f352614b00875",
+      "afterSha256": "ade51affa95cc78a1b13b74265934650a4d15d2d91122ba0928f352614b00875",
+      "equal": true
+    },
+    "files/reader-feedback/reports.json": {
+      "beforeSha256": "4dc2c20cd9fc5b92bb371cdb9d952f5234a722c37acc94cdb95cf7654eebf4b0",
+      "afterSha256": "4dc2c20cd9fc5b92bb371cdb9d952f5234a722c37acc94cdb95cf7654eebf4b0",
+      "equal": true
+    }
+  },
+  "counts": {
+    "fileCount": 12
+  },
+  "notPublicOtaTest": true
+}

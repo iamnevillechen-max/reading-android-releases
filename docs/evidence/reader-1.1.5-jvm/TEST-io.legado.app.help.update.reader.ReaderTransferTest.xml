@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.help.update.reader.ReaderTransferTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-27T05:16:13.499Z" hostname="nevilledeMacBook-Neo.local" time="0.166">
+  <properties/>
+  <testcase name="realChunkedStreamReportsProgressAndChecksExactBytes" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.045"/>
+  <testcase name="unsafeRedirectIsRejectedBeforeAnotherConnection" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.018"/>
+  <testcase name="brokenConnectionLeavesBytesAndNextRequestResumesWithRange" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.028"/>
+  <testcase name="checksumFailureAndOversizeNeverReplaceExistingUsableFile" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.023"/>
+  <testcase name="contentLengthHeaderKeepsUnknownAndOverflowOutOfByteAccounting" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.0"/>
+  <testcase name="streamedMetadataHasHardSizeLimit" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.015"/>
+  <testcase name="serverIgnoringRangeRestartsInsteadOfAppending" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.02"/>
+  <testcase name="cancellationRetainsPartialAndRejectsLateSuccess" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.015"/>
+  <testcase name="metadataCheckNeverCallsTheApi24ContentLengthMethod" classname="io.legado.app.help.update.reader.ReaderTransferTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

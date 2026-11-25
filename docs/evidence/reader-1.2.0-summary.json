@@ -1,0 +1,179 @@
+{
+  "format": "reader-release-status-1",
+  "versionName": "1.2.0",
+  "versionCode": 10200,
+  "date": "2026-10-29",
+  "state": "intermediate-installed-candidate-superseded-by-1.2.1-development",
+  "packageName": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "bytes": 32730254,
+  "sha256": "98422e9c4ab8cecbc8448c6f58a9ece3fc02c9045f04e3c30791a7510c3596c8",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "sameSigner": true,
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "jvm": {
+    "suites": 19,
+    "tests": 137,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "nativeEvidence": "reader-1.2.0-native-results.json",
+  "newCloudNativeUniqueMethods": 23,
+  "newCloudNativeLatestAllPassed": true,
+  "legacyRegression": {
+    "registeredMethods": 45,
+    "passed": 44,
+    "skipped": 1,
+    "failures": 0,
+    "testedApkSha256Prefix": "4345671d",
+    "testedOnFinalApk": false
+  },
+  "ownedAvdCompaction": {
+    "uniqueMethods": 5,
+    "passed": 5,
+    "tablesUnchanged": 24,
+    "physicalHandsetCompactionAttempted": false
+  },
+  "backend": {
+    "typescriptTests": 50,
+    "typecheckPassed": true,
+    "verification": "Root-reported successful backend run; no backend commands rerun for this documentation update.",
+    "realScheduledMaintenance": {
+      "lastTrigger": "scheduled",
+      "lastProcessed": 2,
+      "lastHealthy": 0,
+      "lastFailed": 2,
+      "lastDeferred": 0,
+      "lastErrorCode": "SOURCE_TIMEOUT",
+      "intervalMinutes": 30,
+      "maxSourcesPerRun": 2,
+      "lastRunAtUtc": "2026-10-28T16:00:10.012000+00:00",
+      "lastFinishedAtUtc": "2026-10-28T16:00:28.308000+00:00",
+      "successfulRepairProven": false
+    },
+    "sourceHealthReview": {
+      "badSiteGuards": "deployed: narrow challenge / soft-404 / domain-parking response guards",
+      "publicSourceReverification": {
+        "checked": 17,
+        "healthy": 12,
+        "failed": 5,
+        "complete": true,
+        "allBooksOrChaptersClaimedReadable": false
+      },
+      "rssReverification": "28 awaiting the post-deployment verification result",
+      "allImportedRecordsUsableClaimed": false
+    }
+  },
+  "tooling": {
+    "sourcePackagePolicyTests": 3,
+    "privateDataAuditTests": 6,
+    "taxonomyPythonTests": 9,
+    "countsInspectedFromTestDefinitions": true,
+    "testCommandsRerunForDocumentation": false
+  },
+  "features": {
+    "sourceExecution": "private authenticated server for healthy cloud sources; retained legacy reading fallbacks stay explicit",
+    "mergedCategoryCount": 11,
+    "categoryDefinition": "server/catalogue/taxonomy.json",
+    "newSearchRequiresCompleteApprovedManifest": true,
+    "sourceUpdatesUseUpdatePreservingIdsAndForeignKeys": true,
+    "referencedCurrentChapterQualityRequiredBeforeClearingRule": true,
+    "unreferencedUnverifiedRulesCanBecomeDisabledArchiveStubsOnlyAfterExactStoredReceipts": true,
+    "ioRetry": {
+      "maximumAttempts": 3,
+      "backoffMillis": [
+        250,
+        750
+      ],
+      "immutableRequestBody": true,
+      "nonIdempotentPostsRetried": false,
+      "httpErrorsRetried": false,
+      "cancellationStopsRetries": true
+    },
+    "updateEntry": "我的 → 關於 → 檢查更新",
+    "duplicateTopLevelUpdateEntryRemoved": true
+  },
+  "handset": {
+    "finalApkInstalled": true,
+    "connection": "root-managed wireless ADB / Codex Appium; USB not required",
+    "earlierInstalledSnapshot": {
+      "books": 314,
+      "historyRecords": 3380,
+      "criticalBookFieldsBoundToPrimaryKeysEqual": true,
+      "historyRowsEqual": true,
+      "allBusinessRowsStrictlyEqual": false,
+      "nonCriticalDifferencesSeparatelyAudited": [
+        "book update-check timestamps and failure-status bit",
+        "cookie rotation",
+        "derived files / preference metadata"
+      ]
+    },
+    "currentReadingMayAdvance": true,
+    "uiInspectionPaused": true,
+    "freshImmediateBeforeAndAfterMigrationAuditRequired": true,
+    "privateFullSourceJsonl": {
+      "rows": 21149,
+      "rowHashesVerified": true,
+      "publicPayload": false
+    },
+    "cloudUpload": {
+      "state": "complete-exact-acknowledgements",
+      "allRecordsConfirmed": true,
+      "totalRecords": 21149,
+      "bookRecords": 20706,
+      "rssRecords": 443,
+      "batches": 524,
+      "exactAcknowledgedRows": 21149,
+      "failures": 0,
+      "elapsedSeconds": 987.389,
+      "retries": 232,
+      "adaptiveSplitOperations": 30,
+      "originalPrivateFileStable": true,
+      "importIsNotHealthVerification": true
+    },
+    "nativeMigrationCompleted": false,
+    "localRulesCleanupCompleted": false,
+    "acceptedImmediatePreMigrationBackup": {
+      "consistent": true,
+      "sqliteIntegrity": "ok",
+      "compression": "gzip",
+      "books": 314,
+      "historyRecords": 3380,
+      "bookSources": 20706,
+      "rssSources": 443,
+      "movingCopyRejectedWithoutAdoption": true,
+      "note": "A moving copy taken while the app resumed was rejected. This was not evidence of handset data corruption. The stopped-app gzip copy was accepted."
+    },
+    "nativeMigrationState": "running; final cleanup outcome and after-audit pending",
+    "migrationObservation": {
+      "lastVisibleProcessed": 1628,
+      "total": 21149,
+      "verifiedAtLastObservation": 0,
+      "wirelessConnectionInterrupted": true,
+      "completionResultReceived": false,
+      "stoppedConfirmed": false,
+      "localCleanupConfirmed": false
+    }
+  },
+  "release": {
+    "version120Published": false,
+    "currentPreviouslyPublishedVersion": "1.1.5",
+    "fixedRepository": "iamnevillechen-max/reading-android-releases",
+    "sourceRevisionToBeRecordedAtFinalPackaging": false
+  },
+  "remaining": [
+    "Finish post-deployment RSS verification and evaluate the failed public source cases; storage acknowledgements alone do not prove usability.",
+    "Finish the running native migration and compare the accepted immediate-pre-migration baseline with a consistent after-snapshot.",
+    "Reverify activated cloud sources after final private imports; distinguish archived, pending and healthy states.",
+    "Reclaim handset database space only through the separately verified opt-in path if needed.",
+    "Publish and read back final APK, update metadata and corresponding GPL source through the fixed channel."
+  ],
+  "privacy": "No private handset source IDs, book names, raw source rules, tokens, wireless endpoint/session details, tar paths or phone screenshots are included.",
+  "sourceRevision": "141c0c63adf6419c0ac50404e7617bff610c146a",
+  "sourceRevisionScope": "Committed Android source; root reported working tree clean and main APK unchanged.",
+  "intermediateCandidate": true,
+  "supersededByVersion": "1.2.1",
+  "publicRelease": false
+}

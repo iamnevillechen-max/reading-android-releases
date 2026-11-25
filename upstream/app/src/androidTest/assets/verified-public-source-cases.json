@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-26",
+  "scope": "classic public texts; not modern serial fiction",
+  "sourcePack": "tools/source-packs/verified-classics.json",
+  "verification": [
+    {
+      "sourceUrl": "https://zh.wikisource.org",
+      "sourceType": "online chapters",
+      "keyword": "西遊記",
+      "expectedBookUrl": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+      "expectedBookName": "西遊記",
+      "expectedAuthor": "吳承恩",
+      "expectedTocCount": 100,
+      "expectedFirstChapterName": "第一回",
+      "expectedFirstChapterUrl": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC001%E5%9B%9E",
+      "chapterMinCharacters": 6800,
+      "httpStatuses": [
+        200,
+        200,
+        200
+      ],
+      "nativeParserVerified": false,
+      "httpBodyParagraphs": 32,
+      "httpBodyTextCharacters": 7012,
+      "httpBodyTextSha256": "f57bd5dd515453ab5b6b30d7fc5a1c98597039734af3a384b0de8a7a844bbf12",
+      "httpVerified": true,
+      "expectedFirstChapterContains": "混沌未分天地亂",
+      "httpBodySelector": "clone .mw-parser-output; remove header/navigation; include p and dl/dd",
+      "httpBodyNonWhitespaceCharacters": 6908,
+      "httpIncludesPoetry": true
+    },
+    {
+      "sourceUrl": "https://www.guwendao.net",
+      "sourceType": "online chapters from public paginated catalog; localtitlefilter",
+      "keyword": "红楼梦",
+      "expectedBookUrl": "https://www.guwendao.net/guwen/book_a09880163008.aspx",
+      "expectedBookName": "红楼梦",
+      "expectedAuthor": "曹雪芹",
+      "expectedTocCount": 120,
+      "expectedFirstChapterName": "第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀",
+      "expectedFirstChapterUrl": "https://www.guwendao.net/guwen/bookv_b630af160f65.aspx",
+      "chapterMinCharacters": 7000,
+      "httpStatuses": [
+        200,
+        200,
+        200
+      ],
+      "httpVerified": true,
+      "nativeParserVerified": false,
+      "searchLimitation": "Publiccatalog page titlefilter only, not logged-in site search; booknotincurrentcatalogpage may not appear.",
+      "httpBodyTextCharacters": 7904,
+      "httpBodyNonWhitespaceCharacters": 7768,
+      "httpBodyTextSha256": "db46efd9020a95fca912afd72c37fcd98af6b38c6c94104c2d19a59d993b3b48"
+    }
+  ],
+  "notIncluded": [
+    {
+      "site": "Chinese Text Project",
+      "reason": "ordinary access returned HTTP403; no bypass attempted"
+    },
+    {
+      "site": "Project Gutenberg online-chapter source",
+      "reason": "testedHTMLbook has no chapteranchors, not shipped as generic online chapters",
+      "officialBook": "https://www.gutenberg.org/ebooks/23962",
+      "officialTxt": "https://www.gutenberg.org/cache/epub/23962/pg23962.txt",
+      "txtBytes": 2264069,
+      "txtHeadingCount": 100,
+      "txtCaveat": "Ten chapter numbers use U+25CB○, not present in current defaultTXT chapter patterns; separate nativefile source/TOCrule possible, not claimedverified."
+    }
+  ]
+}

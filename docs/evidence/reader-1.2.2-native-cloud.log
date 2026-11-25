@@ -1,0 +1,588 @@
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudMetadataIntegrationTest:
+INSTRUMENTATION_STATUS: test=aRepairNeverMergesAnotherShelfRowWithTheSameCorrectedNameAndAuthor
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aRepairNeverMergesAnotherShelfRowWithTheSameCorrectedNameAndAuthor
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=readingDoesNotRenameNormalIdentityAndBadOrWrongBookRepliesCannotRepairIt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=readingDoesNotRenameNormalIdentityAndBadOrWrongBookRepliesCannotRepairIt
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cloudListsRejectMarkupInsteadOfPersistingOrAnnouncingItAsATitleOrAuthor
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cloudListsRejectMarkupInsteadOfPersistingOrAnnouncingItAsATitleOrAuthor
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudMetadataIntegrationTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: expected:<...itle": "第一章 迴廊",
+  "[titleMD5": "6bee9af640c08e9c",
+  "]url": "https://owned...> but was:<...itle": "第一章 迴廊",
+  "[]url": "https://owned...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at io.legado.app.cloud.CloudMetadataIntegrationTest$matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches$1.invokeSuspend(CloudMetadataIntegrationTest.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at io.legado.app.cloud.CloudMetadataIntegrationTest.matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches(CloudMetadataIntegrationTest.kt:39)
+
+INSTRUMENTATION_STATUS: stream=
+Error in matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches(io.legado.app.cloud.CloudMetadataIntegrationTest):
+org.junit.ComparisonFailure: expected:<...itle": "第一章 迴廊",
+  "[titleMD5": "6bee9af640c08e9c",
+  "]url": "https://owned...> but was:<...itle": "第一章 迴廊",
+  "[]url": "https://owned...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at io.legado.app.cloud.CloudMetadataIntegrationTest$matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches$1.invokeSuspend(CloudMetadataIntegrationTest.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at io.legado.app.cloud.CloudMetadataIntegrationTest.matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches(CloudMetadataIntegrationTest.kt:39)
+
+INSTRUMENTATION_STATUS: test=matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudReaderMigrationTest:
+INSTRUMENTATION_STATUS: test=healthyCloudPrimaryMayUseFiveSecondsWithoutPrematureRescue
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=healthyCloudPrimaryMayUseFiveSecondsWithoutPrematureRescue
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aLocalRuleEditDuringTheCloudProofWinsTheFinalSameIdCompareAndSet
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aLocalRuleEditDuringTheCloudProofWinsTheFinalSameIdCompareAndSet
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=rssCallsUseGatewayAndPreserveOriginalArticleIdentity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=rssCallsUseGatewayAndPreserveOriginalArticleIdentity
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=migrationKeepsForeignKeysReadingStateAndRssKeys
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=migrationKeepsForeignKeysReadingStateAndRssKeys
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aHealthySourceWhoseCurrentShelfChapterIsGatedKeepsItsProtectedFullRule
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aHealthySourceWhoseCurrentShelfChapterIsGatedKeepsItsProtectedFullRule
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cancellationAfterVerificationPreservesAllOriginalRules
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cancellationAfterVerificationPreservesAllOriginalRules
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aLaterHealthyServerRepairReconnectsAProtectedFullRuleWithExactCurrentChapterProof
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aLaterHealthyServerRepairReconnectsAProtectedFullRuleWithExactCurrentChapterProof
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aReadingChapterMoveDuringTheCloudProofPreventsFullRuleConversion
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aReadingChapterMoveDuringTheCloudProofPreventsFullRuleConversion
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=verifiedWebSubscriptionRemainsAStaticWebEntry
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=verifiedWebSubscriptionRemainsAStaticWebEntry
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=mismatchedReceiptPreventsEveryRuleMutation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mismatchedReceiptPreventsEveryRuleMutation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aLocalRuleWhoseBytesDifferFromTheArchivedReceiptIsNotReplacedByTheHealthyCatalogue
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aLocalRuleWhoseBytesDifferFromTheArchivedReceiptIsNotReplacedByTheHealthyCatalogue
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=unreferencedRulesBecomeDisabledArchivesWhileEveryReferenceSurvives
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=unreferencedRulesBecomeDisabledArchivesWhileEveryReferenceSurvives
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cloudResultsCarryModeWithoutChangingUnmigratedShelfBooks
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cloudResultsCarryModeWithoutChangingUnmigratedShelfBooks
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=readableFirstChapterDoesNotPermitMigratingAGatedCurrentChapter
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=readableFirstChapterDoesNotPermitMigratingAGatedCurrentChapter
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=nativeRoutingPreservesNeedSaveAndLocalPositionAndVariableMap
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderMigrationTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=nativeRoutingPreservesNeedSaveAndLocalPositionAndVariableMap
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderIntegrationTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudReaderIntegrationTest:
+INSTRUMENTATION_STATUS: test=serverCandidatesFillTheActualReadingPipelineWithoutUploadingOrMovingLocalProgress
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderIntegrationTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=serverCandidatesFillTheActualReadingPipelineWithoutUploadingOrMovingLocalProgress
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderIntegrationTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aFailedRemotePrimaryAutomaticallyRescuesAndKeepsReadableOfflineContentSeparate
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudReaderIntegrationTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aFailedRemotePrimaryAutomaticallyRescuesAndKeepsReadableOfflineContentSeparate
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudCatalogueIntegrationTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudCatalogueIntegrationTest:
+INSTRUMENTATION_STATUS: test=aShortCloudRssPageKeepsItsServerNextPagePendingThroughRealMainLayout
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudCatalogueIntegrationTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aShortCloudRssPageKeepsItsServerNextPagePendingThroughRealMainLayout
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudCatalogueIntegrationTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=paginatedHealthySourcesAndMergedCategoriesReachMainAllCategoryAllWithoutLoadingLocalRules
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudCatalogueIntegrationTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=paginatedHealthySourcesAndMergedCategoriesReachMainAllCategoryAllWithoutLoadingLocalRules
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudBatchReceiptMigrationTest:
+INSTRUMENTATION_STATUS: test=cancellationDuringMetadataOrAfterRawBodyBeforeAckPreservesEveryOriginalWithoutRetry
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cancellationDuringMetadataOrAfterRawBodyBeforeAckPreservesEveryOriginalWithoutRetry
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=malformedBatchedMetadataStopsBeforeImportOrAnyLocalRuleChange
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=malformedBatchedMetadataStopsBeforeImportOrAnyLocalRuleChange
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=allPrearchivedRulesUseOnlyBoundedIdsAndPreserveOpaqueBookAndRssIdentities
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=allPrearchivedRulesUseOnlyBoundedIdsAndPreserveOpaqueBookAndRssIdentities
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=mixedCurrentMissingAndOldValidHashesUploadOnlyNeededRulesWithinRawBounds
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mixedCurrentMissingAndOldValidHashesUploadOnlyNeededRulesWithinRawBounds
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aWrongRawImportHashAbortsWithoutConvertingEvenAlreadyMatchedRules
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudBatchReceiptMigrationTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aWrongRawImportHashAbortsWithoutConvertingEvenAlreadyMatchedRules
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudTransportRetryTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudTransportRetryTest:
+INSTRUMENTATION_STATUS: test=verificationMutationsAndHttpErrorsAreNeverRetried
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudTransportRetryTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=verificationMutationsAndHttpErrorsAreNeverRetried
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudTransportRetryTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=consumedImportRetriesTheExactImmutableBodyAndReceivesAcknowledgement
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudTransportRetryTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=consumedImportRetriesTheExactImmutableBodyAndReceivesAcknowledgement
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudTransportRetryTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cancellationStopsThePendingRetry
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudTransportRetryTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cancellationStopsThePendingRetry
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudRemoteRssLoadingTest:
+INSTRUMENTATION_STATUS: test=singleSourcePaginationUsesServerNextUrlAfterLocalPaginationRuleWasRemoved
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=singleSourcePaginationUsesServerNextUrlAfterLocalPaginationRuleWasRemoved
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=33
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=lifecycleCancellationIsQuietAndReentryRetriesTheUnfinishedFirstPage
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=33
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=lifecycleCancellationIsQuietAndReentryRetriesTheUnfinishedFirstPage
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=34
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=expiredEmptyRoundSettlesItsClaimOnceInsteadOfSpinningForever
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=34
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=expiredEmptyRoundSettlesItsClaimOnceInsteadOfSpinningForever
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=35
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=badFirstWaveContinuesAndResumeKeepsExistingPageUntilExplicitScroll
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=35
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=badFirstWaveContinuesAndResumeKeepsExistingPageUntilExplicitScroll
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=36
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cloudWebsitePreservesSourceIdentityAndBypassesLegacyLocalPrograms
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudRemoteRssLoadingTest
+INSTRUMENTATION_STATUS: current=36
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cloudWebsitePreservesSourceIdentityAndBypassesLegacyLocalPrograms
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudCategoryOverrideTest
+INSTRUMENTATION_STATUS: current=37
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.CloudCategoryOverrideTest:
+INSTRUMENTATION_STATUS: test=mergedCategoryCorrectionPersistsOnServerWithoutRewritingRules
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.CloudCategoryOverrideTest
+INSTRUMENTATION_STATUS: current=37
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=37
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mergedCategoryCorrectionPersistsOnServerWithoutRewritingRules
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 61.021
+There was 1 failure:
+1) matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches(io.legado.app.cloud.CloudMetadataIntegrationTest)
+org.junit.ComparisonFailure: expected:<...itle": "第一章 迴廊",
+  "[titleMD5": "6bee9af640c08e9c",
+  "]url": "https://owned...> but was:<...itle": "第一章 迴廊",
+  "[]url": "https://owned...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at io.legado.app.cloud.CloudMetadataIntegrationTest$matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches$1.invokeSuspend(CloudMetadataIntegrationTest.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at io.legado.app.cloud.CloudMetadataIntegrationTest.matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches(CloudMetadataIntegrationTest.kt:39)
+
+FAILURES!!!
+Tests run: 37,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

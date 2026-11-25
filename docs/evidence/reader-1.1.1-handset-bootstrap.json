@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-26",
+  "device": "physical Android16 handset",
+  "bootstrap": {
+    "versionName": "1.1.1-rc.1",
+    "versionCode": 10100,
+    "sameFunctionalCodeAsFinal": true
+  },
+  "beforeFirstLaunch": {
+    "allNativeTablesExact": true,
+    "allPreferencesExact": true,
+    "schemaUnchanged": true,
+    "changes": {
+      "tables": [],
+      "preferences": []
+    }
+  },
+  "afterActualReading": {
+    "booksBefore": 312,
+    "booksAfter": 312,
+    "allBookKeysPreserved": true,
+    "numericReadingPositionsUnchanged": true,
+    "changedPositionCount": 0,
+    "readingRecordsBefore": 3375,
+    "readingRecordsAfter": 3375,
+    "allOriginalHistoryKeysPreserved": true,
+    "noReadTimeDecreased": true,
+    "bookmarksExact": true,
+    "groupsExact": true
+  },
+  "originalAppRetained": true,
+  "externalOriginalFilesBackedUp": 41304,
+  "checkUpdateEntryVisible": true,
+  "feedbackFormAndLocalNoticeVisible": true,
+  "readerBodyDisplayed": true,
+  "finalOtaPending": true,
+  "noPrivateLibraryContentInEvidence": true
+}

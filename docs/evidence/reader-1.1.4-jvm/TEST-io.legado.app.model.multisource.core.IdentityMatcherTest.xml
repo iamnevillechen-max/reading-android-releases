@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.IdentityMatcherTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-27T03:32:21.715Z" hostname="nevilledeMacBook-Neo.local" time="0.006">
+  <properties/>
+  <testcase name="splitChapterPartsShareSemanticTitle" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.001"/>
+  <testcase name="bookFormattingDifferencesMatchButAuthorsMustAgree" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="unrelatedAdjacentChaptersAreNeverGuessedToBeOneChapter" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.001"/>
+  <testcase name="ordinalOnlyTitlesRequireRealNeighborContext" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="numberedOnlyPartsNeedTwoSemanticOutsideNeighbors" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.001"/>
+  <testcase name="completeTargetAcceptsOnlyCompleteExplicitAdjacentParts" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="duplicateTitlesRequireNeighborDisambiguation" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.001"/>
+  <testcase name="numberedOnlyChapterFormatsNeedCanonicalOrdinalAndContext" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="ordinalOnlyAndSameIndexCannotProveIdentity" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="splitPrimaryNeverConsumesFullChapterOrOppositePart" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.001"/>
+  <testcase name="insertedAnnouncementDoesNotShiftChapterMatch" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="threePartSourceMustContainUpperMiddleLowerWithOneOrdinal" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.0"/>
+  <testcase name="repeatedPartGroupsAreAmbiguousUnlessOutsideNeighborsIdentifyThem" classname="io.legado.app.model.multisource.core.IdentityMatcherTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_row_source">Source: %1$s</string>
+    <string name="content_row_source_count">%1$d sources</string>
+    <string name="content_row_in_bookshelf">In bookshelf</string>
+    <string name="content_row_read">Read</string>
+</resources>

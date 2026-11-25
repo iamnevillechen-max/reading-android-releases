@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.AggregateLoaderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-26T17:02:24.415Z" hostname="nevilledeMacBook-Neo.local" time="0.328">
+  <properties/>
+  <testcase name="largeCatalogueRoundsRemainBoundedAndResumeWithoutStarvingLaterSources" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.03"/>
+  <testcase name="workersAreBoundedAndEverySourceHasAtMostOneAttempt" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.163"/>
+  <testcase name="leavingThePageCancelsOutstandingChildren" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.029"/>
+  <testcase name="failedAndSlowSourcesDoNotSuppressSuccessfulSources" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.105"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

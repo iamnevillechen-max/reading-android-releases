@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.ChapterMergerTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-10-26T09:18:27.877Z" hostname="nevilledeMacBook-Neo.local" time="0.032">
+  <properties/>
+  <testcase name="unavailablePrimaryUsesMatchedAvailableBody" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.005"/>
+  <testcase name="duplicateSourceIdIsNotAnotherVote" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.003"/>
+  <testcase name="unanchoredMaterialCannotBeAppendedJustBecauseTitleMatches" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="middleGapAndTailRebuildInCorrectOrderFromThreePartialSources" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.002"/>
+  <testcase name="insertedAndFollowingDialogueKeepOpeningAndClosingQuotes" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.002"/>
+  <testcase name="validatedCompositeKeepsOriginalPunctuationOfBothParts" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="splitPrimaryRejectsFullAndOppositePartBeforeTextReconstruction" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="pathologicalLengthSafelyReturnsOriginalWithoutQuadraticAllocation" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.002"/>
+  <testcase name="differentPunctuationAndParagraphLayoutStillAlign" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="conflictingSupplementRollsBackEarlierArrivalInsteadOfWinningByTiming" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="sameTitleDifferentAuthorIsRejected" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="advertisingLinesAreNotStabilizedIntoMergedBody" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="narrativeMentioningNavigationAndDownloadTermsIsPreserved" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="accessControlPageCannotBecomeBody" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="independentConsistentSourcesIncreaseConfidence" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="traditionalSimplifiedConversionOnlyChangesComparisonNotOutput" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.002"/>
+  <testcase name="narrativeMentioningVerificationCodesIsNotMistakenForAccessPage" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="numericSplitCompositeKeepsBothPartsAndTheirPunctuation" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="reorderedBlocksDoNotScrambleOriginal" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="mirrorFamilyCannotBecomeHighestConfidenceByVoteCount" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="tailTruncationUsesCompleteTextWithoutRepeatingOverlap" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="nextChapterHeadingIsHardBoundary" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="wrongChapterIsRejectedEvenWithSameOrdinal" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="validatedSplitCompositeStripsOnlyItsOwnPartHeadings" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.002"/>
+  <testcase name="complementarySourcesProduceActualUnionNotJustSourceSwitch" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <testcase name="standaloneNavigationLinesAreRemovedWithoutDroppingNarrative" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.0"/>
+  <testcase name="conflictingVersionsNeverCombineBothAlternatives" classname="io.legado.app.model.multisource.core.ChapterMergerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

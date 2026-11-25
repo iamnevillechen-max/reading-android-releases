@@ -1,0 +1,79 @@
+{
+  "format": "reader-release-status-2",
+  "date": "2026-10-29",
+  "versionName": "1.2.3",
+  "versionCode": 10203,
+  "state": "published-user-self-install-full-source-restoration-in-progress",
+  "packageName": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "bytes": 30690993,
+  "sha256": "8bd627764e3c6577c938dd8ebe525cf20761ba566f1472b5334e81fda52c51e6",
+  "sourceRevision": "98be2ef6fac06315672ede418468ef69a20f59d0",
+  "productionRevision": "305704c7264b59b5fbe0e9eeb6376ff835a1bc1a",
+  "sourceWorkingTreeClean": true,
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "jvm": {
+    "methods": 155,
+    "suites": 23,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "xmlArchive": "jvm-155-results.zip",
+    "log": "precommit-compile-jvm.log"
+  },
+  "native": {
+    "uniqueMethods": 82,
+    "passed": 82,
+    "evidence": "reader-1.2.3-native-results.json",
+    "productionApkUnchangedDuringTestSetupCorrections": true
+  },
+  "backend": {
+    "deployed": true,
+    "tests": 164,
+    "typecheckPassed": true,
+    "freeSqliteDurableObjectFeasibility": "reader-free-sqlite-runtime-feasibility.json",
+    "archiveOriginalJsonAndShaUnchanged": true,
+    "allSourcesRestored": false,
+    "features": [
+      "complete bounded TOC and content pagination",
+      "XPath and inert URL templates",
+      "VIP/volume metadata for reviewed adapters",
+      "identity, complete and exact body SHA response receipts",
+      "one authenticated Free SQLite Durable Object for parsing and serialization",
+      "CWM verification held pending real search and full catalogue repair"
+    ],
+    "versionId": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+    "fieldOrderRegressionFixed": true,
+    "runtime": "Free SQLite Durable Object; original D1 and public URL retained",
+    "scheduledEventAfterDeployVerified": true,
+    "newIndependentProvidersRecoveredInBounded40": 2
+  },
+  "features": {
+    "tocProgress": "Exact chapter URL remap; unambiguous title backup; preserve current chapter position; reject uncertain whole replacement",
+    "bookmarks": "Remap only with original TOC evidence; protect later edits and stale writers",
+    "cache": "URL-addressed body and receipt written atomically; old native bytes preserved as bounded fallback; seal original index namespace",
+    "concurrency": "Latest-progress transaction and reader generation fences; configuration snapshot and response CAS",
+    "metadata": "Continue exact-source/book malformed title and author repair"
+  },
+  "handset": {
+    "installationRequested": false,
+    "finalVersionInstalled": false,
+    "dataPreservationVerified": false,
+    "installationMethod": "User installs from existing in-app update channel"
+  },
+  "knownLimitations": [
+    "Optional real Shengjing TTS pause/resume test fails equally on 1.2.2 and 1.2.3; separate from 82 passing methods",
+    "Full source restoration and reverse engineering remain active",
+    "No handset or manual TalkBack acceptance claimed",
+    "Generic isolated JavaScript and typed media prototypes are not enabled in production"
+  ],
+  "channel": {
+    "published": true,
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.3",
+    "latestMetadataAndAll4FullAssetsVerified": true,
+    "apkShaMatched": true,
+    "handsetInstalledClaimed": false
+  }
+}

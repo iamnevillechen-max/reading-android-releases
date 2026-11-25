@@ -1,0 +1,68 @@
+{
+  "verification": [
+    {
+      "sourceUrl": "https://book.sfacg.com",
+      "keyword": "我，现役声优！",
+      "expectedBookName": "我，现役声优！",
+      "expectedAuthor": "小暗鲤",
+      "expectedTocMinCount": 70,
+      "expectedFirstChapterName": "第一章 人生初体验",
+      "chapterMinCharacters": 2000,
+      "chapterMaxCharacters": 5000,
+      "excludePaidChapterUrlSubstring": "/vip/",
+      "nativeParserVerified": true,
+      "nativeVerificationScope": "Canonical source identifier: native search, details, table of contents and normally public free content verified; fragment variant is a separate pending check."
+    },
+    {
+      "sourceUrl": "https://book.qq.com",
+      "keyword": "吞噬星空2起源大陆",
+      "expectedBookName": "吞噬星空2起源大陆",
+      "expectedAuthor": "我吃西红柿",
+      "expectedTocMinCount": 50,
+      "expectedFirstChapterName": "第1章 初临起源大陆",
+      "chapterMinCharacters": 2500,
+      "chapterMaxCharacters": 6000,
+      "excludePaidChapterUrlSuffix": "/61",
+      "nativeParserVerified": true,
+      "nativeVerificationScope": "Canonical source identifier: native search, details, table of contents and normally public free content verified; fragment variant is a separate pending check."
+    },
+    {
+      "sourceUrl": "https://www.hongxiu.com",
+      "keyword": "十里芳菲",
+      "expectedBookName": "十里芳菲",
+      "expectedAuthor": "西子情",
+      "expectedTocMinCount": 40,
+      "expectedFirstChapterName": "新书《凌霄花上》",
+      "contentChapterTitlePrefix": "第一章 昆仑卫轻蓝",
+      "chapterMinCharacters": 1800,
+      "chapterMaxCharacters": 7000,
+      "nativeParserVerified": true,
+      "nativeVerificationScope": "Canonical source identifier: native search, details, table of contents and normally public free content verified; fragment variant is a separate pending check."
+    },
+    {
+      "sourceUrl": "https://www.ihuaben.com",
+      "keyword": "你惹她？疯癫大佬她最爱斩鬼灭神",
+      "expectedBookName": "你惹她？疯癫大佬她最爱斩鬼灭神",
+      "expectedAuthor": "我饼画的圆",
+      "expectedTocMinCount": 700,
+      "expectedFirstChapterName": "第1章 开局很凶险，打的就是你",
+      "chapterMinCharacters": 1800,
+      "chapterMaxCharacters": 6000,
+      "nativeParserVerified": true,
+      "nativeVerificationScope": "Canonical source identifier: native search, details, table of contents and normally public free content verified; fragment variant is a separate pending check."
+    },
+    {
+      "sourceUrl": "https://www.ruochu.com",
+      "keyword": "向南又向北",
+      "expectedBookName": "向南又向北",
+      "expectedAuthor": "零落年华",
+      "expectedTocMinCount": 20,
+      "expectedFirstChapterName": "第1章 第一章：黄道吉日",
+      "chapterMinCharacters": 1000,
+      "chapterMaxCharacters": 4000,
+      "nativeParserVerified": true,
+      "nativeVerificationScope": "Canonical source identifier: native search, details, table of contents and normally public free content verified; fragment variant is a separate pending check."
+    }
+  ],
+  "status": "canonical_native_verified"
+}

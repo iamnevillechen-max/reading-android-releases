@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.ExploreLiteralRulesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:14.822Z" hostname="nevilledeMacBook-Neo.local" time="0.007">
+  <properties/>
+  <testcase name="literalMenuKeepsTheEntireUrlAfterItsFirstSeparator" classname="io.legado.app.model.aggregation.ExploreLiteralRulesTest" time="0.001"/>
+  <testcase name="largeLiteralMenusAreNotSilentlyReducedToTheFirstScreen" classname="io.legado.app.model.aggregation.ExploreLiteralRulesTest" time="0.005"/>
+  <testcase name="jsonMenusRetainEveryConfiguredRoute" classname="io.legado.app.model.aggregation.ExploreLiteralRulesTest" time="0.001"/>
+  <testcase name="sourceJavascriptCannotAccidentallyEnterTheLiteralPath" classname="io.legado.app.model.aggregation.ExploreLiteralRulesTest" time="0.0"/>
+  <testcase name="blankEntriesDoNotCreateEmptyCategoriesAndLabelsWithoutLinksStayLabels" classname="io.legado.app.model.aggregation.ExploreLiteralRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

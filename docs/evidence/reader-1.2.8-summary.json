@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-18",
+  "version": "1.2.8",
+  "versionCode": 10208,
+  "sourceRevision": "a86849b87ef90e514cf1a29d638479ebd06a9ad3",
+  "apkSha256": "527be12c8ecefec0f8e268d0ff54680b6b0a5b1c632fbd8a6558b36409110910",
+  "apkBytes": 30808314,
+  "jvm": {
+    "tests": 209,
+    "suites": 35,
+    "failures": 0
+  },
+  "android": {
+    "distinctMethodsPassed": 36,
+    "sameProductionApk": true,
+    "initial": {
+      "passed": 35,
+      "failed": 1,
+      "log": ".toolchain/reader-1.2.8-native.log"
+    },
+    "finalBookshelfFixture": {
+      "passed": 6,
+      "failed": 0,
+      "log": ".toolchain/reader-1.2.8-final-native.log"
+    },
+    "initialFailure": "Old fixture counted its source entry confirmation as a second detail or chapter request. Targeted fixture distinguished the two URLs. APK unchanged.",
+    "cases": [
+      "accessPageCannotStopMissingOriginalRecoveryWaves",
+      "accessPageCannotStopSupplementingReadableOriginalText",
+      "alternateFailureCannotDamageReadableOriginal",
+      "anOlderUnmarkedDerivedOffsetKeepsItsExistingReadableVersion",
+      "backgroundSingleSourceMissGetsOneForegroundAttemptBeforeCacheReuse",
+      "blankDerivedMissAndEmptyOriginalFileAreNotReadableOrDownloaded",
+      "cachedEmptyShellIsRecoveredDespiteAnUnmarkedSavedPosition",
+      "cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+      "cancellationNeverPublishesPartialDerivedCache",
+      "cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+      "candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+      "coldFourStageRescueCanFinishAfterTheOldForegroundDeadline",
+      "damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+      "deadDetailDoesNotBlockAnExistingChapterFromTheBookshelf",
+      "disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+      "failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+      "failedRescueThenNewManualKnownResultRecoversWithoutChangingSourceRules",
+      "irrelevantPrefixYieldsWithinTheSameLoadAndMergedCacheDoesNotRepeatRequests",
+      "legacyPositionIsHeldThenExplicitApplyAndReopenKeepTheSameRenderedWords",
+      "lostCatalogueFindsSameChapterRatherThanGuessingItsIndexAndKeepsUserData",
+      "missingOriginalAdvancesPastQuickUnmatchedCandidatesWithinOneLoad",
+      "missingPrimaryRuleAutomaticallyRecoversInNativeReader",
+      "normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+      "numberOnlySavedChapterWithoutContextNeverGuessesAnIndex",
+      "onlyIndependentOriginal410RemovesSourceAndKeepsReaderData",
+      "pendingOpeningCannotInstallAfterTheSameBookIsReopened",
+      "previousVersionReferenceRequiresMatchingRulesRawHashAndAge",
+      "realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+      "removedPrimaryRecoversLegacyBookWithOnlyAnUpdateErrorFlag",
+      "removedPrimaryRecoversUntypedLegacyBookWithoutRewritingItsType",
+      "ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+      "slowAlternateTimesOutWithoutReplacingOriginal",
+      "stalledPrimaryIsBoundedBeforeAutomaticRecovery",
+      "unavailablePrimaryRecoversDespiteLegacySavedPosition",
+      "unrelatedBookmarkCannotBypassLegacyHoldButTheSelectedBookmarkStillWorks",
+      "unrelatedChapterCannotReplaceTheSavedBookEvenWithTheSameIndexNumber"
+    ],
+    "overlayFrom127": true
+  },
+  "limits": [
+    "Automatic removal runs during foreground chapter access. Both the original chapter and distinct configured same-origin entry must directly return HTTP 410. Local archive must succeed. Room removes the retired rule and its derived search cache. Original reading state is retained.",
+    "Uses loopback fixtures and an owned emulator."
+  ],
+  "testDevice": {
+    "stoppedAndRemoved": true,
+    "allocatedBytesRemoved": 640208896
+  },
+  "handset": {
+    "installationRequested": false
+  },
+  "publication": {
+    "status": "published and public latest/APK/source verified",
+    "release": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.8",
+    "serverAssetsChecked": 4,
+    "publicDownloads": [
+      {
+        "kind": "apk",
+        "bytes": 30808314,
+        "sha256": "527be12c8ecefec0f8e268d0ff54680b6b0a5b1c632fbd8a6558b36409110910"
+      },
+      {
+        "kind": "source",
+        "bytes": 9764195,
+        "sha256": "9697fc32b78ca9ca9336850a099c4352289c60e875ddf906ff084e51fc5f4715"
+      }
+    ]
+  },
+  "sameSigningCertificate": true
+}

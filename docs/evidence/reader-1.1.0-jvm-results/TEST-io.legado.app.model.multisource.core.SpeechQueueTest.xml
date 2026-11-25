@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.SpeechQueueTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-26T09:18:27.928Z" hostname="nevilledeMacBook-Neo.local" time="0.002">
+  <properties/>
+  <testcase name="nullUnknownAndEmptyQueuesCannotMovePosition" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.001"/>
+  <testcase name="duplicateDoneOrErrorCannotAdvanceTwice" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.001"/>
+  <testcase name="outOfOrderCallbackCannotSkipUnreadParagraphs" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.0"/>
+  <testcase name="oldFutureErrorsCannotAffectAReplacementOrResumedQueue" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.0"/>
+  <testcase name="duplicateParagraphsAreRejectedBeforeEnqueueing" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.0"/>
+  <testcase name="pauseStopOrClearInvalidatesQueuedWorkAndCallbacks" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.0"/>
+  <testcase name="replacementRejectsLateCallbacksEvenForTheSameParagraph" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.0"/>
+  <testcase name="futureSynthesisErrorWaitsForEarlierAudioAndIsConsumedOnce" classname="io.legado.app.model.multisource.core.SpeechQueueTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

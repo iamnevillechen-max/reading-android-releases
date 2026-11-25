@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.help.feedback.ReaderFeedbackStoreTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-26T17:02:23.722Z" hostname="nevilledeMacBook-Neo.local" time="0.285">
+  <properties/>
+  <testcase name="corruptOrUnknownRecordsAreNeverTreatedAsAnEmptyStoreOrOverwritten" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.133"/>
+  <testcase name="interruptedStagingDoesNotHideCommittedRecordsAndConcurrentInstancesDoNotLoseReports" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.121"/>
+  <testcase name="duplicateIdsAndIdExhaustionFailWithoutLosingTheOriginalFile" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.007"/>
+  <testcase name="descriptionLimitsRejectBlankAndOversizeWithoutChangingSavedRecords" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.005"/>
+  <testcase name="exportedJsonIncludesOnlyExplicitReportFieldsAndDoesNotChangeStoredData" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.003"/>
+  <testcase name="recordsSurviveRecreationAndStatusChangesNeverRemoveDescriptionOrIdentity" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.009"/>
+  <testcase name="failedAtomicReplacementRetainsCompletePreviousFileAndCleansOnlyItsOwnStaging" classname="io.legado.app.help.feedback.ReaderFeedbackStoreTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

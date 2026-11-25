@@ -1,0 +1,5 @@
+<resources>
+    <string name="reader_entry_update_summary">检查新版本，下载后保留资料更新</string>
+    <string name="reader_welcome_subtitle">欢迎使用阅读</string>
+    <string name="reader_share_description">阅读：%1$s</string>
+</resources>

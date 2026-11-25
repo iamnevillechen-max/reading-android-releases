@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_row_source">来源：%1$s</string>
+    <string name="content_row_source_count">%1$d个来源</string>
+    <string name="content_row_in_bookshelf">已在书架</string>
+    <string name="content_row_read">已读</string>
+</resources>

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-26",
+  "versionName": "1.1.1",
+  "versionCode": 10101,
+  "applicationId": "io.multiread.reader.debug",
+  "allLocaleLabels": "阅读",
+  "apkBytes": 30450989,
+  "apkSha256": "97ff094befa7a532d36bc87b999d9af0ca14431e207f8d9107adeadd448e0c14",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "cacheAlgorithmVersion": 3,
+  "roomSchema": 75,
+  "jvm": {
+    "suites": 17,
+    "tests": 127,
+    "failures": 0
+  },
+  "androidDeterministic": {
+    "uniqueCasesVerified": 36,
+    "configurationCases": 1,
+    "mainBatch": {
+      "cases": 35,
+      "initialPass": 33,
+      "initialTestAssumptionFailures": 2
+    },
+    "targetedRerun": {
+      "cases": 6,
+      "failures": 0,
+      "seconds": 78.361
+    },
+    "note": "Leading whitespace assertion and overflow-animation test assumptions corrected; all affected cases passed targeted rerun. No production changes after original batch."
+  },
+  "processRestart": {
+    "prepare": "passed",
+    "verifyInDifferentProcess": "passed"
+  },
+  "tts": {
+    "engine": "hk.neville.shengjing release0.3.1 code5",
+    "passed": true,
+    "seconds": 23.667,
+    "acousticListening": false
+  },
+  "visibleReader": {
+    "proof": "reader-1.1.1-visible-stitch.json",
+    "automaticHeadCompletion": true,
+    "expectedWholeChapterMatchedIgnoringWhitespace": true,
+    "manualReprocessUsed": false
+  },
+  "handset": {
+    "bootstrapInstalledAndVerified": true,
+    "bootstrapVersionCode": 10100,
+    "finalVersionInstalled": false,
+    "state": "Physical bootstrap10100 installed preserving23 native tables and preferences; actual in-app final10101 download and signature verification succeeded; USB disconnected before installer completion. User then requested1.1.2 fixes.",
+    "books": 312,
+    "historyRecords": 3375,
+    "originalRetained": true
+  },
+  "publicOta": {
+    "published": true,
+    "actualDownloadAndInstallVerified": false,
+    "actualDownloadAndVerificationPassed": true,
+    "installationPending": true
+  },
+  "sourcePackages": {
+    "nativeVerifiedSources": 7,
+    "generalFictionPublishers": 5,
+    "classicSites": 2,
+    "file": "阅读_新增书源_2026-10-26.json",
+    "bytes": 15849,
+    "sha256": "49f8622f37b2daa4590dd501d03b2b2c21a632185ed35cd29c908df89f8ab579",
+    "allSearchDetailsTocAndFreeContentVerified": true,
+    "liveCrossSourceNovelStitchingNotClaimed": true
+  },
+  "sourceRevision": "3191235e78feeb8e6c48b5b97411997274b7c629",
+  "emulatorCleanup": {
+    "ownedAppiumSessionsClosed": true,
+    "ownedFixtureServerStopped": true,
+    "readerStoppedOnOwnedEmulator": true,
+    "secureSettingsRestored": {
+      "accessibility_enabled": "0",
+      "enabled_accessibility_services": "null",
+      "touch_exploration_enabled": "0",
+      "tts_default_synth": "null"
+    }
+  }
+}

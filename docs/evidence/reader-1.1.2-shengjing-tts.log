@@ -1,0 +1,74 @@
+INSTRUMENTATION_STATUS: class=io.legado.app.multisource.ReaderTtsIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.multisource.ReaderTtsIntegrationTest:
+INSTRUMENTATION_STATUS: test=realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.multisource.ReaderTtsIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Timed out waiting for real Android TTS engine onStart callback
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.waitUntil(ReaderTtsIntegrationTest.kt:258)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.access$waitUntil(ReaderTtsIntegrationTest.kt:57)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest$realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground$1.invokeSuspend(ReaderTtsIntegrationTest.kt:150)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground(ReaderTtsIntegrationTest.kt:66)
+
+INSTRUMENTATION_STATUS: stream=
+Error in realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground(io.legado.app.multisource.ReaderTtsIntegrationTest):
+java.lang.AssertionError: Timed out waiting for real Android TTS engine onStart callback
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.waitUntil(ReaderTtsIntegrationTest.kt:258)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.access$waitUntil(ReaderTtsIntegrationTest.kt:57)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest$realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground$1.invokeSuspend(ReaderTtsIntegrationTest.kt:150)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground(ReaderTtsIntegrationTest.kt:66)
+
+INSTRUMENTATION_STATUS: test=realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 51.78
+There was 1 failure:
+1) realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground(io.legado.app.multisource.ReaderTtsIntegrationTest)
+java.lang.AssertionError: Timed out waiting for real Android TTS engine onStart callback
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.waitUntil(ReaderTtsIntegrationTest.kt:258)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.access$waitUntil(ReaderTtsIntegrationTest.kt:57)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest$realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground$1.invokeSuspend(ReaderTtsIntegrationTest.kt:150)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at io.legado.app.multisource.ReaderTtsIntegrationTest.realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground(ReaderTtsIntegrationTest.kt:66)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

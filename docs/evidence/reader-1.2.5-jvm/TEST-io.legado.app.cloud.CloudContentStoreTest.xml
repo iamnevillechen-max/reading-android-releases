@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.cloud.CloudContentStoreTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:13.860Z" hostname="nevilledeMacBook-Neo.local" time="0.122">
+  <properties/>
+  <testcase name="originalIsPreservedWithoutBecomingCompleteAndFailuresNeverReplaceIt" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.058"/>
+  <testcase name="collidingIndexFilesStayWithTheirOriginalUrlsAfterTocSeal" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.01"/>
+  <testcase name="clearingBodiesKeepsTheTocSealIfNativeDeletionFailsOrTheProcessStops" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.008"/>
+  <testcase name="deliberateLocalEditIsSeparateFromCompleteAndRefreshKeepsItAsFallback" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.018"/>
+  <testcase name="damagedReceiptOrBodyIsRejectedInsteadOfReturningAnotherChapter" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.013"/>
+  <testcase name="authRotationAndAliasChangesCannotReopenTheOldNativeIndexNamespace" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.005"/>
+  <testcase name="completeSameVersionIsReusableAndOtherVersionsOrConfigurationsAreNotComplete" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.004"/>
+  <testcase name="wrongSourceChapterAndBodyDigestCannotReplaceTheLastCompleteBody" classname="io.legado.app.cloud.CloudContentStoreTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

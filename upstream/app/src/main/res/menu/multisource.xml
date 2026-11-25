@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/multisource_title" android:id="@+id/menu_multisource">
+        <menu>
+            <item android:id="@+id/menu_multisource_enable" android:title="@string/multisource_enable" android:checkable="true" />
+            <item android:id="@+id/menu_multisource_details" android:title="@string/multisource_details" />
+            <item android:id="@+id/menu_multisource_reprocess" android:title="@string/multisource_reprocess" />
+            <item android:id="@+id/menu_multisource_options" android:title="@string/multisource_options" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Hong_Kong",
+  "version": "1.2.5",
+  "versionCode": 10205,
+  "sourceRevision": "a7302e0382a76ed0aedfe1892de51f89d6a54625",
+  "apkSha256": "0aed6c9ec6fb818839e5f34cbf4bcb10e14e752fa71b55ac8afed613c2ee3a07",
+  "apkRebuilt": false,
+  "productionCodeChanged": false,
+  "scopeConfirmedByUser": "Only fill missing or partial content of chapters already in the current table of contents; no cross-source table-of-contents extension requested. If tests pass, do not update.",
+  "jvm": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "suites": [
+      {
+        "name": "io.legado.app.model.multisource.core.ChapterMergerTest",
+        "tests": 30,
+        "failures": 0,
+        "errors": 0,
+        "testCases": [
+          "unavailablePrimaryUsesMatchedAvailableBody",
+          "duplicateSourceIdIsNotAnotherVote",
+          "unanchoredMaterialCannotBeAppendedJustBecauseTitleMatches",
+          "middleGapAndTailRebuildInCorrectOrderFromThreePartialSources",
+          "insertedAndFollowingDialogueKeepOpeningAndClosingQuotes",
+          "validatedCompositeKeepsOriginalPunctuationOfBothParts",
+          "splitPrimaryRejectsFullAndOppositePartBeforeTextReconstruction",
+          "pathologicalLengthSafelyReturnsOriginalWithoutQuadraticAllocation",
+          "differentPunctuationAndParagraphLayoutStillAlign",
+          "conflictingSupplementRollsBackEarlierArrivalInsteadOfWinningByTiming",
+          "sameTitleDifferentAuthorIsRejected",
+          "advertisingLinesAreNotStabilizedIntoMergedBody",
+          "narrativeMentioningNavigationAndDownloadTermsIsPreserved",
+          "accessControlPageCannotBecomeBody",
+          "independentConsistentSourcesIncreaseConfidence",
+          "traditionalSimplifiedConversionOnlyChangesComparisonNotOutput",
+          "narrativeMentioningVerificationCodesIsNotMistakenForAccessPage",
+          "numericSplitCompositeKeepsBothPartsAndTheirPunctuation",
+          "reorderedBlocksDoNotScrambleOriginal",
+          "mirrorFamilyCannotBecomeHighestConfidenceByVoteCount",
+          "tailTruncationUsesCompleteTextWithoutRepeatingOverlap",
+          "nextChapterHeadingIsHardBoundary",
+          "narrativeBeginningWithChapterCountersNeverTruncatesThePrimaryFallback",
+          "unprefixedKnownNeighborHeadingStillStopsAtTheTocBoundary",
+          "wrongChapterIsRejectedEvenWithSameOrdinal",
+          "validatedSplitCompositeStripsOnlyItsOwnPartHeadings",
+          "narrativeCountersRemainIntactWhileAutomaticMergeCompletesTheTail",
+          "complementarySourcesProduceActualUnionNotJustSourceSwitch",
+          "standaloneNavigationLinesAreRemovedWithoutDroppingNarrative",
+          "conflictingVersionsNeverCombineBothAlternatives"
+        ]
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "testCases": [
+          "splitChapterPartsShareSemanticTitle",
+          "bookFormattingDifferencesMatchButAuthorsMustAgree",
+          "unrelatedAdjacentChaptersAreNeverGuessedToBeOneChapter",
+          "ordinalOnlyTitlesRequireRealNeighborContext",
+          "numberedOnlyPartsNeedTwoSemanticOutsideNeighbors",
+          "completeTargetAcceptsOnlyCompleteExplicitAdjacentParts",
+          "duplicateTitlesRequireNeighborDisambiguation",
+          "numberedOnlyChapterFormatsNeedCanonicalOrdinalAndContext",
+          "ordinalOnlyAndSameIndexCannotProveIdentity",
+          "splitPrimaryNeverConsumesFullChapterOrOppositePart",
+          "insertedAnnouncementDoesNotShiftChapterMatch",
+          "threePartSourceMustContainUpperMiddleLowerWithOneOrdinal",
+          "repeatedPartGroupsAreAmbiguousUnlessOutsideNeighborsIdentifyThem"
+        ]
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ReadingPositionTest",
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "testCases": [
+          "deletionBeforeTheCurrentTextMovesBackToTheSameWords",
+          "insertionBeforeCurrentTextKeepsTheSameWords",
+          "whitespaceAndPunctuationDoNotChangeTheAnchor",
+          "bookmarkUsesItsSavedQuoteDespitePunctuationChanges",
+          "emptyAndOutOfRangeInputsAreSafe",
+          "repeatedMissingOrTooShortBookmarkQuotesKeepTheSavedOffset",
+          "bookmarkCanFindAnUnchangedPrefixWhenThePageGainsAnInsertedParagraph",
+          "deletingTheTextBeingReadDoesNotInventAReplacementAnchor",
+          "insertionExactlyAtCurrentPositionLandsAfterInsertedText",
+          "oversizedInputsUseBoundedFallback",
+          "missingOrRepeatedAnchorsKeepAClampedOffset",
+          "compatibilityWidthAndSupplementaryCharactersMapToOriginalUtf16Offsets"
+        ]
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ReadingProgressAnchorTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "testCases": [
+          "supplementaryCharactersDoNotSplitAtTheSavedPositionOrQuoteBoundary",
+          "quotesAndTextAreBoundedAndInvalidVersionsAreRejected",
+          "reopeningTheSameDerivedVersionDoesNotMapFromRawAgain",
+          "missingOrRepeatedQuoteKeepsTheAbsoluteOffsetNotTheQuoteLocalOffset",
+          "aLaterVersionAndDisablingDerivedContentBothUseTheSavedWords",
+          "knownRenderedRawAnchorMovesToTheSameWordsAfterAnInsertion",
+          "changedChapterBookOrExplicitPositionCannotReuseTheMarker"
+        ]
+      }
+    ],
+    "log": ".toolchain/reader-1.2.5-chapter-check-jvm-20261031.log"
+  },
+  "android": {
+    "tests": 27,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 27.53,
+    "testCases": [
+      "stalledPrimaryIsBoundedBeforeAutomaticRecovery",
+      "realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+      "failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+      "cancellationNeverPublishesPartialDerivedCache",
+      "normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+      "failedRescueThenNewManualKnownResultRecoversWithoutChangingSourceRules",
+      "missingPrimaryRuleAutomaticallyRecoversInNativeReader",
+      "missingOriginalAdvancesPastQuickUnmatchedCandidatesWithinOneLoad",
+      "blankDerivedMissAndEmptyOriginalFileAreNotReadableOrDownloaded",
+      "accessPageCannotStopMissingOriginalRecoveryWaves",
+      "candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+      "alternateFailureCannotDamageReadableOriginal",
+      "coldFourStageRescueCanFinishAfterTheOldForegroundDeadline",
+      "ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+      "slowAlternateTimesOutWithoutReplacingOriginal",
+      "unavailablePrimaryRecoversDespiteLegacySavedPosition",
+      "irrelevantPrefixYieldsToLaterSourceAndCachedMissDoesNotRepeatRequests",
+      "disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+      "cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+      "cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+      "damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+      "legacyPositionIsHeldThenExplicitApplyAndReopenKeepTheSameRenderedWords",
+      "anOlderUnmarkedDerivedOffsetKeepsItsExistingReadableVersion",
+      "unrelatedBookmarkCannotBypassLegacyHoldButTheSelectedBookmarkStillWorks",
+      "previousVersionReferenceRequiresMatchingRulesRawHashAndAge",
+      "unknownAndWrongDetailAuthorsNeverAuthorizeTocOrContentRequests",
+      "missingSearchAuthorsAreVerifiedInDetailBeforeAutomaticStitching"
+    ],
+    "log": ".toolchain/reader-1.2.5-chapter-check-native-20261031.log",
+    "classes": [
+      "MultiSourceIntegrationTest",
+      "MultiSourceLifecycleTest",
+      "MultiSourcePositionRestoreTest",
+      "MultiSourceMetadataTest"
+    ]
+  },
+  "verified": [
+    "Primary failure, missing primary rule, timeout and empty content can recover the same book/chapter automatically.",
+    "Original cached future chapters are enriched through the real preload dispatcher and reused without repeated requests.",
+    "Head/tail truncation, complementary overlapping fragments and internal omissions reconstruct without repeated overlap.",
+    "Explicit upper/lower or upper/middle/lower groups match only when chapter identity and complete adjacent parts agree.",
+    "Unrelated books/authors/chapters, conflicting text and missing evidence do not authorize unsafe stitching.",
+    "Cancellation/disconnection keep original readable content and preserve saved positions, bookmarks and reading records."
+  ],
+  "limits": [
+    "No external source website availability testing.",
+    "No physical handset or manual TalkBack acceptance.",
+    "A primary table of contents ending at chapter 10 will not automatically import chapters 11 onward from another source; user confirmed that expansion is out of scope.",
+    "The primary catalogue explicitly listing upper/lower parts keeps those parts separate."
+  ],
+  "testDevice": {
+    "ownedEmulatorStoppedAndRemoved": true,
+    "allocatedBytesRemoved": 606195712,
+    "otherDevicesAndSharedSdkUntouched": true
+  },
+  "decision": "All requested existing-chapter recovery and stitching checks passed. Keep 1.2.5; no new APK or release."
+}

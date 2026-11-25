@@ -1,0 +1,113 @@
+{
+  "uniqueMethods": 26,
+  "latestResultsAllPassed": true,
+  "initialFailuresRetainedLocally": true,
+  "finalBuildTargetedMethods": 6,
+  "unchangedPathsRetainedFromInitialBuild": 20,
+  "methods": {
+    "io.legado.app.aggregation.AggregationScaleTest#categoryStripKeepsAdapterSnapshotsConsistentWhileFlingingAndEditing": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.AggregationScaleTest#twentyThousandSourceCatalogueUsesBoundedRoundsAndReusesVerifiedSnapshot": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.AggregationScaleTest#categoryStripRecyclesTwentyThousandLabelsAndKeepsKeyboardAndAccessibleSelection": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.AggregationScaleTest#rssProjectionKeeps443FeedCategoriesWithoutMaterializingParsingLibraries": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.LocalAggregationRevisionIntegrationTest#repeatedSameIdUpdatesInvalidateOnlyThatSourceAndRetainOtherCheckedSources": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.LocalAggregationRevisionIntegrationTest#anOldMetadataMapCannotPoisonTheNewCatalogueSnapshotCache": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.LocalAggregationRevisionIntegrationTest#noOpRuntimeOnlyAndRolledBackWritesDoNotInvalidateTheCatalogue": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.LocalSourceCatalogueScaleTest#all21149SourcesReachTheLocalCatalogueWithoutReadingOrExecutingTheirLibraries": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.AutomaticDiscoveryCatalogueTest#cancellationKeepsSettledProgressAndNextForegroundScanResumesWithoutRetryingBadSources": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.aggregation.AutomaticDiscoveryCatalogueTest#automaticallyFinishesPast128AndRetainsEarlyCategoriesPast256SourcesAnd64PerSource": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalParsingRetirementIntegrationTest#importingSameIdFullRulesRemovesProxyRoutingEvenForBooksWithAnOldRemoteContext": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalParsingRetirementIntegrationTest#staleEnabledConfigurationCannotUploadParseOrMigrateAndKeepsTheOldCacheNamespace": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceImportIntegrationTest#sameIdFullRuleImportPreservesSearchReadingAndSourceState": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceImportIntegrationTest#sameIdFeedImportPreservesArticlesStarsAndReadRecords": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceImportIntegrationTest#mixedExistingNewAndRepeatedIdsUseIncomingRulesWithoutReplacingIdentity": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceImportIntegrationTest#bookImportRollsBackPriorUpdatesAndInsertsWhenLaterInsertIsRejected": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceImportIntegrationTest#feedImportRollsBackPriorUpdatesAndInsertsWhenLaterInsertIsRejected": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceRestoreRefreshIntegrationTest#fullRulesReplaceAllThreeSnapshotsWithOneIoReadAndNoReadingMutation": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceRestoreRefreshIntegrationTest#missingMismatchedAndStillThinRulesDoNotReplaceAnActiveSnapshot": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.LocalSourceRestoreRefreshIntegrationTest#reopenSourceChangeAndNewerCachedRulesDuringIoRejectTheOldSnapshot": {
+      "passed": true,
+      "run": "reader-1.2.4-native-local.log"
+    },
+    "io.legado.app.cloud.SourceRestorePackIntegrationTest#changedOrInvalidPreparedPackageWritesNoRowsEvenPastTheFirstBatchBoundary": {
+      "passed": true,
+      "run": "reader-1.2.4-native-bulk-reader-final.log"
+    },
+    "io.legado.app.cloud.SourceRestorePackIntegrationTest#mixedRestoreKeepsFullLocalRulesAndReadingReferencesWhileRestoringOriginalEnabledFlags": {
+      "passed": true,
+      "run": "reader-1.2.4-native-bulk-reader-final.log"
+    },
+    "io.legado.app.cloud.SourceRestorePackIntegrationTest#cancellationAtABatchBoundaryKeepsTheCommittedHundredAndDoesNotStartTheNextBatch": {
+      "passed": true,
+      "run": "reader-1.2.4-native-bulk-reader-final.log"
+    },
+    "io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest#nativeExplorePrefersTheRealTitleAndItsAuthorAndKeepsOriginalSourceBytes": {
+      "passed": true,
+      "run": "reader-1.2.4-native-bulk-reader-final.log"
+    },
+    "io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest#nativeExploreDoesNotAssignOneRankingAuthorToDifferentBooks": {
+      "passed": true,
+      "run": "reader-1.2.4-native-bulk-reader-final.log"
+    },
+    "io.legado.app.cloud.SourceRestorePackOriginalArchiveAcceptanceTest#privateOriginalArchiveDecryptsValidatesAndRestoresEverySourceLocally": {
+      "passed": true,
+      "run": "reader-1.2.4-native-bulk-reader-final.log"
+    }
+  }
+}

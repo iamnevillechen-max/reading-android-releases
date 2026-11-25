@@ -1,0 +1,95 @@
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.SourceRestorePackIntegrationTest:
+INSTRUMENTATION_STATUS: test=changedOrInvalidPreparedPackageWritesNoRowsEvenPastTheFirstBatchBoundary
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=changedOrInvalidPreparedPackageWritesNoRowsEvenPastTheFirstBatchBoundary
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackIntegrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=mixedRestoreKeepsFullLocalRulesAndReadingReferencesWhileRestoringOriginalEnabledFlags
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackIntegrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mixedRestoreKeepsFullLocalRulesAndReadingReferencesWhileRestoringOriginalEnabledFlags
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackIntegrationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cancellationAtABatchBoundaryKeepsTheCommittedHundredAndDoesNotStartTheNextBatch
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackIntegrationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cancellationAtABatchBoundaryKeepsTheCommittedHundredAndDoesNotStartTheNextBatch
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest:
+INSTRUMENTATION_STATUS: test=nativeExplorePrefersTheRealTitleAndItsAuthorAndKeepsOriginalSourceBytes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=nativeExplorePrefersTheRealTitleAndItsAuthorAndKeepsOriginalSourceBytes
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=nativeExploreDoesNotAssignOneRankingAuthorToDifferentBooks
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.model.webBook.LocalSourceExecutionRepairNativeTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=nativeExploreDoesNotAssignOneRankingAuthorToDifferentBooks
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackOriginalArchiveAcceptanceTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+io.legado.app.cloud.SourceRestorePackOriginalArchiveAcceptanceTest:
+INSTRUMENTATION_STATUS: test=privateOriginalArchiveDecryptsValidatesAndRestoresEverySourceLocally
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.legado.app.cloud.SourceRestorePackOriginalArchiveAcceptanceTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=privateOriginalArchiveDecryptsValidatesAndRestoresEverySourceLocally
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 144.429
+
+OK (6 tests)
+
+
+INSTRUMENTATION_CODE: -1

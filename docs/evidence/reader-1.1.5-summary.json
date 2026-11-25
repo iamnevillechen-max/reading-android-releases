@@ -1,0 +1,161 @@
+{
+  "versionName": "1.1.5",
+  "versionCode": 10105,
+  "bytes": 30652003,
+  "sha256": "54e16b754f030c65731b073a74cd3ccc3892cdd407fce3a5f08c11e0cac1f6b1",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "allLocaleLabels": [
+    "阅读"
+  ],
+  "localeLabelEntries": 93,
+  "packageName": "io.multiread.reader.debug",
+  "roomSchema": 75,
+  "bundledRules": 17,
+  "previous17BundledRulesAndIdsUnchanged": true,
+  "nativeLibrarySetAndBytesUnchanged": true,
+  "jvm": {
+    "suites": 16,
+    "tests": 130,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "date": "2026-10-27",
+  "cacheAlgorithmVersion": 3,
+  "feedbackActivityAndLayoutsRemoved": true,
+  "updateActivityRetained": true,
+  "nativeRegression": {
+    "state": "complete",
+    "uniqueTestMethods": 70,
+    "finalStatusAllPassed": true,
+    "batches": [
+      {
+        "file": "reader-1.1.5-final-aggregation.log",
+        "passed": 9,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 128.477
+      },
+      {
+        "file": "reader-1.1.5-final-changes.log",
+        "passed": 11,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 38.74
+      },
+      {
+        "file": "reader-1.1.5-final-core.log",
+        "passed": 44,
+        "failures": 1,
+        "skipped": 0,
+        "seconds": 51.296
+      },
+      {
+        "file": "reader-1.1.5-final-startup.log",
+        "passed": 4,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 28.305
+      },
+      {
+        "file": "reader-1.1.5-final-live.log",
+        "passed": 1,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 16.513
+      },
+      {
+        "file": "reader-1.1.5-final-accessibility.log",
+        "passed": 3,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 9.188
+      }
+    ],
+    "windowSynchronizationRetest": "One original content-row accessibility method saw a null window during service connection; bounded target-package synchronization added, all3 content-row methods then passed. No production change in this retest."
+  },
+  "accessibility": {
+    "shelfFourLayoutsDecorativeCoverVerified": true,
+    "bothShelfStylesBookAndGroupActionsVerified": true,
+    "physicalTouchAndAudioReviewPerformed": false
+  },
+  "discovery": {
+    "automaticAllCategories": true,
+    "manualContinuationRemoved": true,
+    "fixedAllCategoryQuery": true,
+    "badPrefixAutomaticallyContinues": true,
+    "metadataKeepsVisibleBooksAndPosition": true,
+    "layoutDoesNotPaginate": true,
+    "catalogueSourceBudgetMillis": 2000,
+    "catalogueRoundMillis": 4000,
+    "catalogueSourcesPerRound": 128,
+    "realBundledUi": {
+      "version": "1.1.5",
+      "bundledSources": 17,
+      "stage": "complete",
+      "passed": true,
+      "elapsedMillis": 13287,
+      "allBookCount": 8,
+      "allFirstBooksMillis": 11743,
+      "allWorkingSourceIds": [
+        "https://zh.wikisource.org/#reader-verified-20261026"
+      ],
+      "category": "四大名著",
+      "categoryBookCount": 8,
+      "categoryWorkingSourceIds": [
+        "https://zh.wikisource.org/#reader-verified-20261026"
+      ],
+      "allAfterReturnBookCount": 8,
+      "allPreviouslyShownBookRetained": true,
+      "catalogueCheckedSources": 5,
+      "catalogueComplete": true
+    },
+    "preloadedPageStaysIdleUntilOpened": true
+  },
+  "sources": {
+    "totalBundled": 17,
+    "previous17RulesAndIdsUnchanged": true,
+    "newSourcesInThisRelease": 0,
+    "pack": {
+      "file": "阅读_新增书源_2026-10-27.json",
+      "bytes": 34895,
+      "sha256": "f2abd814950973cc87a9ee7b0a1c5101252635fa6089f9b6eb88454479a50ee1"
+    }
+  },
+  "handset": {
+    "installationRequested": false,
+    "appiumUsed": false,
+    "physicalHandsetOperated": false,
+    "selfUpdateViaExistingChannel": true
+  },
+  "publicOta": {
+    "published": true,
+    "fixedChannel": "https://github.com/iamnevillechen-max/reading-android-releases/releases/latest/download/update.json",
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.1.5",
+    "remoteAssetsVerified": 4,
+    "fixedLatestUrlPubliclyFetched": true,
+    "latestVersionCode": 10105,
+    "latestApkSha256": "54e16b754f030c65731b073a74cd3ccc3892cdd407fce3a5f08c11e0cac1f6b1",
+    "publicApkStreamDownloadedAndHashed": true
+  },
+  "privacy": {
+    "noUserBookOrPhoneDataInNewTests": true,
+    "sourcePacksContainRulesOnly": true,
+    "feedbackNotUploaded": true
+  },
+  "developmentFindings": [
+    "Hidden preloaded discovery footer started an endless RotateLoading draw before VM initialization; fixed by starting idle until real loading. Existing Main ActivityScenario tests pass after this production fix.",
+    "Category progressive test initially assumed a fixed starting cursor within a reused process; replaced with a deterministic first-publication barrier.",
+    "Generated cover fixture used an unsupported file URI string; corrected to the supported absolute path without weakening pixel assertions."
+  ],
+  "cleanup": {
+    "ownedEmulatorSerial": "emulator-5580",
+    "ownedAvd": "reader_test_api35",
+    "ownedAvdRemoved": true,
+    "emulatorStopped": true,
+    "otherAvdsAndSharedSdkUntouched": true,
+    "allocatedBytesRemoved": 790745088
+  },
+  "sourceRevision": "90be65947c30e0947c9166787d3b8c0a1a122cfe",
+  "sourceWorkingTreeDirty": false
+}

@@ -1,0 +1,199 @@
+{
+  "format": "reader-free-sqlite-do-feasibility-1",
+  "requestLimit": 8,
+  "applicationStorageCalls": 0,
+  "productionChanges": 0,
+  "paidBodyRequests": 0,
+  "cpuConfiguration": "default, no cpu_ms",
+  "runs": [
+    {
+      "case": "core100",
+      "run": 1,
+      "httpStatus": 200,
+      "responseBytes": 294,
+      "passed": true,
+      "items": 100,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 1,
+          "outcome": "ok"
+        },
+        "DO": {
+          "role": "DO",
+          "cpuTime": 17,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "core100",
+      "run": 2,
+      "httpStatus": 200,
+      "responseBytes": 294,
+      "passed": true,
+      "items": 100,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 22,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 0,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "engine1000",
+      "run": 1,
+      "httpStatus": 200,
+      "responseBytes": 149,
+      "passed": true,
+      "chapterCount": 1000,
+      "paidMetadataCount": 100,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 477,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 0,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "engine1000",
+      "run": 2,
+      "httpStatus": 200,
+      "responseBytes": 149,
+      "passed": true,
+      "chapterCount": 1000,
+      "paidMetadataCount": 100,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 167,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 1,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "engine1000-full",
+      "run": 1,
+      "httpStatus": 200,
+      "responseBytes": 266911,
+      "passed": true,
+      "chapterCount": 1000,
+      "paidMetadataCount": 100,
+      "applicationStorageCalls": 0,
+      "fullSerializedChapterCount": 1000,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 226,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 1,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "17k-current",
+      "run": 1,
+      "httpStatus": 200,
+      "responseBytes": 147,
+      "passed": true,
+      "chapterCount": 132,
+      "paidMetadataCount": 0,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 366,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 0,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "17k-current",
+      "run": 2,
+      "httpStatus": 200,
+      "responseBytes": 147,
+      "passed": true,
+      "chapterCount": 132,
+      "paidMetadataCount": 0,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 228,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 0,
+          "outcome": "ok"
+        }
+      }
+    },
+    {
+      "case": "core-hostglobals",
+      "run": 1,
+      "httpStatus": 200,
+      "responseBytes": 293,
+      "passed": true,
+      "items": 1,
+      "applicationStorageCalls": 0,
+      "cpu": {
+        "DO": {
+          "role": "DO",
+          "cpuTime": 6,
+          "outcome": "ok"
+        },
+        "Gateway": {
+          "role": "Gateway",
+          "cpuTime": 0,
+          "outcome": "ok"
+        }
+      }
+    }
+  ],
+  "gatewayWithinTenMillis": true,
+  "allBehaviourPassed": true,
+  "accepted": true,
+  "plan": "Workers Free, SQLite-backed Durable Objects",
+  "planEvidence": "Existing deployment record: Cloudflare API code 100328 confirms Free; probe deployment required no paid upgrade.",
+  "limitsSources": [
+    "https://developers.cloudflare.com/durable-objects/platform/limits/",
+    "https://developers.cloudflare.com/durable-objects/platform/pricing/"
+  ],
+  "notes": [
+    "A separate temporary authenticated prototype, not yet the production reader service.",
+    "The gateway forwarded the response stream without parsing the large result.",
+    "The ordinary Worker-only core and row-callback prototypes did not meet the 10ms target; those failed resource results remain recorded.",
+    "No source health status was changed by this prototype."
+  ]
+}

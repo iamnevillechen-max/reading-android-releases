@@ -1,0 +1,487 @@
+[
+  {
+    "bookSourceUrl": "https://www.zongheng.com/#reader-verified-20261026",
+    "bookSourceName": "纵横·公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 1,
+    "bookSourceComment": "2026-10-26 核验《不让江山》知白：公开网页搜索接口、详情、免费目录及第一章。目录仅收站点未标VIP的章节；正文仅接受公开未加密内容标记。当前未启用未经验证的发现分类。不是全站全部章节免费。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\", \"Referer\": \"https://search.zongheng.com/\"}",
+    "searchUrl": "https://search.zongheng.com/search/book?keyword={{key}}&sort=&pageNo={{page}}&pageNum=20&isFromHuayu=0",
+    "ruleSearch": {
+      "bookList": "$.data.datas.list",
+      "name": "$.name##<[^>]*>##",
+      "author": "$.authorName",
+      "bookUrl": "$.bookId##^##https://www.zongheng.com/detail/",
+      "kind": "$.catePName",
+      "intro": "$.description",
+      "wordCount": "$.totalWord",
+      "lastChapter": "$.chapterName"
+    },
+    "ruleBookInfo": {
+      "name": ".book-info--title > span@text",
+      "author": ".author-info--name@text",
+      "tocUrl": "@js: var m=String(baseUrl).match(/(?:detail|book)\\/([0-9]+)/); m ? 'https://book.zongheng.com/showchapter/'+m[1]+'.html' : '';"
+    },
+    "ruleToc": {
+      "chapterList": "ul.chapter-list li:not(.vip) > a[href*=/chapter/]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js: var e=java.getElements('#Jcontent .content'); e.size()>0 && String(e.get(0).attr('data-prescription'))==='0' && String(e.get(0).attr('data-decoder'))==='' ? e.get(0).html() : '';"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.heiyan.com/#reader-verified-20261026",
+    "bookSourceName": "黑岩·官方综合小说〔核验版〕",
+    "bookSourceGroup": "已核验·综合小说·官方公开页,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 2,
+    "bookSourceComment": "2026-10-26 核验《镇海战神》：官网公开全站搜索、真实作者、943条目录、第一免费章。搜索使用官方网站JS公开调用的匿名JSON接口，模糊结果按官网排序；不使用私密App接口或密钥。发现保留首页推荐与最新书库。目录以 a.isvip 标注收费章；不绕过登录或付费。正文仅取单一 .page-content，避免隐藏模板重复。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://search.heiyan.com/web/search?queryString={{key}}&highlight=false&page={{page}}&f=f",
+    "exploreUrl": "[{\"title\": \"首页推荐\", \"url\": \"https://www.heiyan.com/\"}, {\"title\": \"最新小说\", \"url\": \"https://www.heiyan.com/all.html\"}]",
+    "ruleSearch": {
+      "bookList": "$.data.content",
+      "name": "$.name",
+      "author": "$.authorname",
+      "bookUrl": "$.id##^##https://www.heiyan.com/book/",
+      "coverUrl": "$.iconUrlSmall",
+      "intro": "$.introduce",
+      "kind": "$.sortname"
+    },
+    "ruleExplore": {
+      "bookList": "@js:\nvar query = /[?&]reader_query=([^&]*)/.exec(String(baseUrl));\nvar key = query ? decodeURIComponent(query[1].replace(/\\+/g, \" \")) : \"\";\nkey = String(java.t2s(key)).trim();\nvar links = java.getElements(\"a[href~=/book/[0-9]+$]\");\nvar books = []; var seen = {};\nfor (var i = 0; i < links.size(); i++) {\n  var item = links.get(i); var name = String(item.text()).trim(); var url = String(item.attr(\"href\"));\n  if (name !== \"\" && !seen[url] && (key === \"\" || String(java.t2s(name)).indexOf(key) >= 0)) {\n    books.push(item); seen[url] = true;\n  }\n}\nbooks;",
+      "name": "text",
+      "bookUrl": "href"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "intro": "meta[property='og:description']@content",
+      "tocUrl": "@js: 'https://www.heiyan.com/chapter/' + String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "li[id^=chapter]:has(a.name)",
+      "chapterName": "a.name@text",
+      "chapterUrl": "a.name@href",
+      "isVip": "a.isvip@text",
+      "updateTime": "span.time@text"
+    },
+    "ruleContent": {
+      "content": ".page-content@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.17k.com/#reader-verified-20261026",
+    "bookSourceName": "17K·公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 3,
+    "bookSourceComment": "2026-10-26 核验万古第一神（风青阳）公开搜索、详情、免费目录及第1章。目录排除VIP标记，正文仅接受官方网页BOOK配置vip=0。未调用购买/加密接口；尚未启用未核验的发现分类。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://search.17k.com/search.xhtml?c.q={{key}}&c.st=0&page={{page}}",
+    "ruleSearch": {
+      "bookList": ".textlist:has(.textmiddle)",
+      "name": ".textmiddle dt a@text",
+      "bookUrl": ".textmiddle dt a@href",
+      "author": ".textmiddle .ls a@text",
+      "intro": ".textmiddle .description@text"
+    },
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": ".AuthorInfo .author a.name@text",
+      "tocUrl": "@js: var e=java.getElements('a[href*=/list/]'); e.size()>0 ? String(e.get(0).attr('href')) : '';"
+    },
+    "ruleToc": {
+      "chapterList": ".Volume dd a[href*=/chapter/]:not(:has(.vip))",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js: var raw=String(result); var cfg=raw.match(/window[.]\\$__BOOK\\s*=\\s*\\{([^}]+)\\}/); var free=cfg && /vip\\s*:\\s*0\\s*(?:,|$)/.test(String(cfg[1]).trim()); var nodes=java.getElements('.readAreaBox .p'); if (!free || nodes.size()===0) ''; else { var body=nodes.get(0).clone(); body.select('.author-say,#banner_content,.qrcode,.chapter_text_ad,script,style').remove(); body.html(); }"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.jjwxc.net/#reader-verified-20261026",
+    "bookSourceName": "晋江·公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 4,
+    "bookSourceComment": "2026-10-26 核验开端（祈祷君）公开搜索、详情、免费目录及第1章。按官方GBK搜索编码；目录只收有公开href的章节，不使用VIP rel/购买地址。正文只取原文容器，不取作者作话/评论。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://wap.jjwxc.net/search?kw={{key}}&t=1&page={{page}},{\"charset\":\"GBK\"}",
+    "ruleSearch": {
+      "bookList": ".module ul li:has(a[href^=/book2/])",
+      "name": "a[href^=/book2/]@text",
+      "bookUrl": "a[href^=/book2/]@href##^/book2/##https://www.jjwxc.net/onebook.php?novelid=",
+      "author": "a[href^=/wapauthor/]@text"
+    },
+    "ruleBookInfo": {
+      "name": "[itemprop=name]@text",
+      "author": "[itemprop=author]@text",
+      "intro": "#novelintro@text"
+    },
+    "ruleToc": {
+      "chapterList": "tr[itemprop=chapter] a[itemprop=url][href*=onebook.php][href*=chapterid=]",
+      "chapterName": "text",
+      "chapterUrl": "href##^http:##https:"
+    },
+    "ruleContent": {
+      "content": "#paragraph_comment_content@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://m.zhulang.com/#reader-verified-20261026",
+    "bookSourceName": "逐浪·公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 5,
+    "bookSourceComment": "逐浪官网公开免费章节。目录排除标注VIP的章节，付费内容不提供；免费名单随正常目录刷新更新。已核对《武神天下》禹枫的搜索、目录与免费正文。搜索当前支持公开第一页，推荐与男频可用于发现。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "searchUrl": "https://m.zhulang.com/search/index.html?k={{key}}",
+    "exploreUrl": "[{\"title\": \"推荐\", \"url\": \"https://m.zhulang.com/\"}, {\"title\": \"男频\", \"url\": \"https://m.zhulang.com/category/boys.html\"}]",
+    "ruleSearch": {
+      "bookList": "#ret-list > li > a",
+      "name": "h3@text",
+      "author": "h4@text",
+      "bookUrl": "href",
+      "intro": "p@text"
+    },
+    "ruleExplore": {
+      "bookList": ".bk-list li > a:has(h3)",
+      "name": "h3@text",
+      "author": "h4@text##\\s*\\|.*##",
+      "kind": "h4@text##^.*?\\|\\s*##",
+      "bookUrl": "href",
+      "intro": "p@text"
+    },
+    "ruleBookInfo": {
+      "name": "dl.bk-info h3@text",
+      "author": "dl.bk-info a.yellow@text",
+      "tocUrl": "@js: var m=String(baseUrl).match(new RegExp('/([0-9]+)/index[.]html')); m ? 'https://book.zhulang.com/'+m[1]+'/' : '';"
+    },
+    "ruleToc": {
+      "chapterList": "@js: var es=java.getElements('.catalog-cnt .chapter-list li > a'); var out=[]; var allowed={}; var b=String(baseUrl).match(new RegExp('^https://book[.]zhulang[.]com/([0-9]+)/')); for(var i=0;i<es.size();i++){var e=es.get(i); var u=String(e.attr('href')); var m=u.match(new RegExp('^https://book[.]zhulang[.]com/([0-9]+)/([0-9]+)[.]html$')); if(b && m && m[1]===b[1] && String(e.text()).toLowerCase().indexOf('[vip]')<0){out.push(e);allowed[m[2]]=true;}} book.putVariable('readerZhulangFreeChapters',JSON.stringify({bookId:b?b[1]:'',chapters:allowed})); out;",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js: var safe=false; try{var g=JSON.parse(String(book.getVariable('readerZhulangFreeChapters')||'{}')); var m=String(baseUrl).match(new RegExp('^https://book[.]zhulang[.]com/([0-9]+)/([0-9]+)[.]html$')); safe=!!(m && g.bookId===m[1] && g.chapters && g.chapters[m[2]]===true);}catch(e){} var es=java.getElements('#read-content'); if(safe && es.size()>0){var c=es.get(0).clone(); c.select('script,style,iframe').remove(); c.html();}else{'';}"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://book.sfacg.com/#reader-verified-20261026",
+    "bookSourceName": "SF菠萝包·官方公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·官方公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 6,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、详情和公众章节目录；只收 /Novel/ 公众章节，排除 /vip/ 付费链接。正文不解密，不绕过登录。搜索使用官方公开第一页。",
+    "searchUrl": "https://s.sfacg.com/?Key={{key}}&S=1&SS=0",
+    "ruleSearch": {
+      "bookList": "ul:has(a.orange_link2[href*=book.sfacg.com/Novel/])",
+      "name": "a.orange_link2@text",
+      "bookUrl": "a.orange_link2@href",
+      "author": "@js:var m=String(java.getString('text')).match(/综合信息：\\s*([^\\/]+)\\//);m?m[1].trim():'';",
+      "coverUrl": "img@src"
+    },
+    "ruleBookInfo": {
+      "name": "@js:var n=java.getElements('h1.title .text');n.size()>0?n.get(0).ownText():'';",
+      "author": ".author-info .author-name@text",
+      "intro": ".summary-content@text",
+      "tocUrl": "@js:'https://book.sfacg.com/Novel/'+String(baseUrl).match(/\\/Novel\\/(\\d+)/)[1]+'/MainIndex/';"
+    },
+    "ruleToc": {
+      "chapterList": ".catalog-list a[href^=/Novel/]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "#ChapterBody@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://book.qq.com/#reader-verified-20261026",
+    "bookSourceName": "QQ阅读·官方公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·官方公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 7,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、详情、完整目录中的未锁定章节及普通文本阅读页；不调用会员、购买或解密接口。目录取正序单份，避免正倒序重复。搜索使用官方公开第一页。",
+    "searchUrl": "https://book.qq.com/so/{{key}}",
+    "ruleSearch": {
+      "bookList": ".result-list>.result-item",
+      "name": "h4.title@text",
+      "bookUrl": "a.wrap@href",
+      "author": ".other a[href*=/book-writer/]@text",
+      "intro": ".intro@text"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://book.qq.com/book-chapter/'+String(baseUrl).match(/book-detail\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "@js:var lists=java.getElements('ul.book-dir');lists.size()>0?lists.get(lists.size()-1).select('li:not(:has(i.lock))'):[];",
+      "chapterName": ".name@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": "#article.chapter-content.isTxt@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.hongxiu.com/#reader-verified-20261026",
+    "bookSourceName": "红袖读书·官方公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·官方公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 8,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、详情与无锁图标章节。只读公开普通文本容器，不调用VIP或加密内容接口。搜索使用官方公开第一页。",
+    "searchUrl": "https://www.hongxiu.com/so/{{key}}",
+    "ruleSearch": {
+      "bookList": ".book-img-text li",
+      "name": ".book-mid-info h4 a@text",
+      "bookUrl": ".book-mid-info h4 a@href",
+      "author": ".author a.name@text",
+      "intro": ".intro@text",
+      "coverUrl": ".book-img-box img@src"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://www.hongxiu.com/chapterlist/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "#j-catalogWrap li:not(:has(em.iconfont)):has(a[href*=/chapter/])",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".read-content.j_readContent@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.ihuaben.com/#reader-verified-20261026",
+    "bookSourceName": "话本小说·官方公开章节〔核验版〕",
+    "bookSourceGroup": "综合小说·官方公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 9,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、作者详情、完整目录及公开原文容器。只取网站已返回的正文；不调用登录、付费、解密接口。搜索使用官方公开第一页。",
+    "searchUrl": "https://so.ihuaben.com/search?keyword={{key}}",
+    "ruleSearch": {
+      "bookList": ".searchresult:has(h2)",
+      "name": "h2 a@text",
+      "bookUrl": "h2 a@href",
+      "author": ".text-muted a[href*=user.ihuaben.com/]@text"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://www.ihuaben.com/list/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1]+'.html';"
+    },
+    "ruleToc": {
+      "chapterList": ".hb-chapter-item:has(.col-title)",
+      "chapterName": ".col-title a@text",
+      "chapterUrl": ".col-title a@href",
+      "isVip": "@js:java.getElements('.icon-lock,.hicon-lock,.vip-lock').size()>0?'VIP':'';"
+    },
+    "ruleContent": {
+      "content": "#contentsource.nbcontent@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.ruochu.com/#reader-verified-20261026",
+    "bookSourceName": "若初文学·官方公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·官方公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 10,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网JS正常调用的匿名搜索接口、详情、目录和免费网页正文。目录排除 a.isvip 标记的收费章节，规范为HTTPS，按链接去重；不调用购买接口。搜索使用官方公开第一页。",
+    "searchUrl": "https://search.ruochu.com/web/search?queryString={{key}}&highlight=false&page={{page}}&f=f",
+    "ruleSearch": {
+      "bookList": "$.data.content",
+      "name": "$.name",
+      "author": "$.authorname",
+      "bookUrl": "$.id##^##https://www.ruochu.com/book/",
+      "intro": "$.introduce",
+      "kind": "$.sortname"
+    },
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": "a.author@text",
+      "tocUrl": "@js:'https://www.ruochu.com/chapter/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "@js:var nodes=java.getElements('li[id^=chapter]:has(a.name)');var out=[];var seen={};for(var i=0;i<nodes.size();i++){var e=nodes.get(i);var a=e.select('a.name').first();var u=String(a.attr('href'));if(e.select('a.isvip').size()===0&&/\\/book\\/\\d+\\/\\d+$/.test(u)&&!seen[u]){seen[u]=true;out.push(e);}}out;",
+      "chapterName": "a.name@text",
+      "chapterUrl": "a.name@href##^http:##https:"
+    },
+    "ruleContent": {
+      "content": ".page-content@html"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://m.kujiang.com/#reader-verified-20261026",
+    "bookSourceName": "酷匠·公开免费章节〔核验版〕",
+    "bookSourceGroup": "综合小说·公开免费章节,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 11,
+    "bookSourceComment": "酷匠官网公开免费章节。PC搜索配合官方手机详情及阅读页；目录在首个VIP分卷之前截止，并排除单章VIP标记。付费或登录页不提供正文，未处理加密、验证码或登录限制。搜索当前支持公开第一页。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "searchUrl": "https://www.kujiang.com/search?keyword={{key}}",
+    "exploreUrl": "[{\"title\": \"推荐\", \"url\": \"https://m.kujiang.com/\"}]",
+    "ruleSearch": {
+      "bookList": ".kjsection-search .row:has(.kjbooktitle)",
+      "name": ".kjbooktitle a@text",
+      "author": ".kjauthor a@text",
+      "bookUrl": "@js: var m=String(java.getString('.kjbooktitle a@href')).match(new RegExp('/book/([0-9]+)')); m ? 'https://m.kujiang.com/book/'+m[1] : '';",
+      "coverUrl": ".kjpic img@src",
+      "intro": ".kjintro-search@text"
+    },
+    "ruleExplore": {
+      "bookList": ".editor .book-list-box li > a",
+      "name": ".book-name@text",
+      "author": ".book-author@text",
+      "bookUrl": "@js: var m=String(java.getString('href')).match(new RegExp('/book/([0-9]+)')); m ? 'https://m.kujiang.com/book/'+m[1] : '';",
+      "coverUrl": "img@data-original"
+    },
+    "ruleBookInfo": {
+      "name": "h1.introduce-title-book@text",
+      "author": ".introduce-title-author .author@text",
+      "intro": ".information-content-text@text",
+      "coverUrl": ".introduce-top img@src",
+      "tocUrl": "@js: var m=String(baseUrl).match(new RegExp('^https://m[.]kujiang[.]com/book/([0-9]+)')); m ? 'https://www.kujiang.com/book/'+m[1]+'/catalog' : '';"
+    },
+    "ruleToc": {
+      "chapterList": "@js: var b=String(baseUrl).match(new RegExp('^https://www[.]kujiang[.]com/book/([0-9]+)/catalog')); var out=[]; var allowed={}; var ds=java.getElements('.kjsection-catalog dl'); for(var i=0;i<ds.size();i++){var d=ds.get(i); var dt=d.select('dt').text(); if(/VIP/i.test(String(dt))) break; var as=d.select('dd a[href]'); for(var j=0;j<as.size();j++){var a=as.get(j); var m=String(a.attr('href')).match(new RegExp('^/book/([0-9]+)/([0-9]+)$')); if(b && m && m[1]===b[1] && !a.hasClass('vip')){out.push(a);allowed[m[2]]=true;}}} book.putVariable('readerKujiangFreeChapters',JSON.stringify({bookId:b?b[1]:'',chapters:allowed})); out;",
+      "chapterName": "text",
+      "chapterUrl": "@js: var m=String(java.getString('href')).match(new RegExp('^/book/([0-9]+)/([0-9]+)$')); m ? 'https://m.kujiang.com/book/'+m[1]+'/'+m[2] : '';"
+    },
+    "ruleContent": {
+      "content": "@js: var safe=false; try{var g=JSON.parse(String(book.getVariable('readerKujiangFreeChapters')||'{}')); var m=String(baseUrl).match(new RegExp('^https://m[.]kujiang[.]com/book/([0-9]+)/([0-9]+)$')); safe=!!(m && g.bookId===m[1] && g.chapters && g.chapters[m[2]]===true);}catch(e){} var es=java.getElements('#readArticle'); if(safe && es.size()>0){var c=es.get(0).clone(); c.select('script,style,iframe').remove(); c.html();}else{'';}"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://zh.wikisource.org/#reader-verified-20261026",
+    "bookSourceName": "维基文库·中文分章古籍〔核验版〕",
+    "bookSourceGroup": "已核验·公开古籍,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 12,
+    "bookSourceComment": "2026-10-26 核验西遊記：搜索、真实作者、100回目录、第一回正文。仅匹配同一本书的「第…回/章/卷/節」分章；其他排版不保证。搜索结果无结构化作者时保持空白，不伪造；详情页读取作者。 正文保留段落及诗词列表，去除导航。",
+    "header": "{\"User-Agent\": \"ReadingSourceValidation/1.0 (+https://github.com/iamnevillechen-max/reading-android-releases)\"}",
+    "searchUrl": "https://zh.wikisource.org/w/index.php?title=Special:Search&search={{key}}&fulltext=1&ns0=1&limit=20&offset={{(page-1)*20}}",
+    "exploreUrl": "[{\"title\": \"四大名著\", \"url\": \"https://zh.wikisource.org/wiki/Portal:%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97\"}]",
+    "ruleSearch": {
+      "bookList": ".mw-search-results li:has(.mw-search-result-heading a[href~=/wiki/[^/]+$])",
+      "name": ".mw-search-result-heading a@text",
+      "bookUrl": ".mw-search-result-heading a@href",
+      "intro": ".searchresult@text"
+    },
+    "ruleExplore": {
+      "bookList": "#mw-content-text .mw-parser-output a[href~=/wiki/[^:/]+$]:matchesOwn(^(西遊記|西游记|三國演義|三国演义|水滸傳|水浒传|紅樓夢|红楼梦)$)",
+      "name": "text",
+      "bookUrl": "href"
+    },
+    "ruleBookInfo": {
+      "name": "#firstHeading@text",
+      "author": "#headerContainer a[href^=/wiki/Author:]@text",
+      "intro": "#headerContainer@text"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar prefix = decodeURIComponent(String(baseUrl).replace(/^https?:\\/\\/[^/]+/, \"\").split(/[?#]/)[0]).replace(/\\/$/, \"\") + \"/\";\nvar links = java.getElements(\"#mw-content-text .mw-parser-output a[href]\");\nvar chapters = []; var seen = {};\nfor (var i = 0; i < links.size(); i++) {\n  var item = links.get(i);\n  var path = decodeURIComponent(String(item.attr(\"href\")).split(/[?#]/)[0]);\n  var tail = path.indexOf(prefix) === 0 ? path.substring(prefix.length) : \"\";\n  if (/^第[^/]+[回章卷節节]$/.test(tail) && !seen[path]) { chapters.push(item); seen[path] = true; }\n}\nchapters;",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar nodes = java.getElements(\"#mw-content-text .mw-parser-output\");\nif (nodes.size() === 0) \"\";\nelse {\n  var body = nodes.get(0).clone();\n  body.select(\"#headerContainer,.ws-noexport,.noprint,.mw-editsection,script,style,noscript\").remove();\n  body.html();\n}"
+    },
+    "weight": 1
+  },
+  {
+    "bookSourceUrl": "https://www.guwendao.net/#reader-verified-20261026",
+    "bookSourceName": "古文岛·公开小说目录〔核验版〕",
+    "bookSourceGroup": "已核验·公开古籍,已核验_2026-10-26",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 13,
+    "bookSourceComment": "2026-10-26 核验红楼梦：公开小说目录本地筛选、真实作者、120回目录、第一回原文。站内搜索需登录，本规则只读取公开小说目录并在本机按标题筛选；按原目录分页，未匹配不代表全站没有该书。未读取翻译/现代注释。原古诗文网已公开更名/重定向古文岛。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://www.guwendao.net/guwen/Default.aspx?type=%E5%B0%8F%E8%AF%B4%E5%AE%B6%E7%B1%BB&p={{page}}&reader_query={{key}}",
+    "exploreUrl": "[{\"title\": \"古典小说\", \"url\": \"https://www.guwendao.net/guwen/Default.aspx?type=%E5%B0%8F%E8%AF%B4%E5%AE%B6%E7%B1%BB&p={{page}}\"}]",
+    "ruleSearch": {
+      "bookList": "@js:\nvar match = /[?&]reader_query=([^&]*)/.exec(String(baseUrl));\nvar key = match ? decodeURIComponent(match[1].replace(/\\+/g, \" \")) : \"\";\nkey = String(java.t2s(key)).trim();\nvar rows = java.getElements(\"div.sonspic:has(.cont > p > a[href~=/guwen/book_[0-9a-f]+\\\\.aspx$])\");\nvar found = [];\nfor (var i = 0; i < rows.size(); i++) {\n  var row = rows.get(i); var name = String(row.select(\".cont > p > a[href*=/guwen/book_]\").first().text());\n  if (key === \"\" || String(java.t2s(name)).indexOf(key) >= 0) found.push(row);\n}\nfound;",
+      "name": ".cont > p > a[href*=/guwen/book_]@text",
+      "bookUrl": ".cont > p > a[href*=/guwen/book_]@href",
+      "author": ".book-tag:nth-child(2) span@text",
+      "intro": ".cont > p@text"
+    },
+    "ruleExplore": {
+      "bookList": "div.sonspic:has(.cont > p > a[href~=/guwen/book_[0-9a-f]+\\.aspx$])",
+      "name": ".cont > p > a[href*=/guwen/book_]@text",
+      "bookUrl": ".cont > p > a[href*=/guwen/book_]@href",
+      "author": ".book-tag:nth-child(2) span@text",
+      "intro": ".cont > p@text"
+    },
+    "ruleBookInfo": {
+      "name": "#sonsyuanwen h1@text",
+      "author": "#sonsyuanwen .book-tag:nth-child(2) span@text",
+      "intro": "#sonsyuanwen .cont > p@text"
+    },
+    "ruleToc": {
+      "chapterList": ".bookcont a[href~=/guwen/bookv_[0-9a-f]+\\.aspx$]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": ".contson@html"
+    },
+    "weight": 1
+  }
+]

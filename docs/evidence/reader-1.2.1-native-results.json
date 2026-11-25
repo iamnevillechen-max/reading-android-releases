@@ -1,0 +1,373 @@
+{
+  "format": "reader-native-results-1",
+  "versionName": "1.2.1",
+  "versionCode": 10201,
+  "date": "2026-10-29",
+  "sourceCommit": "c832129356aa820529602ab42238cb99f3e89749",
+  "packageName": "io.multiread.reader.debug",
+  "applicationLabel": "阅读",
+  "finalApkSha256": "a101648cbc26a64a50280e8eb1dcf8da6554e516478ca1260d0efbb7612ccf6e",
+  "apkBytes": 30625968,
+  "signerCertificateSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "androidTestApk": {
+    "sha256": "9708d641f634f4671b3c7f13a60950808915a9a8c0f344ac0bf98f7bb7359043",
+    "bytes": 1846349
+  },
+  "build": {
+    "successful": true,
+    "seconds": 92,
+    "tasks": [
+      ":app:assembleAppDebug",
+      ":app:testAppDebugUnitTest",
+      ":app:assembleAppDebugAndroidTest"
+    ]
+  },
+  "jvm": {
+    "suites": 19,
+    "tests": 137,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 137,
+    "casesBySuite": [
+      {
+        "suite": "io.legado.app.ExampleUnitTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.JsTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.cloud.CloudMigrationPolicyTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.cloud.CloudWebEntryPolicyTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.help.update.reader.ReaderReleaseTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.help.update.reader.ReaderStartupPolicyTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.help.update.reader.ReaderTransferTest",
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.aggregation.AggregateLoaderTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.aggregation.AggregationPolicyTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.aggregation.ExploreAggregationTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.aggregation.RssAggregationTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.cloud.CloudContentQualityTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.CandidateSchedulerTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.ChapterMergerTest",
+        "tests": 30,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.ReadingPositionTest",
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.ReadingProgressAnchorTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.SpeechQueueTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "io.legado.app.model.multisource.core.StreamingHashTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ]
+  },
+  "newCloudAndTransport": {
+    "device": "Dedicated owned API35 arm64 emulator; disposable test data only",
+    "uniqueMethods": 28,
+    "finalStatusAllPassed": true,
+    "attempts": [
+      {
+        "scope": "first-run-before-empty-fixture-preparation",
+        "registeredMethods": 28,
+        "passed": 3,
+        "reportedFailures": 25,
+        "preconditionRefusals": 25,
+        "skipped": 0,
+        "reason": "The dedicated emulator contained four stock bundled RSS entries following the version upgrade. The 25 empty-fixture guards refused before their test bodies ran. Books, reading-history rows and book sources were empty; cloud configuration was empty.",
+        "resolution": "Reset only the dedicated disposable emulator application data, then run the project empty-fixture preparation for versionCode10201. The APK and test code were unchanged between attempts."
+      },
+      {
+        "scope": "same-apk-complete-run-after-fixture-preparation",
+        "registeredMethods": 28,
+        "passed": 28,
+        "failed": 0,
+        "skipped": 0,
+        "seconds": 46.634
+      }
+    ],
+    "classes": [
+      {
+        "class": "io.legado.app.cloud.CloudBatchReceiptMigrationTest",
+        "uniqueMethods": 5,
+        "passed": 5
+      },
+      {
+        "class": "io.legado.app.cloud.CloudTransportRetryTest",
+        "uniqueMethods": 3,
+        "passed": 3
+      },
+      {
+        "class": "io.legado.app.cloud.CloudReaderMigrationTest",
+        "uniqueMethods": 10,
+        "passed": 10
+      },
+      {
+        "class": "io.legado.app.cloud.CloudReaderIntegrationTest",
+        "uniqueMethods": 2,
+        "passed": 2
+      },
+      {
+        "class": "io.legado.app.cloud.CloudCatalogueIntegrationTest",
+        "uniqueMethods": 2,
+        "passed": 2
+      },
+      {
+        "class": "io.legado.app.cloud.CloudRemoteRssLoadingTest",
+        "uniqueMethods": 5,
+        "passed": 5
+      },
+      {
+        "class": "io.legado.app.cloud.CloudCategoryOverrideTest",
+        "uniqueMethods": 1,
+        "passed": 1
+      }
+    ],
+    "cases": [
+      {
+        "method": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#cancellationDuringMetadataOrAfterRawBodyBeforeAckPreservesEveryOriginalWithoutRetry",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#malformedBatchedMetadataStopsBeforeImportOrAnyLocalRuleChange",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#allPrearchivedRulesUseOnlyBoundedIdsAndPreserveOpaqueBookAndRssIdentities",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#mixedCurrentMissingAndOldValidHashesUploadOnlyNeededRulesWithinRawBounds",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#aWrongRawImportHashAbortsWithoutConvertingEvenAlreadyMatchedRules",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudTransportRetryTest#verificationMutationsAndHttpErrorsAreNeverRetried",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudTransportRetryTest#consumedImportRetriesTheExactImmutableBodyAndReceivesAcknowledgement",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudTransportRetryTest#cancellationStopsThePendingRetry",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#healthyCloudPrimaryMayUseFiveSecondsWithoutPrematureRescue",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#rssCallsUseGatewayAndPreserveOriginalArticleIdentity",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#migrationKeepsForeignKeysReadingStateAndRssKeys",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#cancellationAfterVerificationPreservesAllOriginalRules",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#verifiedWebSubscriptionRemainsAStaticWebEntry",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#mismatchedReceiptPreventsEveryRuleMutation",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#unreferencedRulesBecomeDisabledArchivesWhileEveryReferenceSurvives",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#cloudResultsCarryModeWithoutChangingUnmigratedShelfBooks",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#readableFirstChapterDoesNotPermitMigratingAGatedCurrentChapter",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#nativeRoutingPreservesNeedSaveAndLocalPositionAndVariableMap",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderIntegrationTest#serverCandidatesFillTheActualReadingPipelineWithoutUploadingOrMovingLocalProgress",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderIntegrationTest#aFailedRemotePrimaryAutomaticallyRescuesAndKeepsReadableOfflineContentSeparate",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudCatalogueIntegrationTest#aShortCloudRssPageKeepsItsServerNextPagePendingThroughRealMainLayout",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudCatalogueIntegrationTest#paginatedHealthySourcesAndMergedCategoriesReachMainAllCategoryAllWithoutLoadingLocalRules",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#singleSourcePaginationUsesServerNextUrlAfterLocalPaginationRuleWasRemoved",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#lifecycleCancellationIsQuietAndReentryRetriesTheUnfinishedFirstPage",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#expiredEmptyRoundSettlesItsClaimOnceInsteadOfSpinningForever",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#badFirstWaveContinuesAndResumeKeepsExistingPageUntilExplicitScroll",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#cloudWebsitePreservesSourceIdentityAndBypassesLegacyLocalPrograms",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudCategoryOverrideTest#mergedCategoryCorrectionPersistsOnServerWithoutRewritingRules",
+        "latestStatus": "passed"
+      }
+    ],
+    "coverage": [
+      "Batched exact source receipts: 126 prearchived self-written book/RSS rules, opaque identifiers, a 100-ID bound, and no raw-rule reupload.",
+      "Mixed current, absent and changed archived hashes: only 80 of 100 rules uploaded, with 50-rule and 256KiB raw-batch limits.",
+      "Malformed metadata, duplicate/unexpected/missing acknowledgements, mismatched import SHA and cancellation stop before local rule changes.",
+      "Immutable-body network retries, cancellation, and no retry of verification mutations or HTTP failures.",
+      "Migration preserves source identities, dependent records, reading state and RSS keys; referenced gated chapters retain original rules.",
+      "Cloud reading, automatic alternate-source rescue, reading-position isolation, paginated healthy catalogues, category changes, RSS pagination and lifecycle handling."
+    ]
+  },
+  "limitations": [
+    "These 28 native methods use self-written loopback fixtures and a dedicated emulator. They do not establish the availability or correctness of every live third-party source.",
+    "This evidence does not assert successful completion of a physical-handset source migration, cleanup, or database compaction. Those operations require separate device audit evidence.",
+    "No human TalkBack gesture review, physical-handset accessibility acceptance, or live speech-engine/TTS continuity acceptance was performed as part of this 1.2.1 test run.",
+    "The 45 earlier legacy native methods were not rerun for this APK. Their separate earlier-candidate evidence records 44 passes and one TTS assumption skip; they are not included in the 28-method total.",
+    "The five earlier database-compaction fixture methods were not rerun for this APK and are not included in the 28-method total."
+  ],
+  "privacy": {
+    "contents": "Allowlisted test class/method names, aggregate counts and timing, version metadata, source commit and public binary hashes only.",
+    "excluded": [
+      "Handset source identifiers",
+      "Book titles and source-rule payloads",
+      "Reading history and positions",
+      "Private filesystem paths",
+      "Phone addresses and device/session identifiers",
+      "Credentials, authorization headers and tokens",
+      "Screenshots and UI dumps"
+    ],
+    "rawLogsPublished": false,
+    "note": "Per-method results above form the compact public test record. No raw private logs were copied."
+  }
+}

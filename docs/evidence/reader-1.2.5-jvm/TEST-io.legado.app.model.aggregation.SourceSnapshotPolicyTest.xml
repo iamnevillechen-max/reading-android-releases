@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.SourceSnapshotPolicyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:14.896Z" hostname="nevilledeMacBook-Neo.local" time="0.014">
+  <properties/>
+  <testcase name="aNotificationWithoutChangedSourceIdsRetainsEveryCurrentPage" classname="io.legado.app.model.aggregation.SourceSnapshotPolicyTest" time="0.0"/>
+  <testcase name="additionsAndRemovalKeepOnlyEstablishedUnchangedRoutes" classname="io.legado.app.model.aggregation.SourceSnapshotPolicyTest" time="0.0"/>
+  <testcase name="aLostConnectionEpochCannotReuseUnprovenOldRules" classname="io.legado.app.model.aggregation.SourceSnapshotPolicyTest" time="0.0"/>
+  <testcase name="oneRuleEditDoesNotRescanTwentyThousandUnchangedSources" classname="io.legado.app.model.aggregation.SourceSnapshotPolicyTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

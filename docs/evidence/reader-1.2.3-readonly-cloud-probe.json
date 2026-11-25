@@ -1,0 +1,214 @@
+{
+  "format": "reader-1.2.3-readonly-cloud-engine-probe-1",
+  "engineImplementation": "reader-engine-paging-xpath-guest-2",
+  "scope": "17 previously public sample source IDs; not the complete private inventory",
+  "checked": 17,
+  "passed": 15,
+  "productionWrites": 0,
+  "activeListChanged": false,
+  "results": [
+    {
+      "sourceId": "https://www.heiyan.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 2,
+        "search": 20,
+        "info": true,
+        "toc": 943,
+        "contentCharacters": 3004,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.zongheng.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 20,
+        "info": true,
+        "toc": 83,
+        "contentCharacters": 3646,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.jjwxc.net/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 37,
+        "info": true,
+        "toc": 12,
+        "contentCharacters": 7393,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://m.zhulang.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 2,
+        "search": 1,
+        "info": true,
+        "toc": 3000,
+        "contentCharacters": 3632,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://book.sfacg.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 1,
+        "info": true,
+        "toc": 102,
+        "contentCharacters": 2915,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://book.qq.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 10,
+        "info": true,
+        "toc": 61,
+        "contentCharacters": 3499,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.hongxiu.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 7,
+        "info": true,
+        "toc": 50,
+        "contentCharacters": 581,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.ihuaben.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 1,
+        "info": true,
+        "toc": 716,
+        "contentCharacters": 2154,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.ruochu.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 20,
+        "info": true,
+        "toc": 29,
+        "contentCharacters": 1682,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://m.kujiang.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 1,
+        "search": 12,
+        "info": true,
+        "toc": 48,
+        "contentCharacters": 989,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://zh.wikisource.org/#reader-verified-20261026",
+      "stages": {
+        "categories": 1,
+        "search": 13,
+        "info": true,
+        "toc": 100,
+        "contentCharacters": 6908,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.guwendao.net/#reader-verified-20261026",
+      "stages": {
+        "categories": 1,
+        "search": 1,
+        "info": true,
+        "toc": 120,
+        "contentCharacters": 7768,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.qimao.com/#reader-verified-20261027-v114",
+      "stages": {
+        "categories": 0,
+        "search": 15,
+        "info": true,
+        "toc": 110,
+        "contentCharacters": 1061,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.xs8.cn/#reader-verified-20261027-v114",
+      "stages": {
+        "categories": 0,
+        "search": 10,
+        "info": true,
+        "toc": 41,
+        "contentCharacters": 2055,
+        "explore": true
+      },
+      "passed": true
+    },
+    {
+      "sourceId": "https://www.17k.com/#reader-verified-20261026",
+      "stages": {
+        "categories": 0,
+        "search": 20,
+        "info": true
+      },
+      "passed": false,
+      "reasonCode": "HTTP_503"
+    },
+    {
+      "sourceId": "https://wfxs.tw/#reader-verified-20261027",
+      "stages": {
+        "categories": 0
+      },
+      "passed": false,
+      "reasonCode": "SOURCE_HTTP"
+    },
+    {
+      "sourceId": "https://www.readnovel.com/#reader-verified-20261027-v114",
+      "stages": {
+        "categories": 0,
+        "search": 10,
+        "info": true,
+        "toc": 41,
+        "contentCharacters": 2055,
+        "explore": true
+      },
+      "passed": true
+    }
+  ],
+  "notes": [
+    "Read-only stage6 engine probe; not a production health-status update or handset acceptance.",
+    "17K returned platform error 1102 in a separate diagnostic; CPU versus memory requires trace evidence. It is not evidence that the site is dead.",
+    "No full texts, book choices, private source payloads or device details are included."
+  ]
+}

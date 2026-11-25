@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.CandidateSchedulerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:14.930Z" hostname="nevilledeMacBook-Neo.local" time="0.467">
+  <properties/>
+  <testcase name="concurrentSelectionsAdvanceWithoutWaitingForFailureOrPenalizingCancellation" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.003"/>
+  <testcase name="boundedHistoryDoesNotRestartLargeLibraryDiscovery" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.461"/>
+  <testcase name="freshManualMetadataReplacesOldUnknownFailureOnceButRetainsNewFailureBackoff" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="rescuePrioritiesStillRotateAndKnownMatchesRetainPriority" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.001"/>
+  <testcase name="automaticDiscoveryTimestampAlreadyRecordedAsAttemptedIsNotFreshAgain" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="selectingWithoutOutcomeDoesNotCreateAFailureOrBackoff" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="irrelevantPrefixCannotStarveLaterSourceEvenAfterBackoffExpires" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="verifiedSuccessfulSourceRetainsPriority" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="configurationResetAndRemovedCursorRemainSafeAndBounded" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="newManualKnownResultOutranksAnAdvancedUnknownCursor" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.001"/>
+  <testcase name="timedOutKnownPrefixYieldsToUntriedSources" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="knownResultsFromOneManualSearchRemainQueuedWhenTimestampsAreEqual" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <testcase name="cachedMissReusesBrieflyThenAllowsDiscoveryToContinue" classname="io.legado.app.model.multisource.core.CandidateSchedulerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

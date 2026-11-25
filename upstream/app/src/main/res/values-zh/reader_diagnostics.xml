@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reader_diagnostics_title">上传使用日志</string>
+    <string name="reader_diagnostics_summary">点此发送最近的听书操作、应用版本及崩溃线索，不含书名和正文。</string>
+    <string name="reader_diagnostics_sending">正在上传使用日志…</string>
+    <string name="reader_diagnostics_sent">日志已收到，回执 %1$s。点此可上传新的日志。</string>
+    <string name="reader_diagnostics_failed">上传未完成。请检查网络，稍后点此重试。</string>
+</resources>

@@ -1,0 +1,155 @@
+{
+  "versionName": "1.1.4",
+  "versionCode": 10104,
+  "bytes": 30777304,
+  "sha256": "27b116304a5c2e5c729d5b33205624b45cba2ecb5633539a0bc173c44d543420",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "allLocaleLabels": [
+    "阅读"
+  ],
+  "localeLabelEntries": 93,
+  "packageName": "io.multiread.reader.debug",
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "legacy14BundledRulesUnchanged": true,
+  "bundledRules": 17,
+  "feedbackActivityAndLayoutsRemoved": true,
+  "updateActivityRetained": true,
+  "nativeLibrarySetUnchanged": true,
+  "date": "2026-10-27",
+  "jvm": {
+    "suites": 17,
+    "tests": 135,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "retiredFeedbackTestsRemoved": 7,
+    "newLoaderTests": 2
+  },
+  "nativeRegression": {
+    "state": "complete",
+    "core": {
+      "tests": 45,
+      "failures": 0,
+      "seconds": 50.153
+    },
+    "startup": {
+      "tests": 4,
+      "failures": 0,
+      "seconds": 32.056
+    },
+    "uniqueTestMethods": 59,
+    "finalStatusAllPassed": true,
+    "batches": [
+      {
+        "file": "reader-1.1.4-native-core.log",
+        "passed": 45,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 50.153
+      },
+      {
+        "file": "reader-1.1.4-native-startup.log",
+        "passed": 4,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 32.056
+      },
+      {
+        "file": "reader-1.1.4-native-aggregation.log",
+        "passed": 8,
+        "failures": 1,
+        "skipped": 0,
+        "seconds": 91.98
+      },
+      {
+        "file": "reader-1.1.4-native-aggregation-retest.log",
+        "passed": 1,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 22.672
+      },
+      {
+        "file": "reader-1.1.4-native-new-sources.log",
+        "passed": 1,
+        "failures": 0,
+        "skipped": 0,
+        "seconds": 16.466
+      }
+    ],
+    "initialAggregationFailure": "Test matched hidden cached header; now asserts one visible entry and selects displayed view. Production unchanged."
+  },
+  "accessibility": {
+    "singleImportantLeafPerBookAndArticleVerified": true,
+    "discoverySearchAndThreeRssStylesPassed": true,
+    "nativeDirectionalMoveClickLongClickAndHeaderOffsetPassed": true,
+    "optionalTalkBackKeyboardNavigationObserved": false,
+    "physicalTouchAndAudioReviewPerformed": false
+  },
+  "loading": {
+    "singleSourceDeadlineMillis": 15000,
+    "sourcesPerRound": 8,
+    "roundBudgetMillis": 16000,
+    "sourceWorkTimeoutMillis": 8000,
+    "maximumSharedRequestSlots": 4,
+    "readyFeedMillisInOwnedLocalFixture": 26,
+    "slowHostDoesNotOccupyUnrelatedWorkSlots": true,
+    "crossRoundDynamicSortInvalidationPassed": true
+  },
+  "feedback": {
+    "localFormAndEntriesRetired": true,
+    "originalAboutHelpLogsRetained": true,
+    "legacyFileBytesPreservedAcrossOwnedEmulatorUpgrade": true,
+    "serverAdded": false,
+    "legacyFileBytesPreservedAfterAllTests": true
+  },
+  "sources": {
+    "totalBundled": 17,
+    "previous14RulesAndIdsUnchanged": true,
+    "newSites": [
+      "七猫中文网",
+      "小说阅读网",
+      "言情小说吧"
+    ],
+    "newSitesNativePreflightPassed": true,
+    "finalBinaryNativeRetestPending": false,
+    "fanqieIncluded": false,
+    "fanqieReason": "Official anonymous free chapter body contains extensive private-use font characters without a usable public Unicode mapping; locked chapters expose preview only. No restricted content unlocked.",
+    "finalBinaryNativeRetestPassed": true,
+    "pack": {
+      "file": "阅读_新增书源_2026-10-27.json",
+      "bytes": 34895,
+      "sha256": "f2abd814950973cc87a9ee7b0a1c5101252635fa6089f9b6eb88454479a50ee1"
+    }
+  },
+  "handset": {
+    "installationRequested": false,
+    "appiumUsed": false,
+    "physicalHandsetOperated": false,
+    "selfUpdateViaExistingChannel": true
+  },
+  "publicOta": {
+    "published": true,
+    "fixedChannel": "https://github.com/iamnevillechen-max/reading-android-releases/releases/latest/download/update.json",
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.1.4",
+    "remoteAssetsVerified": 4,
+    "fixedLatestUrlPubliclyFetched": true,
+    "latestVersionCode": 10104,
+    "latestApkSha256": "27b116304a5c2e5c729d5b33205624b45cba2ecb5633539a0bc173c44d543420"
+  },
+  "cleanup": {
+    "ownedEmulatorSerial": "emulator-5580",
+    "ownedAvd": "reader_v114_api35",
+    "ownedAvdRemoved": true,
+    "otherAvdsAndSharedSdkUntouched": true,
+    "emulatorStopped": true,
+    "allocatedBytesRemoved": 774426624
+  },
+  "privacy": {
+    "noUserBookOrPhoneDataInNewTests": true,
+    "sourcePacksContainRulesOnly": true,
+    "feedbackNotUploaded": true
+  },
+  "sourceRevision": "0b2eb646dae5c87bd9362d53e455b93ab28b8ed5",
+  "sourceWorkingTreeDirty": false
+}

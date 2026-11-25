@@ -1,0 +1,63 @@
+{
+  "format": "reader-handset-cloud-migration-acceptance-1",
+  "date": "2026-10-29",
+  "versionName": "1.2.1",
+  "versionCode": 10201,
+  "installedWithExistingSignature": true,
+  "reviewedDataPreservationVerified": true,
+  "migration": {
+    "uploaded": 21149,
+    "converted": 22,
+    "archived": 21127,
+    "archiveCleaned": 20388,
+    "preserved": 739,
+    "skipped": 0
+  },
+  "database": {
+    "books": 314,
+    "historyRecords": 3380,
+    "bookSources": 20706,
+    "rssSources": 443,
+    "roomVersion": 75,
+    "bothCompleteSnapshotsIntegrity": "ok",
+    "allBusinessPrimaryKeysRetained": true,
+    "cleanupLogicalTablesExactlyEqual": 21,
+    "nativeCompactionTablesExactlyEqual": 24
+  },
+  "review": {
+    "strictWholeSnapshotEquality": false,
+    "unexplainedChanges": 0,
+    "normalReadingAdvance": {
+      "books": 1,
+      "characters": 161,
+      "sameChapter": true,
+      "matchingReadTimeIncreaseMs": 17916,
+      "attribution": "Inference from aligned time, matching book history and production save path"
+    },
+    "otherReviewedChanges": [
+      "117 update-check timestamps; two update-error bit16 changes",
+      "Network cookies updated; source and cookie identities retained",
+      "12 recomputed multisource cache bodies/original hashes/segment text unchanged",
+      "Retry scheduler metadata and Android installation/profile/theme runtime markers"
+    ],
+    "privateEvidenceRetained": true
+  },
+  "cleanup": {
+    "exactWorkFilesRemoved": 6,
+    "workfileBytesRemoved": 309623108,
+    "databaseBytesReclaimed": 40923136,
+    "totalBytesReclaimed": 350546244,
+    "allFilesSizeAndShaCheckedBeforeRemoval": true,
+    "externalCompleteBackupsRetained": true,
+    "localWorkCopiesAbsentInFinalSnapshot": true,
+    "protectedLegacyRulesRetained": 739
+  },
+  "handsetUi": {
+    "cloudDiscoveryBookListObserved": true,
+    "mergedCategoriesObserved": true,
+    "cloudSubscriptionArticlesObserved": true,
+    "aboutUpdateEntryVerifiedInNativeSuite": true,
+    "fullHumanTalkBackAcceptance": false
+  },
+  "privacy": "Aggregate acceptance only; no source IDs/rules, book names, cookies/tokens, endpoints, sessions, backup paths, screenshots or novel text."
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.cloud.CloudBookMetadataPolicyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:28.113Z" hostname="nevilledeMacBook-Neo.local" time="0.012">
+  <properties/>
+  <testcase name="onlyExactSourceAndBookMayRepairAnExistingMalformedIdentity" classname="io.legado.app.cloud.CloudBookMetadataPolicyTest" time="0.008"/>
+  <testcase name="markupMustNotBecomeAnIdentityButNormalPunctuationIsAllowed" classname="io.legado.app.cloud.CloudBookMetadataPolicyTest" time="0.003"/>
+  <testcase name="emptyOrMalformedServerValuesNeverOverwriteAnExistingValue" classname="io.legado.app.cloud.CloudBookMetadataPolicyTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

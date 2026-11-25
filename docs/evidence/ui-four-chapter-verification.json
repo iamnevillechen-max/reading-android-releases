@@ -1,0 +1,49 @@
+{
+  "chapters": [
+    {
+      "cache": "23567d38a3cb3288d6921d9af3d9da0e4689d90e4765bba4a8edc2d0d85dceda.json",
+      "completeExactIgnoringWhitespace": true,
+      "chapter": "第一章 碼頭",
+      "merged": true
+    },
+    {
+      "cache": "880880a2858c6f4138b59b3af9b4e06177fa65c830c25991a250bb3e30254b90.json",
+      "completeExactIgnoringWhitespace": true,
+      "chapter": "第四章 回信",
+      "merged": false
+    },
+    {
+      "cache": "9d73633658efb3d3ea172aba01fa050732db1c66bd6698e7bdfc528b3228e7bc.json",
+      "completeExactIgnoringWhitespace": true,
+      "chapter": "第三章 老樹",
+      "merged": true
+    },
+    {
+      "cache": "c38d1aa11d32f577a2a2fda68c6ab9df1eb9062a45e3953698fef955dd71156e.json",
+      "completeExactIgnoringWhitespace": true,
+      "chapter": "第二章 霧河",
+      "merged": true
+    }
+  ],
+  "requests": {
+    "/sources.json": 1,
+    "/rss-sources.json": 1,
+    "/b/explore": 2,
+    "/c/explore": 1,
+    "/a/explore": 2,
+    "/a/book": 1,
+    "/a/toc": 1,
+    "/a/chapter/1": 1,
+    "/a/chapter/0": 1,
+    "/b/book": 1,
+    "/b/toc": 1,
+    "/b/chapter/1": 1,
+    "/b/chapter/0-upper": 1,
+    "/b/chapter/0-lower": 1,
+    "/a/chapter/2": 1,
+    "/b/chapter/2": 1,
+    "/a/chapter/3": 1,
+    "/b/chapter/3": 1,
+    "/expected.json": 2
+  }
+}

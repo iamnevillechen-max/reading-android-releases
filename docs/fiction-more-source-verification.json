@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-26",
+  "scope": "two more official generalfiction publishers, ordinary public freechapter access",
+  "sourcePack": "tools/source-packs/verified-fiction-more.json",
+  "verification": [
+    {
+      "sourceUrl": "https://www.17k.com",
+      "keyword": "万古第一神",
+      "expectedBookName": "万古第一神",
+      "expectedBookUrl": "https://www.17k.com/book/3006464.html",
+      "expectedAuthor": "风青阳",
+      "expectedTocCount": 89,
+      "expectedFirstChapterName": "【必读】我的上架感言",
+      "contentChapterTitlePrefix": "第1章 伴生空间的十颗蛋",
+      "expectedContentChapterUrl": "https://www.17k.com/chapter/3006464/38107770.html",
+      "chapterMinCharacters": 2700,
+      "excludePaidChapterUrlSuffix": "/38294753.html",
+      "excludePaidChapterTitlePrefix": "第51章",
+      "httpVerified": true,
+      "httpStatuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "httpBodyTextCharacters": 3948,
+      "httpBodyNonWhitespaceCharacters": 2882,
+      "httpBodyTextSha256": "051fa05eb4e1f90775effaeb88beb90c841e65c5715ef77105eba7529129f268",
+      "nativeParserVerified": true,
+      "paidAccessAttempted": false,
+      "exploreEnabled": false,
+      "tocMetadata": {
+        "allRows": 7864,
+        "freeRows": 89,
+        "vipRowsExcluded": 7775
+      },
+      "nativeResult": {
+        "sourceUrl": "https://www.17k.com",
+        "book": "万古第一神",
+        "author": "风青阳",
+        "chapters": 89,
+        "firstChapter": "第1章 伴生空间的十颗蛋",
+        "characters": 3194,
+        "sha256": "eaa56707c49d81d71f2004e2edc2468db8d71a840ec3ca773473ef8353ed2c53",
+        "exploreBooks": 0
+      },
+      "nativeTestSeconds": 13.293
+    },
+    {
+      "sourceUrl": "https://www.jjwxc.net",
+      "keyword": "开端",
+      "expectedBookName": "开端",
+      "expectedBookUrl": "https://www.jjwxc.net/onebook.php?novelid=4292425",
+      "expectedAuthor": "祈祷君",
+      "expectedTocCount": 15,
+      "expectedFirstChapterName": "开始循环(修）",
+      "contentChapterTitlePrefix": "开始循环(修）",
+      "expectedContentChapterUrl": "https://www.jjwxc.net/onebook.php?novelid=4292425&chapterid=1",
+      "chapterMinCharacters": 3500,
+      "excludePaidChapterUrlSubstring": "chapterid=16",
+      "httpVerified": true,
+      "httpStatuses": [
+        200,
+        200,
+        200
+      ],
+      "httpBodyTextCharacters": 4038,
+      "httpBodyTextSha256": "20fea20e5ec486ffddef07b76555fb7d14dc1ced879bef0dedb4a0240f00a592",
+      "nativeParserVerified": true,
+      "paidAccessAttempted": false,
+      "exploreEnabled": false,
+      "tocMetadata": {
+        "allRowsObserved": 63,
+        "freeRows": 15,
+        "nonFreeOrLockedRowsExcluded": 48
+      },
+      "searchEncoding": "GBK via documented AnalyzeUrl charset option; UTF8 query gives wrong keyword.",
+      "nativeResult": {
+        "sourceUrl": "https://www.jjwxc.net",
+        "book": "开端",
+        "author": "祈祷君",
+        "chapters": 15,
+        "firstChapter": "开始循环(修）",
+        "characters": 4128,
+        "sha256": "4d9ccc4edef9f649f488409ec26800bd5bf36e9cf576504044890e858c144146",
+        "exploreBooks": 0
+      },
+      "nativeTestSeconds": 5.288
+    }
+  ],
+  "limitations": []
+}

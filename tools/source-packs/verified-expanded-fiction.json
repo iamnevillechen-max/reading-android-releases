@@ -1,0 +1,171 @@
+[
+  {
+    "bookSourceUrl": "https://book.sfacg.com",
+    "bookSourceName": "SF菠萝包·官方公开免费章节",
+    "bookSourceGroup": "综合小说·官方公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 21,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、详情和公众章节目录；只收 /Novel/ 公众章节，排除 /vip/ 付费链接。正文不解密，不绕过登录。搜索使用官方公开第一页。",
+    "searchUrl": "https://s.sfacg.com/?Key={{key}}&S=1&SS=0",
+    "ruleSearch": {
+      "bookList": "ul:has(a.orange_link2[href*=book.sfacg.com/Novel/])",
+      "name": "a.orange_link2@text",
+      "bookUrl": "a.orange_link2@href",
+      "author": "@js:var m=String(java.getString('text')).match(/综合信息：\\s*([^\\/]+)\\//);m?m[1].trim():'';",
+      "coverUrl": "img@src"
+    },
+    "ruleBookInfo": {
+      "name": "@js:var n=java.getElements('h1.title .text');n.size()>0?n.get(0).ownText():'';",
+      "author": ".author-info .author-name@text",
+      "intro": ".summary-content@text",
+      "tocUrl": "@js:'https://book.sfacg.com/Novel/'+String(baseUrl).match(/\\/Novel\\/(\\d+)/)[1]+'/MainIndex/';"
+    },
+    "ruleToc": {
+      "chapterList": ".catalog-list a[href^=/Novel/]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "#ChapterBody@html"
+    }
+  },
+  {
+    "bookSourceUrl": "https://book.qq.com",
+    "bookSourceName": "QQ阅读·官方公开免费章节",
+    "bookSourceGroup": "综合小说·官方公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 22,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、详情、完整目录中的未锁定章节及普通文本阅读页；不调用会员、购买或解密接口。目录取正序单份，避免正倒序重复。搜索使用官方公开第一页。",
+    "searchUrl": "https://book.qq.com/so/{{key}}",
+    "ruleSearch": {
+      "bookList": ".result-list>.result-item",
+      "name": "h4.title@text",
+      "bookUrl": "a.wrap@href",
+      "author": ".other a[href*=/book-writer/]@text",
+      "intro": ".intro@text"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://book.qq.com/book-chapter/'+String(baseUrl).match(/book-detail\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "@js:var lists=java.getElements('ul.book-dir');lists.size()>0?lists.get(lists.size()-1).select('li:not(:has(i.lock))'):[];",
+      "chapterName": ".name@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": "#article.chapter-content.isTxt@html"
+    }
+  },
+  {
+    "bookSourceUrl": "https://www.hongxiu.com",
+    "bookSourceName": "红袖读书·官方公开免费章节",
+    "bookSourceGroup": "综合小说·官方公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 23,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、详情与无锁图标章节。只读公开普通文本容器，不调用VIP或加密内容接口。搜索使用官方公开第一页。",
+    "searchUrl": "https://www.hongxiu.com/so/{{key}}",
+    "ruleSearch": {
+      "bookList": ".book-img-text li",
+      "name": ".book-mid-info h4 a@text",
+      "bookUrl": ".book-mid-info h4 a@href",
+      "author": ".author a.name@text",
+      "intro": ".intro@text",
+      "coverUrl": ".book-img-box img@src"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://www.hongxiu.com/chapterlist/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "#j-catalogWrap li:not(:has(em.iconfont)):has(a[href*=/chapter/])",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".read-content.j_readContent@html"
+    }
+  },
+  {
+    "bookSourceUrl": "https://www.ihuaben.com",
+    "bookSourceName": "话本小说·官方公开章节",
+    "bookSourceGroup": "综合小说·官方公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 24,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网匿名搜索、作者详情、完整目录及公开原文容器。只取网站已返回的正文；不调用登录、付费、解密接口。搜索使用官方公开第一页。",
+    "searchUrl": "https://so.ihuaben.com/search?keyword={{key}}",
+    "ruleSearch": {
+      "bookList": ".searchresult:has(h2)",
+      "name": "h2 a@text",
+      "bookUrl": "h2 a@href",
+      "author": ".text-muted a[href*=user.ihuaben.com/]@text"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://www.ihuaben.com/list/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1]+'.html';"
+    },
+    "ruleToc": {
+      "chapterList": ".hb-chapter-item:has(.col-title)",
+      "chapterName": ".col-title a@text",
+      "chapterUrl": ".col-title a@href",
+      "isVip": "@js:java.getElements('.icon-lock,.hicon-lock,.vip-lock').size()>0?'VIP':'';"
+    },
+    "ruleContent": {
+      "content": "#contentsource.nbcontent@html"
+    }
+  },
+  {
+    "bookSourceUrl": "https://www.ruochu.com",
+    "bookSourceName": "若初文学·官方公开免费章节",
+    "bookSourceGroup": "综合小说·官方公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 25,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "bookSourceComment": "2026-10-26 新增规则，待阅读原生核验。官网JS正常调用的匿名搜索接口、详情、目录和免费网页正文。目录排除 a.isvip 标记的收费章节，规范为HTTPS，按链接去重；不调用购买接口。搜索使用官方公开第一页。",
+    "searchUrl": "https://search.ruochu.com/web/search?queryString={{key}}&highlight=false&page={{page}}&f=f",
+    "ruleSearch": {
+      "bookList": "$.data.content",
+      "name": "$.name",
+      "author": "$.authorname",
+      "bookUrl": "$.id##^##https://www.ruochu.com/book/",
+      "intro": "$.introduce",
+      "kind": "$.sortname"
+    },
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": "a.author@text",
+      "tocUrl": "@js:'https://www.ruochu.com/chapter/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "@js:var nodes=java.getElements('li[id^=chapter]:has(a.name)');var out=[];var seen={};for(var i=0;i<nodes.size();i++){var e=nodes.get(i);var a=e.select('a.name').first();var u=String(a.attr('href'));if(e.select('a.isvip').size()===0&&/\\/book\\/\\d+\\/\\d+$/.test(u)&&!seen[u]){seen[u]=true;out.push(e);}}out;",
+      "chapterName": "a.name@text",
+      "chapterUrl": "a.name@href##^http:##https:"
+    },
+    "ruleContent": {
+      "content": ".page-content@html"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "deployed": true,
+  "kind": "book",
+  "source": "Public bundled Heiyan",
+  "listBooks": 31,
+  "malformedNameOrAuthor": 0,
+  "reportedTitleCorrect": true,
+  "reportedAuthorCorrect": true,
+  "archiveRulesUnchanged": true
+}

@@ -1,0 +1,29 @@
+{
+  "applicationId": "io.multiread.reader.debug",
+  "version": "1.0.0-devdebug",
+  "sourceCommit": "e0f8455bc96c7bc4d733aa4db3feb2797881b3c6",
+  "apkSha256": "3a13486634b354956cf9eadea7db82b705c61a6d9709af853a64b6eb2222319f",
+  "apkBytes": 32482016,
+  "baselineBuild": "PASS",
+  "baselineOriginalTests": 8,
+  "unitTests": {
+    "passed": 70,
+    "failed": 0
+  },
+  "androidTests": {
+    "multiSourcePassed": 7,
+    "adapterPassed": 2,
+    "failed": 0
+  },
+  "finalMinorDelta": "After automated tests, splash branding and aggregate footer text state were rebuilt and verified in actual UI. Merge/network/storage algorithms unchanged.",
+  "ui": "PASS for own loopback fixtures; exact 4-chapter text, 3 ordered unique articles, correct article navigation, config return auto-refresh, data/source persistence across APK replacement",
+  "pending": [
+    "Physical device",
+    "Continuous speech: emulator TTS initialization failed in current configuration",
+    "TalkBack: not installed on current emulator",
+    "Lawfully accessible real-source regression",
+    "Multi-version, weak-network and long-run release matrix"
+  ],
+  "releaseStatus": "development candidate; not a formal completed release",
+  "sourceOnlyPackagingDelta": "Excluded inherited public upstream test keystore and its CI signing step; Android application source and APK unchanged."
+}

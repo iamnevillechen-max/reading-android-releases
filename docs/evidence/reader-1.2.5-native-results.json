@@ -1,0 +1,65 @@
+{
+  "uniqueMethods": 14,
+  "latestResultsAllPassed": true,
+  "initialUnaffectedMethods": 10,
+  "finalBuildTargetedMethods": 4,
+  "initialFailuresRetainedLocally": true,
+  "methods": {
+    "io.legado.app.aggregation.AggregationScaleTest#categoryStripKeepsAdapterSnapshotsConsistentWhileFlingingAndEditing": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationScaleTest#twentyThousandSourceCatalogueUsesBoundedRoundsAndReusesVerifiedSnapshot": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationScaleTest#categoryStripRecyclesTwentyThousandLabelsAndKeepsKeyboardAndAccessibleSelection": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationScaleTest#rssProjectionKeeps443FeedCategoriesWithoutMaterializingParsingLibraries": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AutomaticDiscoveryCatalogueTest#dynamicForegroundMenusPublishAllOriginalLabelsFilterAndResumeAfterCancellation": {
+      "passed": true,
+      "run": "reader-1.2.5-native-rhino-final.log"
+    },
+    "io.legado.app.aggregation.AutomaticDiscoveryCatalogueTest#cancellationKeepsSettledProgressAndNextForegroundScanResumesWithoutRetryingBadSources": {
+      "passed": true,
+      "run": "reader-1.2.5-native-rhino-final.log"
+    },
+    "io.legado.app.aggregation.AutomaticDiscoveryCatalogueTest#automaticallyFinishesPast128AndRetainsEarlyCategoriesPast256SourcesAnd64PerSource": {
+      "passed": true,
+      "run": "reader-1.2.5-native-rhino-final.log"
+    },
+    "io.legado.app.aggregation.LocalSourceCatalogueScaleTest#all21149SourcesReachTheLocalCatalogueWithoutReadingOrExecutingTheirLibraries": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.ExploreRouteConfigurationTest#cachedRoutesRejectRuleOnlyEditsDisabledSourcesAndOldManualCategories": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationSourceRoutingTest#exploreAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationSourceRoutingTest#mainDiscoveryHasScrollableCategoriesAndChangesBothSourcesInline": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationSourceRoutingTest#mainSubscriptionsFilterByRealCategoriesInlineAndKeepModeProgressAndReadHistory": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.AggregationSourceRoutingTest#rssAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows": {
+      "passed": true,
+      "run": "reader-1.2.5-native.log"
+    },
+    "io.legado.app.aggregation.RssDynamicCategoryCatalogueTest#everyDynamicOriginalSortIsPublishedAndTheTailCategoryReadsOnlyItsOwnArticle": {
+      "passed": true,
+      "run": "reader-1.2.5-native-rhino-final.log"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "versionName": "1.2.1",
+  "testedApkUnchanged": true,
+  "apkSha256": "a101648cbc26a64a50280e8eb1dcf8da6554e516478ca1260d0efbb7612ccf6e",
+  "knownTokensDeploymentIdsDeviceDetailsAndHostPathsAbsent": true,
+  "privateRuntimeAndBackupsExcluded": true,
+  "sourceContainsCompleteAndroidAndCloudSource": true,
+  "packagePolicyTestsPassed": 6
+}

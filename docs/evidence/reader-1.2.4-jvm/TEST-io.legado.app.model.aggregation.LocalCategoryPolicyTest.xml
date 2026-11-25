@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.LocalCategoryPolicyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:29.301Z" hostname="nevilledeMacBook-Neo.local" time="0.679">
+  <properties/>
+  <testcase name="explicitRouteGenreWinsAndGenericRouteUsesSourceGroupWithoutChangingIt" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.001"/>
+  <testcase name="allConfiguredLabelsStayAvailableWhileThousandsOfUnknownLabelsCollapseToOther" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.666"/>
+  <testcase name="englishAliasesRespectWordsPunctuationCaseAndFullWidthForms" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.003"/>
+  <testcase name="simplifiedTraditionalAndModifiedGenreLabelsMergeNaturally" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.003"/>
+  <testcase name="mergedLabelOrderIsStableAndDoesNotDependOnSourceArrivalOrder" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.001"/>
+  <testcase name="canonicalCategoriesAreIdempotentIncludingTheFallback" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.002"/>
+  <testcase name="fixedCatalogueHasElevenStableLabelsIncludingOther" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="audienceCompletionAndRankingRemainFiltersRatherThanExtraGenres" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.001"/>
+  <testcase name="existingCustomOverridesCannotIntroduceATwelfthCategory" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-26",
+  "version": "1.0.2-devdebug",
+  "versionCode": 10003,
+  "sourceRevision": "503b145fd522785a7403057a10c4798d20e94d47",
+  "apkSha256": "b5fdf11f06417d46f4ee939547bea32c884878b3ff0acc20b11ae5d556b281a3",
+  "jvm": {
+    "tests": 91,
+    "failures": 0
+  },
+  "androidRegression": {
+    "tests": 17,
+    "failures": 0,
+    "log": "continuity-android-final.log"
+  },
+  "realProcessRestart": {
+    "preparePassed": true,
+    "verifyPassedInNewPid": true,
+    "prepareLog": "restart-prepare-final.log",
+    "verifyLog": "restart-verify-final.log"
+  },
+  "realTtsIntegration": {
+    "engine": "hk.neville.shengjing",
+    "engineVersion": "0.3.0",
+    "passed": true,
+    "seconds": 36.834,
+    "log": "reader-shengjing-tts-acceptance.log",
+    "verified": [
+      "rendered reconstructed text includes repaired sentence once",
+      "real Android onStart and onDone callbacks without onError",
+      "active rendered/TTS snapshot unchanged by disk recomputation",
+      "pause and resume",
+      "automatic next chapter while Activity stopped",
+      "stop freezes speech starts and reading position"
+    ],
+    "notClaimed": "Not an acoustic listening test on the physical handset."
+  },
+  "sameSignatureUpgrade": {
+    "passed": true,
+    "fromVersion": "1.0.1-devdebug",
+    "toVersion": "1.0.2-devdebug",
+    "nativeTablesAndMainPreferencesExact": true,
+    "evidence": "same-signature-upgrade.json"
+  },
+  "fixes": [
+    "bounded per-book rotating source discovery and negative/timeout retry",
+    "short reuse for uncorroborated chapter results",
+    "cached future chapters prepared through original background dispatcher",
+    "playback generation and in-order once-only callback completion"
+  ],
+  "privacy": "Self-written isolated fixtures only. User backups/content/source rules excluded.",
+  "pending": [
+    "actual TalkBack navigation",
+    "physical handset 1.0.2 overlay update and final smoke check"
+  ],
+  "status": "runtime tests passed; final accessibility and handset handoff in progress"
+}

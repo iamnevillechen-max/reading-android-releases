@@ -1,0 +1,16 @@
+{
+  "tests": 71,
+  "passed": 71,
+  "failures": 0,
+  "typecheckPassed": true,
+  "deployedStage": "provider-dedup",
+  "features": [
+    "reviewed public-family execution overlay preserves raw archives",
+    "legacy selectors, relative URLs and public POST",
+    "metadata validation and versioned caches",
+    "same-book repair without identity or progress changes",
+    "canonical successful profile reuse",
+    "provider deduplication without deleting original aliases"
+  ],
+  "allOriginalSourcesFunctionallyRestored": false
+}

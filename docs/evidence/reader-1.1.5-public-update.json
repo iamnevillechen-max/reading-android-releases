@@ -1,0 +1,12 @@
+{
+  "packageName": "io.multiread.reader.debug",
+  "versionCode": 10105,
+  "versionName": "1.1.5",
+  "minSdk": 21,
+  "abi": "universal",
+  "apkUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/download/v1.1.5/Reader.apk",
+  "bytes": 30652003,
+  "sha256": "54e16b754f030c65731b073a74cd3ccc3892cdd407fce3a5f08c11e0cac1f6b1",
+  "notes": "书架保留视觉封面，读屏不再多报装饰封面文字。\n发现打开后自动整理分类，无需手动继续；已找到的分类与书籍逐步显示。\n修复全部分类匹配和空首批停住的问题，失败来源会跳过并继续寻找。\n分类继续载入时保留已显示的书籍及位置，减少无效翻页与隐藏页面加载。\n沿用17个核验来源、现有更新渠道与签署，保留书架、进度、历史和旧规则。",
+  "releasePageUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.1.5"
+}

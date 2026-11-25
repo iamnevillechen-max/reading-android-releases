@@ -1,0 +1,25 @@
+<resources>
+    <string name="multiread_data_notice">資料使用說明</string>
+    <string name="multiread_start">開始使用</string>
+    <string name="multiread_close">關閉</string>
+    <string name="multiread_name">阅读</string>
+    <string name="multisource_title">多源正文</string>
+    <string name="multisource_enable">自動比對及補全</string>
+    <string name="multisource_details">查看本章拼接詳情</string>
+    <string name="multisource_reprocess">重新處理本章</string>
+    <string name="multisource_options">候選來源上限</string>
+    <string name="multisource_wait">正在重新處理；目前正文維持不變。</string>
+    <string name="multisource_ready">本章處理結果</string>
+    <string name="multisource_apply">使用結果並重載本章</string>
+    <string name="multisource_aloud">朗讀進行中。結果已保存，下次開啟本章使用。</string>
+    <string name="multisource_enabled_next">設定已保存，下次載入章節生效。</string>
+    <string name="review_missing_sources">清理失效书源</string>
+    <string name="restore_removed_sources">恢复已移除书源</string>
+    <string name="missing_sources_none">目前没有待确认的书源。阅读时发现章节和书源入口都已失效，会在这里列出。</string>
+    <string name="removed_sources_none">目前没有可恢复的书源。</string>
+    <string name="missing_source_item">%1$s（章节 %2$d，入口 %3$d）</string>
+    <string name="remove_selected_sources">移除选中书源</string>
+    <string name="restore_selected_sources">恢复选中书源</string>
+    <string name="source_review_result">已处理 %1$d 个，共选中 %2$d 个。</string>
+    <string name="source_review_error">处理书源时出现错误，请重新打开列表核对。</string>
+</resources>

@@ -1,0 +1,91 @@
+{
+  "tests": 91,
+  "failures": 0,
+  "errors": 0,
+  "classes": [
+    {
+      "name": "io.legado.app.model.aggregation.ExploreAggregationTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.CandidateSchedulerTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.StreamingHashTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.ChapterMergerTest",
+      "tests": "27",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.ExampleUnitTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.JsTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.ReadingPositionTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.RssAggregationTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.AggregationPolicyTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.AggregateLoaderTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.SpeechQueueTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ]
+}

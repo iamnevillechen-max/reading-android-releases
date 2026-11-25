@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-26",
+  "versionName": "1.1.2",
+  "versionCode": 10102,
+  "applicationId": "io.multiread.reader.debug",
+  "sha256": "81ef1cbe3a7f3a595068fb800a0eb425e085295e3dbde5a644115f3fe7c92724",
+  "bytes": 32625724,
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "allLocaleLabels": "阅读",
+  "testedBinaryPinned": true,
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "jvm": {
+    "suites": 18,
+    "tests": 136,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "nativeRegression": {
+    "verifiedUniqueCasesAcrossBatches": 50,
+    "finalColdRescueBatch": {
+      "tests": 15,
+      "failures": 0,
+      "seconds": 18.097
+    },
+    "initialStitchConfigurationLifecycle": {
+      "tests": 19,
+      "failures": 0
+    },
+    "supportingMetadataBudgetFeedbackUpdate": {
+      "tests": 11,
+      "failures": 0
+    },
+    "uiPositionBatch2": {
+      "tests": 13,
+      "failures": 0,
+      "seconds": 117.192
+    },
+    "finalAggregationBatch3": {
+      "tests": 9,
+      "failures": 0,
+      "seconds": 195.489
+    },
+    "initialAggregationFailures": 2,
+    "initialFailuresResolved": "Initial preference setup consumed two category batches; first-launch dialogs interfered with keyboard focus. Both fixed and retested. Later fixed route retention and upstream kinds cache retention were also retested.",
+    "startupAndSafeImportFinal": {
+      "tests": 9,
+      "failures": 0,
+      "seconds": 23.262,
+      "newStartupCases": 4,
+      "newSafeImportPreservationCases": 1,
+      "repeatedUpdateCases": 4
+    }
+  },
+  "tts": {
+    "engine": "hk.neville.shengjing release0.3.1 code5",
+    "passed": true,
+    "seconds": 26.101,
+    "firstAttemptMissingVoiceAssets": true,
+    "twoVoiceAssetsShaVerifiedBeforeRerun": true,
+    "acousticListening": false
+  },
+  "foregroundMissingOriginalRescue": {
+    "totalRequestBudgetMillis": 25000,
+    "perCandidateMillis": 22000,
+    "backgroundAndExistingTextBudgetsUnchanged": true,
+    "coldFourStageNativeReaderCasePassed": true,
+    "savedNumericPositionAndHistoryPreserved": true
+  },
+  "sourcePackages": {
+    "previousNativeVerifiedSites": 7,
+    "newCanonicalNativeVerifiedSites": 6,
+    "safeCombinedIdVerificationPending": false,
+    "phoneImportApplied": false,
+    "safeCombinedIdNativeVerifiedSites": 13,
+    "pack": {
+      "file": "阅读_新增书源_2026-10-26.json",
+      "bytes": 28426,
+      "sha256": "fd7605e00d9f8410acfb8ba9b0b2effbf9a39db94f1ab5ad426d6b87f52af9d2"
+    }
+  },
+  "privateSourceAudit": {
+    "complete": true,
+    "databaseUnchanged": true,
+    "sources": 8,
+    "roundOutcomes": {
+      "inconclusive": 8,
+      "failed": 6,
+      "passed": 2
+    },
+    "bothRoundsFailed": 3,
+    "bothRoundsPassed": 1,
+    "inconclusiveSources": 4,
+    "exceptions": {
+      "UnknownHostException": 8,
+      "TimeoutCancellationException": 2
+    },
+    "handsetChangesApplied": 0,
+    "proposedReversibleDnsDisables": 2,
+    "actualDisables": 0,
+    "actualDeletes": 0,
+    "permanentInvalidityNotClaimed": true
+  },
+  "handset": {
+    "lastConfirmedVersionName": "1.1.1-rc.1",
+    "lastConfirmedVersionCode": 10100,
+    "lastVerifiedBooks": 312,
+    "lastVerifiedHistory": 3375,
+    "bootstrap23NativeTablesAndPreferencesExactBeforeFirstLaunch": true,
+    "originalAppRetainedAtLastCheck": true,
+    "finalVersionInstalled": false,
+    "state": "Same handset reconnected wirelessly and downloaded verified1.1.2 APK, then disconnected before Android install was confirmed. No final1.1.2 installation claim.",
+    "connectedAgain": false,
+    "latestCheckpointBooks": 312,
+    "latestCheckpointHistory": 3375,
+    "externalCacheCompleteBackupCoverageVerified": true
+  },
+  "publicOta": {
+    "previous1_1_1Published": true,
+    "previousPhone1_1_1DownloadAndVerificationPassed": true,
+    "version1_1_2Published": true,
+    "version1_1_2DraftPending": false,
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.1.2",
+    "remoteAssetsVerified": 4,
+    "actualHandsetDownloadSha256Matched": true
+  },
+  "sourceRevision": "1bf31c28135983784cf26efab99ee7cb8e14e686",
+  "privacy": {
+    "noPrivateLibraryContentInEvidence": true,
+    "privateAuditInputAndDetailedResultsKeptOutsideProject": true
+  },
+  "cleanup": {
+    "ownedEmulatorSerial": "emulator-5580",
+    "ownedEmulatorShutdownPending": true,
+    "handsetAppiumCleanupInterruptedByUsbDisconnect": true
+  },
+  "startupUpdate": {
+    "silentForegroundChecks": true,
+    "mainOnlyPrompt": true,
+    "noPromptDuringSpeech": true,
+    "minimumGapMillis": 60000,
+    "manualCheckAlwaysFresh": true,
+    "noAutomaticDownloadOrInstall": true,
+    "olderReadyAndPartialFilesPreserved": true
+  }
+}

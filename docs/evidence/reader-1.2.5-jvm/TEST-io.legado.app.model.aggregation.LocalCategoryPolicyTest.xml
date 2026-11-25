@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.LocalCategoryPolicyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:14.830Z" hostname="nevilledeMacBook-Neo.local" time="0.038">
+  <properties/>
+  <testcase name="originalSiteNamesStayDistinctRatherThanBeingMappedToGenres" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="allTwentyOneThousandLabelsAndTheirInputOrderArePreserved" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.036"/>
+  <testcase name="caseWidthAndTraditionalSimplifiedDifferencesAreNotNormalized" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="onlySurroundingWhitespaceIsCleanedAndEmptyInputDoesNotSynthesizeOther" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.001"/>
+  <testcase name="sourceGroupsAndRetiredFixedOverridesCannotReplaceSiteLabels" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="cleaningAndExactMergingAreIdempotentWithoutChangingOriginalInputs" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="oneThousandDifferentLabelsAreRetainedWithoutACategoryCap" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="internalWhitespaceAndUnicodeCompositionRemainPartOfTheOriginalName" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <testcase name="onlyTrimmedExactDuplicatesAreRemovedInFirstSeenOrder" classname="io.legado.app.model.aggregation.LocalCategoryPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aggregation_all_explore">全部來源</string>
+    <string name="aggregation_all_rss">全部訂閱</string>
+    <string name="aggregation_choose_category">全部來源 · 選擇分類</string>
+    <string name="aggregation_correct_category">修正分類對應</string>
+    <string name="aggregation_category_help">輸入分類名稱；留空使用來源原本的分類。</string>
+    <string name="aggregation_empty">沒有可用分類，請先啟用含發現分類的書源。</string>
+    <string name="aggregation_refresh">重新整理</string>
+    <string name="aggregation_choose_sources">切換來源</string>
+    <string name="aggregation_no_sources">沒有已啟用的來源</string>
+    <string name="aggregation_source_count">%1$d 個來源 · %2$s</string>
+    <string name="aggregation_failures">本輪 %1$d 個來源未返回結果，已保留其他來源內容。</string>
+    <string name="aggregation_web_entries">另有 %1$d 個網頁入口，點此選擇並開啟。</string>
+</resources>

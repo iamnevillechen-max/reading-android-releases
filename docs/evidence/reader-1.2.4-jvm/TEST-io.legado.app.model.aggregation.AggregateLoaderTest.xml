@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.AggregateLoaderTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:28.760Z" hostname="nevilledeMacBook-Neo.local" time="0.463">
+  <properties/>
+  <testcase name="largeCatalogueRoundsRemainBoundedAndResumeWithoutStarvingLaterSources" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.025"/>
+  <testcase name="workersAreBoundedAndEverySourceHasAtMostOneAttempt" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.153"/>
+  <testcase name="leavingThePageCancelsOutstandingChildren" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.027"/>
+  <testcase name="resultRoundsSkipExhaustedSourcesWithoutResettingToTheSlowPrefix" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.143"/>
+  <testcase name="anEntirelyExhaustedCatalogueStopsAfterOneBoundedInspection" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.003"/>
+  <testcase name="failedAndSlowSourcesDoNotSuppressSuccessfulSources" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.111"/>
+  <testcase name="fairClaimsVisitEachInputOncePerRoundAndChangedSourceCountUsesTheSavedIndexSafely" classname="io.legado.app.model.aggregation.AggregateLoaderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

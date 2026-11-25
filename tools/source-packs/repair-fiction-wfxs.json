@@ -1,0 +1,42 @@
+[
+  {
+    "bookSourceUrl": "https://wfxs.tw/#reader-verified-20261027",
+    "bookSourceName": "微风小说〔核验版〕",
+    "bookSourceGroup": "已核验_2026-10-27",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "enabledCookieJar": false,
+    "customOrder": 0,
+    "weight": 1,
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "bookSourceComment": "2026-10-27 更新普通公开网页布局规则；搜索、详情、目录与正文使用网站公开链接，无登录、无解密。独立来源ID，不覆盖同域旧规则。",
+    "searchUrl": "https://wfxs.tw/s.html?type=articlename&s={{key}}&page={{page}}",
+    "ruleSearch": {
+      "bookList": ".result-card",
+      "name": ".book-title@text\n@js:java.t2s(result)",
+      "bookUrl": ".book-title@href",
+      "author": ".author@text##^作者[：:]\\s*\n@js:java.t2s(result)",
+      "coverUrl": ".book-cover img@src",
+      "intro": ".book-intro@text",
+      "lastChapter": ".latest a@text\n@js:java.t2s(result)"
+    },
+    "ruleBookInfo": {
+      "name": "[property$=book_name]@content\n@js:java.t2s(result)",
+      "author": "[property$=author]@content\n@js:java.t2s(result)",
+      "coverUrl": "[property=og:image]@content",
+      "intro": "#bookintro@text",
+      "kind": "[property$=category]@content",
+      "lastChapter": "[property$=latest_chapter_name]@content\n@js:java.t2s(result)",
+      "tocUrl": ".motion a.tgcj.0@href"
+    },
+    "ruleToc": {
+      "chapterList": "#readerlists li a",
+      "chapterName": "text\n@js:java.t2s(result)",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": ".chapter-content .content p@textNodes"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "bookSourceUrl": "https://m.kujiang.com",
+    "bookSourceName": "酷匠·公开免费章节",
+    "bookSourceGroup": "综合小说·公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 13,
+    "bookSourceComment": "酷匠官网公开免费章节。PC搜索配合官方手机详情及阅读页；目录在首个VIP分卷之前截止，并排除单章VIP标记。付费或登录页不提供正文，未处理加密、验证码或登录限制。搜索当前支持公开第一页。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "searchUrl": "https://www.kujiang.com/search?keyword={{key}}",
+    "exploreUrl": "[{\"title\": \"推荐\", \"url\": \"https://m.kujiang.com/\"}]",
+    "ruleSearch": {
+      "bookList": ".kjsection-search .row:has(.kjbooktitle)",
+      "name": ".kjbooktitle a@text",
+      "author": ".kjauthor a@text",
+      "bookUrl": "@js: var m=String(java.getString('.kjbooktitle a@href')).match(new RegExp('/book/([0-9]+)')); m ? 'https://m.kujiang.com/book/'+m[1] : '';",
+      "coverUrl": ".kjpic img@src",
+      "intro": ".kjintro-search@text"
+    },
+    "ruleExplore": {
+      "bookList": ".editor .book-list-box li > a",
+      "name": ".book-name@text",
+      "author": ".book-author@text",
+      "bookUrl": "@js: var m=String(java.getString('href')).match(new RegExp('/book/([0-9]+)')); m ? 'https://m.kujiang.com/book/'+m[1] : '';",
+      "coverUrl": "img@data-original"
+    },
+    "ruleBookInfo": {
+      "name": "h1.introduce-title-book@text",
+      "author": ".introduce-title-author .author@text",
+      "intro": ".information-content-text@text",
+      "coverUrl": ".introduce-top img@src",
+      "tocUrl": "@js: var m=String(baseUrl).match(new RegExp('^https://m[.]kujiang[.]com/book/([0-9]+)')); m ? 'https://www.kujiang.com/book/'+m[1]+'/catalog' : '';"
+    },
+    "ruleToc": {
+      "chapterList": "@js: var b=String(baseUrl).match(new RegExp('^https://www[.]kujiang[.]com/book/([0-9]+)/catalog')); var out=[]; var allowed={}; var ds=java.getElements('.kjsection-catalog dl'); for(var i=0;i<ds.size();i++){var d=ds.get(i); var dt=d.select('dt').text(); if(/VIP/i.test(String(dt))) break; var as=d.select('dd a[href]'); for(var j=0;j<as.size();j++){var a=as.get(j); var m=String(a.attr('href')).match(new RegExp('^/book/([0-9]+)/([0-9]+)$')); if(b && m && m[1]===b[1] && !a.hasClass('vip')){out.push(a);allowed[m[2]]=true;}}} book.putVariable('readerKujiangFreeChapters',JSON.stringify({bookId:b?b[1]:'',chapters:allowed})); out;",
+      "chapterName": "text",
+      "chapterUrl": "@js: var m=String(java.getString('href')).match(new RegExp('^/book/([0-9]+)/([0-9]+)$')); m ? 'https://m.kujiang.com/book/'+m[1]+'/'+m[2] : '';"
+    },
+    "ruleContent": {
+      "content": "@js: var safe=false; try{var g=JSON.parse(String(book.getVariable('readerKujiangFreeChapters')||'{}')); var m=String(baseUrl).match(new RegExp('^https://m[.]kujiang[.]com/book/([0-9]+)/([0-9]+)$')); safe=!!(m && g.bookId===m[1] && g.chapters && g.chapters[m[2]]===true);}catch(e){} var es=java.getElements('#readArticle'); if(safe && es.size()>0){var c=es.get(0).clone(); c.select('script,style,iframe').remove(); c.html();}else{'';}"
+    }
+  }
+]

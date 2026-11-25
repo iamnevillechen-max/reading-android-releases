@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26",
+  "scope": "official generalfiction publisher; normally public freechapters only; no auth or encryption bypass",
+  "sourcePack": "tools/source-packs/verified-fiction-third.json",
+  "verification": [
+    {
+      "sourceUrl": "https://m.zhulang.com",
+      "sourceType": "online freechapters verified by officialTOC allowlist",
+      "keyword": "武神天下",
+      "expectedBookUrl": "https://m.zhulang.com/292926/index.html",
+      "expectedBookName": "武神天下",
+      "expectedAuthor": "禹枫",
+      "expectedTocCount": 81,
+      "expectedFirstChapterName": "《武神天下》书中等级设定",
+      "contentChapterTitlePrefix": "第一章：傻子少爷",
+      "expectedContentChapterUrl": "https://book.zhulang.com/292926/520644.html",
+      "chapterMinCharacters": 3000,
+      "chapterMaxCharacters": 6000,
+      "excludePaidChapterUrlSuffix": "/620461.html",
+      "excludePaidChapterTitlePrefix": "第八十章：妖虎之威",
+      "httpVerified": true,
+      "httpStatuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "httpBodyTextCharacters": 3664,
+      "httpBodyTextSha256": "7adec1e0fa9ce2cab16c031bc00340cadbf1cfa2115ca20d2c7438b1e085e0be",
+      "httpBodyParagraphs": 70,
+      "nativeParserVerified": true,
+      "paidAccessAttempted": false,
+      "exploreEnabled": true,
+      "httpExploreBooks": 7,
+      "tocMetadata": {
+        "allRows": 3000,
+        "freeRows": 81,
+        "vipRowsExcluded": 2919
+      },
+      "freeGuard": "Only samebook HTTPS chapter IDs confirmed nonVIP by the last normal publicTOC parse; allowlist updates on each normalTOC refresh and has no arbitrary clientexpiry; server access controls remain authoritative; no paid body requested.",
+      "searchLimitation": "Public mobile searchfirstpage only; no claim ofcomplete deep-pagination coverage",
+      "metadataUrls": {
+        "search": "https://m.zhulang.com/search/index.html?k=%E6%AD%A6%E7%A5%9E%E5%A4%A9%E4%B8%8B",
+        "detail": "https://m.zhulang.com/292926/index.html",
+        "toc": "https://book.zhulang.com/292926/",
+        "content": "https://book.zhulang.com/292926/520644.html",
+        "explore": "https://m.zhulang.com/"
+      },
+      "ruleJavaScriptSyntaxVerified": true,
+      "freeGuardLogicVerified": {
+        "runtime": "Native Rhino plus Book GSON persistence round-trip, Android15",
+        "unmarkedFreeAccepted": true,
+        "vipExcludedFromToc": true,
+        "paidUrlRejected": true,
+        "otherBookRejected": true,
+        "persistedMetadataUsableWithoutHourExpiry": true,
+        "normalTocRefreshRemovesNewVip": true
+      },
+      "nativeResult": {
+        "sourceUrl": "https://m.zhulang.com",
+        "book": "武神天下",
+        "author": "禹枫",
+        "chapters": 81,
+        "firstChapter": "第一章：傻子少爷",
+        "characters": 3862,
+        "sha256": "47782439ff096b9f24006050a48847eb704e4d3ce1dc9248aa140c30f4979118",
+        "exploreCategory": "推荐",
+        "exploreBooks": 7
+      },
+      "nativeTestSeconds": 13.699,
+      "bookVariableRoundTripVerified": true
+    }
+  ],
+  "notIncluded": [
+    {
+      "site": "磨铁/来看",
+      "reason": "normaldesktop/mobile returnedverificationchallengeorblankpage; nocaptcha/antibotbypassattempted",
+      "urls": [
+        "https://www.motie.com/book/184270",
+        "https://m.motie.com/detail/184270"
+      ]
+    },
+    {
+      "site": "SF轻小说",
+      "reason": "normalfreechapterURLs returned章节内容当前不可用; index/searchaloneisnotenoughtoship",
+      "urls": [
+        "https://book.sfacg.com/Novel/67927/126946/970355/",
+        "https://book.sfacg.com/Novel/67927/126946/969549/",
+        "https://book.sfacg.com/Novel/67927/334238/3008426/"
+      ]
+    }
+  ]
+}

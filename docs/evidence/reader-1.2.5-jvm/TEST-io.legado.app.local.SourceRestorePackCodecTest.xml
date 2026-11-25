@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.local.SourceRestorePackCodecTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:14.284Z" hostname="nevilledeMacBook-Neo.local" time="0.063">
+  <properties/>
+  <testcase name="cancellationRemovesThePartiallyDecryptedFile" classname="io.legado.app.local.SourceRestorePackCodecTest" time="0.044"/>
+  <testcase name="manifestHashCountsAndExtraZipEntriesAreRejected" classname="io.legado.app.local.SourceRestorePackCodecTest" time="0.006"/>
+  <testcase name="authenticatedMixedKindsPreserveEmptyIdentityUnicodeAndExactRawSha" classname="io.legado.app.local.SourceRestorePackCodecTest" time="0.003"/>
+  <testcase name="everyRecordShaIdentityKindAndDuplicateIdentityAreValidated" classname="io.legado.app.local.SourceRestorePackCodecTest" time="0.005"/>
+  <testcase name="wrongKeyCiphertextHeaderAndTruncationNeverLeaveADecryptedPackage" classname="io.legado.app.local.SourceRestorePackCodecTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

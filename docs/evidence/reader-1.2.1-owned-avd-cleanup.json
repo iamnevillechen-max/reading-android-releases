@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29",
+  "ownedTestAvd": "reader_test_api35",
+  "ownedSerial": "emulator-5580",
+  "stoppedAndRemoved": true,
+  "allocatedBytesRemoved": 757190656,
+  "otherDevicesAndSharedSdkUntouched": true,
+  "rebuildRecipe": "tools/android-test-device.py start; tools/android-test-device.py prepare",
+  "testedApkAndEvidenceRetained": true
+}

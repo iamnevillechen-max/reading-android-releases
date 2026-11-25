@@ -1,0 +1,6311 @@
+{
+  "sourceRevision": "c9d6d23",
+  "discoveryAllSingleAll": true,
+  "rssAllSingleAll": true,
+  "finalLabelsCorrect": true,
+  "steps": [
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Me\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_my_config\"",
+          "focused=\"false\"",
+          "bounds=\"[810,1663][1080,1794]\"",
+          "focused=\"true\"",
+          "text=\"Me\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "resource-id=\"io.multiread.reader.debug:id/view_pager_main\"",
+          "focused=\"false\"",
+          "bounds=\"[0,0][1080,1663]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"Me\"",
+          "focused=\"false\"",
+          "bounds=\"[42,174][116,245]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Help\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_help\"",
+          "focused=\"false\"",
+          "bounds=\"[953,146][1080,272]\"",
+          "focused=\"true\"",
+          "text=\"Help\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "focused=\"true\"",
+          "bounds=\"[0,283][1080,464]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Help\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_help\"",
+          "focused=\"false\"",
+          "bounds=\"[953,146][1080,272]\"",
+          "focused=\"true\"",
+          "text=\"Help\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"Me\"",
+          "focused=\"false\"",
+          "bounds=\"[42,174][116,245]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "resource-id=\"io.multiread.reader.debug:id/view_pager_main\"",
+          "focused=\"false\"",
+          "bounds=\"[0,0][1080,1663]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "resource-id=\"io.multiread.reader.debug:id/view_pager_main\"",
+          "focused=\"false\"",
+          "bounds=\"[0,0][1080,1663]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Me\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_my_config\"",
+          "focused=\"false\"",
+          "bounds=\"[810,1663][1080,1794]\"",
+          "focused=\"true\"",
+          "text=\"Me\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"RSS feeds\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_rss\"",
+          "focused=\"false\"",
+          "bounds=\"[540,1663][810,1794]\"",
+          "focused=\"true\"",
+          "text=\"RSS feeds\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Discovery\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_discovery\"",
+          "focused=\"false\"",
+          "bounds=\"[270,1663][540,1794]\"",
+          "focused=\"true\"",
+          "text=\"Discovery\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Bookshelf\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_bookshelf\"",
+          "focused=\"false\"",
+          "bounds=\"[0,1663][270,1794]\"",
+          "focused=\"true\"",
+          "text=\"Bookshelf\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        [
+          "text=\"\"",
+          "resource-id=\"io.multiread.reader.debug:id/cv_content\"",
+          "focused=\"true\"",
+          "bounds=\"[0,283][1080,599]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"河谷來信・本機驗收\"",
+          "resource-id=\"io.multiread.reader.debug:id/tv_footer_left\"",
+          "focused=\"false\"",
+          "bounds=\"[34,1711][866,1768]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"1/2  37.5%\"",
+          "resource-id=\"io.multiread.reader.debug:id/tv_footer_right\"",
+          "focused=\"false\"",
+          "bounds=\"[866,1711][1036,1768]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"1/2  37.5%\"",
+          "resource-id=\"io.multiread.reader.debug:id/tv_footer_right\"",
+          "focused=\"false\"",
+          "bounds=\"[866,1711][1036,1768]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Content\"",
+          "resource-id=\"io.multiread.reader.debug:id/vw_menu_bg\"",
+          "focused=\"false\"",
+          "bounds=\"[0,0][1080,1794]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "resource-id=\"io.multiread.reader.debug:id/toolbar\"",
+          "focused=\"false\"",
+          "bounds=\"[0,136][1080,283]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Navigate up\"",
+          "focused=\"false\"",
+          "bounds=\"[0,136][147,283]\"",
+          "focused=\"true\"",
+          "text=\"Navigate up\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Change Origin\"",
+          "resource-id=\"io.multiread.reader.debug:id/item\"",
+          "focused=\"false\"",
+          "bounds=\"[594,146][721,272]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Refresh\"",
+          "resource-id=\"io.multiread.reader.debug:id/item\"",
+          "focused=\"false\"",
+          "bounds=\"[721,146][848,272]\"",
+          "focused=\"true\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"Offline cache\"",
+          "resource-id=\"io.multiread.reader.debug:id/menu_download\"",
+          "focused=\"false\"",
+          "bounds=\"[848,146][975,272]\"",
+          "focused=\"true\"",
+          "text=\"Offline cache\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "content-desc=\"More options\"",
+          "focused=\"false\"",
+          "bounds=\"[975,146][1080,272]\"",
+          "focused=\"true\"",
+          "text=\"More options\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,272][1080,398]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,398][1080,524]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,524][1080,650]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,650][1080,776]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,776][1080,902]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,902][1080,1028]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1028][1080,1154]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1154][1080,1280]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1280][1080,1406]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1406][1080,1532]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1532][1080,1658]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1658][1080,1784]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1668][1080,1794]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,1668][1080,1794]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,146][1080,156]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,156][1080,282]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,282][1080,408]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        [
+          "text=\"\"",
+          "checked=\"false\"",
+          "bounds=\"[499,408][1080,534]\""
+        ]
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,534][1080,660]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,660][1080,786]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,786][1080,912]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,912][1080,1038]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1038][1080,1164]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1164][1080,1290]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1290][1080,1416]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1416][1080,1542]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1542][1080,1668]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "自動比對及補全"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,524][1080,650]",
+          "labels": [
+            "查看本章拼接詳情"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 查看本章拼接詳情",
+      "focus": [
+        {
+          "text": "本章已使用多源補全&#10;可信程度：需要謹慎&#10;參與來源：本機書源A・缺段、本機書源B・完整及拆章&#10;本機書源B・完整及拆章：使用可靠重疊補回缺段，原有順序與重疊保持一次。&#10;來源屬同一或未知家族，不視為獨立多票。&#10;背景結果只在重新開啟章節時使用；不會替換正在閱讀或朗讀的正文。",
+          "id": "android:id/message",
+          "inputFocused": "false",
+          "bounds": "[70,681][1010,1230]",
+          "labels": [
+            "本章已使用多源補全&#10;可信程度：需要謹慎&#10;參與來源：本機書源A・缺段、本機書源B・完整及拆章&#10;本機書源B・完整及拆章：使用可靠重疊補回缺段，原有順序與重疊保持一次。&#10;來源屬同一或未知家族，不視為獨立多票。&#10;背景結果只在重新開啟章節時使用；不會替換正在閱讀或朗讀的正文。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware next",
+      "focus": [
+        {
+          "text": "OK",
+          "id": "android:id/button1",
+          "inputFocused": "false",
+          "bounds": "[810,1241][978,1383]",
+          "labels": [
+            "OK"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware activate",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "第二章 霧河",
+          "id": "io.multiread.reader.debug:id/tv_chapter_name",
+          "inputFocused": "false",
+          "bounds": "[0,283][762,337]",
+          "labels": [
+            "第二章 霧河"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,272][1080,398]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,398][1080,524]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,524][1080,650]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,650][1080,776]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,776][1080,902]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,902][1080,1028]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1028][1080,1154]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1154][1080,1280]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1280][1080,1406]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1406][1080,1532]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1532][1080,1658]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1658][1080,1784]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 多源正文",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Enter activated 自動比對及補全",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "自動比對及補全"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,272][1080,398]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,398][1080,524]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,524][1080,650]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,650][1080,776]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,776][1080,902]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,902][1080,1028]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1028][1080,1154]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1154][1080,1280]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1280][1080,1406]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1406][1080,1532]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1532][1080,1658]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1658][1080,1784]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 多源正文",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Enter activated 自動比對及補全",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "自動比對及補全"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,272][1080,398]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,398][1080,524]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,524][1080,650]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,650][1080,776]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,776][1080,902]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,902][1080,1028]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1028][1080,1154]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1154][1080,1280]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1280][1080,1406]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1406][1080,1532]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1532][1080,1658]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1658][1080,1784]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 多源正文",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "自動比對及補全"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,524][1080,650]",
+          "labels": [
+            "查看本章拼接詳情"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,650][1080,776]",
+          "labels": [
+            "重新處理本章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 候選來源上限",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,776][1080,902]",
+          "labels": [
+            "候選來源上限"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "1 個來源",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,578][1010,704]",
+          "labels": [
+            "1 個來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "2 個來源",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,704][1010,830]",
+          "labels": [
+            "2 個來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 3 個來源",
+      "focus": [
+        {
+          "text": "3 個來源",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,830][1010,956]",
+          "labels": [
+            "3 個來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,272][1080,398]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,398][1080,524]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,524][1080,650]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,650][1080,776]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,776][1080,902]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,902][1080,1028]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1028][1080,1154]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1154][1080,1280]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1280][1080,1406]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1406][1080,1532]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1532][1080,1658]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1658][1080,1784]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 多源正文",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "自動比對及補全"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,524][1080,650]",
+          "labels": [
+            "查看本章拼接詳情"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 重新處理本章",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,650][1080,776]",
+          "labels": [
+            "重新處理本章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "本章已使用多源補全&#10;可信程度：需要謹慎&#10;參與來源：本機書源A・缺段、本機書源B・完整及拆章&#10;本機書源B・完整及拆章：使用可靠重疊補回缺段，原有順序與重疊保持一次。&#10;來源屬同一或未知家族，不視為獨立多票。&#10;本機書源C・故障隔離：未取得可確認的同章正文&#10;背景結果只在重新開啟章節時使用；不會替換正在閱讀或朗讀的正文。",
+          "id": "android:id/message",
+          "inputFocused": "false",
+          "bounds": "[70,620][1010,1291]",
+          "labels": [
+            "本章已使用多源補全&#10;可信程度：需要謹慎&#10;參與來源：本機書源A・缺段、本機書源B・完整及拆章&#10;本機書源B・完整及拆章：使用可靠重疊補回缺段，原有順序與重疊保持一次。&#10;來源屬同一或未知家族，不視為獨立多票。&#10;本機書源C・故障隔離：未取得可確認的同章正文&#10;背景結果只在重新開啟章節時使用；不會替換正在閱讀或朗讀的正文。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "CANCEL",
+          "id": "android:id/button2",
+          "inputFocused": "false",
+          "bounds": "[381,1302][583,1444]",
+          "labels": [
+            "CANCEL"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 使用結果並重載本章",
+      "focus": [
+        {
+          "text": "使用結果並重載本章",
+          "id": "android:id/button1",
+          "inputFocused": "false",
+          "bounds": "[583,1300][978,1442]",
+          "labels": [
+            "使用結果並重載本章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/view_pager_main",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1663]",
+          "labels": [
+            "全部",
+            "全部",
+            "全部",
+            "Search",
+            "Search",
+            "More options",
+            "More options",
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "Author",
+            "測試寫手甲",
+            "Recent reading",
+            "第二章 霧河",
+            "Latest chapter",
+            "第四章 回信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "全部",
+          "inputFocused": "false",
+          "bounds": "[42,146][180,272]",
+          "labels": [
+            "全部",
+            "全部",
+            "全部"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Search",
+          "id": "io.multiread.reader.debug:id/menu_search",
+          "inputFocused": "false",
+          "bounds": "[848,146][975,272]",
+          "labels": [
+            "Search",
+            "Search"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/cv_content",
+          "inputFocused": "true",
+          "bounds": "[0,283][1080,599]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "Author",
+            "測試寫手甲",
+            "Recent reading",
+            "第二章 霧河",
+            "Latest chapter",
+            "第四章 回信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated menu_discovery",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "inputFocused": "false",
+          "bounds": "[42,548][1038,634]",
+          "labels": [
+            "本機書源C・故障隔離"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "inputFocused": "false",
+          "bounds": "[42,431][1038,517]",
+          "labels": [
+            "本機書源B・完整及拆章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "inputFocused": "false",
+          "bounds": "[42,314][1038,400]",
+          "labels": [
+            "本機書源A・缺段"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "修正分類對應"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "修正分類對應"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 全部來源",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,272][1080,398]",
+          "labels": [
+            "全部來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 都市",
+      "focus": [
+        {
+          "text": "都市",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,830][1010,956]",
+          "labels": [
+            "都市"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部來源 · 都市",
+          "inputFocused": "false",
+          "bounds": "[157,170][516,248]",
+          "labels": [
+            "全部來源 · 都市"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+      "focus": [
+        {
+          "text": "",
+          "description": "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,619]",
+          "labels": [
+            "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "2 個來源 · 本機書源A・缺段",
+            "Author: 測試寫手甲",
+            "都市・完結",
+            "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,619]",
+          "labels": [
+            "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "2 個來源 · 本機書源A・缺段",
+            "Author: 測試寫手甲",
+            "都市・完結",
+            "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,272][1080,398]",
+          "labels": [
+            "重新整理"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 切換來源",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "切換來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部來源",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,704][1010,830]",
+          "labels": [
+            "全部來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "本機書源A・缺段",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,830][1010,956]",
+          "labels": [
+            "本機書源A・缺段"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 本機書源B・完整及拆章",
+      "focus": [
+        {
+          "text": "本機書源B・完整及拆章",
+          "id": "android:id/text1",
+          "inputFocused": "false",
+          "bounds": "[70,956][1010,1082]",
+          "labels": [
+            "本機書源B・完整及拆章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated menu_rss",
+      "focus": [
+        {
+          "text": "",
+          "description": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "inputFocused": "false",
+          "bounds": "[540,1663][810,1794]",
+          "labels": [
+            "RSS feeds",
+            "RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "true",
+          "bounds": "[0,283][270,630]",
+          "labels": [
+            "Rule Subscription"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 全部訂閱",
+      "focus": [
+        {
+          "text": "",
+          "description": "全部訂閱",
+          "inputFocused": "false",
+          "bounds": "[270,283][540,630]",
+          "labels": [
+            "全部訂閱",
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部訂閱",
+          "inputFocused": "false",
+          "bounds": "[189,170][401,248]",
+          "labels": [
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "另有 4 個網頁入口，請在「切換來源」中單獨開啟。",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,421]",
+          "labels": [
+            "另有 4 個網頁入口，請在「切換來源」中單獨開啟。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+      "focus": [
+        {
+          "text": "",
+          "description": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "inputFocused": "false",
+          "bounds": "[0,422][1080,685]",
+          "labels": [
+            "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+            "本機訂閱：午後閱讀角",
+            "Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "全部訂閱",
+          "inputFocused": "false",
+          "bounds": "[270,283][540,630]",
+          "labels": [
+            "全部訂閱",
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "true",
+          "bounds": "[0,283][270,630]",
+          "labels": [
+            "Rule Subscription"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Settings",
+          "id": "io.multiread.reader.debug:id/menu_rss_config",
+          "inputFocused": "false",
+          "bounds": "[848,146][975,272]",
+          "labels": [
+            "Settings",
+            "Settings"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Group",
+          "id": "io.multiread.reader.debug:id/menu_group",
+          "inputFocused": "false",
+          "bounds": "[721,146][848,272]",
+          "labels": [
+            "Group",
+            "Group"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Favorite",
+          "id": "io.multiread.reader.debug:id/menu_rss_star",
+          "inputFocused": "false",
+          "bounds": "[594,146][721,272]",
+          "labels": [
+            "Favorite",
+            "Favorite"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "   RSS feeds",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "inputFocused": "true",
+          "bounds": "[63,170][426,249]",
+          "labels": [
+            "   RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/view_pager_main",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1663]",
+          "labels": [
+            "   RSS feeds",
+            "Submit query",
+            "Favorite",
+            "Favorite",
+            "Group",
+            "Group",
+            "Settings",
+            "Settings",
+            "More options",
+            "More options",
+            "Rule Subscription",
+            "全部訂閱",
+            "全部訂閱",
+            "本機訂閱A",
+            "本機訂閱B",
+            "使用说明",
+            "本機訂閱C・故障隔離",
+            "小说拾遗",
+            "Meow云",
+            "烏雲净化"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/view_pager_main",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1663]",
+          "labels": [
+            "   RSS feeds",
+            "Submit query",
+            "Favorite",
+            "Favorite",
+            "Group",
+            "Group",
+            "Settings",
+            "Settings",
+            "More options",
+            "More options",
+            "Rule Subscription",
+            "全部訂閱",
+            "全部訂閱",
+            "本機訂閱A",
+            "本機訂閱B",
+            "使用说明",
+            "本機訂閱C・故障隔離",
+            "小说拾遗",
+            "Meow云",
+            "烏雲净化"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "inputFocused": "false",
+          "bounds": "[810,1663][1080,1794]",
+          "labels": [
+            "Me",
+            "Me"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "inputFocused": "false",
+          "bounds": "[540,1663][810,1794]",
+          "labels": [
+            "RSS feeds",
+            "RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated menu_bookshelf",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/cv_content",
+          "inputFocused": "true",
+          "bounds": "[0,283][1080,599]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "Author",
+            "測試寫手甲",
+            "Recent reading",
+            "第二章 霧河",
+            "Latest chapter",
+            "第四章 回信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated Search",
+      "focus": [
+        {
+          "text": "",
+          "description": "Search",
+          "id": "io.multiread.reader.debug:id/menu_search",
+          "inputFocused": "false",
+          "bounds": "[848,146][975,272]",
+          "labels": [
+            "Search",
+            "Search"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "inputFocused": "true",
+          "bounds": "[168,170][702,249]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Clear query",
+          "id": "io.multiread.reader.debug:id/search_close_btn",
+          "inputFocused": "false",
+          "bounds": "[702,170][807,249]",
+          "labels": [
+            "Clear query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated Submit query",
+      "focus": [
+        {
+          "text": "",
+          "description": "Submit query",
+          "id": "io.multiread.reader.debug:id/search_go_btn",
+          "inputFocused": "false",
+          "bounds": "[807,170][954,249]",
+          "labels": [
+            "Submit query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "inputFocused": "true",
+          "bounds": "[168,170][702,249]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Clear query",
+          "id": "io.multiread.reader.debug:id/search_close_btn",
+          "inputFocused": "false",
+          "bounds": "[702,170][807,249]",
+          "labels": [
+            "Clear query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Submit query",
+          "id": "io.multiread.reader.debug:id/search_go_btn",
+          "inputFocused": "false",
+          "bounds": "[807,170][954,249]",
+          "labels": [
+            "Submit query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 河谷來信・本機驗收",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_input_help",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,1920]",
+          "labels": [
+            "Bookshelf",
+            "河谷來信・本機驗收",
+            "Search history",
+            "Clear",
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_input_help",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,1920]",
+          "labels": [
+            "Bookshelf",
+            "河谷來信・本機驗收",
+            "Search history",
+            "Clear",
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,374][405,450]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Clear",
+          "id": "io.multiread.reader.debug:id/tv_clear_history",
+          "inputFocused": "false",
+          "bounds": "[962,584][1080,667]",
+          "labels": [
+            "Clear"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,675][220,751]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,619]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "Author: 測試寫手甲",
+            "都市・完結",
+            "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Stop",
+          "id": "io.multiread.reader.debug:id/fb_start_stop",
+          "inputFocused": "false",
+          "bounds": "[933,1647][1038,1752]",
+          "labels": [
+            "Stop"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Stop",
+          "id": "io.multiread.reader.debug:id/fb_start_stop",
+          "inputFocused": "false",
+          "bounds": "[933,1647][1038,1752]",
+          "labels": [
+            "Stop"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "inputFocused": "true",
+          "bounds": "[168,170][702,249]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Clear query",
+          "id": "io.multiread.reader.debug:id/search_close_btn",
+          "inputFocused": "false",
+          "bounds": "[702,170][807,249]",
+          "labels": [
+            "Clear query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Submit query",
+          "id": "io.multiread.reader.debug:id/search_go_btn",
+          "inputFocused": "false",
+          "bounds": "[807,170][954,249]",
+          "labels": [
+            "Submit query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_input_help",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,1920]",
+          "labels": [
+            "Bookshelf",
+            "河谷來信・本機驗收",
+            "Search history",
+            "Clear",
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,374][405,450]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Clear",
+          "id": "io.multiread.reader.debug:id/tv_clear_history",
+          "inputFocused": "false",
+          "bounds": "[962,584][1080,667]",
+          "labels": [
+            "Clear"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,675][220,751]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,619]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "Author: 測試寫手甲",
+            "都市・完結",
+            "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Stop",
+          "id": "io.multiread.reader.debug:id/fb_start_stop",
+          "inputFocused": "false",
+          "bounds": "[933,1647][1038,1752]",
+          "labels": [
+            "Stop"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Stop",
+          "id": "io.multiread.reader.debug:id/fb_start_stop",
+          "inputFocused": "false",
+          "bounds": "[933,1647][1038,1752]",
+          "labels": [
+            "Stop"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "inputFocused": "true",
+          "bounds": "[168,170][702,249]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Clear query",
+          "id": "io.multiread.reader.debug:id/search_close_btn",
+          "inputFocused": "false",
+          "bounds": "[702,170][807,249]",
+          "labels": [
+            "Clear query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Submit query",
+          "id": "io.multiread.reader.debug:id/search_go_btn",
+          "inputFocused": "false",
+          "bounds": "[807,170][954,249]",
+          "labels": [
+            "Submit query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_input_help",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,1920]",
+          "labels": [
+            "Bookshelf",
+            "河谷來信・本機驗收",
+            "Search history",
+            "Clear",
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,374][405,450]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Clear",
+          "id": "io.multiread.reader.debug:id/tv_clear_history",
+          "inputFocused": "false",
+          "bounds": "[962,584][1080,667]",
+          "labels": [
+            "Clear"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,675][220,751]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,619]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "2",
+            "Author: 測試寫手甲",
+            "都市・完結",
+            "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Stop",
+          "id": "io.multiread.reader.debug:id/fb_start_stop",
+          "inputFocused": "false",
+          "bounds": "[933,1647][1038,1752]",
+          "labels": [
+            "Stop"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Stop",
+          "id": "io.multiread.reader.debug:id/fb_start_stop",
+          "inputFocused": "false",
+          "bounds": "[933,1647][1038,1752]",
+          "labels": [
+            "Stop"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "inputFocused": "true",
+          "bounds": "[168,170][702,249]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Clear query",
+          "id": "io.multiread.reader.debug:id/search_close_btn",
+          "inputFocused": "false",
+          "bounds": "[702,170][807,249]",
+          "labels": [
+            "Clear query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Submit query",
+          "id": "io.multiread.reader.debug:id/search_go_btn",
+          "inputFocused": "false",
+          "bounds": "[807,170][954,249]",
+          "labels": [
+            "Submit query"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_input_help",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,1920]",
+          "labels": [
+            "Bookshelf",
+            "河谷來信・本機驗收",
+            "Search history",
+            "Clear",
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,374][405,450]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Clear",
+          "id": "io.multiread.reader.debug:id/tv_clear_history",
+          "inputFocused": "false",
+          "bounds": "[962,584][1080,667]",
+          "labels": [
+            "Clear"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "inputFocused": "false",
+          "bounds": "[8,675][220,751]",
+          "labels": [
+            "河谷來信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Background images",
+          "id": "io.multiread.reader.debug:id/bg_book",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1920]",
+          "labels": [
+            "Background images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Book information",
+          "inputFocused": "false",
+          "bounds": "[189,174][602,245]",
+          "labels": [
+            "Book information"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Edit",
+          "id": "io.multiread.reader.debug:id/menu_edit",
+          "inputFocused": "false",
+          "bounds": "[722,146][849,272]",
+          "labels": [
+            "Edit",
+            "Edit"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Share",
+          "id": "io.multiread.reader.debug:id/menu_share_it",
+          "inputFocused": "false",
+          "bounds": "[849,146][975,272]",
+          "labels": [
+            "Share",
+            "Share"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Cover",
+          "id": "io.multiread.reader.debug:id/iv_cover",
+          "inputFocused": "false",
+          "bounds": "[395,312][684,716]",
+          "labels": [
+            "Cover"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/tv_name",
+          "inputFocused": "false",
+          "bounds": "[328,766][751,835]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "都市・完結",
+          "inputFocused": "false",
+          "bounds": "[453,851][622,896]",
+          "labels": [
+            "都市・完結"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Author",
+          "inputFocused": "false",
+          "bounds": "[42,929][89,976]",
+          "labels": [
+            "Author"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Author: 測試寫手甲",
+          "id": "io.multiread.reader.debug:id/tv_author",
+          "inputFocused": "false",
+          "bounds": "[89,928][1038,977]",
+          "labels": [
+            "Author: 測試寫手甲"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Origin: %s",
+          "id": "io.multiread.reader.debug:id/iv_web",
+          "inputFocused": "false",
+          "bounds": "[42,994][89,1041]",
+          "labels": [
+            "Origin: %s"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Origin: 本機書源A・缺段",
+          "id": "io.multiread.reader.debug:id/tv_origin",
+          "inputFocused": "false",
+          "bounds": "[89,993][778,1042]",
+          "labels": [
+            "Origin: 本機書源A・缺段"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Change Origin",
+          "id": "io.multiread.reader.debug:id/tv_change_source",
+          "inputFocused": "false",
+          "bounds": "[799,994][1038,1040]",
+          "labels": [
+            "Change Origin"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Origin: %s",
+          "id": "io.multiread.reader.debug:id/ic_book_last",
+          "inputFocused": "false",
+          "bounds": "[42,1059][89,1106]",
+          "labels": [
+            "Origin: %s"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Latest: 第四章 回信",
+          "id": "io.multiread.reader.debug:id/tv_lasted",
+          "inputFocused": "false",
+          "bounds": "[89,1058][1038,1107]",
+          "labels": [
+            "Latest: 第四章 回信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Origin: %s",
+          "inputFocused": "false",
+          "bounds": "[42,1123][89,1170]",
+          "labels": [
+            "Origin: %s"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Group: Ungrouped",
+          "id": "io.multiread.reader.debug:id/tv_group",
+          "inputFocused": "false",
+          "bounds": "[89,1126][769,1166]",
+          "labels": [
+            "Group: Ungrouped"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Group settings",
+          "id": "io.multiread.reader.debug:id/tv_change_group",
+          "inputFocused": "false",
+          "bounds": "[790,1123][1038,1169]",
+          "labels": [
+            "Group settings"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Origin: %s",
+          "inputFocused": "false",
+          "bounds": "[42,1187][89,1234]",
+          "labels": [
+            "Origin: %s"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Chapters: 第二章 霧河",
+          "id": "io.multiread.reader.debug:id/tv_toc",
+          "inputFocused": "false",
+          "bounds": "[89,1186][771,1235]",
+          "labels": [
+            "Chapters: 第二章 霧河"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated View Chapters",
+      "focus": [
+        {
+          "text": "View Chapters",
+          "id": "io.multiread.reader.debug:id/tv_toc_view",
+          "inputFocused": "false",
+          "bounds": "[792,1187][1038,1233]",
+          "labels": [
+            "View Chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Chapters",
+          "inputFocused": "false",
+          "bounds": "[211,146][497,272]",
+          "labels": [
+            "Chapters",
+            "Chapters",
+            "CHAPTERS"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookmarks",
+          "inputFocused": "false",
+          "bounds": "[497,146][783,272]",
+          "labels": [
+            "Bookmarks",
+            "Bookmarks",
+            "BOOKMARKS"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Search",
+          "id": "io.multiread.reader.debug:id/search_button",
+          "inputFocused": "false",
+          "bounds": "[848,146][975,272]",
+          "labels": [
+            "Search",
+            "Search"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/tv_chapter_item",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,449]",
+          "labels": [
+            "第一章 碼頭",
+            "203字"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/tv_chapter_item",
+          "inputFocused": "false",
+          "bounds": "[0,450][1080,616]",
+          "labels": [
+            "第二章 霧河",
+            "288字",
+            "Success"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 第三章 老樹",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/tv_chapter_item",
+          "inputFocused": "false",
+          "bounds": "[0,617][1080,783]",
+          "labels": [
+            "第三章 老樹",
+            "264字"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有",
+          "id": "io.multiread.reader.debug:id/content_text_view",
+          "inputFocused": "false",
+          "bounds": "[0,136][1080,1710]",
+          "labels": [
+            "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/tv_footer_left",
+          "inputFocused": "false",
+          "bounds": "[34,1711][866,1768]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "1/2  62.5%",
+          "id": "io.multiread.reader.debug:id/tv_footer_right",
+          "inputFocused": "false",
+          "bounds": "[866,1711][1036,1768]",
+          "labels": [
+            "1/2  62.5%"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "1/2  62.5%",
+          "id": "io.multiread.reader.debug:id/tv_footer_right",
+          "inputFocused": "false",
+          "bounds": "[866,1711][1036,1768]",
+          "labels": [
+            "1/2  62.5%"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Content",
+          "id": "io.multiread.reader.debug:id/vw_menu_bg",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1794]",
+          "labels": [
+            "Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/toolbar",
+          "inputFocused": "false",
+          "bounds": "[0,136][1080,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up",
+            "河谷來信・本機驗收",
+            "Change Origin",
+            "Refresh",
+            "Offline cache",
+            "Offline cache",
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Background images",
+          "id": "io.multiread.reader.debug:id/bg_book",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1920]",
+          "labels": [
+            "Background images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Book information",
+          "inputFocused": "false",
+          "bounds": "[189,174][602,245]",
+          "labels": [
+            "Book information"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Edit",
+          "id": "io.multiread.reader.debug:id/menu_edit",
+          "inputFocused": "false",
+          "bounds": "[722,146][849,272]",
+          "labels": [
+            "Edit",
+            "Edit"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Share",
+          "id": "io.multiread.reader.debug:id/menu_share_it",
+          "inputFocused": "false",
+          "bounds": "[849,146][975,272]",
+          "labels": [
+            "Share",
+            "Share"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Share",
+          "id": "io.multiread.reader.debug:id/menu_share_it",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[849,146][975,272]",
+          "labels": [
+            "Share",
+            "Share"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Edit",
+          "id": "io.multiread.reader.debug:id/menu_edit",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[722,146][849,272]",
+          "labels": [
+            "Edit",
+            "Edit"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "Book information",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[189,174][602,245]",
+          "labels": [
+            "Book information"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Background images",
+          "id": "io.multiread.reader.debug:id/bg_book",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1920]",
+          "labels": [
+            "Background images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Background images",
+          "id": "io.multiread.reader.debug:id/bg_book",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1920]",
+          "labels": [
+            "Background images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated Read",
+      "focus": [
+        {
+          "text": "Read",
+          "id": "io.multiread.reader.debug:id/tv_read",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[540,1663][1080,1794]",
+          "labels": [
+            "Read"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,272][1080,398]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,398][1080,524]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,524][1080,650]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,650][1080,776]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,776][1080,902]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,902][1080,1028]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1028][1080,1154]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1154][1080,1280]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1280][1080,1406]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1406][1080,1532]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1532][1080,1658]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1658][1080,1784]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,146][1080,156]",
+          "labels": []
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,156][1080,282]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,282][1080,408]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,408][1080,534]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,534][1080,660]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,660][1080,786]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,786][1080,912]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,912][1080,1038]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1038][1080,1164]",
+          "labels": [
+            "Style of Images"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1164][1080,1290]",
+          "labels": [
+            "Update chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1290][1080,1416]",
+          "labels": [
+            "Effective replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1416][1080,1542]",
+          "labels": [
+            "Log"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1542][1080,1668]",
+          "labels": [
+            "Help"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,1668][1080,1794]",
+          "labels": [
+            "多源正文"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,146][1080,156]",
+          "labels": []
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,156][1080,282]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,282][1080,408]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,408][1080,534]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,534][1080,660]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,660][1080,786]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,786][1080,912]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,912][1080,1038]",
+          "labels": [
+            "Re-segment"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,786][1080,912]",
+          "labels": [
+            "Remove duplicate title"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,660][1080,786]",
+          "labels": [
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,534][1080,660]",
+          "labels": [
+            "Simulated Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,408][1080,534]",
+          "labels": [
+            "Reverse content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,282][1080,408]",
+          "labels": [
+            "Flip animation (book)"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,156][1080,282]",
+          "labels": [
+            "Edit Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated Add to Bookmarks",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[499,146][1080,272]",
+          "labels": [
+            "Add to Bookmarks"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/vw_bg",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,227][1038,1702]",
+          "labels": [
+            "Bookmarks",
+            "第三章 老樹",
+            "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有",
+            "Remarks section",
+            "Cancel",
+            "OK"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有",
+          "id": "io.multiread.reader.debug:id/edit_book_text",
+          "clickable": "true",
+          "inputFocused": "true",
+          "bounds": "[84,507][996,1390]",
+          "labels": [
+            "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Remarks section",
+          "id": "io.multiread.reader.debug:id/edit_content",
+          "clickable": "true",
+          "inputFocused": "true",
+          "bounds": "[84,1427][996,1545]",
+          "labels": [
+            "Remarks section"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Cancel",
+          "id": "io.multiread.reader.debug:id/tv_cancel",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[717,1587][893,1702]",
+          "labels": [
+            "Cancel"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated tv_ok",
+      "focus": [
+        {
+          "text": "OK",
+          "id": "io.multiread.reader.debug:id/tv_ok",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[893,1587][1006,1702]",
+          "labels": [
+            "OK"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "自製的四章本機驗收小說，沒有第三方正文。",
+          "id": "io.multiread.reader.debug:id/tv_intro",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[21,1285][1059,1411]",
+          "labels": [
+            "自製的四章本機驗收小說，沒有第三方正文。"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "Remove",
+          "id": "io.multiread.reader.debug:id/tv_shelf",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,1663][540,1794]",
+          "labels": [
+            "Remove"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated tv_read",
+      "focus": [
+        {
+          "text": "Read",
+          "id": "io.multiread.reader.debug:id/tv_read",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[540,1663][1080,1794]",
+          "labels": [
+            "Read"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有",
+          "id": "io.multiread.reader.debug:id/content_text_view",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,136][1080,1710]",
+          "labels": [
+            "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Settings",
+          "id": "io.multiread.reader.debug:id/ll_setting",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[866,1672][1024,1794]",
+          "labels": [
+            "Settings",
+            "Settings",
+            "Settings"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Interface",
+          "id": "io.multiread.reader.debug:id/ll_font",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[596,1672][754,1794]",
+          "labels": [
+            "Interface",
+            "Interface",
+            "Interface"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated ll_read_aloud",
+      "focus": [
+        {
+          "text": "",
+          "description": "Speech",
+          "id": "io.multiread.reader.debug:id/ll_read_aloud",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[326,1672][484,1794]",
+          "labels": [
+            "Speech",
+            "Speech",
+            "Speech"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "阅读需要请求后台权限以保持服务正常运行",
+          "id": "android:id/message",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[70,889][1010,951]",
+          "labels": [
+            "阅读需要请求后台权限以保持服务正常运行"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated CANCEL",
+      "focus": [
+        {
+          "text": "CANCEL",
+          "id": "android:id/button2",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[425,1026][627,1168]",
+          "labels": [
+            "CANCEL"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Enter activated Got it",
+      "focus": [
+        {
+          "text": "Got it",
+          "id": "android:id/button1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[810,1136][978,1262]",
+          "labels": [
+            "Got it"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "全部",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[42,146][180,272]",
+          "labels": [
+            "全部",
+            "全部",
+            "全部"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Search",
+          "id": "io.multiread.reader.debug:id/menu_search",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[848,146][975,272]",
+          "labels": [
+            "Search",
+            "Search"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/cv_content",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,283][1080,599]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "1",
+            "Author",
+            "測試寫手甲",
+            "Recent reading",
+            "第三章 老樹",
+            "Latest chapter",
+            "第四章 回信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated menu_discovery",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,548][1038,634]",
+          "labels": [
+            "本機書源C・故障隔離"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,431][1038,517]",
+          "labels": [
+            "本機書源B・完整及拆章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,314][1038,400]",
+          "labels": [
+            "本機書源A・缺段"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "修正分類對應"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "修正分類對應"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 全部來源",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,272][1080,398]",
+          "labels": [
+            "全部來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 都市",
+      "focus": [
+        {
+          "text": "都市",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,830][1010,956]",
+          "labels": [
+            "都市"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部來源 · 都市",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[157,170][516,248]",
+          "labels": [
+            "全部來源 · 都市"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,272][1080,398]",
+          "labels": [
+            "重新整理"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 切換來源",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "切換來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部來源",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,704][1010,830]",
+          "labels": [
+            "全部來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "本機書源A・缺段",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,830][1010,956]",
+          "labels": [
+            "本機書源A・缺段"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 本機書源B・完整及拆章",
+      "focus": [
+        {
+          "text": "本機書源B・完整及拆章",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,956][1010,1082]",
+          "labels": [
+            "本機書源B・完整及拆章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "本機書源B・完整及拆章 · 都市",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[157,170][867,248]",
+          "labels": [
+            "本機書源B・完整及拆章 · 都市"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Enter activated 切換來源",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,272][1080,398]",
+          "labels": [
+            "切換來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 全部來源",
+      "focus": [
+        {
+          "text": "全部來源",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,704][1010,830]",
+          "labels": [
+            "全部來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,314][1038,400]",
+          "labels": [
+            "本機書源A・缺段"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,431][1038,517]",
+          "labels": [
+            "本機書源B・完整及拆章"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/ll_title",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[42,548][1038,634]",
+          "labels": [
+            "本機書源C・故障隔離"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated menu_rss",
+      "focus": [
+        {
+          "text": "",
+          "description": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[540,1663][810,1794]",
+          "labels": [
+            "RSS feeds",
+            "RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[540,1663][810,1794]",
+          "labels": [
+            "RSS feeds",
+            "RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,985][270,1332]",
+          "labels": [
+            "烏雲净化"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[810,630][1080,985]",
+          "labels": [
+            "Meow云"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[540,630][810,985]",
+          "labels": [
+            "小说拾遗"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[270,630][540,985]",
+          "labels": [
+            "本機訂閱C・故障隔離"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,630][270,985]",
+          "labels": [
+            "使用说明"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[810,283][1080,630]",
+          "labels": [
+            "本機訂閱B"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[540,283][810,630]",
+          "labels": [
+            "本機訂閱A"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 全部訂閱",
+      "focus": [
+        {
+          "text": "",
+          "description": "全部訂閱",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[270,283][540,630]",
+          "labels": [
+            "全部訂閱",
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部訂閱",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[189,170][401,248]",
+          "labels": [
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Enter activated 切換來源",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "切換來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "全部訂閱",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,452][1010,578]",
+          "labels": [
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "本機訂閱A",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,578][1010,704]",
+          "labels": [
+            "本機訂閱A"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 本機訂閱B",
+      "focus": [
+        {
+          "text": "本機訂閱B",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,704][1010,830]",
+          "labels": [
+            "本機訂閱B"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Navigate up",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,136][147,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "本機訂閱B",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[189,170][434,248]",
+          "labels": [
+            "本機訂閱B"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated More options",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": []
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,398][1080,524]",
+          "labels": [
+            "Set source variable"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,524][1080,650]",
+          "labels": [
+            "Edit source"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,650][1080,776]",
+          "labels": [
+            "Switch Layout"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,776][1080,902]",
+          "labels": [
+            "Read record"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,902][1080,1028]",
+          "labels": [
+            "Clear"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 切換來源",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[565,1028][1080,1154]",
+          "labels": [
+            "切換來源"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated 全部訂閱",
+      "focus": [
+        {
+          "text": "全部訂閱",
+          "id": "android:id/text1",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[70,452][1010,578]",
+          "labels": [
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "全部訂閱",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[270,283][540,630]",
+          "labels": [
+            "全部訂閱",
+            "全部訂閱"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,283][270,630]",
+          "labels": [
+            "Rule Subscription"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "More options",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[975,146][1080,272]",
+          "labels": [
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Settings",
+          "id": "io.multiread.reader.debug:id/menu_rss_config",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[848,146][975,272]",
+          "labels": [
+            "Settings",
+            "Settings"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Group",
+          "id": "io.multiread.reader.debug:id/menu_group",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[721,146][848,272]",
+          "labels": [
+            "Group",
+            "Group"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Favorite",
+          "id": "io.multiread.reader.debug:id/menu_rss_star",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[594,146][721,272]",
+          "labels": [
+            "Favorite",
+            "Favorite"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "   RSS feeds",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "clickable": "true",
+          "inputFocused": "true",
+          "bounds": "[63,170][426,249]",
+          "labels": [
+            "   RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/view_pager_main",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1663]",
+          "labels": [
+            "   RSS feeds",
+            "Submit query",
+            "Favorite",
+            "Favorite",
+            "Group",
+            "Group",
+            "Settings",
+            "Settings",
+            "More options",
+            "More options",
+            "Rule Subscription",
+            "全部訂閱",
+            "全部訂閱",
+            "本機訂閱A",
+            "本機訂閱B",
+            "使用说明",
+            "本機訂閱C・故障隔離",
+            "小说拾遗",
+            "Meow云",
+            "烏雲净化"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/view_pager_main",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1663]",
+          "labels": [
+            "   RSS feeds",
+            "Submit query",
+            "Favorite",
+            "Favorite",
+            "Group",
+            "Group",
+            "Settings",
+            "Settings",
+            "More options",
+            "More options",
+            "Rule Subscription",
+            "全部訂閱",
+            "全部訂閱",
+            "本機訂閱A",
+            "本機訂閱B",
+            "使用说明",
+            "本機訂閱C・故障隔離",
+            "小说拾遗",
+            "Meow云",
+            "烏雲净化"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[810,1663][1080,1794]",
+          "labels": [
+            "Me",
+            "Me"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[540,1663][810,1794]",
+          "labels": [
+            "RSS feeds",
+            "RSS feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[270,1663][540,1794]",
+          "labels": [
+            "Discovery",
+            "Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated menu_bookshelf",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Left",
+      "focus": [
+        {
+          "text": "",
+          "description": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,1663][270,1794]",
+          "labels": [
+            "Bookshelf",
+            "Bookshelf"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated cv_content",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/cv_content",
+          "clickable": "true",
+          "inputFocused": "true",
+          "bounds": "[0,283][1080,599]",
+          "labels": [
+            "Cover",
+            "河谷來信・本機驗收",
+            "1",
+            "Author",
+            "測試寫手甲",
+            "Recent reading",
+            "第三章 老樹",
+            "Latest chapter",
+            "第四章 回信"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有",
+          "id": "io.multiread.reader.debug:id/content_text_view",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[0,136][1080,1710]",
+          "labels": [
+            "第三章 老樹&#10;　　午後的山腳安靜得出奇，老樹的枝條向三個方向伸展，地面落滿細碎的樹影。&#10;　　阿青繞著樹幹走了一圈，在朝向河面的地方找到一塊可以輕輕推開的木板。&#10;　　木板後面沒有寶物，只有一本用棉線縫好的薄冊子，以及一支已經乾涸的筆。&#10;　　小梁坐在石階上慢慢翻閱冊子，發現每一頁都記著曾經經過河谷的旅人姓名。&#10;　　阿青在最後一頁看見母親熟悉的筆跡，旁邊還畫著一枚小小的銀色葉子。&#10;　　她終於打開那封信，紙上沒有"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/tv_footer_left",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[34,1711][866,1768]",
+          "labels": [
+            "河谷來信・本機驗收"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "1/2  62.5%",
+          "id": "io.multiread.reader.debug:id/tv_footer_right",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[866,1711][1036,1768]",
+          "labels": [
+            "1/2  62.5%"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "1/2  62.5%",
+          "id": "io.multiread.reader.debug:id/tv_footer_right",
+          "clickable": "false",
+          "inputFocused": "false",
+          "bounds": "[866,1711][1036,1768]",
+          "labels": [
+            "1/2  62.5%"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Right",
+      "focus": [
+        {
+          "text": "",
+          "description": "Content",
+          "id": "io.multiread.reader.debug:id/vw_menu_bg",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,0][1080,1794]",
+          "labels": [
+            "Content"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "hardware Alt+Enter activated toolbar",
+      "focus": [
+        {
+          "text": "",
+          "id": "io.multiread.reader.debug:id/toolbar",
+          "clickable": "true",
+          "inputFocused": "false",
+          "bounds": "[0,136][1080,283]",
+          "labels": [
+            "Navigate up",
+            "Navigate up",
+            "河谷來信・本機驗收",
+            "Change Origin",
+            "Refresh",
+            "Offline cache",
+            "Offline cache",
+            "More options",
+            "More options"
+          ]
+        }
+      ]
+    }
+  ]
+}

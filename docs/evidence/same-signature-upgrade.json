@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "platform": "Android 15 ARM64 emulator",
+  "fromVersion": "1.0.1-devdebug",
+  "toVersion": "1.0.2-devdebug",
+  "versionCode": 10003,
+  "signatureEqual": true,
+  "signatureSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "oldApkSha256": "2b493033a7ee2b6302cd7c8fedc81822df8c70e11d3c21e164dfad3e361b7385",
+  "newApkSha256": "b5fdf11f06417d46f4ee939547bea32c884878b3ff0acc20b11ae5d556b281a3",
+  "recordsBeforeAndAfter": {
+    "books": {
+      "count": 1,
+      "sha256": "fc558a745b304ab9721cbbd9ac7b40acf1fd974ddaf0ab4ef96e98d7878502f2"
+    },
+    "book_sources": {
+      "count": 3,
+      "sha256": "ce4fd6e73a8bec54535edd3ecd43cffa68ac6616c4bb90214d2a58fb8fc35891"
+    },
+    "chapters": {
+      "count": 4,
+      "sha256": "f77eb044afe60a947cd0c83b19efba91027885fedc0857606b257bf9d2c64e1e"
+    },
+    "readRecord": {
+      "count": 1,
+      "sha256": "20090ea3d5a4142d97822de0c584df6b510da5c63c0c741500cde4f752b9e7d8"
+    },
+    "bookmarks": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "rssSources": {
+      "count": 7,
+      "sha256": "92b045c18f939c9288e1dc0e92ee02c486330dc6b1814ea2ef5b2fb514e5f304"
+    },
+    "rssStars": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "mainPreferencesExact": true,
+  "databaseIntegrity": "ok",
+  "scope": "Self-written isolated fixture, actual in-place install -r and new application process startup; no user phone data."
+}

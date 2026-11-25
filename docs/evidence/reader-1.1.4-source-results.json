@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "readerVersion": "1.1.4",
+  "apkSha256": "27b116304a5c2e5c729d5b33205624b45cba2ecb5633539a0bc173c44d543420",
+  "normalPublicNativeSearchDetailsTocContentPassed": true,
+  "newSites": 3,
+  "totalBundled": 17,
+  "old14IdsRulesUnchanged": true,
+  "newSources": [
+    {
+      "sourceUrl": "https://www.qimao.com/#reader-verified-20261027-v114",
+      "book": "红楼梦",
+      "author": "曹雪芹",
+      "chapters": 21,
+      "firstChapter": "第一回 甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+      "characters": 7884,
+      "sha256": "84eeb547133491395e1bd7b3cc7edf52595e5cb4a15edb0d69f1a72a5b9df426",
+      "exploreBooks": 0
+    },
+    {
+      "sourceUrl": "https://www.readnovel.com/#reader-verified-20261027-v114",
+      "book": "陆先生偏要以婚相许",
+      "author": "北川云上锦",
+      "chapters": 41,
+      "firstChapter": "001章 我们结婚吧",
+      "characters": 2198,
+      "sha256": "3d13ac0b9a60482704f43dad3b9a65f9bd3a6ba3818b852e977e75c54a144386",
+      "exploreBooks": 0
+    },
+    {
+      "sourceUrl": "https://www.xs8.cn/#reader-verified-20261027-v114",
+      "book": "陆先生偏要以婚相许",
+      "author": "北川云上锦",
+      "chapters": 41,
+      "firstChapter": "001章 我们结婚吧",
+      "characters": 2198,
+      "sha256": "3d13ac0b9a60482704f43dad3b9a65f9bd3a6ba3818b852e977e75c54a144386",
+      "exploreBooks": 0
+    }
+  ],
+  "pack": {
+    "file": "阅读_新增书源_2026-10-27.json",
+    "bytes": 34895,
+    "sha256": "f2abd814950973cc87a9ee7b0a1c5101252635fa6089f9b6eb88454479a50ee1"
+  },
+  "fanqieIncluded": false
+}

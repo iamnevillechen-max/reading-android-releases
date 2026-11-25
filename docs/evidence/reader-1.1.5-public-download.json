@@ -1,0 +1,9 @@
+{
+  "fixedChannel": "https://github.com/iamnevillechen-max/reading-android-releases/releases/latest/download/update.json",
+  "versionCode": 10105,
+  "versionName": "1.1.5",
+  "publicMetadataMatchesTestedApk": true,
+  "publicApkStreamDownloadedAndHashed": true,
+  "bytes": 30652003,
+  "sha256": "54e16b754f030c65731b073a74cd3ccc3892cdd407fce3a5f08c11e0cac1f6b1"
+}

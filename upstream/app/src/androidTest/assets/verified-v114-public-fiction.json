@@ -1,0 +1,113 @@
+[
+  {
+    "bookSourceUrl": "https://www.qimao.com/#reader-verified-20261027-v114",
+    "bookSourceName": "七猫中文网〔核验版〕",
+    "bookSourceGroup": "已核验_2026-10-27",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "enabledCookieJar": false,
+    "customOrder": 15,
+    "weight": 1,
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "bookSourceComment": "2026-10-27 官方普通公开搜索JSON、详情HTML、免费目录和已公开明文正文；不调用App、登录、购买、解密接口。仅取is_vip=0目录。阅读原生搜索、详情、目录及公开正文核验通过。",
+    "searchUrl": "https://www.qimao.com/qimaoapi/api/search/result?keyword={{key}}&page={{page}}",
+    "ruleSearch": {
+      "bookList": "$.data.search_list",
+      "name": "$.title",
+      "author": "$.author",
+      "bookUrl": "$.book_id\n@js:'https://www.qimao.com/shuku/'+result+'/';",
+      "coverUrl": "$.image_link",
+      "intro": "$.intro",
+      "lastChapter": "$.latest_chapter_title"
+    },
+    "ruleBookInfo": {
+      "name": ".title .txt@text",
+      "author": ".author-name a@text",
+      "intro": "meta[name=description]@content",
+      "tocUrl": "@js:'https://www.qimao.com/qimaoapi/api/book/chapter-list?book_id='+String(baseUrl).match(/\\/shuku\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.chapters[?(@.is_vip == '0')]",
+      "chapterName": "$.title",
+      "chapterUrl": "$.id\n@js:'https://www.qimao.com/shuku/'+String(baseUrl).match(/book_id=(\\d+)/)[1]+'-'+result+'/';"
+    },
+    "ruleContent": {
+      "content": ".chapter-detail-article@html"
+    }
+  },
+  {
+    "bookSourceUrl": "https://www.readnovel.com/#reader-verified-20261027-v114",
+    "bookSourceName": "小说阅读网〔核验版〕",
+    "bookSourceGroup": "已核验_2026-10-27",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "enabledCookieJar": false,
+    "customOrder": 16,
+    "weight": 1,
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "bookSourceComment": "2026-10-27 官网匿名搜索、详情、未锁定章节目录及公开普通文本容器；排除含锁图标的付费目录，不调用登录或VIP接口。阅读原生搜索、详情、目录及公开正文核验通过。",
+    "searchUrl": "https://www.readnovel.com/search?kw={{key}}",
+    "ruleSearch": {
+      "bookList": ".book-img-text li",
+      "name": ".book-mid-info h4 a@text",
+      "bookUrl": ".book-mid-info h4 a@href",
+      "author": ".author a.name@text",
+      "intro": ".intro@text",
+      "coverUrl": ".book-img-box img@src"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://www.readnovel.com/chapterlist/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": ".volume-wrap li:has(a[href*=\"/chapter/\"]):not(:has(.iconfont))",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".read-content.j_readContent@html"
+    }
+  },
+  {
+    "bookSourceUrl": "https://www.xs8.cn/#reader-verified-20261027-v114",
+    "bookSourceName": "言情小说吧〔核验版〕",
+    "bookSourceGroup": "已核验_2026-10-27",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "enabledCookieJar": false,
+    "customOrder": 17,
+    "weight": 1,
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "bookSourceComment": "2026-10-27 官网匿名搜索、详情、未锁定章节目录及公开普通文本容器；排除含锁图标的付费目录，不调用登录或VIP接口。阅读原生搜索、详情、目录及公开正文核验通过。",
+    "searchUrl": "https://www.xs8.cn/search?kw={{key}}",
+    "ruleSearch": {
+      "bookList": ".book-img-text li",
+      "name": ".book-mid-info h4 a@text",
+      "bookUrl": ".book-mid-info h4 a@href",
+      "author": ".author a.name@text",
+      "intro": ".intro@text",
+      "coverUrl": ".book-img-box img@src"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "intro": "meta[property='og:description']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "tocUrl": "@js:'https://www.xs8.cn/chapterlist/'+String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": ".volume-wrap li:has(a[href*=\"/chapter/\"]):not(:has(.iconfont))",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".read-content.j_readContent@html"
+    }
+  }
+]

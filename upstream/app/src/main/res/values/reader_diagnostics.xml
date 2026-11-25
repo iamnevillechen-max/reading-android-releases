@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reader_diagnostics_title">Upload usage log</string>
+    <string name="reader_diagnostics_summary">Tap to send recent listening events, app version and crash details. Book titles and text stay private.</string>
+    <string name="reader_diagnostics_sending">Uploading usage log…</string>
+    <string name="reader_diagnostics_sent">Log received. Receipt %1$s. Tap to send a new log.</string>
+    <string name="reader_diagnostics_failed">Upload incomplete. Check your connection and tap to retry.</string>
+</resources>

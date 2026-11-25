@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="io.legado.app.multisource.MultiSourceIntegrationTest" tests="7" failures="0" errors="0" skipped="0" time="9.788" timestamp="2026-10-25T17:08:17" hostname="localhost">
+  <properties>
+    <property name="device" value="sightmate_api35(AVD) - 15" />
+    <property name="flavor" value="app" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="realRulesMergeSeparatelyAndReuseCacheWithoutRequests" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="3.664" />
+  <testcase name="cancellationNeverPublishesPartialDerivedCache" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="0.203" />
+  <testcase name="normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="0.329" />
+  <testcase name="candidateFetchDoesNotReenterMergeOrWriteOriginalCache" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="0.187" />
+  <testcase name="alternateFailureCannotDamageReadableOriginal" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="0.27" />
+  <testcase name="ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="0.484" />
+  <testcase name="slowAlternateTimesOutWithoutReplacingOriginal" classname="io.legado.app.multisource.MultiSourceIntegrationTest" time="4.197" />
+</testsuite>

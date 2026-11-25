@@ -1,0 +1,69 @@
+{
+  "format": "reader-release-status-2",
+  "date": "2026-10-30",
+  "versionName": "1.2.5",
+  "versionCode": 10205,
+  "state": "published-user-self-install",
+  "packageName": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "bytes": 31045710,
+  "sha256": "0aed6c9ec6fb818839e5f34cbf4bcb10e14e752fa71b55ac8afed613c2ee3a07",
+  "sourceRevision": "a7302e0382a76ed0aedfe1892de51f89d6a54625",
+  "sourceWorkingTreeClean": true,
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "jvm": {
+    "methods": 195,
+    "suites": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native": {
+    "uniqueMethods": 14,
+    "latestResultsAllPassed": true,
+    "initialUnaffectedMethods": 10,
+    "finalBuildTargetedMethods": 4,
+    "evidence": "reader-1.2.5-native-results.json",
+    "finalFourSeconds": 8.828,
+    "localFixturesOnly": true
+  },
+  "features": {
+    "categoryCountTitleRemoved": true,
+    "fixedElevenCategoryLimitRemoved": true,
+    "categoryNames": "Original site labels, surrounding whitespace trimmed and exact duplicates only",
+    "dynamicMenus": "Literal metadata first, bounded visible-page native parsing, successful complete menus published incrementally; lifecycle cancellation; no source health checks",
+    "lists": "Recycled horizontal category views, incremental snapshots and loaded results retained",
+    "queuedMenus": "Only an acquired request slot counts as an attempt; queued sources remain pending",
+    "coldStart": "Initialize Rhino before entering the first coroutine script context",
+    "data": "No rewrite of source rules/groups, books, reading progress, bookmarks or history; existing 1.2.4 original source restore pack remains compatible"
+  },
+  "cloud": {
+    "readerTransportStillDisabled": true,
+    "retiredResourcesNotRecreated": true,
+    "noSourceHealthChecksOrReverseEngineeringPerformed": true,
+    "noScheduledMonitoringCreated": true
+  },
+  "handset": {
+    "installationRequested": false,
+    "finalVersionInstalled": false,
+    "dataPreservationVerified": false,
+    "installationMethod": "User installs from existing in-app update channel"
+  },
+  "knownLimitations": [
+    "No handset installation or manual TalkBack acceptance claimed",
+    "Unavailable menus may time out without erasing earlier successful results; no website-availability claim"
+  ],
+  "channel": {
+    "published": true,
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.5",
+    "serverDigestsVerifiedAssets": 4,
+    "publicLatestAndFullApkAndSourceDownloadsVerified": true
+  },
+  "testDeviceCleanup": {
+    "ownedAvdStoppedAndRemoved": true,
+    "allocatedBytesRemoved": 723636224,
+    "otherDevicesAndSdkUntouched": true
+  }
+}

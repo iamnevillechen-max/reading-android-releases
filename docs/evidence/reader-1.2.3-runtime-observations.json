@@ -1,0 +1,1638 @@
+{
+  "format": "reader-production-free-runtime-observations-1",
+  "eventsObserved": 181,
+  "observations": [
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 2691,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 2909,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 109,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 3458,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6087,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 1973,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 8173,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 6285,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6407,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 4122,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6590,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 5127,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6333,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 4107,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 5779,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 1524,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 7686,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 4450,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 399,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 1324,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 197,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 4120,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 192,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 108,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 6763,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 189,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 194,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 5999,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 6148,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 377,
+      "wallMs": 6095,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 3168,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 231,
+      "wallMs": 3139,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 1,
+      "wallMs": 88,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "39456b50-3255-428e-a588-532ab6baa08c",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 111,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 1,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 0,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 1,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6465,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 1,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 574,
+      "wallMs": 6040,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 54,
+      "wallMs": 765,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 3,
+      "wallMs": 986,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 1187,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 1409,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 445,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 399,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 84,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 131,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 7,
+      "wallMs": 202,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 253,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 253,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 304,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6202,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 554,
+      "wallMs": 7938,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 9577,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 9654,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 3401,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 376,
+      "wallMs": 3440,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 55,
+      "wallMs": 5928,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 3,
+      "wallMs": 5978,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 0,
+      "wallMs": 3786,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 3,
+      "wallMs": 3838,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 709,
+      "wallMs": 6727,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6781,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 266,
+      "wallMs": 4719,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 5165,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 211,
+      "wallMs": 4996,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 5250,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 452,
+      "wallMs": 4021,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 3,
+      "wallMs": 4073,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 57,
+      "wallMs": 5570,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 5837,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 121,
+      "wallMs": 6034,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 6119,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 151,
+      "wallMs": 2218,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 2265,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 94,
+      "wallMs": 925,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 999,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 407,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 7,
+      "wallMs": 360,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 3546,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 3590,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 157,
+      "wallMs": 6738,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6785,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 723,
+      "wallMs": 7153,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 7195,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 471,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 6,
+      "wallMs": 393,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 1397,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 1,
+      "wallMs": 2064,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 2141,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 3,
+      "wallMs": 1272,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 477,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 4,
+      "wallMs": 1196,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 7,
+      "wallMs": 399,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 13,
+      "wallMs": 1937,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 476,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 1654,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 2761,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 140,
+      "wallMs": 3973,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 6498,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 6578,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 9,
+      "wallMs": 691,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 771,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 4,
+      "wallMs": 388,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 460,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 520,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 755,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 12,
+      "wallMs": 1637,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 2212,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 2286,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 78,
+      "wallMs": 786,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 860,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 385,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 463,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 441,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 648,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 42,
+      "wallMs": 917,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 6,
+      "wallMs": 1546,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 1628,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 580,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 1448,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 1531,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 1871,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 3,
+      "wallMs": 1956,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 1348,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 4,
+      "wallMs": 748,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 826,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 13,
+      "wallMs": 1806,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 1883,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 42,
+      "wallMs": 2243,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 2326,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 1261,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 624,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 699,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 11,
+      "wallMs": 1209,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 1287,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 9,
+      "wallMs": 715,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 798,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 550,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 1863,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 7,
+      "wallMs": 843,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 1941,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 2118,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 1,
+      "wallMs": 2211,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 7,
+      "wallMs": 2016,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 2090,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 1352,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 1927,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 2003,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 6,
+      "wallMs": 1181,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 6,
+      "wallMs": 1247,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 6,
+      "wallMs": 1264,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 6,
+      "wallMs": 1645,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 3,
+      "wallMs": 2963,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 3056,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 263,
+      "wallMs": 2980,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 3058,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 442,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 0,
+      "wallMs": 2950,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 3038,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 2418,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 2,
+      "wallMs": 2814,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 2891,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 9,
+      "wallMs": 8361,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 8436,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 9,
+      "wallMs": 1491,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 2340,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 5,
+      "wallMs": 246,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 4,
+      "wallMs": 350,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "default",
+      "executionModel": "stateless",
+      "cpuMs": 0,
+      "wallMs": 8545,
+      "outcome": "ok",
+      "scheduled": true
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 31,
+      "wallMs": 8453,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "gateway",
+      "executionModel": "stateless",
+      "cpuMs": 2,
+      "wallMs": 1856,
+      "outcome": "ok",
+      "scheduled": false
+    },
+    {
+      "version": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+      "entrypoint": "ReaderSourceRuntime",
+      "executionModel": "durableObject",
+      "cpuMs": 4,
+      "wallMs": 1555,
+      "outcome": "ok",
+      "scheduled": false
+    }
+  ],
+  "scope": "Observed tail samples only; not a claim that all requests were captured",
+  "ownerRequestHeadersUrlsAndBodiesRemoved": true,
+  "sourceContentAndPrivateIDsRemoved": true
+}

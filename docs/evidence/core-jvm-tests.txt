@@ -1,0 +1,23 @@
+Compiling 10 policy files and 9 test files; source SHA-256 55de7de44324b1f3c9b7b67a355626427df10bf1ce4880b289d6d38d108db662
+upstream/app/src/main/java/io/legado/app/model/multisource/core/SpeechQueue.kt:6:22: warning: non-public primary constructor is exposed via the generated 'copy()' method of the 'data' class.
+
+The generated 'copy()' will change its visibility in future releases.
+
+To suppress the warning do one of the following:
+- Annotate the data class with the '@ConsistentCopyVisibility' annotation.
+- Use the '-Xconsistent-data-class-copy-visibility' compiler flag.
+- Annotate the data class with the '@ExposedCopyVisibility' annotation 
+  (Discouraged, but can be used to keep binary compatibility).
+
+To learn more, see the documentation of the '@ConsistentCopyVisibility' and '@ExposedCopyVisibility' annotations.
+
+This will become an error in Kotlin 2.1.
+    data class Token internal constructor(val generation: Long, val utterances: List<Utterance>)
+                     ^^^^^^^^
+JUnit version 4.13.2
+......................................................................................
+Time: 1.703
+
+OK (86 tests)
+
+

@@ -1,0 +1,43 @@
+{
+  "nativeVerifiedSites": 6,
+  "allPassed": true,
+  "results": [
+    {
+      "sourceUrl": "https://book.sfacg.com",
+      "passed": true,
+      "pack": "verified-expanded-fiction.json",
+      "log": "reader-1.1.2-expanded-source-1.log"
+    },
+    {
+      "sourceUrl": "https://book.qq.com",
+      "passed": true,
+      "pack": "verified-expanded-fiction.json",
+      "log": "reader-1.1.2-expanded-source-2.log"
+    },
+    {
+      "sourceUrl": "https://www.hongxiu.com",
+      "passed": true,
+      "pack": "verified-expanded-fiction.json",
+      "log": "reader-1.1.2-expanded-source-3.log"
+    },
+    {
+      "sourceUrl": "https://www.ihuaben.com",
+      "passed": true,
+      "pack": "verified-expanded-fiction.json",
+      "log": "reader-1.1.2-expanded-source-4.log"
+    },
+    {
+      "sourceUrl": "https://www.ruochu.com",
+      "passed": true,
+      "pack": "verified-expanded-fiction.json",
+      "log": "reader-1.1.2-expanded-source-5.log"
+    },
+    {
+      "sourceUrl": "https://m.kujiang.com",
+      "passed": true,
+      "pack": "expanded-fiction-helper.json",
+      "log": "reader-1.1.2-expanded-source-6.log"
+    }
+  ],
+  "scope": "normally public free chapters; no paid-access bypass; no cross-book stitching claim"
+}

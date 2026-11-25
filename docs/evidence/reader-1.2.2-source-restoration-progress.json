@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "allOriginalRecords": 21149,
+  "bookArchiveRecords": 20706,
+  "bookHealthyRecords": 27,
+  "bookPreferredProviders": 16,
+  "bookDiscoveryProviders": 5,
+  "bookDiscoveryCategories": 2,
+  "rssHealthy": 19,
+  "articleFeeds": 2,
+  "websiteEntries": 17,
+  "providerDeduplicationDeployed": true,
+  "allSourceFunctionalRestorationComplete": false,
+  "originalShaLedgerVerified": true
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <io.legado.app.ui.widget.TitleBar android:id="@+id/title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/reader_cloud_title" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/reader_cloud_description" android:textSize="16sp" />
+            <TextView android:id="@+id/cloud_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="16dp" android:paddingBottom="16dp" android:textSize="16sp" android:textIsSelectable="true" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:labelFor="@id/cloud_url" android:text="@string/reader_cloud_url" />
+            <EditText android:id="@+id/cloud_url" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textUri" android:singleLine="true" android:minHeight="48dp" android:importantForAutofill="no" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:labelFor="@id/cloud_token" android:text="@string/reader_cloud_token" />
+            <EditText android:id="@+id/cloud_token" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:singleLine="true" android:minHeight="48dp" android:importantForAutofill="no" android:saveEnabled="false" />
+            <Button android:id="@+id/cloud_connect" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/reader_cloud_connect" />
+            <Button android:id="@+id/cloud_migrate" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/reader_cloud_migrate" />
+            <Button android:id="@+id/cloud_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/reader_cloud_cancel" android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

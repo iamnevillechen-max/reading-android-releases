@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-26",
+  "scope": "official general fiction public full search, catalog and anonymous free chapter",
+  "sourcePack": "tools/source-packs/verified-fiction-extra.json",
+  "verification": [
+    {
+      "sourceUrl": "https://www.heiyan.com",
+      "sourceType": "official public full-search JSON used by the normal website, public catalog and free online chapters",
+      "keyword": "镇海战神",
+      "expectedBookUrl": "https://www.heiyan.com/book/140543",
+      "expectedBookName": "镇海战神",
+      "expectedAuthor": "神婆之后",
+      "expectedTocMinCount": 900,
+      "httpObservedTocCount": 943,
+      "expectedFirstChapterName": "第一章 童话破碎",
+      "expectedFirstChapterUrl": "https://www.heiyan.com/book/140543/11402300",
+      "contentChapterIndex": 0,
+      "chapterMinCharacters": 2900,
+      "chapterMaxCharacters": 4500,
+      "httpStatuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "httpBodySelector": ".page-content",
+      "httpBodyParagraphs": 161,
+      "httpBodyTextCharacters": 3015,
+      "httpBodyNonWhitespaceCharacters": 3004,
+      "httpBodyTextSha256": "81ebbecfbf174caa11dfce3d06e3f9fe3d688f6e0ca323093e1e11394471ff8b",
+      "httpFirstChapterVip": false,
+      "httpObservedVipChapterCount": 933,
+      "httpVerified": true,
+      "nativeParserVerified": true,
+      "searchBehavior": "Official fuzzy full search; result order and indexing are controlled by the publisher. Town神156269 was absent from first20 for query镇神, so the full-search representative is the indexed exact-title镇海战神140543.",
+      "paidChapterPolicy": "TOC a.isvip is marked VIP; verification reads only the first publicly free chapter, never a paid chapter.",
+      "officialReferences": [
+        "https://www.heiyan.com/",
+        "https://www.heiyan.com/search/?queryString=%E9%95%87%E6%B5%B7%E6%88%98%E7%A5%9E",
+        "https://search.heiyan.com/web/search?queryString=%E9%95%87%E6%B5%B7%E6%88%98%E7%A5%9E&highlight=false&page=1&f=f",
+        "https://www.heiyan.com/book/140543",
+        "https://www.heiyan.com/chapter/140543",
+        "https://www.heiyan.com/book/140543/11402300"
+      ],
+      "nativeResult": {
+        "sourceUrl": "https://www.heiyan.com",
+        "book": "镇海战神",
+        "author": "神婆之后",
+        "chapters": 943,
+        "firstChapter": "第一章 童话破碎",
+        "characters": 3486,
+        "sha256": "bec77d0eb66d7c47dded8cea09b7d85fba0c27c5c86ac1fb0c0fcba935363a0f",
+        "exploreCategory": "首页推荐",
+        "exploreBooks": 31
+      },
+      "nativeTestSeconds": 12.074,
+      "paidAccessAttempted": false
+    }
+  ],
+  "publicSearchProvenance": {
+    "controller": "https://st-new.heiyanimg.com/_static/js/Controller/Page/SearchCtrl.js?bust=202609151326",
+    "service": "https://st-new.heiyanimg.com/_static/js/Service/SearchService.js?bust=202609151326",
+    "publicWebsiteKernel": "https://st-new.heiyanimg.com/_static/js/index.js?bust=202609151326",
+    "observedMethod": "GET",
+    "observedParameters": [
+      "queryString",
+      "highlight=false",
+      "page",
+      "f=f"
+    ],
+    "authentication": "none",
+    "note": "Desktop kernel searchDomain adds /web; the earlier /search404 was a wrong path, not an access restriction."
+  },
+  "additionalFreeChapterProbe": {
+    "bookName": "镇神",
+    "author": "暗丶修兰",
+    "bookUrl": "https://www.heiyan.com/book/156269",
+    "tocUrl": "https://www.heiyan.com/chapter/156269",
+    "httpObservedTocCount": 1282,
+    "firstChapterName": "第1章 道士死，命劫起",
+    "firstChapterUrl": "https://www.heiyan.com/book/156269/13531710",
+    "httpFirstChapterVip": false,
+    "httpBodyParagraphs": 55,
+    "httpBodyTextCharacters": 2015,
+    "httpBodyNonWhitespaceCharacters": 2004,
+    "httpBodyTextSha256": "efa7909cdd64a28ffab77ada001f4bac2ce134a17f9528d57ac69e417e87419f",
+    "notUsedAsFullSearchRepresentative": true
+  },
+  "limitations": [
+    "Only anonymous public content. No login, payment, captcha, font-decoding or private-app API bypass used.",
+    "Only two public FREE first chapters were read across this bounded investigation; full chapter text is neither printed nor saved in these artifacts.",
+    "Publisher fuzzy ranking can omit an exact book from the first search page; pagination and normal discovery remain available.",
+    "Site content/layout changes can invalidate current metadata; Native Android search/details/TOC/free content verification passed."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "fallback": "other",
+  "categories": [
+    {"id": "fantasy", "label": "玄幻／奇幻", "terms": ["玄幻", "奇幻", "魔幻", "异界", "異界", "fantasy"]},
+    {"id": "martial", "label": "武俠／仙俠", "terms": ["武侠", "武俠", "仙侠", "仙俠", "修真", "修仙", "武道", "wuxia", "xianxia"]},
+    {"id": "urban", "label": "都市／現實", "terms": ["都市", "现实", "現實", "职场", "職場", "乡村", "鄉村", "商战", "商戰", "社会", "社會", "urban", "realistic fiction"]},
+    {"id": "romance", "label": "言情", "terms": ["言情", "现言", "現言", "古言", "纯爱", "純愛", "耽美", "百合", "婚恋", "婚戀", "总裁", "總裁", "甜宠", "甜寵", "宫斗", "宮鬥", "宅斗", "宅鬥", "romance", "romantic fiction"]},
+    {"id": "history", "label": "歷史／軍事", "terms": ["历史", "歷史", "军事", "軍事", "军旅", "軍旅", "战争", "戰爭", "架空", "三国", "三國", "historical fiction", "military", "history"]},
+    {"id": "scifi", "label": "科幻", "terms": ["科幻", "末世", "星际", "星際", "未来世界", "未來世界", "无限流", "無限流", "sci-fi", "scifi", "science fiction"]},
+    {"id": "mystery", "label": "懸疑／靈異", "terms": ["悬疑", "懸疑", "灵异", "靈異", "推理", "侦探", "偵探", "惊悚", "驚悚", "恐怖", "探险", "探險", "mystery", "thriller", "horror", "detective"]},
+    {"id": "gaming", "label": "遊戲／競技", "terms": ["游戏", "遊戲", "竞技", "競技", "网游", "網遊", "电竞", "電競", "体育", "體育", "篮球", "籃球", "足球", "gaming", "game fiction", "esports", "sports"]},
+    {"id": "fanfic", "label": "同人", "terms": ["同人", "二次元", "轻小说", "輕小說", "动漫", "動漫", "综漫", "綜漫", "fanfiction", "fan fiction", "light novel"]},
+    {"id": "classics", "label": "出版／經典", "terms": ["出版", "经典", "經典", "名著", "文学", "文學", "诗词", "詩詞", "诗歌", "詩歌", "散文", "纪实", "紀實", "传记", "傳記", "古籍", "国学", "國學", "classics", "literature", "biography", "poetry"]},
+    {"id": "other", "label": "其他", "terms": []}
+  ],
+  "match_priority": ["fanfic", "romance", "gaming", "mystery", "scifi", "martial", "fantasy", "history", "urban", "classics"],
+  "filters": [
+    {"id": "male", "label": "男頻", "terms": ["男频", "男頻", "男生", "男士", "男性", "male", "men"]},
+    {"id": "female", "label": "女頻", "terms": ["女频", "女頻", "女生", "女士", "女性", "female", "women"]},
+    {"id": "completed", "label": "完結", "terms": ["完结", "完結", "完本", "全本", "已完成", "completed", "complete"]},
+    {"id": "ongoing", "label": "連載", "terms": ["连载", "連載", "更新中", "ongoing", "serializing"]},
+    {"id": "ranking", "label": "排行", "terms": ["排行", "排行榜", "排名", "点击榜", "點擊榜", "推荐榜", "推薦榜", "月票榜", "收藏榜", "畅销榜", "暢銷榜", "热销榜", "熱銷榜", "人气榜", "人氣榜", "风云榜", "風雲榜", "新书榜", "新書榜", "rank", "ranking", "rankings", "top"]},
+    {"id": "new", "label": "新書", "terms": ["新书", "新書", "新作", "新上架", "new releases"]},
+    {"id": "popular", "label": "熱門", "terms": ["热门", "熱門", "人气", "人氣", "畅销", "暢銷", "热销", "熱銷", "popular", "bestsellers"]}
+  ],
+  "source_overrides": {}
+}

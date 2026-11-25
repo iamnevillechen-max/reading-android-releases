@@ -1,0 +1,21 @@
+{
+  "version": "1.1.5",
+  "bundledSources": 17,
+  "stage": "complete",
+  "passed": true,
+  "elapsedMillis": 13287,
+  "allBookCount": 8,
+  "allFirstBooksMillis": 11743,
+  "allWorkingSourceIds": [
+    "https://zh.wikisource.org/#reader-verified-20261026"
+  ],
+  "category": "四大名著",
+  "categoryBookCount": 8,
+  "categoryWorkingSourceIds": [
+    "https://zh.wikisource.org/#reader-verified-20261026"
+  ],
+  "allAfterReturnBookCount": 8,
+  "allPreviouslyShownBookRetained": true,
+  "catalogueCheckedSources": 5,
+  "catalogueComplete": true
+}

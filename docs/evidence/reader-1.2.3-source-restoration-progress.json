@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "allOriginalRecords": 21149,
+  "bookArchiveRecords": 20706,
+  "bookHealthyRecords": 29,
+  "bookPreferredProviders": 18,
+  "bookDiscoveryProviders": 5,
+  "bookDiscoveryCategories": 2,
+  "rssHealthy": 20,
+  "articleFeeds": 3,
+  "websiteEntries": 17,
+  "providerDeduplicationDeployed": true,
+  "allSourceFunctionalRestorationComplete": false,
+  "originalShaLedgerVerified": true,
+  "versionName": "1.2.3",
+  "freeSqliteRuntimeDeployed": true,
+  "boundedNewSourceVerification": {
+    "attempted": 40,
+    "newIndependentProviders": 2,
+    "passedCompleteChain": 2,
+    "otherAttemptsRemainPending": 38,
+    "distinctHosts": 40,
+    "originalShaUnchanged": 40,
+    "phoneSyncClaimed": false
+  },
+  "engineStaticReassessment": {
+    "allOriginalRecordsChecked": 21149,
+    "originalShaMatched": 21149,
+    "metadataShaMatched": 21149,
+    "newlyCompatibleStillAwaitingD1Assessment": 170,
+    "strictTextFullChainCandidateRows": 148,
+    "candidateHosts": 125,
+    "firstSelectedHosts": 20,
+    "staticSupportIsLiveHealth": false
+  },
+  "cwm": {
+    "privatePublicGuestFullChainProved": true,
+    "productionVerificationHoldRemoved": false
+  },
+  "javascriptPrototypeEnabled": false,
+  "mediaPrototypeEnabled": false,
+  "asOfUtc": "2026-10-28T22:02:11Z",
+  "serviceAvailability": {
+    "state": "daily-read-quota-exhausted",
+    "observedAtUtc": "2026-10-28T22:30:07Z",
+    "expectedQuotaResetUtc": "2026-10-29T00:00:00Z",
+    "paidUpgradeEnabled": false,
+    "sourceFailuresNotInferredFromService503": true,
+    "handsetOperationallyVerifiedDuringOutage": false
+  },
+  "newAssessmentOnly": {
+    "sources": 20,
+    "unsupportedToPending": 20,
+    "rawShaRecomputedBeforeAndAfter": 20,
+    "sourceHttpRequests": 0,
+    "healthyPromotions": 0,
+    "formalAttempts": 20,
+    "service503": 20,
+    "sourceRowsUnchangedBy503Attempts": 20
+  },
+  "readOnlyNextProof": {
+    "cwmCompletePublicChain": true,
+    "cwmSourceOrigin": "SHA-checked original provided to owner readonly worker; no D1 access",
+    "cwmFreeBodyCharactersExcludingWhitespace": 2133,
+    "cwmBodyMatchedIndependentOriginalExactly": true,
+    "metadataVmSyntheticColdWarmPassed": true,
+    "genericMetadataSourceCompletePublicChainAndOneDeclaredExploreRoutePassed": 1,
+    "productionHealthPromotions": 0
+  }
+}

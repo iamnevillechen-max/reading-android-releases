@@ -1,0 +1,11 @@
+{
+  "archive": "dist/多源閱讀_1.0.0_完整源碼.zip",
+  "files": 1900,
+  "requiredMissing": [],
+  "includedLegacyPublicKey": [
+    "multiread/upstream/.github/workflows/legado.jks"
+  ],
+  "resolved": "Inherited public upstream test keystore removed from current source and its CI usage; final packaging script rejects keystore file extensions.",
+  "currentSourceCommit": "e0f8455bc96c7bc4d733aa4db3feb2797881b3c6",
+  "gitlessGradleConfiguration": "PASS before CI-only signing-file removal; no Android Gradle source change in that delta."
+}

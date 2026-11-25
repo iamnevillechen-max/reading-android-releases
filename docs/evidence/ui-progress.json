@@ -1,0 +1,22 @@
+{
+  "device": "Android 15 API35 ARM64 emulator",
+  "verified": [
+    "Book/RSS source import via original association UI",
+    "All-source canonical urban category",
+    "Single result with two source origins",
+    "Add to original bookshelf and open reading",
+    "Chapter details confirms actual A+B split-source reconstruction",
+    "Four complete private cache results match exact fixture text ignoring whitespace; 3 merged,1 unchanged",
+    "RSS actual rows ordered newest first with no duplicate",
+    "Header-offset article click opens correct B-source title",
+    "Transparent import configuration updates automatically 4 to 5 to 4 web shortcuts",
+    "Final APK list footer accurately reports no more items"
+  ],
+  "fixesBeingVerified": [],
+  "notPassed": [
+    "TTS initialization failed in current emulator configuration; notification prompt cancelled",
+    "TalkBack package absent",
+    "Physical device and lawful real-source long-read matrix pending"
+  ],
+  "status": "Local fixture UI checks passed; formal device/accessibility matrix pending"
+}

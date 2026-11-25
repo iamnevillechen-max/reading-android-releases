@@ -1,0 +1,8 @@
+{
+  "apkSha256MatchesPinnedTestedBinary": true,
+  "privateMetadataAndBodyFingerprintsAbsentFromApkAndSource": true,
+  "privateFoldersAndSigningFilesAbsent": true,
+  "sourceZipReadable": true,
+  "sources": 14,
+  "sourceRevision": "8ab4857d0b5adb6868552b160505d80700787ea5"
+}

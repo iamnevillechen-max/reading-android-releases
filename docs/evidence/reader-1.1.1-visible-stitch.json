@@ -1,0 +1,12 @@
+{
+  "versionCode": 10101,
+  "cacheVersion": 3,
+  "automaticWithoutManualReprocess": true,
+  "ownSyntheticChapter": 3,
+  "completedMissingBeginning": true,
+  "allExpectedParagraphsAndOrderExactIgnoringWhitespace": true,
+  "participatingSources": 2,
+  "merged": true,
+  "device": "dedicated Android15 emulator",
+  "scope": "self-authored fixture only"
+}

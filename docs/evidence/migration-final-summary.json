@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-26",
+  "versionName": "1.0.1-devdebug",
+  "versionCode": 10002,
+  "sourceRevision": "951334e5a07b50ee2aff57cc93de9c61c3200291",
+  "apkSha256": "2b493033a7ee2b6302cd7c8fedc81822df8c70e11d3c21e164dfad3e361b7385",
+  "automatedTests": {
+    "jvm": 75,
+    "jvmFailures": 0,
+    "androidIntegration": 7,
+    "androidRecycler": 2,
+    "androidFailures": 0,
+    "coreSubset": 63,
+    "streamingHash32MiB": 3
+  },
+  "largeLibraryFix": {
+    "avoidsAllSourceRuleModels": true,
+    "streamedWindowedConfigurationFingerprint": true,
+    "roomInvalidationCacheVerifiedByIntegration": true,
+    "boundedDiscoveryRuleLoading": true,
+    "boundedRetryKeyWork": true
+  },
+  "physicalMigration": {
+    "device": "Android 16 Redmi",
+    "mode": "Parallel install after user approved signature mismatch",
+    "originalRetained": true,
+    "books": 312,
+    "readRecords": 3375,
+    "originalRecordPrimaryKeysMissing": 0,
+    "numericReadingProgressAndTimeChangesAtImport": 0,
+    "bookSources": 20689,
+    "rssSources": 443,
+    "preferencesKeysEqual": 79,
+    "externalCachedFiles": 41327,
+    "externalFileHashesExact": true,
+    "currentVisibleTextAndPageRetained": true,
+    "nativeAutomaticTocMetadataRefresh": "11 title labels changed while saved numeric position/time stayed equal; two original out-of-range indices retained without guessing",
+    "notCopied": "Private cookies and RSS article/read flags omitted by native backup remain in original app",
+    "sessionReleased": true
+  },
+  "privacy": "No private backup, source rules, book text or physical-device screenshots are included in the source distribution.",
+  "pendingProductAcceptance": [
+    "continuous physical TTS",
+    "TalkBack complete navigation",
+    "multi-version Android",
+    "weak network and long-running reconstruction",
+    "full real-source multi-chapter matrix"
+  ],
+  "status": "installable development candidate; migration verified; product acceptance pending"
+}

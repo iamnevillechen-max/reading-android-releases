@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.aggregation.RssAggregationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:14.869Z" hostname="nevilledeMacBook-Neo.local" time="0.023">
+  <properties/>
+  <testcase name="knownDatesSortNewestFirstUnknownDatesKeepFairOrder" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.004"/>
+  <testcase name="lightweightCatalogueRetains443FeedsAndLiteralCategoriesWithoutRunningScripts" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.018"/>
+  <testcase name="aResolvedNamedSortDoesNotLeakIntoUnclassifiedArticles" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.0"/>
+  <testcase name="resolvedDynamicSortsBecomeExactCategoriesWithoutRunningScriptsAgain" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.0"/>
+  <testcase name="identicalLinksDeduplicateButSimilarTitlesKeepBothArticles" classname="io.legado.app.model.aggregation.RssAggregationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

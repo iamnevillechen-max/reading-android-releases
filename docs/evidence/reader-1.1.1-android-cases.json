@@ -1,0 +1,354 @@
+{
+  "uniqueCases": 36,
+  "allLatestAttemptsPassed": true,
+  "cases": [
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#exploreAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        },
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-targeted-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#mainDiscoveryHasScrollableCategoriesAndChangesBothSourcesInline",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        },
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-targeted-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#mainSubscriptionsFilterByRealCategoriesInlineAndKeepModeProgressAndReadHistory",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        },
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-targeted-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#rssAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows",
+      "attempts": [
+        {
+          "status": -2,
+          "evidence": "reader-1.1.1-android-regression.log"
+        },
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-targeted-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.aggregation.ExploreRouteConfigurationTest#cachedRoutesRejectRuleOnlyEditsDisabledSourcesAndOldManualCategories",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.base.adapter.RecyclerAdapterDiffTest#insertingNewestArticlePreservesNoticeFooterAndEveryBoundArticle",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.base.adapter.RecyclerAdapterDiffTest#rapidSnapshotsCannotApplyAnOlderQueuedDiffAfterTheFinalSnapshot",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.feedback.ReaderFeedbackUiTest#appendingAndChangingStatusThroughDetailsPreservesBothReportsAfterRecreation",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.feedback.ReaderFeedbackUiTest#requiredDescriptionThenSavedRecordSurvivesRecreationWithPrivateMetadata",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceConfigurationTest#equalLengthRuleEditInvalidatesEvenWhileRoomNotificationIsBlocked",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-configuration.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#alternateFailureCannotDamageReadableOriginal",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#cancellationNeverPublishesPartialDerivedCache",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#irrelevantPrefixYieldsToLaterSourceAndCachedMissDoesNotRepeatRequests",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#slowAlternateTimesOutWithoutReplacingOriginal",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceMetadataTest#missingSearchAuthorsAreVerifiedInDetailBeforeAutomaticStitching",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        },
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-targeted-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceMetadataTest#unknownAndWrongDetailAuthorsNeverAuthorizeTocOrContentRequests",
+      "attempts": [
+        {
+          "status": -2,
+          "evidence": "reader-1.1.1-android-regression.log"
+        },
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-targeted-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#anOlderUnmarkedDerivedOffsetKeepsItsExistingReadableVersion",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#legacyPositionIsHeldThenExplicitApplyAndReopenKeepTheSameRenderedWords",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#previousVersionReferenceRequiresMatchingRulesRawHashAndAge",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#unrelatedBookmarkCannotBypassLegacyHoldButTheSelectedBookmarkStillWorks",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.SourceRequestBudgetTest#backgroundCannotConsumeTheReadersReservedSlots",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.SourceRequestBudgetTest#oneHostIsSerializedAcrossPortsWhileOtherHostsCanProceed",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.multisource.SourceRequestBudgetTest#totalBudgetIsBoundedAndCancellationReleasesItsSlot",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#actualPackageManagerArchiveAndSignerDataRejectReinstallOrWrongMetadata",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#failedReplacementKeepsEarlierReadyFileAndPointer",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#reopeningUsesRealPartialBytesAndCancelledGenerationCannotPublish",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#sameLengthCorruptReadyCanBeRevokedAndRecoveredThroughRealByteStream",
+      "attempts": [
+        {
+          "status": 0,
+          "evidence": "reader-1.1.1-android-regression.log"
+        }
+      ]
+    }
+  ]
+}

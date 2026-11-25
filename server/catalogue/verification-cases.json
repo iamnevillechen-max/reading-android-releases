@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "scope": "Public maintenance defaults, never a declaration of current health. Successful private per-source probes take priority.",
+  "sources": {
+    "https://www.zongheng.com/#reader-verified-20261026": {
+      "key": "不让江山",
+      "bookUrl": "https://www.zongheng.com/detail/966275",
+      "chapterUrl": "https://book.zongheng.com/chapter/966275/61162001.html"
+    },
+    "https://www.heiyan.com/#reader-verified-20261026": {
+      "key": "镇海战神",
+      "bookUrl": "https://www.heiyan.com/book/140543"
+    },
+    "https://www.17k.com/#reader-verified-20261026": {
+      "key": "万古第一神",
+      "bookUrl": "https://www.17k.com/book/3006464.html",
+      "chapterUrl": "https://www.17k.com/chapter/3006464/38107770.html"
+    },
+    "https://www.jjwxc.net/#reader-verified-20261026": {
+      "key": "开端",
+      "bookUrl": "https://www.jjwxc.net/onebook.php?novelid=4292425",
+      "chapterUrl": "https://www.jjwxc.net/onebook.php?novelid=4292425&chapterid=1"
+    },
+    "https://m.zhulang.com/#reader-verified-20261026": {
+      "key": "武神天下",
+      "bookUrl": "https://m.zhulang.com/292926/index.html",
+      "chapterUrl": "https://book.zhulang.com/292926/520644.html"
+    },
+    "https://book.sfacg.com/#reader-verified-20261026": {
+      "key": "我，现役声优！"
+    },
+    "https://book.qq.com/#reader-verified-20261026": {
+      "key": "吞噬星空2起源大陆"
+    },
+    "https://www.hongxiu.com/#reader-verified-20261026": {
+      "key": "十里芳菲"
+    },
+    "https://www.ihuaben.com/#reader-verified-20261026": {
+      "key": "你惹她？疯癫大佬她最爱斩鬼灭神"
+    },
+    "https://www.ruochu.com/#reader-verified-20261026": {
+      "key": "向南又向北"
+    },
+    "https://m.kujiang.com/#reader-verified-20261026": {
+      "key": "战神狂飙"
+    },
+    "https://zh.wikisource.org/#reader-verified-20261026": {
+      "key": "西遊記",
+      "bookUrl": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98"
+    },
+    "https://www.guwendao.net/#reader-verified-20261026": {
+      "key": "红楼梦",
+      "bookUrl": "https://www.guwendao.net/guwen/book_a09880163008.aspx"
+    },
+    "https://wfxs.tw/#reader-verified-20261027": {
+      "key": "红楼梦",
+      "selection": "public fallback; still requires a successful live reading chain"
+    },
+    "https://www.qimao.com/#reader-verified-20261027-v114": {
+      "key": "红楼梦"
+    },
+    "https://www.readnovel.com/#reader-verified-20261027-v114": {
+      "key": "陆先生偏要以婚相许"
+    },
+    "https://www.xs8.cn/#reader-verified-20261027-v114": {
+      "key": "陆先生偏要以婚相许"
+    }
+  }
+}

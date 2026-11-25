@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-26",
+  "scope": "official generalfiction publisher; normally public freechapters only",
+  "sourcePack": "tools/source-packs/verified-fiction.json",
+  "publicSearchEvidence": "https://search.zongheng.com/s?keyword=%E4%B8%8D%E8%AE%A9%E6%B1%9F%E5%B1%B1 inlineJS directlycalls/search/book withoutsecret orauth",
+  "verification": [
+    {
+      "sourceUrl": "https://www.zongheng.com",
+      "sourceType": "online freechapters",
+      "keyword": "不让江山",
+      "expectedBookUrl": "https://www.zongheng.com/detail/966275",
+      "expectedBookName": "不让江山",
+      "expectedAuthor": "知白",
+      "expectedTocCount": 83,
+      "expectedFirstChapterName": "新书感言",
+      "contentChapterTitlePrefix": "第一章 凡事皆有度",
+      "expectedContentChapterUrl": "https://book.zongheng.com/chapter/966275/61162001.html",
+      "chapterMinCharacters": 3000,
+      "excludePaidChapterUrlSuffix": "/61585381.html",
+      "excludePaidChapterTitlePrefix": "第八十一章",
+      "httpVerified": true,
+      "httpStatuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "httpBodyTextCharacters": 3648,
+      "httpBodyTextSha256": "f9d432530f7cac00b83ba6d016a70e4b8aab9114fa0a25d571cba868cc6f6122",
+      "nativeParserVerified": true,
+      "paidAccessAttempted": false,
+      "exploreEnabled": false,
+      "tocMetadata": {
+        "allRows": 1565,
+        "freeRows": 83,
+        "vipRowsExcluded": 1482
+      },
+      "nativeResult": {
+        "sourceUrl": "https://www.zongheng.com",
+        "book": "不让江山",
+        "author": "知白",
+        "chapters": 83,
+        "firstChapter": "第一章 凡事皆有度",
+        "characters": 3870,
+        "sha256": "2b526a2ee9a1d51f28f51a8a8837f111be5dfcba6649581edaa7a9ed87aaf10c",
+        "exploreBooks": 0
+      },
+      "nativeTestSeconds": 13.171
+    }
+  ]
+}

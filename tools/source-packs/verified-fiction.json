@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceUrl": "https://www.zongheng.com",
+    "bookSourceName": "纵横·公开免费章节",
+    "bookSourceGroup": "综合小说·公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "customOrder": 2,
+    "bookSourceComment": "2026-10-26 核验《不让江山》知白：公开网页搜索接口、详情、免费目录及第一章。目录仅收站点未标VIP的章节；正文仅接受公开未加密内容标记。当前未启用未经验证的发现分类。不是全站全部章节免费。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\", \"Referer\": \"https://search.zongheng.com/\"}",
+    "searchUrl": "https://search.zongheng.com/search/book?keyword={{key}}&sort=&pageNo={{page}}&pageNum=20&isFromHuayu=0",
+    "ruleSearch": {
+      "bookList": "$.data.datas.list",
+      "name": "$.name##<[^>]*>##",
+      "author": "$.authorName",
+      "bookUrl": "$.bookId##^##https://www.zongheng.com/detail/",
+      "kind": "$.catePName",
+      "intro": "$.description",
+      "wordCount": "$.totalWord",
+      "lastChapter": "$.chapterName"
+    },
+    "ruleBookInfo": {
+      "name": ".book-info--title > span@text",
+      "author": ".author-info--name@text",
+      "tocUrl": "@js: var m=String(baseUrl).match(/(?:detail|book)\\/([0-9]+)/); m ? 'https://book.zongheng.com/showchapter/'+m[1]+'.html' : '';"
+    },
+    "ruleToc": {
+      "chapterList": "ul.chapter-list li:not(.vip) > a[href*=/chapter/]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js: var e=java.getElements('#Jcontent .content'); e.size()>0 && String(e.get(0).attr('data-prescription'))==='0' && String(e.get(0).attr('data-decoder'))==='' ? e.get(0).html() : '';"
+    }
+  }
+]

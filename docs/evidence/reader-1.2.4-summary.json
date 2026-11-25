@@ -1,0 +1,83 @@
+{
+  "format": "reader-release-status-2",
+  "date": "2026-10-29",
+  "versionName": "1.2.4",
+  "versionCode": 10204,
+  "state": "published-user-self-install",
+  "packageName": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "bytes": 30943175,
+  "sha256": "b0d4abdd1c554ff07e31cb4db93e8f3df5ce7bfd04aff24c01bade78ccc7437a",
+  "sourceRevision": "22f3d78ee47e1c45bcb457a68ddcd209b1eccb8d",
+  "sourceWorkingTreeClean": true,
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "jvm": {
+    "methods": 187,
+    "suites": 30,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native": {
+    "uniqueMethods": 26,
+    "latestResultsAllPassed": true,
+    "finalBuildTargetedMethods": 6,
+    "evidence": "reader-1.2.4-native-results.json",
+    "fullOriginalArchiveFreshImportPassed": true,
+    "allOriginalIdsPresentAndNotThin": true,
+    "finalSixMethodsSeconds": 144.429
+  },
+  "features": {
+    "parsing": "Native local parsing; cloud transport hard disabled and server settings removed",
+    "categories": "At most 11 merged labels; original groups and identity retained",
+    "lists": "Lightweight projections, incremental invalidation and result retention",
+    "restore": "One network import; authenticated file-backed verification; batches of 100; keep complete existing local rules; same-ID UPDATE protects foreign keys and reading data",
+    "metadata": "Native Heiyan title and author extraction repaired without changing original rules"
+  },
+  "originalSourceRestore": {
+    "books": 20706,
+    "rss": 443,
+    "total": 21149,
+    "allOriginalRowsPreserved": true,
+    "originalArchiveSha256": "b4bda8b4fde7a77e56d584097e96d8b86183396e9c9c6ef7f3f3c1ca4482d41f",
+    "assetBytes": 14025469,
+    "assetSha256": "dd392ee25e6f9d18bda517871b147ac09da8e2fa4435a008e9b395b8425d0a04",
+    "encrypted": true,
+    "keyPublished": false,
+    "sourceWebsiteAvailabilityTested": false
+  },
+  "cloudRetirement": {
+    "cronStopped": true,
+    "resourceDeletionPending": false,
+    "workersConfirmedDeleted": 4,
+    "durableObjectDeletedClassMigrationsApplied": 3,
+    "d1DatabasesConfirmedDeleted": 1,
+    "stepsSucceeded": 8,
+    "evidence": "reader-1.2.4-cloud-retirement.json",
+    "furtherSourceChecksOrReverseEngineeringScheduled": false
+  },
+  "handset": {
+    "installationRequested": false,
+    "finalVersionInstalled": false,
+    "dataPreservationVerified": false,
+    "installationMethod": "User installs from existing in-app update channel"
+  },
+  "knownLimitations": [
+    "No handset or manual TalkBack acceptance claimed",
+    "Website availability is not checked or promised; all original records are retained at user request"
+  ],
+  "channel": {
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.4",
+    "publicationPending": false,
+    "published": true,
+    "serverDigestsVerifiedAssets": 5,
+    "publicLatestAndFullApkSourceAndRestorePackDownloadsVerified": true
+  },
+  "testDeviceCleanup": {
+    "ownedAvdStoppedAndRemoved": true,
+    "allocatedBytesRemoved": 1495781376,
+    "otherDevicesAndSdkUntouched": true
+  }
+}

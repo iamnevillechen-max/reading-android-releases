@@ -1,0 +1,87 @@
+{
+  "format": "reader-native-results-2",
+  "versionName": "1.2.3",
+  "date": "2026-10-29",
+  "productionCommit": "305704c7264b59b5fbe0e9eeb6376ff835a1bc1a",
+  "finalTestOnlyCommit": "98be2ef6fac06315672ede418468ef69a20f59d0",
+  "productionTreeUnchanged": true,
+  "apk": {
+    "bytes": 30690993,
+    "sha256": "8bd627764e3c6577c938dd8ebe525cf20761ba566f1472b5334e81fda52c51e6"
+  },
+  "testApk": {
+    "bytes": 1904450,
+    "sha256": "0ffe899eb683c3c4cd83a427ef0d225d60f3a8688099ea601e31c4692dd6fc7a"
+  },
+  "jvm": {
+    "methods": 155,
+    "suites": 23,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "xmlArchive": "jvm-155-results.zip",
+    "log": "precommit-compile-jvm.log"
+  },
+  "native": {
+    "passedDistinctMethods": 82,
+    "successfulExecutions": 83,
+    "failuresInFinalRequiredGroups": 0,
+    "groups": [
+      {
+        "log": "native-contracts-98be2ef-attempt4.log",
+        "methods": 16,
+        "stage": "suite",
+        "bytes": 256,
+        "sha256": "8e56678bc4863e0278d6f2bf03d694a1dd6d99fd93db3c22a0a3f91f060914e5",
+        "privateOriginalRetained": true
+      },
+      {
+        "log": "native-final-cloud-reader65-98be2ef.log",
+        "methods": 65,
+        "stage": "suite",
+        "bytes": 754,
+        "sha256": "b986f84fc222960319f27c86be17bdaf9bce7e6e13d5a1cfb3ad2f5cae65b90f",
+        "privateOriginalRetained": true
+      },
+      {
+        "log": "native-process-restart-98be2ef-prepare.log",
+        "methods": 1,
+        "stage": "prepare",
+        "bytes": 87,
+        "sha256": "37b03a08e2c5affaa8b5b41e36d4dd6d7bc598a86f3aee1875aec150e2dea712",
+        "privateOriginalRetained": true
+      },
+      {
+        "log": "native-process-restart-98be2ef-verify.log",
+        "methods": 1,
+        "stage": "verify",
+        "bytes": 87,
+        "sha256": "28d1773057605d0270f4168550c20558bf374df27c5a956bd5797f0f48b49d97",
+        "privateOriginalRetained": true
+      }
+    ],
+    "processRestartCountsAsOneDistinctMethod": true,
+    "installedApkHashesReadBack": true,
+    "scope": "Task-owned isolated API35 emulator; local loopback source fixtures"
+  },
+  "optionalTts": {
+    "passed": false,
+    "engineVersion": "0.3.7",
+    "sameFailureOn122And123": true,
+    "failure": "Engine utterance error -3: done before start during pause/resume",
+    "countedIn82PassedMethods": false,
+    "newReaderRegressionEstablished": false,
+    "sourceOrModelsModified": false
+  },
+  "earlierFailures": {
+    "privateLogsRetained": true,
+    "causes": [
+      "version-upgrade fixture baseline prefs triggered built-in RSS insertion; isolated AVD reseeded before App launch",
+      "legacy fake server missing new complete/version/identity/SHA contracts; test-only fixture fix078f4f7"
+    ],
+    "fixedOnlyTestFixturesOrIsolatedAvdPreparation": true,
+    "productionApkUnchanged": true
+  },
+  "handsetOperated": false,
+  "manualTalkBackAcceptance": false
+}

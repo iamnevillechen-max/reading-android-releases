@@ -1,0 +1,25 @@
+{
+  "format": "reader-heiyan-field-order-regression-1",
+  "exactArchivedSourceShaVerified": true,
+  "rawSourceUnmodified": true,
+  "replayedSameLivePublicHtml": true,
+  "before": {
+    "books": 31,
+    "malformed": 6
+  },
+  "after": {
+    "books": 31,
+    "malformed": 0
+  },
+  "userReportedPublicBookHasPlainTitle": true,
+  "noNetworkInReplay": true,
+  "production": {
+    "allStagesVerified": true,
+    "homepageBooks": 31,
+    "malformedBooks": 0,
+    "userReportedPublicTitleMatched": true,
+    "userReportedPublicAuthorPresent": true,
+    "originalSourceShaUnchanged": true,
+    "backendVersion": "f8b40db9-194c-40e1-b8d6-06e8df318860"
+  }
+}

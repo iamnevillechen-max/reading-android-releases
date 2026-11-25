@@ -1,0 +1,16 @@
+{
+  "knownSensitiveValuesChecked": 7,
+  "results": [
+    {
+      "kind": "apk",
+      "entries": 1663,
+      "findings": []
+    },
+    {
+      "kind": "source",
+      "entries": 2443,
+      "findings": []
+    }
+  ],
+  "passed": true
+}

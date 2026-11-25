@@ -1,0 +1,19 @@
+{
+  "versionName": "1.1.4",
+  "versionCode": 10104,
+  "bytes": 30777304,
+  "sha256": "27b116304a5c2e5c729d5b33205624b45cba2ecb5633539a0bc173c44d543420",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "allLocaleLabels": [
+    "阅读"
+  ],
+  "localeLabelEntries": 93,
+  "packageName": "io.multiread.reader.debug",
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "legacy14BundledRulesUnchanged": true,
+  "bundledRules": 17,
+  "feedbackActivityAndLayoutsRemoved": true,
+  "updateActivityRetained": true,
+  "nativeLibrarySetUnchanged": true
+}

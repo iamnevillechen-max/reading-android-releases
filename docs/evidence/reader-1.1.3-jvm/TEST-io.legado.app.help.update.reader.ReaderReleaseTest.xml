@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.help.update.reader.ReaderReleaseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-26T17:02:24.010Z" hostname="nevilledeMacBook-Neo.local" time="0.025">
+  <properties/>
+  <testcase name="onlyOwnedPublicHttpsReleasePathsAreAccepted" classname="io.legado.app.help.update.reader.ReaderReleaseTest" time="0.004"/>
+  <testcase name="numericFieldsRejectStringsFractionsExponentsOverflowAndOutOfBounds" classname="io.legado.app.help.update.reader.ReaderReleaseTest" time="0.01"/>
+  <testcase name="versionsUseIntegerCodesAndNotNames" classname="io.legado.app.help.update.reader.ReaderReleaseTest" time="0.001"/>
+  <testcase name="actualArchiveMetadataAndSigningIdentityMustBothMatch" classname="io.legado.app.help.update.reader.ReaderReleaseTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aggregation_uncategorized">未分類</string>
+    <string name="aggregation_mode_all">全部</string>
+    <string name="aggregation_mode_single">單一來源</string>
+    <string name="aggregation_search_categories">搜尋全部來源的分類</string>
+    <string name="aggregation_loading_categories">正在整理分類…</string>
+    <string name="aggregation_loading_category_count">正在整理分類…已找到 %1$d 個分類</string>
+
+    <string name="aggregation_categories_failed">暫時無法整理分類，請稍後重新整理。</string>
+    <string name="aggregation_category_no_match">沒有符合的分類</string>
+</resources>

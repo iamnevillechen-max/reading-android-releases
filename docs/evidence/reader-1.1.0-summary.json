@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-26",
+  "applicationId": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "versionName": "1.1.0",
+  "versionCode": 10100,
+  "apkBytes": 30447819,
+  "apkSha256": "900c950f3feccfbc69f11001c1f2e148c598e31ce4ad22a2a52997dc8c23f3a0",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "jvm": {
+    "suites": 17,
+    "tests": 124,
+    "failures": 0,
+    "versionCode": 10099
+  },
+  "androidRegression": {
+    "tests": 32,
+    "failures": 0,
+    "seconds": 74.85,
+    "versionCode": 10099,
+    "device": "dedicated Android 15 emulator"
+  },
+  "tts": {
+    "tests": 1,
+    "failures": 0,
+    "seconds": 19.673,
+    "engine": "hk.neville.shengjing release0.3.1/code5",
+    "versionCode": 10099,
+    "acousticListening": false
+  },
+  "handset": {
+    "newVersionInstalled": false,
+    "reason": "USB device disconnected before installation",
+    "existingDerivative": "1.0.1-devdebug/10002",
+    "originalRetained": true
+  },
+  "ota": {
+    "metadataChannel": "https://github.com/iamnevillechen-max/reading-android-releases/releases/latest/download/update.json",
+    "published": false,
+    "actualPublicDownloadAndInstallerFlowVerified": false,
+    "draftSaved": true
+  },
+  "feedback": {
+    "localOnly": true,
+    "location": "private files/reader-feedback/reports.json",
+    "cloudDelivery": false
+  },
+  "sourceRevision": "f85544b46d7bf88cda4d7574d2272c121032f1f4",
+  "talkback": {
+    "device": "dedicated emulator",
+    "input": "genuine hardware Alt shortcuts",
+    "steps": 59,
+    "checks": {
+      "discoveryCategoryKeyboardReachAndActivate": "passed: 完結 to 都市, selected category remains a11y focused; same page shows synthetic multi-source result",
+      "rssCategoryKeyboardReachAndActivate": "passed: 全部 to 本機UI驗收, selected category remains a11y focused; inline source-labelled articles",
+      "myUpdateEntrance": "passed: real TalkBack focus/activation to update page and Check for Updates button",
+      "updateNetwork": "unpublished metadata at test time returned retryable error; this is no download/install proof",
+      "myFeedbackEntrance": "passed: real TalkBack focus/activation to feedback page",
+      "feedbackEditorAndSave": "passed: editor and Save reached with TalkBack, Save activated via Alt+Enter; one synthetic record saved with local confirmation",
+      "feedbackTextSetup": "Appium set_value supplied synthetic text after TalkBack activated editor; no voice or hardware typing claim"
+    },
+    "acousticListening": false
+  },
+  "emulatorOverlay": {
+    "fromVersionCode": 10099,
+    "toVersionCode": 10100,
+    "all12DatabasePreferencesAndFeedbackFilesExact": true,
+    "publicOta": false
+  }
+}

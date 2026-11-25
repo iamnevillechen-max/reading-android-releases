@@ -1,0 +1,132 @@
+{
+  "format": "reader-release-status-2",
+  "date": "2026-10-29",
+  "versionName": "1.2.1",
+  "versionCode": 10201,
+  "state": "published-installed-handset-migration-reviewed-cleanup-complete",
+  "packageName": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "bytes": 30625968,
+  "sha256": "a101648cbc26a64a50280e8eb1dcf8da6554e516478ca1260d0efbb7612ccf6e",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "sameSigner": true,
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "sourceRevision": "c832129356aa820529602ab42238cb99f3e89749",
+  "sourceWorkingTreeClean": true,
+  "jvm": {
+    "tests": 137,
+    "suites": 19,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native": {
+    "uniqueMethods": 28,
+    "passed": 28,
+    "evidence": "reader-1.2.1-native-results.json",
+    "initialEnvironmentGuardRefusals": 25,
+    "finalPreparedRunAllPassed": true
+  },
+  "backend": {
+    "tests": 53,
+    "typecheckPassed": true,
+    "evidence": "reader-1.2.1-cloud-results.json",
+    "healthyBooks": 12,
+    "healthyArticleFeeds": 1,
+    "healthyWebsiteEntries": 9,
+    "allArchivedSourcesClaimedUsable": false
+  },
+  "features": {
+    "mergedCategoryCount": 11,
+    "taxonomy": "server/catalogue/taxonomy.json",
+    "batchReceipts": {
+      "maximumIds": 100,
+      "sourceBytesBudget": 1048576,
+      "readOnly": true,
+      "exactServerStoredShaRequired": true,
+      "unsupportedServerLegacyFallback": true,
+      "malformedDeclaredSupportFailsClosed": true
+    },
+    "sourceMutations": "same-ID UPDATE with original-rule hash CAS and current reference protection",
+    "protectedUnverifiedRulesRetained": true,
+    "updateEntry": "我的 → 關於 → 檢查更新",
+    "duplicateTopLevelUpdateEntryRemoved": true,
+    "originalFeedbackHelpLogRetained": true,
+    "customLocalFeedbackFormRemoved": true
+  },
+  "handset": {
+    "installationRequested": true,
+    "finalVersionInstalled": true,
+    "installedVersionReadBack": "1.2.1",
+    "installationMethod": "Codex Appium over authorized wireless debugging",
+    "dataPreservationVerified": true,
+    "preInstallationBackup": {
+      "consistent": true,
+      "integrity": "ok",
+      "books": 314,
+      "historyRecords": 3380,
+      "bookSources": 20706,
+      "rssSources": 443
+    },
+    "earlierPartialMigrationAudit": {
+      "tablesCompared": 21,
+      "allTableRowsEqual": true,
+      "sourceRuleRowsUnchanged": true,
+      "nonDatabaseFilesIdentical": false
+    },
+    "cloudArchive": {
+      "records": 21149,
+      "bookSources": 20706,
+      "rssSources": 443,
+      "exactAcknowledgements": 21149,
+      "failedRecords": 0,
+      "privatePayloadPublic": false
+    },
+    "nativeMigrationCompleted": true,
+    "nativeMigrationResultReceived": true,
+    "localRulesCleanupVerified": true,
+    "latestObservation": "Completed migration result independently audited against complete snapshots; exact workfile cleanup and logical database compaction verified; live cloud discovery and subscription rows observed.",
+    "postInstallationAndMigrationAuditPending": false,
+    "localBackupCopiesNeedSeparateVerifiedCleanup": false,
+    "originalAppRetained": true,
+    "nativeMigrationResult": {
+      "uploaded": 21149,
+      "converted": 22,
+      "archived": 21127,
+      "archiveCleaned": 20388,
+      "preserved": 739,
+      "skipped": 0
+    },
+    "reviewedAcceptanceEvidence": "reader-1.2.1-handset-final.json",
+    "strictWholeSnapshotByteEquality": false,
+    "reviewedDifferencesExplained": true,
+    "privateCompleteSnapshotsRetained": true
+  },
+  "release": {
+    "published": true,
+    "fixedRepository": "iamnevillechen-max/reading-android-releases",
+    "previousPublicVersion": "1.1.5",
+    "publicLatestReadBackVerified": true,
+    "versionName": "1.2.1",
+    "versionCode": 10201,
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.1",
+    "publicApkFullDownloadSha256Verified": true,
+    "apkSha256": "a101648cbc26a64a50280e8eb1dcf8da6554e516478ca1260d0efbb7612ccf6e",
+    "apkBytes": 30625968,
+    "assetsVerified": 4
+  },
+  "limits": [
+    "No human TalkBack touch or live voice acceptance in this release.",
+    "A website entry passing HTML/link checks does not prove every article or RSS route.",
+    "Archive receipts are not source health proof. Referenced unverified legacy rules remain protected.",
+    "739 referenced unverified legacy rules remain on the handset to protect existing books; explicit legacy reading and bookshelf refresh may still encounter source errors. Not every archived source is healthy."
+  ],
+  "privacy": "No tokens, private source IDs/rules, book names, wireless endpoints/sessions, private backup paths or handset screenshots are included.",
+  "packagingPrivacy": {
+    "ownerDeploymentIdsReplacedWithTemplate": true,
+    "hostPathBuildLogsExcluded": true,
+    "policyTestsPassed": 6,
+    "knownTokensDeviceDetailsAbsentFromPreparedApkAndSource": true
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "format": "reader-cloud-release-results-1",
+  "versionName": "1.2.1",
+  "versionCode": 10201,
+  "checkedAtUtc": "2026-10-28T16:58:18.399759+00:00",
+  "backendValidation": {
+    "typescriptTests": 53,
+    "passed": 53,
+    "failed": 0,
+    "typecheckPassed": true,
+    "executionScope": "Executed during this task; no new backend source changes or redundant rerun for this read-only release review."
+  },
+  "deployedFeatures": {
+    "batchedSourceReceipts": true
+  },
+  "sourceStatistics": {
+    "book": {
+      "total": 20706,
+      "checked": 12090,
+      "healthy": 12,
+      "revision": 614,
+      "catalogueRevision": 4
+    },
+    "rss": {
+      "total": 443,
+      "checked": 223,
+      "healthy": 10,
+      "revision": 44,
+      "catalogueRevision": 10
+    },
+    "storedRecordTotal": 21149,
+    "storedDoesNotMeanUsable": true
+  },
+  "readTokenManifests": {
+    "book": {
+      "pages": 1,
+      "count": 12,
+      "webEntries": 0,
+      "rssFeeds": 0,
+      "fullBookCapabilities": 12,
+      "uniqueEnabledHealthyEntriesOnly": true
+    },
+    "rss": {
+      "pages": 1,
+      "count": 10,
+      "webEntries": 9,
+      "rssFeeds": 1,
+      "fullBookCapabilities": 0,
+      "uniqueEnabledHealthyEntriesOnly": true
+    }
+  },
+  "manifestInterpretation": {
+    "healthyBookSources": 12,
+    "fullRssFeeds": 1,
+    "staticWebsiteEntries": 9,
+    "websiteEntryDoesNotProveFullWebsiteOrArticleReadability": true,
+    "allImportedSourcesClaimedWorking": false
+  },
+  "maintenance": {
+    "enabled": true,
+    "intervalMinutes": 30,
+    "maxSourcesPerRun": 2,
+    "healthyEligibilityHours": 6,
+    "dailyWriteLimit": 5000,
+    "dailyReservedWrites": 340,
+    "lastRunAt": 1793205008005,
+    "lastFinishedAt": 1793205024457,
+    "lastTrigger": "scheduled",
+    "leaseActive": false,
+    "lastProcessed": 2,
+    "lastHealthy": 0,
+    "lastFailed": 2,
+    "lastDeferred": 0,
+    "lastErrorCode": "RUNTIME_ERROR",
+    "lastRunAtUtc": "2026-10-28T16:30:08.005000+00:00",
+    "lastFinishedAtUtc": "2026-10-28T16:30:24.457000+00:00"
+  },
+  "maintenanceInterpretation": {
+    "actualScheduledExecutionObserved": true,
+    "successfulRepairProvenByLatestRun": false,
+    "dailyWriteLimitIsThisServiceReservationNotAccountIsolation": true
+  },
+  "realFreePlanBatchedReceiptChecks": {
+    "firstHundred": {
+      "count": 100,
+      "allExactHashesAndStored": true,
+      "readTokenAccepted": true,
+      "returnsNoOriginalRules": true,
+      "requestBytes": 2549,
+      "responseBytes": 20838,
+      "elapsedSeconds": 2.572,
+      "featureFlag": true,
+      "workerVersion": "faa9186e-9f8d-4b1f-82a7-1803050e99d3"
+    },
+    "boundaryChecks": {
+      "checkedAtUtc": "2026-10-28T16:33:12.126Z",
+      "boundary": {
+        "maxIds": 100,
+        "maxRawJsonBytes": 1048576
+      },
+      "results": [
+        {
+          "label": "largest-raw-byte-batch",
+          "kind": "book",
+          "rows": 55,
+          "rawStoredJsonBytes": 1047916,
+          "requestBytes": 1329,
+          "attempts": 1,
+          "status": 200,
+          "responseBytes": 10679,
+          "exactReceipts": true,
+          "elapsedMs": 2585
+        },
+        {
+          "label": "rss-batch",
+          "kind": "rss",
+          "rows": 43,
+          "rawStoredJsonBytes": 274095,
+          "requestBytes": 2232,
+          "attempts": 1,
+          "status": 200,
+          "responseBytes": 9543,
+          "exactReceipts": true,
+          "elapsedMs": 1804
+        }
+      ]
+    },
+    "allSucceededWithoutRetry": true,
+    "cpuTimeMeasured": false,
+    "noCpuLimitErrorObservedInTheseChecks": true,
+    "allPossibleFutureWorkloadsProven": false
+  },
+  "releaseReadOnlyAudit": {
+    "sourceRevision": "c832129356aa820529602ab42238cb99f3e89749",
+    "sourceWorkingTreeCleanAtReview": true,
+    "testedApkSha256": "a101648cbc26a64a50280e8eb1dcf8da6554e516478ca1260d0efbb7612ccf6e",
+    "testedApkBytes": 30625968,
+    "signerCertificateSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+    "matchesNative28AndJvm137Artifact": true,
+    "fixedManifestUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/latest/download/update.json",
+    "releaseOwnerMatchesConfiguredRepository": true,
+    "latestPublishedTagAtReview": "v1.1.5",
+    "finalVersion121PublicationClaimed": false,
+    "requiredAndroidAndWorkerCorrespondingSourcesAllSelected": true,
+    "sourceCandidateScanFileCountBeforeThisReport": 2310,
+    "sourceCandidateScanFoundActualServiceTokens": false,
+    "sourceCandidateScanFoundSymlinks": false,
+    "gplCopiesIdentical": true,
+    "sourcePackagingRunByThisReview": false
+  },
+  "bundledPublicSourceAsset": {
+    "definitions": 17,
+    "uniqueIds": 17,
+    "allHaveSearchDetailTocAndContentRules": true,
+    "matchesExistingSeventeenSourceDistributionPack": true,
+    "sha256": "f2abd814950973cc87a9ee7b0a1c5101252635fa6089f9b6eb88454479a50ee1",
+    "definitionsDoNotMeanSeventeenCurrentlyHealthySources": true
+  },
+  "handsetScope": {
+    "phoneOperatedByThisReview": false,
+    "migrationCompletionClaimed": false,
+    "localCleanupCompletionClaimed": false,
+    "apkChannelDeliveryAndHandsetMigrationAreSeparateResults": true
+  },
+  "privacy": "Aggregate counters, public artifact hashes and public release URLs only. No private source IDs, book titles, raw rules, tokens, wireless endpoints or handset snapshots."
+}

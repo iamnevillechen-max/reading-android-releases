@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reader_update_title">Reading updates</string>
+    <string name="reader_update_notification_channel">App update downloads</string>
+    <string name="reader_update_current_version">Installed version: %1$s (%2$d)</string>
+    <string name="reader_update_release_version">Available release: %1$s (%2$d), %3$s</string>
+    <string name="reader_update_progress">Downloaded %1$d%%, %2$s of %3$s</string>
+    <string name="reader_update_check">Check for updates</string>
+    <string name="reader_update_idle">Check for a newer version of Reading.</string>
+    <string name="reader_update_checking">Checking for updates…</string>
+    <string name="reader_update_available">A newer version is available. Review the changes, then download.</string>
+    <string name="reader_update_current">You have the latest version.</string>
+    <string name="reader_update_incompatible">This release does not support this device. Your installed app remains available.</string>
+    <string name="reader_update_check_failed">Could not check for updates. Check your connection and tap Check for updates to retry.</string>
+    <string name="reader_update_download">Download</string>
+    <string name="reader_update_resume">Download</string>
+    <string name="reader_update_cancel">Cancel</string>
+    <string name="reader_update_downloading">Downloading. You can leave this page; the download continues.</string>
+    <string name="reader_update_retrying">Connection interrupted. Retrying shortly; downloaded data is saved.</string>
+    <string name="reader_update_paused">Download paused. The downloaded part is saved; tap Download to continue.</string>
+    <string name="reader_update_foreground_denied">Android could not start background downloading. Open this page again and tap Download.</string>
+    <string name="reader_update_cancelled">Download cancelled. The downloaded part is saved for later.</string>
+    <string name="reader_update_verifying">Verifying the update file and signing identity…</string>
+    <string name="reader_update_ready">Update verified and ready. Tap Install update to open Android confirmation.</string>
+    <string name="reader_update_verify_failed">The update did not pass verification. Check for updates again or retry downloading. Your installed app was not changed.</string>
+    <string name="reader_update_install">Install update</string>
+    <string name="reader_update_allow_install">Allow updates from Reading</string>
+    <string name="reader_update_permission_info">Android requires permission to install updates from this app. Open settings, allow it, then return and tap Install update.</string>
+    <string name="reader_update_permission_denied">Installation permission is not enabled. The verified update remains saved; you can enable permission or try later.</string>
+    <string name="reader_update_permission_granted">Installation permission is enabled. Tap Install update when ready.</string>
+    <string name="reader_update_settings_failed">Could not open installation settings. Enable permission for Reading in Android settings, then return.</string>
+    <string name="reader_update_installer_opened">Android installation confirmation opened. Confirm there to update Reading.</string>
+    <string name="reader_update_installer_returned">Returned from the installer. If you cancelled, the verified update is saved and can be installed later.</string>
+    <string name="reader_update_install_failed">Could not open the installer. The verified file is saved; check installation permission and try again.</string>
+    <string name="reader_update_preserve_data">Updates use the same app and signing identity to retain your bookshelf, reading position and history. Android asks before installation.</string>
+    <string name="reader_update_startup_title">Reading update available</string>
+    <string name="reader_update_startup_message">Reading %1$s is available.</string>
+    <string name="reader_update_startup_view">Download</string>
+    <string name="reader_update_startup_later">Cancel</string>
+    <string name="reader_update_install_version">安装已下载的 %1$s</string>
+    <string name="reader_update_background">Download in background</string>
+    <string name="reader_update_changes">Problems fixed in this update</string>
+    <string name="reader_update_notes_missing">This release did not include a list of changes.</string>
+</resources>

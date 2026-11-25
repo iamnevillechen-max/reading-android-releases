@@ -1,0 +1,161 @@
+{
+  "format": "reader-isolated-javascript-feasibility-1",
+  "package": "quickjs-emscripten 0.32.0",
+  "publicInputs": "synthetic fixtures only",
+  "privateSourceScriptsExecuted": 0,
+  "productionConnected": false,
+  "userSitesFetched": 0,
+  "resourceBounds": {
+    "heapBytes": 4194304,
+    "stackBytes": 262144,
+    "interruptAllowance": 2
+  },
+  "startupMillis": 70,
+  "tailMetrics": [
+    {
+      "variant": "initial-async-init",
+      "case": "normal",
+      "cpuMillis": 43,
+      "wallMillis": 44,
+      "outcome": "ok"
+    },
+    {
+      "variant": "initial-async-init",
+      "case": "regex",
+      "cpuMillis": 23,
+      "wallMillis": 23,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "normal",
+      "cpuMillis": 5,
+      "wallMillis": 5,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "unavailableHost",
+      "cpuMillis": 2,
+      "wallMillis": 2,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "infinite",
+      "cpuMillis": 3,
+      "wallMillis": 3,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "memory",
+      "cpuMillis": 4,
+      "wallMillis": 5,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "regex",
+      "cpuMillis": 5,
+      "wallMillis": 5,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "normal",
+      "cpuMillis": 2,
+      "wallMillis": 2,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "unavailableHost",
+      "cpuMillis": 2,
+      "wallMillis": 2,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "infinite",
+      "cpuMillis": 7,
+      "wallMillis": 7,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "memory",
+      "cpuMillis": 2,
+      "wallMillis": 2,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "regex",
+      "cpuMillis": 6,
+      "wallMillis": 7,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "normal",
+      "cpuMillis": 2,
+      "wallMillis": 2,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "unavailableHost",
+      "cpuMillis": 1,
+      "wallMillis": 1,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "infinite",
+      "cpuMillis": 3,
+      "wallMillis": 3,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "memory",
+      "cpuMillis": 1,
+      "wallMillis": 2,
+      "outcome": "ok"
+    },
+    {
+      "variant": "startup-init-synthetic-prewarm",
+      "case": "regex",
+      "cpuMillis": 2,
+      "wallMillis": 3,
+      "outcome": "ok"
+    }
+  ],
+  "caveats": [
+    "The initial prototype exceeded the 10ms free CPU allowance despite HTTP 200; its metrics remain recorded.",
+    "Fifteen prewarmed synthetic requests passed; sampled CPU was 1-7ms. This does not prove every script or a complete source request fits the free allowance.",
+    "No native host globals or HTTP helpers were exposed. Source Java/Rhino bridge compatibility and real source correctness remain unverified.",
+    "One runtime per field is too expensive; a bounded realm per source operation is required."
+  ],
+  "completeCoreAcceptance": {
+    "accepted": false,
+    "requestCount": 18,
+    "priorRequestsWithoutCpu": 20,
+    "cpuSamples": 11,
+    "overBudget": [
+      {
+        "case": "hundred",
+        "cpuMillis": 25
+      },
+      {
+        "case": "regex",
+        "cpuMillis": 12
+      }
+    ],
+    "productionConnected": false,
+    "sourceScriptsExecuted": 0,
+    "note": "The full parser/validation kernel adds cost. HTTP success does not satisfy CPU acceptance; missing trace samples remain unverified."
+  },
+  "temporarySyntheticWorkerRemoved": true
+}

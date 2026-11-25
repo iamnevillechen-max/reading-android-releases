@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "databaseUnchanged": true,
+  "sources": 8,
+  "roundOutcomes": {
+    "inconclusive": 8,
+    "failed": 6,
+    "passed": 2
+  },
+  "bothRoundsFailed": 3,
+  "bothRoundsPassed": 1,
+  "inconclusiveSources": 4,
+  "exceptions": {
+    "UnknownHostException": 8,
+    "TimeoutCancellationException": 2
+  },
+  "handsetChangesApplied": 0,
+  "proposedReversibleDnsDisables": 2,
+  "actualDisables": 0,
+  "actualDeletes": 0,
+  "permanentInvalidityNotClaimed": true
+}

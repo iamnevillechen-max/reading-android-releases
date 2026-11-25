@@ -1,0 +1,8 @@
+{
+  "previousVersion": "1.1.3",
+  "newVersion": "1.1.4",
+  "samePackageUpdate": true,
+  "legacyFeedbackFileBytesPreserved": true,
+  "fixtureOnOwnedEmulatorOnly": true,
+  "noUserDataUsed": true
+}

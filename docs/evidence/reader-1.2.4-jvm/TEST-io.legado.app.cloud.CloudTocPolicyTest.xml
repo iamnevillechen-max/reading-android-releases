@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.cloud.CloudTocPolicyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:28.313Z" hostname="nevilledeMacBook-Neo.local" time="0.003">
+  <properties/>
+  <testcase name="changedUrlMayUseOnlyAUniqueExactTitle" classname="io.legado.app.cloud.CloudTocPolicyTest" time="0.0"/>
+  <testcase name="duplicateOldIndexesOrDuplicateCanonicalUrlsNeverProveAChapter" classname="io.legado.app.cloud.CloudTocPolicyTest" time="0.0"/>
+  <testcase name="insertedFrontPageAndVipKeepTheExactCurrentChapterEvenAtIndexZero" classname="io.legado.app.cloud.CloudTocPolicyTest" time="0.0"/>
+  <testcase name="missingCurrentIdentityNeverFallsBackToNumericIndexOrAChapterNumber" classname="io.legado.app.cloud.CloudTocPolicyTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+{
+  "publicLatestVersion": "1.2.4",
+  "publicLatestVersionCode": 10204,
+  "fullDownloads": [
+    {
+      "asset": "Reader.apk",
+      "bytes": 30943175,
+      "sha256": "b0d4abdd1c554ff07e31cb4db93e8f3df5ce7bfd04aff24c01bade78ccc7437a",
+      "matched": true
+    },
+    {
+      "asset": "Reader-1.2.4-source.zip",
+      "bytes": 9665537,
+      "sha256": "688afe845a5c757bd158039aca02c5682237087d248b20fd8ad9003f2959f0b8",
+      "matched": true
+    },
+    {
+      "asset": "OriginalSources.readerpack",
+      "bytes": 14025469,
+      "sha256": "dd392ee25e6f9d18bda517871b147ac09da8e2fa4435a008e9b395b8425d0a04",
+      "matched": true
+    }
+  ],
+  "passed": true
+}

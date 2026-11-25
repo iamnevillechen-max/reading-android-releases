@@ -1,0 +1,1772 @@
+{
+  "date": "2026-10-26",
+  "device": "emulator-5554",
+  "androidApi": 35,
+  "readerVersion": "1.1.0-rc.1 (10099), same source as final 1.1.0",
+  "talkbackPackage": "com.android.talkback",
+  "input": "Real emulator keyboard events via su sendevent event12: Default TalkBack keymap Alt+ArrowRight/Left and Alt+Enter. Native Back key returns. Fresh Appium session only observes a11y-focused=true and captures screenshots.",
+  "fixtures": "Restored root-owned synthetic fixture: 3 book sources, 7 RSS sources (4 bundled web shortcuts), 1 synthetic book. No phone or user data.",
+  "checks": {
+    "discoveryCategoryKeyboardReachAndActivate": "passed: 完結 to 都市, selected category remains a11y focused; same page shows synthetic multi-source result",
+    "rssCategoryKeyboardReachAndActivate": "passed: 全部 to 本機UI驗收, selected category remains a11y focused; inline source-labelled articles",
+    "myUpdateEntrance": "passed: real TalkBack focus/activation to update page and Check for Updates button",
+    "updateNetwork": "unpublished metadata at test time returned retryable error; this is no download/install proof",
+    "myFeedbackEntrance": "passed: real TalkBack focus/activation to feedback page",
+    "feedbackEditorAndSave": "passed: editor and Save reached with TalkBack, Save activated via Alt+Enter; one synthetic record saved with local confirmation",
+    "feedbackTextSetup": "Appium set_value supplied synthetic text after TalkBack activated editor; no voice or hardware typing claim"
+  },
+  "limitations": [
+    "Emulator has no audio: no acoustic listening or speech quality acceptance claimed.",
+    "This is bounded keyboard accessibility QA, not full human touch TalkBack acceptance.",
+    "Public in-app download/install not tested in this run; overlay preservation evidence recorded separately."
+  ],
+  "steps": [
+    {
+      "sequence": 1,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "全部 | 全部",
+          "own": "全部",
+          "class": "android.widget.LinearLayout",
+          "selected": "true",
+          "bounds": "[42,146][180,272]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Search",
+          "own": "Search",
+          "id": "io.multiread.reader.debug:id/menu_search",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[848,146][975,272]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "More options",
+          "own": "More options",
+          "class": "android.widget.ImageView",
+          "selected": "false",
+          "bounds": "[975,146][1080,272]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Cover | 河谷來信・本機驗收 | 1 | Author | 測試寫手甲 | Recent reading | 第三章 老樹 | Latest chapter | 第四章 回信",
+          "own": "",
+          "id": "io.multiread.reader.debug:id/cv_content",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,283][1080,599]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Bookshelf",
+          "own": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "class": "android.widget.FrameLayout",
+          "selected": "true",
+          "bounds": "[0,1663][270,1794]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Discovery",
+          "own": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[270,1663][540,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "key": "Alt+Enter",
+      "action": "activateDiscovery",
+      "focus": [
+        {
+          "label": "完結 | 完結",
+          "own": "完結",
+          "class": "android.widget.LinearLayout",
+          "selected": "true",
+          "bounds": "[0,484][189,610]",
+          "clickable": "false"
+        }
+      ],
+      "visible": [
+        {
+          "label": "   搜尋全部來源的分類",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "selected": "false",
+          "bounds": "[63,170][827,249]"
+        },
+        {
+          "label": "Group",
+          "id": "io.multiread.reader.debug:id/menu_group",
+          "selected": "false",
+          "bounds": "[848,146][975,272]"
+        },
+        {
+          "label": "More options",
+          "selected": "false",
+          "bounds": "[975,146][1080,272]"
+        },
+        {
+          "label": "全部",
+          "id": "io.multiread.reader.debug:id/mode_all",
+          "selected": "false",
+          "bounds": "[21,283][540,409]"
+        },
+        {
+          "label": "單一來源",
+          "id": "io.multiread.reader.debug:id/mode_single",
+          "selected": "false",
+          "bounds": "[540,283][1059,409]"
+        },
+        {
+          "label": "2 個統一分類",
+          "id": "io.multiread.reader.debug:id/tv_aggregation_status",
+          "selected": "false",
+          "bounds": "[0,409][1080,484]"
+        },
+        {
+          "label": "完結",
+          "selected": "true",
+          "bounds": "[0,484][189,610]"
+        },
+        {
+          "label": "完結",
+          "selected": "true",
+          "bounds": "[57,520][131,574]"
+        },
+        {
+          "label": "都市",
+          "selected": "false",
+          "bounds": "[189,484][378,610]"
+        },
+        {
+          "label": "都市",
+          "selected": "false",
+          "bounds": "[246,520][320,574]"
+        },
+        {
+          "label": "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+          "selected": "false",
+          "bounds": "[0,610][1080,946]"
+        },
+        {
+          "label": "Cover",
+          "id": "io.multiread.reader.debug:id/iv_cover",
+          "selected": "false",
+          "bounds": "[21,631][231,925]"
+        },
+        {
+          "label": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/tv_name",
+          "selected": "false",
+          "bounds": "[294,631][996,693]"
+        },
+        {
+          "label": "2 | 2 個來源 · 本機書源A・缺段",
+          "id": "io.multiread.reader.debug:id/bv_originCount",
+          "selected": "false",
+          "bounds": "[1017,631][1059,676]"
+        },
+        {
+          "label": "Author: 測試寫手甲",
+          "id": "io.multiread.reader.debug:id/tv_author",
+          "selected": "false",
+          "bounds": "[252,701][996,749]"
+        },
+        {
+          "label": "都市・完結",
+          "selected": "false",
+          "bounds": "[252,749][421,794]"
+        },
+        {
+          "label": "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。",
+          "id": "io.multiread.reader.debug:id/tv_introduce",
+          "selected": "false",
+          "bounds": "[252,794][996,925]"
+        },
+        {
+          "label": "I AM OVER!",
+          "id": "io.multiread.reader.debug:id/tv_text",
+          "selected": "false",
+          "bounds": "[0,959][1080,1062]"
+        },
+        {
+          "label": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]"
+        },
+        {
+          "label": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "selected": "true",
+          "bounds": "[270,1663][540,1794]"
+        },
+        {
+          "label": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "selected": "false",
+          "bounds": "[540,1663][810,1794]"
+        },
+        {
+          "label": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "selected": "false",
+          "bounds": "[810,1663][1080,1794]"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "都市 | 都市",
+          "own": "都市",
+          "class": "android.widget.LinearLayout",
+          "selected": "false",
+          "bounds": "[189,484][378,610]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "key": "Alt+Enter",
+      "action": "selectDiscoveryUrbanInline",
+      "focus": [
+        {
+          "label": "都市 | 都市",
+          "own": "都市",
+          "class": "android.widget.LinearLayout",
+          "selected": "true",
+          "bounds": "[189,484][378,610]",
+          "clickable": "false"
+        }
+      ],
+      "visible": [
+        {
+          "label": "   搜尋全部來源的分類",
+          "id": "io.multiread.reader.debug:id/search_src_text",
+          "selected": "false",
+          "bounds": "[63,170][827,249]"
+        },
+        {
+          "label": "Group",
+          "id": "io.multiread.reader.debug:id/menu_group",
+          "selected": "false",
+          "bounds": "[848,146][975,272]"
+        },
+        {
+          "label": "More options",
+          "selected": "false",
+          "bounds": "[975,146][1080,272]"
+        },
+        {
+          "label": "全部",
+          "id": "io.multiread.reader.debug:id/mode_all",
+          "selected": "false",
+          "bounds": "[21,283][540,409]"
+        },
+        {
+          "label": "單一來源",
+          "id": "io.multiread.reader.debug:id/mode_single",
+          "selected": "false",
+          "bounds": "[540,283][1059,409]"
+        },
+        {
+          "label": "2 個統一分類",
+          "id": "io.multiread.reader.debug:id/tv_aggregation_status",
+          "selected": "false",
+          "bounds": "[0,409][1080,484]"
+        },
+        {
+          "label": "完結",
+          "selected": "false",
+          "bounds": "[0,484][189,610]"
+        },
+        {
+          "label": "完結",
+          "selected": "false",
+          "bounds": "[57,520][131,574]"
+        },
+        {
+          "label": "都市",
+          "selected": "true",
+          "bounds": "[189,484][378,610]"
+        },
+        {
+          "label": "都市",
+          "selected": "true",
+          "bounds": "[246,520][320,574]"
+        },
+        {
+          "label": "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+          "selected": "false",
+          "bounds": "[0,610][1080,946]"
+        },
+        {
+          "label": "Cover",
+          "id": "io.multiread.reader.debug:id/iv_cover",
+          "selected": "false",
+          "bounds": "[21,631][231,925]"
+        },
+        {
+          "label": "河谷來信・本機驗收",
+          "id": "io.multiread.reader.debug:id/tv_name",
+          "selected": "false",
+          "bounds": "[294,631][996,693]"
+        },
+        {
+          "label": "2 | 2 個來源 · 本機書源A・缺段",
+          "id": "io.multiread.reader.debug:id/bv_originCount",
+          "selected": "false",
+          "bounds": "[1017,631][1059,676]"
+        },
+        {
+          "label": "Author: 測試寫手甲",
+          "id": "io.multiread.reader.debug:id/tv_author",
+          "selected": "false",
+          "bounds": "[252,701][996,749]"
+        },
+        {
+          "label": "都市・完結",
+          "selected": "false",
+          "bounds": "[252,749][421,794]"
+        },
+        {
+          "label": "Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。",
+          "id": "io.multiread.reader.debug:id/tv_introduce",
+          "selected": "false",
+          "bounds": "[252,794][996,925]"
+        },
+        {
+          "label": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]"
+        },
+        {
+          "label": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "selected": "true",
+          "bounds": "[270,1663][540,1794]"
+        },
+        {
+          "label": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "selected": "false",
+          "bounds": "[540,1663][810,1794]"
+        },
+        {
+          "label": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "selected": "false",
+          "bounds": "[810,1663][1080,1794]"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源 | Cover | 河谷來信・本機驗收 | 2 | 2 個來源 · 本機書源A・缺段 | Author: 測試寫手甲 | 都市・完結 | Description:本機合成小說，用來核對正文補全、跨源發現與閱讀流程。",
+          "own": "河谷來信・本機驗收，測試寫手甲，本機書源A・缺段，2 個來源",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,610][1080,946]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "",
+          "own": "",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[0,947][1080,1074]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Bookshelf",
+          "own": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Discovery",
+          "own": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "class": "android.widget.FrameLayout",
+          "selected": "true",
+          "bounds": "[270,1663][540,1794]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "RSS feeds",
+          "own": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[540,1663][810,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "key": "Alt+Enter",
+      "action": "activateRss",
+      "focus": [
+        {
+          "label": "RSS feeds",
+          "own": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "class": "android.widget.FrameLayout",
+          "selected": "true",
+          "bounds": "[540,1663][810,1794]",
+          "clickable": "false"
+        }
+      ],
+      "visible": [
+        {
+          "label": "RSS feeds",
+          "selected": "false",
+          "bounds": "[42,174][284,245]"
+        },
+        {
+          "label": "Favorite",
+          "id": "io.multiread.reader.debug:id/menu_rss_star",
+          "selected": "false",
+          "bounds": "[594,146][721,272]"
+        },
+        {
+          "label": "Group",
+          "id": "io.multiread.reader.debug:id/menu_group",
+          "selected": "false",
+          "bounds": "[721,146][848,272]"
+        },
+        {
+          "label": "Settings",
+          "id": "io.multiread.reader.debug:id/menu_rss_config",
+          "selected": "false",
+          "bounds": "[848,146][975,272]"
+        },
+        {
+          "label": "More options",
+          "selected": "false",
+          "bounds": "[975,146][1080,272]"
+        },
+        {
+          "label": "全部",
+          "id": "io.multiread.reader.debug:id/mode_all",
+          "selected": "false",
+          "bounds": "[21,283][540,409]"
+        },
+        {
+          "label": "單一來源",
+          "id": "io.multiread.reader.debug:id/mode_single",
+          "selected": "false",
+          "bounds": "[540,283][1059,409]"
+        },
+        {
+          "label": "全部",
+          "selected": "true",
+          "bounds": "[0,409][189,535]"
+        },
+        {
+          "label": "全部",
+          "selected": "true",
+          "bounds": "[57,445][131,499]"
+        },
+        {
+          "label": "legado",
+          "selected": "false",
+          "bounds": "[189,409][393,535]"
+        },
+        {
+          "label": "LEGADO",
+          "selected": "false",
+          "bounds": "[221,446][361,497]"
+        },
+        {
+          "label": "本機UI驗收",
+          "selected": "false",
+          "bounds": "[393,409][639,535]"
+        },
+        {
+          "label": "本機UI驗收",
+          "selected": "false",
+          "bounds": "[425,445][607,499]"
+        },
+        {
+          "label": "另有 4 個網頁入口，點此選擇並開啟。",
+          "selected": "false",
+          "bounds": "[0,535][1080,673]"
+        },
+        {
+          "label": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "selected": "false",
+          "bounds": "[0,674][1080,937]"
+        },
+        {
+          "label": "本機訂閱：午後閱讀角",
+          "id": "io.multiread.reader.debug:id/tv_title",
+          "selected": "false",
+          "bounds": "[42,716][1038,847]"
+        },
+        {
+          "label": "Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "id": "io.multiread.reader.debug:id/tv_pub_date",
+          "selected": "false",
+          "bounds": "[42,847][1038,895]"
+        },
+        {
+          "label": "本機訂閱：河谷新書架，Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "selected": "false",
+          "bounds": "[0,938][1080,1201]"
+        },
+        {
+          "label": "本機訂閱：河谷新書架",
+          "id": "io.multiread.reader.debug:id/tv_title",
+          "selected": "false",
+          "bounds": "[42,980][1038,1111]"
+        },
+        {
+          "label": "Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "id": "io.multiread.reader.debug:id/tv_pub_date",
+          "selected": "false",
+          "bounds": "[42,1111][1038,1159]"
+        },
+        {
+          "label": "本機訂閱：上午到書提醒，Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "selected": "false",
+          "bounds": "[0,1202][1080,1465]"
+        },
+        {
+          "label": "本機訂閱：上午到書提醒",
+          "id": "io.multiread.reader.debug:id/tv_title",
+          "selected": "false",
+          "bounds": "[42,1244][1038,1375]"
+        },
+        {
+          "label": "Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "id": "io.multiread.reader.debug:id/tv_pub_date",
+          "selected": "false",
+          "bounds": "[42,1375][1038,1423]"
+        },
+        {
+          "label": "I AM OVER!",
+          "id": "io.multiread.reader.debug:id/tv_text",
+          "selected": "false",
+          "bounds": "[0,1478][1080,1581]"
+        },
+        {
+          "label": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]"
+        },
+        {
+          "label": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "selected": "false",
+          "bounds": "[270,1663][540,1794]"
+        },
+        {
+          "label": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "selected": "true",
+          "bounds": "[540,1663][810,1794]"
+        },
+        {
+          "label": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "selected": "false",
+          "bounds": "[810,1663][1080,1794]"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "Discovery",
+          "own": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[270,1663][540,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "Bookshelf",
+          "own": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "I AM OVER!",
+          "own": "",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[0,1466][1080,1593]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "本機訂閱：上午到書提醒，Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A | 本機訂閱：上午到書提醒 | Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "own": "本機訂閱：上午到書提醒，Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,1202][1080,1465]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "本機訂閱：河谷新書架，Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A | 本機訂閱：河谷新書架 | Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "own": "本機訂閱：河谷新書架，Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,938][1080,1201]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B | 本機訂閱：午後閱讀角 | Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "own": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,674][1080,937]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "另有 4 個網頁入口，點此選擇並開啟。",
+          "own": "另有 4 個網頁入口，點此選擇並開啟。",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[0,535][1080,673]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "key": "Alt+ArrowLeft",
+      "focus": [
+        {
+          "label": "本機UI驗收 | 本機UI驗收",
+          "own": "本機UI驗收",
+          "class": "android.widget.LinearLayout",
+          "selected": "false",
+          "bounds": "[393,409][639,535]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 24,
+      "key": "Alt+Enter",
+      "action": "selectRssFixtureGroupInline",
+      "focus": [
+        {
+          "label": "本機UI驗收 | 本機UI驗收",
+          "own": "本機UI驗收",
+          "class": "android.widget.LinearLayout",
+          "selected": "true",
+          "bounds": "[393,409][639,535]",
+          "clickable": "false"
+        }
+      ],
+      "visible": [
+        {
+          "label": "RSS feeds",
+          "selected": "false",
+          "bounds": "[42,174][284,245]"
+        },
+        {
+          "label": "Favorite",
+          "id": "io.multiread.reader.debug:id/menu_rss_star",
+          "selected": "false",
+          "bounds": "[594,146][721,272]"
+        },
+        {
+          "label": "Group",
+          "id": "io.multiread.reader.debug:id/menu_group",
+          "selected": "false",
+          "bounds": "[721,146][848,272]"
+        },
+        {
+          "label": "Settings",
+          "id": "io.multiread.reader.debug:id/menu_rss_config",
+          "selected": "false",
+          "bounds": "[848,146][975,272]"
+        },
+        {
+          "label": "More options",
+          "selected": "false",
+          "bounds": "[975,146][1080,272]"
+        },
+        {
+          "label": "全部",
+          "id": "io.multiread.reader.debug:id/mode_all",
+          "selected": "false",
+          "bounds": "[21,283][540,409]"
+        },
+        {
+          "label": "單一來源",
+          "id": "io.multiread.reader.debug:id/mode_single",
+          "selected": "false",
+          "bounds": "[540,283][1059,409]"
+        },
+        {
+          "label": "全部",
+          "selected": "false",
+          "bounds": "[0,409][189,535]"
+        },
+        {
+          "label": "全部",
+          "selected": "false",
+          "bounds": "[57,445][131,499]"
+        },
+        {
+          "label": "legado",
+          "selected": "false",
+          "bounds": "[189,409][393,535]"
+        },
+        {
+          "label": "LEGADO",
+          "selected": "false",
+          "bounds": "[221,446][361,497]"
+        },
+        {
+          "label": "本機UI驗收",
+          "selected": "true",
+          "bounds": "[393,409][639,535]"
+        },
+        {
+          "label": "本機UI驗收",
+          "selected": "true",
+          "bounds": "[425,445][607,499]"
+        },
+        {
+          "label": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "selected": "false",
+          "bounds": "[0,671][1080,934]"
+        },
+        {
+          "label": "本機訂閱：午後閱讀角",
+          "id": "io.multiread.reader.debug:id/tv_title",
+          "selected": "false",
+          "bounds": "[42,713][1038,844]"
+        },
+        {
+          "label": "Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "id": "io.multiread.reader.debug:id/tv_pub_date",
+          "selected": "false",
+          "bounds": "[42,844][1038,892]"
+        },
+        {
+          "label": "本機訂閱：河谷新書架，Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "selected": "false",
+          "bounds": "[0,935][1080,1198]"
+        },
+        {
+          "label": "本機訂閱：河谷新書架",
+          "id": "io.multiread.reader.debug:id/tv_title",
+          "selected": "false",
+          "bounds": "[42,977][1038,1108]"
+        },
+        {
+          "label": "Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "id": "io.multiread.reader.debug:id/tv_pub_date",
+          "selected": "false",
+          "bounds": "[42,1108][1038,1156]"
+        },
+        {
+          "label": "本機訂閱：上午到書提醒，Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "selected": "false",
+          "bounds": "[0,1199][1080,1462]"
+        },
+        {
+          "label": "本機訂閱：上午到書提醒",
+          "id": "io.multiread.reader.debug:id/tv_title",
+          "selected": "false",
+          "bounds": "[42,1241][1038,1372]"
+        },
+        {
+          "label": "Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "id": "io.multiread.reader.debug:id/tv_pub_date",
+          "selected": "false",
+          "bounds": "[42,1372][1038,1420]"
+        },
+        {
+          "label": "I AM OVER!",
+          "id": "io.multiread.reader.debug:id/tv_text",
+          "selected": "false",
+          "bounds": "[0,1475][1080,1578]"
+        },
+        {
+          "label": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]"
+        },
+        {
+          "label": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "selected": "false",
+          "bounds": "[270,1663][540,1794]"
+        },
+        {
+          "label": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "selected": "true",
+          "bounds": "[540,1663][810,1794]"
+        },
+        {
+          "label": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "selected": "false",
+          "bounds": "[810,1663][1080,1794]"
+        }
+      ]
+    },
+    {
+      "sequence": 25,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B | 本機訂閱：午後閱讀角 | Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "own": "本機訂閱：午後閱讀角，Mon, 26 Oct 2026 10:00:00 +0800 · 本機訂閱B",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,671][1080,934]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 26,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "本機訂閱：河谷新書架，Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A | 本機訂閱：河谷新書架 | Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "own": "本機訂閱：河谷新書架，Mon, 26 Oct 2026 09:00:00 +0800 · 本機訂閱A",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,935][1080,1198]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 27,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "本機訂閱：上午到書提醒，Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A | 本機訂閱：上午到書提醒 | Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "own": "本機訂閱：上午到書提醒，Mon, 26 Oct 2026 08:00:00 +0800 · 本機訂閱A",
+          "class": "android.view.ViewGroup",
+          "selected": "false",
+          "bounds": "[0,1199][1080,1462]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 28,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "I AM OVER!",
+          "own": "",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[0,1410][1080,1537]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 29,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Bookshelf",
+          "own": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 30,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Discovery",
+          "own": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[270,1663][540,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 31,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "RSS feeds",
+          "own": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "class": "android.widget.FrameLayout",
+          "selected": "true",
+          "bounds": "[540,1663][810,1794]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 32,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Me",
+          "own": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "class": "android.widget.FrameLayout",
+          "selected": "false",
+          "bounds": "[810,1663][1080,1794]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 33,
+      "key": "Alt+Enter",
+      "action": "activateMy",
+      "focus": [
+        {
+          "label": "Me",
+          "own": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "class": "android.widget.FrameLayout",
+          "selected": "true",
+          "bounds": "[810,1663][1080,1794]",
+          "clickable": "false"
+        }
+      ],
+      "visible": [
+        {
+          "label": "Me",
+          "selected": "false",
+          "bounds": "[42,174][116,245]"
+        },
+        {
+          "label": "Help",
+          "id": "io.multiread.reader.debug:id/menu_help",
+          "selected": "false",
+          "bounds": "[953,146][1080,272]"
+        },
+        {
+          "label": "Check for Updates",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[42,309][1038,366]"
+        },
+        {
+          "label": "检查新版本，下载后保留资料更新",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[42,387][1038,441]"
+        },
+        {
+          "label": "问题反馈",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[42,493][1038,555]"
+        },
+        {
+          "label": "保存遇到的问题，查看反馈记录",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[42,576][1038,630]"
+        },
+        {
+          "label": "Sources management",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[147,682][1038,739]"
+        },
+        {
+          "label": "Create/Import/Edit/Manage Book sources",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[147,760][1038,811]"
+        },
+        {
+          "label": "Txt Catalog Rule",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[147,863][1038,920]"
+        },
+        {
+          "label": "Configure txt catalog rules",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[147,941][1038,992]"
+        },
+        {
+          "label": "Replacement",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[147,1044][1038,1101]"
+        },
+        {
+          "label": "Configure replacement rules",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[147,1122][1038,1173]"
+        },
+        {
+          "label": "Dict rule",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[147,1225][1038,1282]"
+        },
+        {
+          "label": "Config dict rule",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[147,1303][1038,1354]"
+        },
+        {
+          "label": "Theme mode",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[147,1406][716,1463]"
+        },
+        {
+          "label": "Select a theme you want",
+          "id": "io.multiread.reader.debug:id/preference_desc",
+          "selected": "false",
+          "bounds": "[147,1484][716,1535]"
+        },
+        {
+          "label": "Follow system",
+          "id": "io.multiread.reader.debug:id/text_view",
+          "selected": "false",
+          "bounds": "[737,1434][1038,1507]"
+        },
+        {
+          "label": "Web service",
+          "id": "io.multiread.reader.debug:id/preference_title",
+          "selected": "false",
+          "bounds": "[147,1587][895,1644]"
+        },
+        {
+          "label": "Bookshelf",
+          "id": "io.multiread.reader.debug:id/menu_bookshelf",
+          "selected": "false",
+          "bounds": "[0,1663][270,1794]"
+        },
+        {
+          "label": "Discovery",
+          "id": "io.multiread.reader.debug:id/menu_discovery",
+          "selected": "false",
+          "bounds": "[270,1663][540,1794]"
+        },
+        {
+          "label": "RSS feeds",
+          "id": "io.multiread.reader.debug:id/menu_rss",
+          "selected": "false",
+          "bounds": "[540,1663][810,1794]"
+        },
+        {
+          "label": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "selected": "true",
+          "bounds": "[810,1663][1080,1794]"
+        }
+      ]
+    },
+    {
+      "sequence": 34,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Me",
+          "own": "Me",
+          "id": "io.multiread.reader.debug:id/menu_my_config",
+          "class": "android.widget.FrameLayout",
+          "selected": "true",
+          "bounds": "[810,1663][1080,1794]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 35,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Me | Help | Check for Updates | 检查新版本，下载后保留资料更新 | 问题反馈 | 保存遇到的问题，查看反馈记录 | Sources management | Create/Import/Edit/Manage Book sources | Txt Catalog Rule | Configure txt catalog rules | Replacement | Configure replacement rules | Dict rule | Config dict rule | Theme mode | Select a theme you want | Follow system | Web service",
+          "own": "",
+          "id": "io.multiread.reader.debug:id/view_pager_main",
+          "class": "androidx.viewpager.widget.ViewPager",
+          "selected": "false",
+          "bounds": "[0,0][1080,1663]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 36,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Me",
+          "own": "Me",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[42,174][116,245]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 37,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Help",
+          "own": "Help",
+          "id": "io.multiread.reader.debug:id/menu_help",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[953,146][1080,272]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 38,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Check for Updates | 检查新版本，下载后保留资料更新",
+          "own": "",
+          "class": "android.widget.LinearLayout",
+          "selected": "false",
+          "bounds": "[0,283][1080,467]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 39,
+      "key": "Alt+Enter",
+      "action": "openUpdate",
+      "focus": [
+        {
+          "label": "Navigate up",
+          "own": "Navigate up",
+          "class": "android.widget.ImageButton",
+          "selected": "false",
+          "bounds": "[0,136][147,283]",
+          "clickable": "true"
+        }
+      ],
+      "visible": [
+        {
+          "label": "Navigate up",
+          "selected": "false",
+          "bounds": "[0,136][147,283]"
+        },
+        {
+          "label": "Reading updates",
+          "selected": "false",
+          "bounds": "[189,174][587,245]"
+        },
+        {
+          "label": "Installed version: 1.1.0-rc.1 (10099)",
+          "id": "io.multiread.reader.debug:id/current_version",
+          "selected": "false",
+          "bounds": "[53,336][1027,399]"
+        },
+        {
+          "label": "Checking for updates…",
+          "id": "io.multiread.reader.debug:id/update_status",
+          "selected": "false",
+          "bounds": "[53,441][1027,504]"
+        },
+        {
+          "label": "CHECK FOR UPDATES",
+          "id": "io.multiread.reader.debug:id/check_update",
+          "selected": "false",
+          "bounds": "[53,504][1027,630]"
+        },
+        {
+          "label": "DOWNLOAD UPDATE",
+          "id": "io.multiread.reader.debug:id/download_update",
+          "selected": "false",
+          "bounds": "[53,630][1027,756]"
+        },
+        {
+          "label": "Updates use the same app and signing identity to retain your bookshelf, reading position and history. Android asks before installation.",
+          "selected": "false",
+          "bounds": "[53,798][1027,953]"
+        }
+      ]
+    },
+    {
+      "sequence": 40,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Reading updates",
+          "own": "Reading updates",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[189,174][587,245]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 41,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Installed version: 1.1.0-rc.1 (10099)",
+          "own": "Installed version: 1.1.0-rc.1 (10099)",
+          "id": "io.multiread.reader.debug:id/current_version",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[53,336][1027,399]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 42,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Could not check for updates. Check your connection and tap Check for updates to retry.",
+          "own": "Could not check for updates. Check your connection and tap Check for updates to retry.",
+          "id": "io.multiread.reader.debug:id/update_status",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[53,441][1027,559]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 43,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "CHECK FOR UPDATES",
+          "own": "CHECK FOR UPDATES",
+          "id": "io.multiread.reader.debug:id/check_update",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[53,559][1027,685]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 44,
+      "key": "Alt+Enter",
+      "action": "activateCheckUpdates",
+      "focus": [
+        {
+          "label": "CHECK FOR UPDATES",
+          "own": "CHECK FOR UPDATES",
+          "id": "io.multiread.reader.debug:id/check_update",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[53,559][1027,685]",
+          "clickable": "true"
+        }
+      ],
+      "visible": [
+        {
+          "label": "Navigate up",
+          "selected": "false",
+          "bounds": "[0,136][147,283]"
+        },
+        {
+          "label": "Reading updates",
+          "selected": "false",
+          "bounds": "[189,174][587,245]"
+        },
+        {
+          "label": "Installed version: 1.1.0-rc.1 (10099)",
+          "id": "io.multiread.reader.debug:id/current_version",
+          "selected": "false",
+          "bounds": "[53,336][1027,399]"
+        },
+        {
+          "label": "Could not check for updates. Check your connection and tap Check for updates to retry.",
+          "id": "io.multiread.reader.debug:id/update_status",
+          "selected": "false",
+          "bounds": "[53,441][1027,559]"
+        },
+        {
+          "label": "CHECK FOR UPDATES",
+          "id": "io.multiread.reader.debug:id/check_update",
+          "selected": "false",
+          "bounds": "[53,559][1027,685]"
+        },
+        {
+          "label": "DOWNLOAD UPDATE",
+          "id": "io.multiread.reader.debug:id/download_update",
+          "selected": "false",
+          "bounds": "[53,685][1027,811]"
+        },
+        {
+          "label": "Updates use the same app and signing identity to retain your bookshelf, reading position and history. Android asks before installation.",
+          "selected": "false",
+          "bounds": "[53,853][1027,1008]"
+        }
+      ]
+    },
+    {
+      "sequence": 45,
+      "key": "hardware Back",
+      "action": "returnToMy",
+      "focus": [
+        {
+          "label": "Check for Updates | 检查新版本，下载后保留资料更新",
+          "own": "",
+          "class": "android.widget.LinearLayout",
+          "selected": "false",
+          "bounds": "[0,283][1080,467]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 46,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "问题反馈 | 保存遇到的问题，查看反馈记录",
+          "own": "",
+          "class": "android.widget.LinearLayout",
+          "selected": "false",
+          "bounds": "[0,467][1080,656]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 47,
+      "key": "Alt+Enter",
+      "action": "openFeedback",
+      "focus": [],
+      "visible": [
+        {
+          "label": "Navigate up",
+          "selected": "false",
+          "bounds": "[4,136][151,283]"
+        },
+        {
+          "label": "Problem feedback",
+          "selected": "false",
+          "bounds": "[193,174][626,245]"
+        },
+        {
+          "label": "Feedback is saved on this phone. It is not sent automatically. Open My feedback to review it, or export a file for follow-up.",
+          "selected": "false",
+          "bounds": "[4,283][1080,441]"
+        },
+        {
+          "label": "WRITE FEEDBACK",
+          "id": "io.multiread.reader.debug:id/feedback_write",
+          "selected": "true",
+          "bounds": "[25,441][544,567]"
+        },
+        {
+          "label": "MY FEEDBACK (0)",
+          "id": "io.multiread.reader.debug:id/feedback_mine",
+          "selected": "false",
+          "bounds": "[544,441][1063,567]"
+        },
+        {
+          "label": "Category",
+          "selected": "false",
+          "bounds": "[36,599][1052,650]"
+        },
+        {
+          "label": "Bookshelf",
+          "id": "android:id/text1",
+          "selected": "false",
+          "bounds": "[36,684][926,741]"
+        },
+        {
+          "label": "Description (required, up to 4,000 characters)",
+          "selected": "false",
+          "bounds": "[36,776][1052,859]"
+        },
+        {
+          "label": "What were you doing? What happened, and what did you expect?",
+          "id": "io.multiread.reader.debug:id/feedback_description",
+          "selected": "false",
+          "bounds": "[36,859][1052,1252]"
+        },
+        {
+          "label": "Only your description, category, time, app version and Android version are saved. Book contents, sources, settings and logs are not added. Avoid entering passwords or private information.",
+          "selected": "false",
+          "bounds": "[36,1252][1052,1474]"
+        },
+        {
+          "label": "SAVE FEEDBACK",
+          "id": "io.multiread.reader.debug:id/feedback_save",
+          "selected": "false",
+          "bounds": "[36,1474][1052,1600]"
+        }
+      ]
+    },
+    {
+      "sequence": 48,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Problem feedback",
+          "own": "Problem feedback",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[189,174][622,245]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 49,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Feedback is saved on this phone. It is not sent automatically. Open My feedback to review it, or export a file for follow-up.",
+          "own": "Feedback is saved on this phone. It is not sent automatically. Open My feedback to review it, or export a file for follow-up.",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[0,283][1080,441]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 50,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "WRITE FEEDBACK",
+          "own": "WRITE FEEDBACK",
+          "id": "io.multiread.reader.debug:id/feedback_write",
+          "class": "android.widget.Button",
+          "selected": "true",
+          "bounds": "[21,441][540,567]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 51,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "MY FEEDBACK (0)",
+          "own": "MY FEEDBACK (0)",
+          "id": "io.multiread.reader.debug:id/feedback_mine",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[540,441][1059,567]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 52,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Category",
+          "own": "Category",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[32,599][1048,650]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 53,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Bookshelf",
+          "own": "",
+          "id": "io.multiread.reader.debug:id/feedback_category",
+          "class": "android.widget.Spinner",
+          "selected": "false",
+          "bounds": "[32,650][1048,776]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 54,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Description (required, up to 4,000 characters)",
+          "own": "Description (required, up to 4,000 characters)",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[32,776][1048,859]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 55,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "What were you doing? What happened, and what did you expect?",
+          "own": "What were you doing? What happened, and what did you expect?",
+          "id": "io.multiread.reader.debug:id/feedback_description",
+          "class": "android.widget.EditText",
+          "selected": "false",
+          "bounds": "[32,859][1048,1252]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 56,
+      "key": "Alt+Enter + Appium text setup",
+      "action": "enterOwnedFeedback",
+      "note": "Editor activated with TalkBack; synthetic text supplied with Appium, not a typing acceptance test."
+    },
+    {
+      "sequence": 57,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "Only your description, category, time, app version and Android version are saved. Book contents, sources, settings and logs are not added. Avoid entering passwords or private information.",
+          "own": "Only your description, category, time, app version and Android version are saved. Book contents, sources, settings and logs are not added. Avoid entering passwords or private information.",
+          "class": "android.widget.TextView",
+          "selected": "false",
+          "bounds": "[32,1252][1048,1474]",
+          "clickable": "false"
+        }
+      ]
+    },
+    {
+      "sequence": 58,
+      "key": "Alt+ArrowRight",
+      "focus": [
+        {
+          "label": "SAVE FEEDBACK",
+          "own": "SAVE FEEDBACK",
+          "id": "io.multiread.reader.debug:id/feedback_save",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[32,1474][1048,1600]",
+          "clickable": "true"
+        }
+      ]
+    },
+    {
+      "sequence": 59,
+      "key": "Alt+Enter",
+      "action": "saveOwnedFeedback",
+      "focus": [
+        {
+          "label": "WRITE FEEDBACK",
+          "own": "WRITE FEEDBACK",
+          "id": "io.multiread.reader.debug:id/feedback_write",
+          "class": "android.widget.Button",
+          "selected": "false",
+          "bounds": "[21,441][540,567]",
+          "clickable": "true"
+        }
+      ],
+      "visible": [
+        {
+          "label": "Navigate up",
+          "selected": "false",
+          "bounds": "[0,136][147,283]"
+        },
+        {
+          "label": "Problem feedback",
+          "selected": "false",
+          "bounds": "[189,174][622,245]"
+        },
+        {
+          "label": "Feedback is saved on this phone. It is not sent automatically. Open My feedback to review it, or export a file for follow-up.",
+          "selected": "false",
+          "bounds": "[0,283][1080,441]"
+        },
+        {
+          "label": "WRITE FEEDBACK",
+          "id": "io.multiread.reader.debug:id/feedback_write",
+          "selected": "false",
+          "bounds": "[21,441][540,567]"
+        },
+        {
+          "label": "MY FEEDBACK (1)",
+          "id": "io.multiread.reader.debug:id/feedback_mine",
+          "selected": "true",
+          "bounds": "[540,441][1059,567]"
+        },
+        {
+          "label": "Saved feedback #1. It is stored on this phone.",
+          "id": "io.multiread.reader.debug:id/feedback_confirmation",
+          "selected": "false",
+          "bounds": "[0,567][1080,650]"
+        },
+        {
+          "label": "EXPORT FEEDBACK JSON",
+          "id": "io.multiread.reader.debug:id/feedback_export",
+          "selected": "false",
+          "bounds": "[32,650][1048,776]"
+        },
+        {
+          "label": "#1 · Bookshelf · Pending",
+          "id": "io.multiread.reader.debug:id/feedback_item_title",
+          "selected": "false",
+          "bounds": "[64,808][1016,865]"
+        },
+        {
+          "label": "10/26/26 5:27 PM&#10;Synthetic TalkBack QA only: horizontal categories and feedback entrance are reachable. Preserve this owned test record across the emulator update.",
+          "id": "io.multiread.reader.debug:id/feedback_item_summary",
+          "selected": "false",
+          "bounds": "[64,865][1016,1013]"
+        }
+      ]
+    }
+  ],
+  "cleanup": {
+    "systemPreferencesRestored": {
+      "accessibility_enabled": "0",
+      "enabled_accessibility_services": "null",
+      "touch_exploration_enabled": "0",
+      "tts_default_synth": "null"
+    },
+    "readerForceStopped": true,
+    "ownedSessionDeleted": true,
+    "ownFixtureServerStopped": true
+  }
+}

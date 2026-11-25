@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.ReadingPositionTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:31.257Z" hostname="nevilledeMacBook-Neo.local" time="0.01">
+  <properties/>
+  <testcase name="deletionBeforeTheCurrentTextMovesBackToTheSameWords" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.002"/>
+  <testcase name="insertionBeforeCurrentTextKeepsTheSameWords" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.0"/>
+  <testcase name="whitespaceAndPunctuationDoNotChangeTheAnchor" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.001"/>
+  <testcase name="bookmarkUsesItsSavedQuoteDespitePunctuationChanges" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.0"/>
+  <testcase name="emptyAndOutOfRangeInputsAreSafe" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.001"/>
+  <testcase name="repeatedMissingOrTooShortBookmarkQuotesKeepTheSavedOffset" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.0"/>
+  <testcase name="bookmarkCanFindAnUnchangedPrefixWhenThePageGainsAnInsertedParagraph" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.0"/>
+  <testcase name="deletingTheTextBeingReadDoesNotInventAReplacementAnchor" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.0"/>
+  <testcase name="insertionExactlyAtCurrentPositionLandsAfterInsertedText" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.001"/>
+  <testcase name="oversizedInputsUseBoundedFallback" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.001"/>
+  <testcase name="missingOrRepeatedAnchorsKeepAClampedOffset" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.002"/>
+  <testcase name="compatibilityWidthAndSupplementaryCharactersMapToOriginalUtf16Offsets" classname="io.legado.app.model.multisource.core.ReadingPositionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

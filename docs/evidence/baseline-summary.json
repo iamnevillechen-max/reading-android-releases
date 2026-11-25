@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "commit": "da17bb2bed44f30b12a524c2457e32a20b16fa41",
+  "log": "docs/evidence/baseline-build-final.log",
+  "unitTotal": 8,
+  "unit": [
+    {
+      "name": "io.legado.app.ExampleUnitTest",
+      "tests": "1",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:13:11.133Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.0"
+    },
+    {
+      "name": "io.legado.app.JsTest",
+      "tests": "7",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:13:11.135Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.205"
+    }
+  ],
+  "apks": [
+    {
+      "path": ".toolchain/baseline/app/build/outputs/apk/app/debug/legado_app_3.26.102601.apk",
+      "bytes": 31986798,
+      "sha256": "cd3953752eac1b8fa62675c29ef74cb36e87721d02a9e3e5c8b91f7a22c81be4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "privateValuesChecked": 7,
+  "checks": [
+    {
+      "kind": "apk",
+      "entries": 1663,
+      "findings": []
+    },
+    {
+      "kind": "source",
+      "entries": 2485,
+      "findings": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.cloud.CloudMigrationPolicyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-29T00:39:28.301Z" hostname="nevilledeMacBook-Neo.local" time="0.004">
+  <properties/>
+  <testcase name="receiptPreservesOpaqueIdentityAndStoredBytes" classname="io.legado.app.cloud.CloudMigrationPolicyTest" time="0.004"/>
+  <testcase name="exactUtf8BytesDetermineReceipt" classname="io.legado.app.cloud.CloudMigrationPolicyTest" time="0.0"/>
+  <testcase name="pendingUnsupportedAndUnverifiedSourcesKeepOriginalRules" classname="io.legado.app.cloud.CloudMigrationPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

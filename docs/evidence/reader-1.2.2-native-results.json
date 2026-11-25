@@ -1,0 +1,172 @@
+{
+  "fixedUniqueMethodsPassed": 37,
+  "latestAllPassed": true,
+  "runs": [
+    {
+      "file": "reader-1.2.2-native-cloud.log",
+      "passed": 36,
+      "failures": 1
+    },
+    {
+      "file": "reader-1.2.2-native-metadata-final.log",
+      "passed": 3,
+      "failures": 1
+    },
+    {
+      "file": "reader-1.2.2-native-metadata-verified.log",
+      "passed": 4,
+      "failures": 0
+    }
+  ],
+  "initialFailure": "Metadata regression compared lazy cache-only chapter fields and setup wordCount mutations. Corrected the test to snapshot persisted chapter state after cache setup; production APK unchanged.",
+  "cases": [
+    {
+      "case": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#aWrongRawImportHashAbortsWithoutConvertingEvenAlreadyMatchedRules",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#allPrearchivedRulesUseOnlyBoundedIdsAndPreserveOpaqueBookAndRssIdentities",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#cancellationDuringMetadataOrAfterRawBodyBeforeAckPreservesEveryOriginalWithoutRetry",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#malformedBatchedMetadataStopsBeforeImportOrAnyLocalRuleChange",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudBatchReceiptMigrationTest#mixedCurrentMissingAndOldValidHashesUploadOnlyNeededRulesWithinRawBounds",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudCatalogueIntegrationTest#aShortCloudRssPageKeepsItsServerNextPagePendingThroughRealMainLayout",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudCatalogueIntegrationTest#paginatedHealthySourcesAndMergedCategoriesReachMainAllCategoryAllWithoutLoadingLocalRules",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudCategoryOverrideTest#mergedCategoryCorrectionPersistsOnServerWithoutRewritingRules",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudMetadataIntegrationTest#aRepairNeverMergesAnotherShelfRowWithTheSameCorrectedNameAndAuthor",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudMetadataIntegrationTest#cloudListsRejectMarkupInsteadOfPersistingOrAnnouncingItAsATitleOrAuthor",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudMetadataIntegrationTest#matchingFreshDetailRepairsMalformedIdentityAndKeepsRowsProgressHistoryAndBothCaches",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudMetadataIntegrationTest#readingDoesNotRenameNormalIdentityAndBadOrWrongBookRepliesCannotRepairIt",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderIntegrationTest#aFailedRemotePrimaryAutomaticallyRescuesAndKeepsReadableOfflineContentSeparate",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderIntegrationTest#serverCandidatesFillTheActualReadingPipelineWithoutUploadingOrMovingLocalProgress",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#aHealthySourceWhoseCurrentShelfChapterIsGatedKeepsItsProtectedFullRule",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#aLaterHealthyServerRepairReconnectsAProtectedFullRuleWithExactCurrentChapterProof",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#aLocalRuleEditDuringTheCloudProofWinsTheFinalSameIdCompareAndSet",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#aLocalRuleWhoseBytesDifferFromTheArchivedReceiptIsNotReplacedByTheHealthyCatalogue",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#aReadingChapterMoveDuringTheCloudProofPreventsFullRuleConversion",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#cancellationAfterVerificationPreservesAllOriginalRules",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#cloudResultsCarryModeWithoutChangingUnmigratedShelfBooks",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#healthyCloudPrimaryMayUseFiveSecondsWithoutPrematureRescue",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#migrationKeepsForeignKeysReadingStateAndRssKeys",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#mismatchedReceiptPreventsEveryRuleMutation",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#nativeRoutingPreservesNeedSaveAndLocalPositionAndVariableMap",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#readableFirstChapterDoesNotPermitMigratingAGatedCurrentChapter",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#rssCallsUseGatewayAndPreserveOriginalArticleIdentity",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#unreferencedRulesBecomeDisabledArchivesWhileEveryReferenceSurvives",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudReaderMigrationTest#verifiedWebSubscriptionRemainsAStaticWebEntry",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudRemoteRssLoadingTest#badFirstWaveContinuesAndResumeKeepsExistingPageUntilExplicitScroll",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudRemoteRssLoadingTest#cloudWebsitePreservesSourceIdentityAndBypassesLegacyLocalPrograms",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudRemoteRssLoadingTest#expiredEmptyRoundSettlesItsClaimOnceInsteadOfSpinningForever",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudRemoteRssLoadingTest#lifecycleCancellationIsQuietAndReentryRetriesTheUnfinishedFirstPage",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudRemoteRssLoadingTest#singleSourcePaginationUsesServerNextUrlAfterLocalPaginationRuleWasRemoved",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudTransportRetryTest#cancellationStopsThePendingRetry",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudTransportRetryTest#consumedImportRetriesTheExactImmutableBodyAndReceivesAcknowledgement",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.cloud.CloudTransportRetryTest#verificationMutationsAndHttpErrorsAreNeverRetried",
+      "status": "passed"
+    }
+  ]
+}

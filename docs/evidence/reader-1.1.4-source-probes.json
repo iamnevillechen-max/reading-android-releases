@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-27",
+  "version": "1.1.4",
+  "candidatePack": "tools/source-packs/verified-v114-public-fiction.json",
+  "candidateNativeCases": "verified-v114-public-fiction-cases.json",
+  "status": "Normal HTTP probe only; root native WebBook verification required before bundling",
+  "normalPublicCandidateSites": [
+    "https://www.qimao.com",
+    "https://www.readnovel.com",
+    "https://www.xs8.cn"
+  ],
+  "publicContentProbes": [
+    {
+      "site": "qimao",
+      "ordinaryHttpStatus": 200,
+      "bodyCharacters": 7787,
+      "privateUseUnicodeCharacters": 0,
+      "bodySha256": "5bfe45189c7589004fbffcabe990a776303d4410c3303ff5d108f85441d6d64a",
+      "nativeVerified": false
+    },
+    {
+      "site": "readnovel",
+      "ordinaryHttpStatus": 200,
+      "bodyCharacters": 2177,
+      "privateUseUnicodeCharacters": 0,
+      "bodySha256": "4eee876ae0aa0b87e2c20194c518824a20bd6ed2a2f2935ce7a6e37a4f3fd850",
+      "nativeVerified": false
+    },
+    {
+      "site": "xs8",
+      "ordinaryHttpStatus": 200,
+      "bodyCharacters": 2177,
+      "privateUseUnicodeCharacters": 0,
+      "bodySha256": "4eee876ae0aa0b87e2c20194c518824a20bd6ed2a2f2935ce7a6e37a4f3fd850",
+      "nativeVerified": false
+    }
+  ],
+  "paidAndLockedContentExcluded": true,
+  "fanqie": {
+    "officialHome": "https://fanqienovel.com/",
+    "ordinaryAnonymousBookPage": "https://fanqienovel.com/page/6883748331202284558",
+    "ordinaryAnonymousFreeFirstChapter": "https://fanqienovel.com/reader/6883749008234250760",
+    "freeFirstChapterState": {
+      "needPay": 0,
+      "isChapterLock": false,
+      "declaredWords": 3160,
+      "domCharacters": 3160,
+      "privateUseUnicodeCharacters": 1729
+    },
+    "officialPublicFont": {
+      "url": "https://lf6-awef.bytetos.com/obj/awesome-font/c/dc027189e0ba4cd.woff2",
+      "bytes": 47564,
+      "sha256": "60e1f33d3513967fc0ef35cf2aafbfd062a3cbffb53cd405a8a60b2ab1834bd4",
+      "mappedGlyphs": 362,
+      "glyphNamesExposeOriginalUnicode": false
+    },
+    "newerChapterProbe": {
+      "needPay": 0,
+      "isChapterLock": true,
+      "declaredWords": 2242,
+      "returnedContentCharacters": 200,
+      "domCharacters": 158
+    },
+    "unsignedOfficialSearchApi": {
+      "path": "/api/author/search/search_book/v1",
+      "responseBytes": 0,
+      "parseableJson": false
+    },
+    "result": "Not bundled as a readable source: official unlocked first chapter is present but text uses PUA glyphs with no direct Unicode map, making extracted text unusable for TalkBack; locked chapters only return a preview. No lock/signature/challenge bypass attempted.",
+    "browserVisualReview": "Built-in browser unavailable and browser inventory empty; ordinary HTTP/state/font checks only."
+  },
+  "otherProbes": {
+    "qidian": "202 challenge response; not used",
+    "motie": "small client shell; not used",
+    "hongshu": "frontend getchptkey flow; not used",
+    "tadu": "reader content not present in ordinary HTML; not used",
+    "8kana": "TLS verification failed; not used",
+    "gongzicp": "client shell; not used"
+  },
+  "privacy": "No private user book metadata, chapter path or prose in these candidate rules/cases/evidence; raw public probe pages remain under .toolchain outside release sources."
+}

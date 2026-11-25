@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.webBook.LocalSourceExecutionRepairTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-30T01:20:17.387Z" hostname="nevilledeMacBook-Neo.local" time="0.017">
+  <properties/>
+  <testcase name="foreignIdsNontextSourcesAndAnyChangedExploreFieldKeepTheirOwnRules" classname="io.legado.app.model.webBook.LocalSourceExecutionRepairTest" time="0.007"/>
+  <testcase name="reviewedRuleUsesAnExecutionCloneAndPreservesTheCompleteStoredEntity" classname="io.legado.app.model.webBook.LocalSourceExecutionRepairTest" time="0.006"/>
+  <testcase name="aMutatedExecutionCloneCannotPoisonTheArchiveOrAnotherOperation" classname="io.legado.app.model.webBook.LocalSourceExecutionRepairTest" time="0.001"/>
+  <testcase name="serializedRulePropertyOrderDoesNotChangeTheExactContentMatch" classname="io.legado.app.model.webBook.LocalSourceExecutionRepairTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

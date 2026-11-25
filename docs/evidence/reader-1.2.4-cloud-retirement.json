@@ -1,0 +1,17 @@
+{
+  "format": "reader-cloud-retirement-aggregate-1",
+  "localRelease": "1.2.4",
+  "state": "completed",
+  "completedAtUtc": "2026-10-29T00:48:51.851659+00:00",
+  "stepsSucceeded": 8,
+  "stepsFailed": 0,
+  "workersConfirmedDeleted": 4,
+  "durableObjectDeletedClassMigrationsApplied": 3,
+  "d1DatabasesConfirmedDeleted": 1,
+  "allWorkersConfirmedDeletedBeforeD1": true,
+  "forceUsed": false,
+  "additionalSourceChecksPerformed": false,
+  "globalResourceListingsPerformed": false,
+  "otherResourcesTargeted": false,
+  "evidenceBasis": "Successful exact-name Wrangler upload/version and delete receipts, each retained privately; no additional global inspection."
+}

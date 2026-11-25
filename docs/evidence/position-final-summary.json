@@ -1,0 +1,63 @@
+{
+  "version": "1.0.3-devdebug",
+  "versionCode": 10004,
+  "jvm": {
+    "version": "1.0.3-devdebug",
+    "tests": 98,
+    "failures": 0,
+    "errors": 0,
+    "suites": 13
+  },
+  "verification": {
+    "androidRegression": {
+      "tests": 23,
+      "passed": true,
+      "seconds": 39.073,
+      "log": "final-android-regression.log"
+    },
+    "realTts": {
+      "tests": 1,
+      "passed": true,
+      "seconds": 20.346,
+      "log": "final-release-shengjing-tts.log",
+      "engine": "hk.neville.shengjing release 0.3.1/code5",
+      "acousticListeningClaimed": false
+    },
+    "processPrepare": {
+      "tests": 1,
+      "passed": true,
+      "seconds": 2.205,
+      "log": "position-restart-prepare.log"
+    },
+    "processVerify": {
+      "tests": 1,
+      "passed": true,
+      "seconds": 0.36,
+      "log": "position-restart-verify.log"
+    }
+  },
+  "fixes": [
+    "conservative hold for unmarked nonzero legacy position",
+    "rendered-text hash and bounded quote saved atomically with native position",
+    "cold reopen never maps an existing derived offset from raw twice",
+    "stale replacement rejected if reader position or text changed",
+    "strict v1 cache compatibility only for initial legacy position",
+    "matching-book-and-chapter bookmark guard; stale bookmark cleared across reset",
+    "all/single-source switches keep new singleTop result activity alive",
+    "static icon accessibility labels contain no unexpanded placeholders"
+  ],
+  "privacy": "Only self-written isolated emulator fixtures; no private handset library in test artifacts.",
+  "pending": [
+    "physical handset overlay update after device handoff",
+    "physical touch-gesture and acoustic acceptance"
+  ],
+  "sourceRevision": "c9d6d2393a54ab3e13e4f101c13cc7d14e29c447",
+  "apkSha256": "91903a53655b57bb97ea746d59f14728e8d2a62ba42b5d79e4a5b54874235023",
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "talkBack": {
+    "newControlsAndCoreReadingKeyboardNavigationPassed": true,
+    "allToSingleAndBackBothScreensPassed": true,
+    "evidence": "talkback-navigation.json",
+    "physicalTouchAndAcousticAcceptancePassed": false
+  }
+}

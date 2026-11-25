@@ -1,0 +1,8 @@
+{
+  "from": "1.0.2-devdebug own UI fixture",
+  "to": "1.0.3-devdebug final APK",
+  "passed": true,
+  "databaseAndPreferencesFilesExactAcrossInstall": true,
+  "fileCount": 8,
+  "scope": "Dedicated emulator synthetic content; handset upgrade remains separate"
+}

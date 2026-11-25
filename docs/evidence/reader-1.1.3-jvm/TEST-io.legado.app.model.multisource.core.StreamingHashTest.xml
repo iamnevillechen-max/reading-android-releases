@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.legado.app.model.multisource.core.StreamingHashTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-26T17:02:26.814Z" hostname="nevilledeMacBook-Neo.local" time="3.163">
+  <properties/>
+  <testcase name="fieldBoundariesNullsAndEmptyValuesRemainDistinct" classname="io.legado.app.model.multisource.core.StreamingHashTest" time="0.003"/>
+  <testcase name="matchesUtf8DigestAcrossWriterBoundaries" classname="io.legado.app.model.multisource.core.StreamingHashTest" time="0.014"/>
+  <testcase name="hashesLargeRuleLibraryWithoutCombiningItsDocuments" classname="io.legado.app.model.multisource.core.StreamingHashTest" time="3.145"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

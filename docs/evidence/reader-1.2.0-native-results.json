@@ -1,0 +1,351 @@
+{
+  "format": "reader-native-results-1",
+  "versionName": "1.2.0",
+  "date": "2026-10-29",
+  "finalApkSha256": "98422e9c4ab8cecbc8448c6f58a9ece3fc02c9045f04e3c30791a7510c3596c8",
+  "newCloudAndTransport": {
+    "uniqueMethods": 23,
+    "finalStatusAllPassed": true,
+    "batches": [
+      {
+        "evidenceLog": "reader-1.2.0-transport-and-cloud-native.log",
+        "scope": "final-apk-new-cloud-and-transport",
+        "uniqueMethods": 23,
+        "passed": 22,
+        "failed": 1,
+        "skipped": 0,
+        "seconds": 116.096
+      },
+      {
+        "evidenceLog": "reader-1.2.0-cloud-ui-retest.log",
+        "scope": "same-apk-main-ui-cleanup-retest",
+        "uniqueMethods": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "seconds": 21.028
+      }
+    ],
+    "cases": [
+      {
+        "method": "io.legado.app.cloud.CloudCatalogueIntegrationTest#aShortCloudRssPageKeepsItsServerNextPagePendingThroughRealMainLayout",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudCatalogueIntegrationTest#paginatedHealthySourcesAndMergedCategoriesReachMainAllCategoryAllWithoutLoadingLocalRules",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudCategoryOverrideTest#mergedCategoryCorrectionPersistsOnServerWithoutRewritingRules",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderIntegrationTest#aFailedRemotePrimaryAutomaticallyRescuesAndKeepsReadableOfflineContentSeparate",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderIntegrationTest#serverCandidatesFillTheActualReadingPipelineWithoutUploadingOrMovingLocalProgress",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#cancellationAfterVerificationPreservesAllOriginalRules",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#cloudResultsCarryModeWithoutChangingUnmigratedShelfBooks",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#healthyCloudPrimaryMayUseFiveSecondsWithoutPrematureRescue",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#migrationKeepsForeignKeysReadingStateAndRssKeys",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#mismatchedReceiptPreventsEveryRuleMutation",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#nativeRoutingPreservesNeedSaveAndLocalPositionAndVariableMap",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#readableFirstChapterDoesNotPermitMigratingAGatedCurrentChapter",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#rssCallsUseGatewayAndPreserveOriginalArticleIdentity",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#unreferencedRulesBecomeDisabledArchivesWhileEveryReferenceSurvives",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudReaderMigrationTest#verifiedWebSubscriptionRemainsAStaticWebEntry",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#badFirstWaveContinuesAndResumeKeepsExistingPageUntilExplicitScroll",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#cloudWebsitePreservesSourceIdentityAndBypassesLegacyLocalPrograms",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#expiredEmptyRoundSettlesItsClaimOnceInsteadOfSpinningForever",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#lifecycleCancellationIsQuietAndReentryRetriesTheUnfinishedFirstPage",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudRemoteRssLoadingTest#singleSourcePaginationUsesServerNextUrlAfterLocalPaginationRuleWasRemoved",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudTransportRetryTest#cancellationStopsThePendingRetry",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudTransportRetryTest#consumedImportRetriesTheExactImmutableBodyAndReceivesAcknowledgement",
+        "latestStatus": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudTransportRetryTest#verificationMutationsAndHttpErrorsAreNeverRetried",
+        "latestStatus": "passed"
+      }
+    ],
+    "retestReason": "One existing Main discovery UI case timed out while waiting for Activity destruction in fixture cleanup. The same unchanged APK passed the isolated rerun. The first batch remains 22 pass / 1 failure; rerun is not an additional distinct method."
+  },
+  "legacyRegression": {
+    "evidenceLog": "reader-1.2.0-legacy-native-final.log",
+    "scope": "earlier-candidate-before-transport-change",
+    "uniqueMethods": 45,
+    "passed": 44,
+    "failed": 0,
+    "skipped": 1,
+    "seconds": 124.016,
+    "testedApkSha256Prefix": "4345671d",
+    "testedOnFinalApk": false,
+    "cases": [
+      {
+        "method": "io.legado.app.accessibility.BookshelfCoverAccessibilityTest#bothShelfStylesKeepBookAndGroupActionsAndNamesAfterPartialRebinding",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.accessibility.BookshelfCoverAccessibilityTest#everyShelfLayoutKeepsItsImageButOmitsTheCoverStopAfterImageLoadsAndReuse",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.accessibility.ContentRowAccessibilityTest#allSubscriptionStylesExposeOneArticleAndClearRecycledAggregateMetadata",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.accessibility.ContentRowAccessibilityTest#discoveryExposesOneNodePerBookAndOneMoveOpensTheNextBookEvenWithAHeader",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.accessibility.ContentRowAccessibilityTest#searchPayloadsRefreshTheSingleDescriptionAndKeepTheCurrentBookAction",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.AggregationSourceRoutingTest#exploreAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.AggregationSourceRoutingTest#mainDiscoveryHasScrollableCategoriesAndChangesBothSourcesInline",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.AggregationSourceRoutingTest#mainSubscriptionsFilterByRealCategoriesInlineAndKeepModeProgressAndReadHistory",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.AggregationSourceRoutingTest#rssAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.DiscoveryLoadingTest#bookScrollRoundsFetchEightThenReachTheNextSourcesWithoutRefetchingTheFirstPage",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.DiscoveryLoadingTest#debugSingleSourceStopsWaitingAtItsDeadlineAndKeepsThePageRetryable",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.DiscoveryLoadingTest#leavingSingleSourceCancelsItsLateResultAndReopeningRetriesTheSamePage",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.DiscoveryLoadingTest#ninthSourcesEditedDynamicLibraryInvalidatesItsOldSortCacheAcrossScrollRounds",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.aggregation.DiscoveryLoadingTest#readyFeedPublishesWhileAnotherSourcesDynamicCategoriesAreStillBlockedAndCancellationIsQuiet",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#accessPageCannotStopMissingOriginalRecoveryWaves",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#alternateFailureCannotDamageReadableOriginal",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#blankDerivedMissAndEmptyOriginalFileAreNotReadableOrDownloaded",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#cancellationNeverPublishesPartialDerivedCache",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#coldFourStageRescueCanFinishAfterTheOldForegroundDeadline",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#failedRescueThenNewManualKnownResultRecoversWithoutChangingSourceRules",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#irrelevantPrefixYieldsToLaterSourceAndCachedMissDoesNotRepeatRequests",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#missingOriginalAdvancesPastQuickUnmatchedCandidatesWithinOneLoad",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#missingPrimaryRuleAutomaticallyRecoversInNativeReader",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#slowAlternateTimesOutWithoutReplacingOriginal",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#stalledPrimaryIsBoundedBeforeAutomaticRecovery",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceIntegrationTest#unavailablePrimaryRecoversDespiteLegacySavedPosition",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceLifecycleTest#cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceLifecycleTest#cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceLifecycleTest#damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.MultiSourceLifecycleTest#disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.multisource.ReaderTtsIntegrationTest#realReaderKeepsItsSnapshotAndContinuesAcrossChaptersInBackground",
+        "status": "skipped"
+      },
+      {
+        "method": "io.legado.app.multisource.VerifiedSourceBootstrapTest#bundledRulesAddOnceWithoutOverwritingCanonicalOrEditedRulesAndProgress",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#delayedResultDoesNotInterruptAnotherPageAndIsAnnouncedOnReturningToMain",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#openingPromptsOnceRotationAndReturningDoNotRecheckAndForegroundChecksAgain",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#openingUpdatePageRefreshesOldReadyAndRetainsFilesWhileManualCheckStaysFresh",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#startupWaitsForPrivacyAndNetworkFailureRemainsSilent",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#actualPackageManagerArchiveAndSignerDataRejectReinstallOrWrongMetadata",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#failedReplacementKeepsEarlierReadyFileAndPointer",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#reopeningUsesRealPartialBytesAndCancelledGenerationCannotPublish",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#sameLengthCorruptReadyCanBeRevokedAndRecoveredThroughRealByteStream",
+        "status": "passed"
+      }
+    ],
+    "note": "45 registered methods: 44 passed, one ReaderTtsIntegrationTest assumption skip. This earlier-candidate run does not prove a fresh real speech-engine run on the final APK."
+  },
+  "ownedAvdCompaction": {
+    "uniqueMethods": 5,
+    "passed": 5,
+    "failed": 0,
+    "seconds": 0.893,
+    "mainApkSha256": "98422e9c4ab8cecbc8448c6f58a9ece3fc02c9045f04e3c30791a7510c3596c8",
+    "physicalHandsetAttempted": false,
+    "tablesPreservedInOwnedFixture": 24,
+    "cases": [
+      {
+        "method": "io.legado.app.cloud.CloudDatabaseCompactionTest#anExistingTransactionRefusesWithoutChangingRows",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudDatabaseCompactionTest#changedReadingStateBetweenPreflightAndVacuumAbortsBeforeShrinking",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudDatabaseCompactionTest#ownerEntryRejectsMissingOperationAndBackupProofBeforeOpeningTheReaderDatabase",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudDatabaseCompactionTest#walVacuumReclaimsPhysicalPagesAndPreservesAllTypedRowsAndNextIds",
+        "status": "passed"
+      },
+      {
+        "method": "io.legado.app.cloud.CloudDatabaseCompactionTest#wrongExpectedCountsAndInsufficientSpaceRefuseBeforeAnyCompaction",
+        "status": "passed"
+      }
+    ]
+  },
+  "privacy": "Only method names, counts, timing and public binary hashes are included. No handset source IDs, titles, source payloads, credentials, session IDs or screenshots."
+}

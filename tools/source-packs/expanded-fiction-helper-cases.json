@@ -1,0 +1,30 @@
+{
+  "verification": [
+    {
+      "sourceUrl": "https://m.kujiang.com",
+      "keyword": "战神狂飙",
+      "expectedBookName": "战神狂飙",
+      "expectedAuthor": "一念汪洋",
+      "expectedTocCount": 38,
+      "expectedFirstChapterName": "第一章",
+      "excludePaidChapterUrlSuffix": "/1578",
+      "chapterMinCharacters": 3000,
+      "chapterMaxCharacters": 6500,
+      "nativeParserVerified": true,
+      "nativeVerificationScope": "Canonical source identifier: native search, details, table of contents and normally public free content verified; fragment variant is a separate pending check."
+    }
+  ],
+  "status": "canonical_native_verified",
+  "references": [
+    "https://www.kujiang.com/search?keyword=%E6%88%98%E7%A5%9E%E7%8B%82%E9%A3%99",
+    "https://www.kujiang.com/book/9/catalog",
+    "https://m.kujiang.com/book/9",
+    "https://m.kujiang.com/book/9/12"
+  ],
+  "excludedCandidates": [
+    {
+      "site": "红薯",
+      "reason": "公开移动阅读页含context_kw动态生成字符与AES混淆，未处理；直接提取不能确认正文完整"
+    }
+  ]
+}

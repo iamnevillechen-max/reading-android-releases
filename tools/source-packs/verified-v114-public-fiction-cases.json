@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate; normal HTTP paths checked; native verification pending",
+  "verification": [
+    {
+      "sourceUrl": "https://www.qimao.com/#reader-verified-20261027-v114",
+      "keyword": "红楼梦",
+      "expectedBookName": "红楼梦",
+      "expectedAuthor": "曹雪芹",
+      "expectedTocMinCount": 21,
+      "expectedFirstChapterName": "第一回 甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+      "chapterMinCharacters": 6000,
+      "chapterMaxCharacters": 12000,
+      "expectedTocCount": 21
+    },
+    {
+      "sourceUrl": "https://www.readnovel.com/#reader-verified-20261027-v114",
+      "keyword": "陆先生偏要以婚相许",
+      "expectedBookName": "陆先生偏要以婚相许",
+      "expectedAuthor": "北川云上锦",
+      "expectedTocMinCount": 41,
+      "expectedFirstChapterName": "001章 我们结婚吧",
+      "chapterMinCharacters": 1800,
+      "chapterMaxCharacters": 4000
+    },
+    {
+      "sourceUrl": "https://www.xs8.cn/#reader-verified-20261027-v114",
+      "keyword": "陆先生偏要以婚相许",
+      "expectedBookName": "陆先生偏要以婚相许",
+      "expectedAuthor": "北川云上锦",
+      "expectedTocMinCount": 41,
+      "expectedFirstChapterName": "001章 我们结婚吧",
+      "chapterMinCharacters": 1800,
+      "chapterMaxCharacters": 4000
+    }
+  ]
+}

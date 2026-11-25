@@ -1,0 +1,80 @@
+package io.legado.app.data.dao
+
+import androidx.room.*
+import io.legado.app.data.entities.Bookmark
+import kotlinx.coroutines.flow.Flow
+
+
+@Dao
+interface BookmarkDao {
+    @Query("select * from bookmarks where time = :time")
+    fun getByTime(time: Long): Bookmark?
+
+    @get:Query(
+        """
+        select * from bookmarks order by bookName collate localized, bookAuthor collate localized, chapterIndex, chapterPos
+    """
+    )
+    val all: List<Bookmark>
+
+    @Query("select * from bookmarks order by bookName collate localized, bookAuthor collate localized, chapterIndex, chapterPos")
+    fun flowAll(): Flow<List<Bookmark>>
+
+    @Query(
+        """select * from bookmarks 
+        where bookName = :bookName and bookAuthor = :bookAuthor 
+        order by chapterIndex"""
+    )
+    fun flowByBook(bookName: String, bookAuthor: String): Flow<List<Bookmark>>
+
+    @Query(
+        """SELECT * FROM bookmarks 
+        where bookName = :bookName and bookAuthor = :bookAuthor 
+        and chapterName like '%'||:key||'%' or content like '%'||:key||'%'
+        order by chapterIndex"""
+    )
+    fun flowSearch(bookName: String, bookAuthor: String, key: String): Flow<List<Bookmark>>
+
+    @Query(
+        """select * from bookmarks 
+        where bookName = :bookName and bookAuthor = :bookAuthor 
+        order by chapterIndex"""
+    )
+    fun getByBook(bookName: String, bookAuthor: String): List<Bookmark>
+
+    @Query(
+        """SELECT * FROM bookmarks 
+        where bookName = :bookName and bookAuthor = :bookAuthor 
+        and chapterName like '%'||:key||'%' or content like '%'||:key||'%'
+        order by chapterIndex"""
+    )
+    fun search(bookName: String, bookAuthor: String, key: String): List<Bookmark>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertRaw(vararg bookmark: Bookmark)
+
+    @Transaction
+    fun insert(vararg bookmark: Bookmark) {
+        bookmark.forEach { io.legado.app.model.cloud.CloudTocStore.prepareBookmark(it) }
+        insertRaw(*bookmark)
+    }
+
+    @Update
+    fun updateForCloudToc(bookmark: Bookmark)
+
+    @Transaction
+    fun update(bookmark: Bookmark) {
+        io.legado.app.model.cloud.CloudTocStore.prepareBookmark(bookmark)
+        updateForCloudToc(bookmark)
+    }
+
+    @Delete
+    fun deleteRaw(vararg bookmark: Bookmark)
+
+    @Transaction
+    fun delete(vararg bookmark: Bookmark) {
+        bookmark.forEach { io.legado.app.model.ReadBook.requireCloudBookmarkMutation(it.bookName, it.bookAuthor) }
+        deleteRaw(*bookmark)
+    }
+
+}

@@ -1,0 +1,280 @@
+{
+  "uniqueTestMethods": 59,
+  "finalStatusAllPassed": true,
+  "batches": [
+    {
+      "file": "reader-1.1.4-native-core.log",
+      "passed": 45,
+      "failures": 0,
+      "skipped": 0,
+      "seconds": 50.153
+    },
+    {
+      "file": "reader-1.1.4-native-startup.log",
+      "passed": 4,
+      "failures": 0,
+      "skipped": 0,
+      "seconds": 32.056
+    },
+    {
+      "file": "reader-1.1.4-native-aggregation.log",
+      "passed": 8,
+      "failures": 1,
+      "skipped": 0,
+      "seconds": 91.98
+    },
+    {
+      "file": "reader-1.1.4-native-aggregation-retest.log",
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "seconds": 22.672
+    },
+    {
+      "file": "reader-1.1.4-native-new-sources.log",
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "seconds": 16.466
+    }
+  ],
+  "cases": [
+    {
+      "case": "io.legado.app.accessibility.ContentRowAccessibilityTest#allSubscriptionStylesExposeOneArticleAndClearRecycledAggregateMetadata",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.accessibility.ContentRowAccessibilityTest#discoveryExposesOneNodePerBookAndOneMoveOpensTheNextBookEvenWithAHeader",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.accessibility.ContentRowAccessibilityTest#searchPayloadsRefreshTheSingleDescriptionAndKeepTheCurrentBookAction",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationScaleTest#categoryStripKeepsAdapterSnapshotsConsistentWhileFlingingAndEditing",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationScaleTest#categoryStripRecyclesTwentyThousandLabelsAndKeepsKeyboardAndAccessibleSelection",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationScaleTest#rssProjectionKeeps443FeedCategoriesWithoutMaterializingParsingLibraries",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationScaleTest#twentyThousandSourceCatalogueUsesBoundedRoundsAndReusesVerifiedSnapshot",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#exploreAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#mainDiscoveryHasScrollableCategoriesAndChangesBothSourcesInline",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#mainSubscriptionsFilterByRealCategoriesInlineAndKeepModeProgressAndReadHistory",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.AggregationSourceRoutingTest#rssAllToSingleAndBackKeepsAResumedResultsActivityAndCorrectRows",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.DiscoveryLoadingTest#bookScrollRoundsFetchEightThenReachTheNextSourcesWithoutRefetchingTheFirstPage",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.DiscoveryLoadingTest#debugSingleSourceStopsWaitingAtItsDeadlineAndKeepsThePageRetryable",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.DiscoveryLoadingTest#leavingSingleSourceCancelsItsLateResultAndReopeningRetriesTheSamePage",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.DiscoveryLoadingTest#ninthSourcesEditedDynamicLibraryInvalidatesItsOldSortCacheAcrossScrollRounds",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.DiscoveryLoadingTest#readyFeedPublishesWhileAnotherSourcesDynamicCategoriesAreStillBlockedAndCancellationIsQuiet",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.aggregation.ExploreRouteConfigurationTest#cachedRoutesRejectRuleOnlyEditsDisabledSourcesAndOldManualCategories",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceConfigurationTest#equalLengthRuleEditInvalidatesEvenWhileRoomNotificationIsBlocked",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#accessPageCannotStopMissingOriginalRecoveryWaves",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#alternateFailureCannotDamageReadableOriginal",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#blankDerivedMissAndEmptyOriginalFileAreNotReadableOrDownloaded",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#cancellationNeverPublishesPartialDerivedCache",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#coldFourStageRescueCanFinishAfterTheOldForegroundDeadline",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#failedRescueThenNewManualKnownResultRecoversWithoutChangingSourceRules",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#irrelevantPrefixYieldsToLaterSourceAndCachedMissDoesNotRepeatRequests",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#missingOriginalAdvancesPastQuickUnmatchedCandidatesWithinOneLoad",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#missingPrimaryRuleAutomaticallyRecoversInNativeReader",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#slowAlternateTimesOutWithoutReplacingOriginal",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#stalledPrimaryIsBoundedBeforeAutomaticRecovery",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceIntegrationTest#unavailablePrimaryRecoversDespiteLegacySavedPosition",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceLifecycleTest#disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceMetadataTest#missingSearchAuthorsAreVerifiedInDetailBeforeAutomaticStitching",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourceMetadataTest#unknownAndWrongDetailAuthorsNeverAuthorizeTocOrContentRequests",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#anOlderUnmarkedDerivedOffsetKeepsItsExistingReadableVersion",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#legacyPositionIsHeldThenExplicitApplyAndReopenKeepTheSameRenderedWords",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#previousVersionReferenceRequiresMatchingRulesRawHashAndAge",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.MultiSourcePositionRestoreTest#unrelatedBookmarkCannotBypassLegacyHoldButTheSelectedBookmarkStillWorks",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.SourceRequestBudgetTest#backgroundCannotConsumeTheReadersReservedSlots",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.SourceRequestBudgetTest#oneHostIsSerializedAcrossPortsWhileOtherHostsCanProceed",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.SourceRequestBudgetTest#totalBudgetIsBoundedAndCancellationReleasesItsSlot",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.VerifiedPublicSourcesTest#publicClassicSourceParsesThroughNativeSearchDetailsTocAndContent",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.VerifiedSourceBootstrapTest#bundledRulesAddOnceWithoutOverwritingCanonicalOrEditedRulesAndProgress",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.multisource.VerifiedSourceImportTest#safeThirteenSourceImportPreservesCanonicalRulesAndReadingData",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#delayedResultDoesNotInterruptAnotherPageAndIsAnnouncedOnReturningToMain",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#openingPromptsOnceRotationAndReturningDoNotRecheckAndForegroundChecksAgain",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#openingUpdatePageRefreshesOldReadyAndRetainsFilesWhileManualCheckStaysFresh",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderStartupUpdatesUiTest#startupWaitsForPrivacyAndNetworkFailureRemainsSilent",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#actualPackageManagerArchiveAndSignerDataRejectReinstallOrWrongMetadata",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#failedReplacementKeepsEarlierReadyFileAndPointer",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#reopeningUsesRealPartialBytesAndCancelledGenerationCannotPublish",
+      "status": "passed"
+    },
+    {
+      "case": "io.legado.app.update.reader.ReaderUpdateIntegrationTest#sameLengthCorruptReadyCanBeRevokedAndRecoveredThroughRealByteStream",
+      "status": "passed"
+    }
+  ],
+  "threePublicSitesCoveredByOneParameterizedMethod": true
+}

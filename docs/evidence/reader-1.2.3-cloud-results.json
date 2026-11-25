@@ -1,0 +1,70 @@
+{
+  "oldClientToc": {
+    "status": 409,
+    "code": "CLIENT_UPDATE_REQUIRED"
+  },
+  "liveBook": {
+    "publicSourceId": "https://www.zongheng.com/#reader-verified-20261026",
+    "searchResults": 20,
+    "info": true,
+    "tocChapters": 83,
+    "tocComplete": true,
+    "tocIdentityMatched": true,
+    "contentCharacters": 539,
+    "contentSha256": "aaa7fa770a07045ce93ca3773f80c9f19ddc6be5c95ed22cbd1a6020ef2af482",
+    "contentComplete": true,
+    "contentIdentityAndExactUtf8ShaMatched": true
+  },
+  "noToken": {
+    "status": 401,
+    "code": "UNAUTHORIZED"
+  },
+  "originDenied": {
+    "status": 403,
+    "code": "ORIGIN_DENIED"
+  },
+  "schemaVersion": 1,
+  "release": "1.2.3",
+  "productionBackendDeployed": true,
+  "allSourcesRestored": false,
+  "handsetOperated": false,
+  "backendTests": 164,
+  "typecheckPassed": true,
+  "backendVersionId": "f8b40db9-194c-40e1-b8d6-06e8df318860",
+  "publicSourceVerification": {
+    "checked": 17,
+    "finallyPassed": 16,
+    "failed": {
+      "upstreamHttpFailure": 1
+    },
+    "firstPass": 14,
+    "heiyanFieldOrderBugFixedAndRetested": true,
+    "17kInitial405ThenSameProfilePassed": true,
+    "originalFailuresRetained": true,
+    "allSitesOrPagesClaimed": false
+  },
+  "initialAuthTestEnvironmentIssue": {
+    "pythonDefaultUserAgentRejectedByCloudflareEdge1010": true,
+    "normalAdminClientUserAgentReturnedExpected401And403": true,
+    "applicationChangedForThis": false
+  },
+  "scheduledRuntime": {
+    "enabled": true,
+    "intervalMinutes": 30,
+    "maxSourcesPerRun": 2,
+    "healthyEligibilityHours": 6,
+    "dailyWriteLimit": 5000,
+    "dailyReservedWrites": 1000,
+    "lastRunAt": 1793224807623,
+    "lastFinishedAt": 1793224815954,
+    "lastTrigger": "scheduled",
+    "leaseActive": false,
+    "lastProcessed": 2,
+    "lastHealthy": 0,
+    "lastFailed": 2,
+    "lastDeferred": 0,
+    "lastErrorCode": "SOURCE_HTTP",
+    "runtimeAfterDeploymentProved": true,
+    "zeroRecoveredThisEvent": true
+  }
+}

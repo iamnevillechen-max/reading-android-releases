@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "log": "docs/evidence/implementation-delivery-build.log",
+  "unitTotal": 70,
+  "unit": [
+    {
+      "name": "io.legado.app.ExampleUnitTest",
+      "tests": "1",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:03.639Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.001"
+    },
+    {
+      "name": "io.legado.app.JsTest",
+      "tests": "7",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:03.641Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.24"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.AggregateLoaderTest",
+      "tests": "3",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:03.883Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.248"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.AggregationPolicyTest",
+      "tests": "5",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:04.133Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.017"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.RssAggregationTest",
+      "tests": "2",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:04.152Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.003"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.ChapterMergerTest",
+      "tests": "27",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:04.159Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.06"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+      "tests": "13",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:04.221Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.007"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.ReadingPositionTest",
+      "tests": "12",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:15:04.229Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.01"
+    }
+  ],
+  "apks": [
+    {
+      "path": "upstream/app/build/outputs/apk/app/debug/multiread_app_1.0.0-dev.apk",
+      "bytes": 32482016,
+      "sha256": "489768f158e2924e1fac3a3e17b5e2cddcc72fc0435275b4334eb5502d3fc0e8"
+    }
+  ],
+  "instrumentationNote": "Seven deterministic Android integration tests passed before the subsequent MainActivity/privacy notice and strings-only changes. They were not rerun after those presentation changes; final delivery unit tests were rerun."
+}

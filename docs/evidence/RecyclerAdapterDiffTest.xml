@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="io.legado.app.base.adapter.RecyclerAdapterDiffTest" tests="2" failures="0" errors="0" skipped="0" time="0.704" timestamp="2026-10-25T17:33:03" hostname="localhost">
+  <properties>
+    <property name="device" value="sightmate_api35(AVD) - 15" />
+    <property name="flavor" value="app" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="rapidSnapshotsCannotApplyAnOlderQueuedDiffAfterTheFinalSnapshot" classname="io.legado.app.base.adapter.RecyclerAdapterDiffTest" time="0.015" />
+  <testcase name="insertingNewestArticlePreservesNoticeFooterAndEveryBoundArticle" classname="io.legado.app.base.adapter.RecyclerAdapterDiffTest" time="0.251" />
+</testsuite>

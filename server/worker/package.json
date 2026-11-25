@@ -1,0 +1,30 @@
+{
+  "name": "reader-cloud-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "compile:sources": "node scripts/compile-sources.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@jitl/quickjs-wasmfile-release-sync": "0.32.0",
+    "acorn": "^8.15.0",
+    "cheerio": "1.1.2",
+    "dom-serializer": "2.0.0",
+    "domhandler": "5.0.3",
+    "iconv-lite": "0.6.3",
+    "jsonpath-plus": "10.3.0",
+    "opencc-js": "1.0.5",
+    "quickjs-emscripten-core": "0.32.0",
+    "xpath": "0.0.36"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261028.1",
+    "@types/node": "24.10.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

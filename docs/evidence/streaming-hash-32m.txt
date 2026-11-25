@@ -1,0 +1,34 @@
+2026-10-26 — Streaming configuration hash memory regression
+
+Production code:
+app/src/main/java/io/legado/app/model/multisource/core/StreamingHash.kt
+
+Test code:
+app/src/test/java/io/legado/app/model/multisource/core/StreamingHashTest.kt
+
+Compiled with tools/test-core.py using the existing JDK 17 / Kotlin / JUnit 4.13.2
+dependencies. The complete pure-policy suite passed 63 tests before this run.
+
+Command:
+java -Xmx32m -cp <upstream/build/core-jvm-tests:Kotlin-stdlib:JUnit-4.13.2:Hamcrest-1.3> \
+  org.junit.runner.JUnitCore io.legado.app.model.multisource.core.StreamingHashTest
+
+The classpath was resolved from the existing workspace dependency cache. The test
+process was explicitly limited to a 32 MiB Java heap.
+
+Cases:
+- UTF-8 digest parity across writer calls, including surrogate-pair characters.
+- Distinct null, empty, reordered and adjacent fields remain distinct.
+- Lazily serialize 20,689 reusable 8 KiB rule documents (169,484,288 bytes,
+  approximately 161.6 MiB), without allocating one combined document.
+
+Observed output:
+JUnit version 4.13.2
+...
+Time: 1.154
+
+OK (3 tests)
+
+Scope: this proves the shared hashing primitive handles input larger than its
+heap limit. Android source configuration invalidation and real-phone chapter
+loading are separate checks; this is not a claim that those checks passed.

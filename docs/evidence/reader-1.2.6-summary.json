@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Hong_Kong",
+  "version": "1.2.6",
+  "versionCode": 10206,
+  "sourceRevision": "f5043afd1b3e838272486ab5b6ad7bc1419688e8",
+  "apkSha256": "510337f3c91405d6601c13d175673805ffa985f63afcbf5df81072ac665a281f",
+  "apkBytes": 30783203,
+  "sameInstalledSigningCertificate": true,
+  "databaseSchemaChanged": false,
+  "jvm": {
+    "tests": 202,
+    "suites": 33,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "results": [
+      {
+        "name": "io.legado.app.ExampleUnitTest",
+        "tests": 1
+      },
+      {
+        "name": "io.legado.app.JsTest",
+        "tests": 7
+      },
+      {
+        "name": "io.legado.app.cloud.CloudBookMetadataPolicyTest",
+        "tests": 3
+      },
+      {
+        "name": "io.legado.app.cloud.CloudContentStoreTest",
+        "tests": 8
+      },
+      {
+        "name": "io.legado.app.cloud.CloudMigrationPolicyTest",
+        "tests": 3
+      },
+      {
+        "name": "io.legado.app.cloud.CloudTocPeerPolicyTest",
+        "tests": 3
+      },
+      {
+        "name": "io.legado.app.cloud.CloudTocPolicyTest",
+        "tests": 4
+      },
+      {
+        "name": "io.legado.app.cloud.CloudWebEntryPolicyTest",
+        "tests": 2
+      },
+      {
+        "name": "io.legado.app.cloud.LocalCacheRetirementTest",
+        "tests": 3
+      },
+      {
+        "name": "io.legado.app.cloud.LocalSourceRestorePolicyTest",
+        "tests": 2
+      },
+      {
+        "name": "io.legado.app.help.book.LegacyTextBookPolicyTest",
+        "tests": 3
+      },
+      {
+        "name": "io.legado.app.help.update.reader.ReaderReleaseTest",
+        "tests": 4
+      },
+      {
+        "name": "io.legado.app.help.update.reader.ReaderStartupPolicyTest",
+        "tests": 8
+      },
+      {
+        "name": "io.legado.app.help.update.reader.ReaderTransferTest",
+        "tests": 9
+      },
+      {
+        "name": "io.legado.app.local.SourceRestorePackCodecTest",
+        "tests": 5
+      },
+      {
+        "name": "io.legado.app.model.aggregation.AggregateLoaderTest",
+        "tests": 7
+      },
+      {
+        "name": "io.legado.app.model.aggregation.AggregationPolicyTest",
+        "tests": 5
+      },
+      {
+        "name": "io.legado.app.model.aggregation.ExploreAggregationTest",
+        "tests": 4
+      },
+      {
+        "name": "io.legado.app.model.aggregation.ExploreLiteralRulesTest",
+        "tests": 5
+      },
+      {
+        "name": "io.legado.app.model.aggregation.LocalCategoryPolicyTest",
+        "tests": 9
+      },
+      {
+        "name": "io.legado.app.model.aggregation.RssAggregationTest",
+        "tests": 5
+      },
+      {
+        "name": "io.legado.app.model.aggregation.RssCategoryMenuStoreTest",
+        "tests": 4
+      },
+      {
+        "name": "io.legado.app.model.aggregation.SourceSnapshotPolicyTest",
+        "tests": 4
+      },
+      {
+        "name": "io.legado.app.model.cloud.CloudContentQualityTest",
+        "tests": 2
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.CandidateSchedulerTest",
+        "tests": 13
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ChapterContentPolicyTest",
+        "tests": 2
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ChapterMergerTest",
+        "tests": 30
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+        "tests": 13
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ReadingPositionTest",
+        "tests": 12
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ReadingProgressAnchorTest",
+        "tests": 7
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.SpeechQueueTest",
+        "tests": 8
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.StreamingHashTest",
+        "tests": 3
+      },
+      {
+        "name": "io.legado.app.model.webBook.LocalSourceExecutionRepairTest",
+        "tests": 4
+      }
+    ]
+  },
+  "android": {
+    "tests": 45,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 57.921,
+    "sameFinalApkSingleRun": true,
+    "cases": [
+      "unrelatedChapterCannotReplaceTheSavedBookEvenWithTheSameIndexNumber",
+      "lostCatalogueFindsSameChapterRatherThanGuessingItsIndexAndKeepsUserData",
+      "pendingOpeningCannotInstallAfterTheSameBookIsReopened",
+      "deadDetailDoesNotBlockAnExistingChapterFromTheBookshelf",
+      "cachedEmptyShellIsRecoveredDespiteAnUnmarkedSavedPosition",
+      "numberOnlySavedChapterWithoutContextNeverGuessesAnIndex",
+      "stalledPrimaryIsBoundedBeforeAutomaticRecovery",
+      "removedPrimaryRecoversUntypedLegacyBookWithoutRewritingItsType",
+      "removedPrimaryRecoversLegacyBookWithOnlyAnUpdateErrorFlag",
+      "realRulesMergeSeparatelyAndReuseCacheWithoutRequests",
+      "failedPrimaryRescueRemainsReadableOfflineWithoutCreatingAnOriginalFile",
+      "cancellationNeverPublishesPartialDerivedCache",
+      "normalWebBookPipelineAutomaticallyEnrichesButKeepsRawText",
+      "failedRescueThenNewManualKnownResultRecoversWithoutChangingSourceRules",
+      "missingPrimaryRuleAutomaticallyRecoversInNativeReader",
+      "missingOriginalAdvancesPastQuickUnmatchedCandidatesWithinOneLoad",
+      "blankDerivedMissAndEmptyOriginalFileAreNotReadableOrDownloaded",
+      "accessPageCannotStopMissingOriginalRecoveryWaves",
+      "candidateFetchDoesNotReenterMergeOrWriteOriginalCache",
+      "alternateFailureCannotDamageReadableOriginal",
+      "coldFourStageRescueCanFinishAfterTheOldForegroundDeadline",
+      "ruleChangesAndManualRefreshInvalidateOnlyDerivedChapter",
+      "slowAlternateTimesOutWithoutReplacingOriginal",
+      "unavailablePrimaryRecoversDespiteLegacySavedPosition",
+      "irrelevantPrefixYieldsToLaterSourceAndCachedMissDoesNotRepeatRequests",
+      "disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+      "cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+      "cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+      "damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+      "legacyPositionIsHeldThenExplicitApplyAndReopenKeepTheSameRenderedWords",
+      "anOlderUnmarkedDerivedOffsetKeepsItsExistingReadableVersion",
+      "unrelatedBookmarkCannotBypassLegacyHoldButTheSelectedBookmarkStillWorks",
+      "previousVersionReferenceRequiresMatchingRulesRawHashAndAge",
+      "unknownAndWrongDetailAuthorsNeverAuthorizeTocOrContentRequests",
+      "missingSearchAuthorsAreVerifiedInDetailBeforeAutomaticStitching",
+      "equalLengthRuleEditInvalidatesEvenWhileRoomNotificationIsBlocked",
+      "openingPromptsOnceRotationAndReturningDoNotRecheckAndForegroundChecksAgain",
+      "openingUpdatePageRefreshesOldReadyRetainsFilesAndOffersOnlyDownloadOrCancel",
+      "delayedResultDoesNotInterruptAnotherPageAndIsAnnouncedOnReturningToMain",
+      "startupWaitsForPrivacyAndNetworkFailureRemainsSilent",
+      "backgroundReopenRotationAndRepeatedStartKeepOneTransferUntilCancellation",
+      "reopeningUsesRealPartialBytesAndCancelledGenerationCannotPublish",
+      "failedReplacementKeepsEarlierReadyFileAndPointer",
+      "sameLengthCorruptReadyCanBeRevokedAndRecoveredThroughRealByteStream",
+      "actualPackageManagerArchiveAndSignerDataRejectReinstallOrWrongMetadata"
+    ],
+    "log": "reader-1.2.6-native.log"
+  },
+  "fixes": [
+    "Bookshelf opening uses saved chapter entries even when old detail metadata is unavailable.",
+    "A completely missing catalogue triggers bounded same-book/author/chapter recovery, preserving shelf settings, same-chapter position, unique bookmark mappings, history and original cache files.",
+    "A stale reading epoch, ambiguous numeric-only chapter or changed source configuration cannot authorize catalogue replacement.",
+    "Legacy text books without media type flags and cached blank/failure shells can enter automatic content recovery.",
+    "Update prompts show complete release notes and only Download/Cancel; active download shows Cancel/Background download and keeps one service job across reopen/rotation/repeated start."
+  ],
+  "limits": [
+    "A normally populated source catalogue is not extended with chapters from other sources.",
+    "Recovery requires usable authorised sources and verified same-book/chapter evidence; it cannot invent unavailable content.",
+    "New update UI takes effect after 1.2.6 is installed; old 1.2.5 performs its initial upgrade through the existing UI.",
+    "Owned emulator and purpose-written loopback fixtures only; no physical handset, external website availability scan or retired project tested."
+  ],
+  "handset": {
+    "installationRequested": false,
+    "finalVersionInstalled": false,
+    "dataPreservationVerified": false
+  },
+  "testDevice": {
+    "stoppedAndRemoved": true,
+    "allocatedBytesRemoved": 606195712,
+    "otherDevicesAndSharedSdkUntouched": true
+  },
+  "publication": {
+    "status": "published and public latest/APK/source verified",
+    "repository": "iamnevillechen-max/reading-android-releases",
+    "release": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.6",
+    "assetsServerDigestVerified": 4,
+    "publicDownloads": [
+      {
+        "kind": "apk",
+        "bytes": 30783203,
+        "sha256": "510337f3c91405d6601c13d175673805ffa985f63afcbf5df81072ac665a281f"
+      },
+      {
+        "kind": "source",
+        "bytes": 9737818,
+        "sha256": "2076e80407221c02348b9caba15b3a8fd2dd9e45f007468ac787f8f7509c6815",
+        "verifiedInFirstPublicAttempt": true
+      }
+    ],
+    "successfulLog": ".toolchain/reader-1.2.6-publication-retry.log",
+    "initialUploadFailureRetained": ".toolchain/reader-1.2.6-publication.log"
+  },
+  "privacy": {
+    "passed": true,
+    "needlesChecked": 7,
+    "archives": [
+      {
+        "kind": "apk",
+        "entries": 1663,
+        "sensitiveMatches": 0
+      },
+      {
+        "kind": "source",
+        "entries": 2498,
+        "sensitiveMatches": 0
+      }
+    ],
+    "cloudNetworkRequests": 0
+  }
+}

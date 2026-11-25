@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceUrl": "https://www.heiyan.com",
+    "bookSourceName": "黑岩·官方综合小说",
+    "bookSourceGroup": "已核验·综合小说·官方公开页",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 12,
+    "bookSourceComment": "2026-10-26 核验《镇海战神》：官网公开全站搜索、真实作者、943条目录、第一免费章。搜索使用官方网站JS公开调用的匿名JSON接口，模糊结果按官网排序；不使用私密App接口或密钥。发现保留首页推荐与最新书库。目录以 a.isvip 标注收费章；不绕过登录或付费。正文仅取单一 .page-content，避免隐藏模板重复。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://search.heiyan.com/web/search?queryString={{key}}&highlight=false&page={{page}}&f=f",
+    "exploreUrl": "[{\"title\": \"首页推荐\", \"url\": \"https://www.heiyan.com/\"}, {\"title\": \"最新小说\", \"url\": \"https://www.heiyan.com/all.html\"}]",
+    "ruleSearch": {
+      "bookList": "$.data.content",
+      "name": "$.name",
+      "author": "$.authorname",
+      "bookUrl": "$.id##^##https://www.heiyan.com/book/",
+      "coverUrl": "$.iconUrlSmall",
+      "intro": "$.introduce",
+      "kind": "$.sortname"
+    },
+    "ruleExplore": {
+      "bookList": "@js:\nvar query = /[?&]reader_query=([^&]*)/.exec(String(baseUrl));\nvar key = query ? decodeURIComponent(query[1].replace(/\\+/g, \" \")) : \"\";\nkey = String(java.t2s(key)).trim();\nvar links = java.getElements(\"a[href~=/book/[0-9]+$]\");\nvar books = []; var seen = {};\nfor (var i = 0; i < links.size(); i++) {\n  var item = links.get(i); var name = String(item.text()).trim(); var url = String(item.attr(\"href\"));\n  if (name !== \"\" && !seen[url] && (key === \"\" || String(java.t2s(name)).indexOf(key) >= 0)) {\n    books.push(item); seen[url] = true;\n  }\n}\nbooks;",
+      "name": "text",
+      "bookUrl": "href"
+    },
+    "ruleBookInfo": {
+      "name": "meta[property='og:title']@content",
+      "author": "meta[property='og:novel:author']@content",
+      "coverUrl": "meta[property='og:image']@content",
+      "intro": "meta[property='og:description']@content",
+      "tocUrl": "@js: 'https://www.heiyan.com/chapter/' + String(baseUrl).match(/\\/book\\/(\\d+)/)[1];"
+    },
+    "ruleToc": {
+      "chapterList": "li[id^=chapter]:has(a.name)",
+      "chapterName": "a.name@text",
+      "chapterUrl": "a.name@href",
+      "isVip": "a.isvip@text",
+      "updateTime": "span.time@text"
+    },
+    "ruleContent": {
+      "content": ".page-content@html"
+    }
+  }
+]

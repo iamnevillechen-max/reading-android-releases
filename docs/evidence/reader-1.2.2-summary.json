@@ -1,0 +1,108 @@
+{
+  "format": "reader-release-status-2",
+  "date": "2026-10-29",
+  "versionName": "1.2.2",
+  "versionCode": 10202,
+  "state": "published-user-self-install-full-source-restoration-still-in-progress",
+  "packageName": "io.multiread.reader.debug",
+  "appLabel": "阅读",
+  "bytes": 30635124,
+  "sha256": "f971867034d82b0994a964f66792006d714cb7f5a06f9f88839c77f969c6580b",
+  "sourceRevision": "be3fac029e673b3cb79862c736cfa4ed064bf084",
+  "sourceWorkingTreeClean": true,
+  "signerSha256": "2d4f471e4ac07c996f1943396c730de18afca91fc38945cdda44c8f2b9d48b73",
+  "roomSchema": 75,
+  "cacheAlgorithmVersion": 3,
+  "jvm": {
+    "tests": 140,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": 20
+  },
+  "native": {
+    "uniqueMethods": 37,
+    "passed": 37,
+    "evidence": "reader-1.2.2-native-results.json",
+    "productionApkUnchangedDuringTestSetupCorrections": true
+  },
+  "backend": {
+    "deployed": true,
+    "stage2Features": [
+      "malformed Heiyan image/title repair",
+      "relative URL resolution",
+      "legacy selector chains and alternatives",
+      "static GET/POST and trailing commas",
+      "plain metadata gate and cache revision",
+      "matching same-book metadata repair"
+    ],
+    "publicFamilyOverlayDeployed": true,
+    "archiveOriginalJsonAndShaUnchanged": true,
+    "allSourcesRestored": false,
+    "tests": 71,
+    "typecheckPassed": true,
+    "providerAliasesDeduplicatedForNewSearchAndDiscovery": true
+  },
+  "features": {
+    "metadataRepair": "Same exact book URL/source; only unmistakable malformed identities; no valid-name overwrite",
+    "cacheRepair": "Keep old cache, exclusively copy missing native chapter files with bounds; never overwrite existing new cache",
+    "identityCollision": "No merging/replacing a different shelf book with same corrected title/author",
+    "sourceReconnection": "Exact raw SHA, healthy receipt, current shelf chapter proof and same-ID CAS update; local edits/progress win"
+  },
+  "handset": {
+    "installationRequested": false,
+    "finalVersionInstalled": false,
+    "installationMethod": "User will install from the existing in-app update channel",
+    "dataPreservationVerifiedOnOwnedEmulator": true,
+    "physicalHandsetInstallationNotClaimed": true,
+    "previousHandsetVersion": "1.2.1"
+  },
+  "release": {
+    "published": true,
+    "fixedRepository": "iamnevillechen-max/reading-android-releases",
+    "previousPublicVersion": "1.2.1",
+    "publicLatestReadBackVerified": true,
+    "versionName": "1.2.2",
+    "versionCode": 10202,
+    "releaseUrl": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.2",
+    "publicApkFullDownloadSha256Verified": true,
+    "apkSha256": "f971867034d82b0994a964f66792006d714cb7f5a06f9f88839c77f969c6580b",
+    "apkBytes": 30635124,
+    "assetsVerified": 4
+  },
+  "fullSourceRestoration": {
+    "requested": true,
+    "reverseEngineeringRequested": true,
+    "recordsAccountedFor": 21149,
+    "bookSources": 20706,
+    "rssSources": 443,
+    "text": 19788,
+    "audio": 357,
+    "imageComic": 488,
+    "download": 73,
+    "state": "in-progress",
+    "archiveCompleteIsNotFunctionalRestoration": true,
+    "noTypeSilentlyDiscarded": true
+  },
+  "limits": [
+    "All-source functional restoration remains in progress; unsupported is not evidence that a website is dead.",
+    "Physical installation and full human TalkBack/voice acceptance are not claimed.",
+    "Passing one normal public book/profile does not prove every work or huge catalogue on that provider."
+  ],
+  "privacy": "No raw private rules, tokens, book names/history, wireless endpoints/session, backup paths, screenshots or novel text are published.",
+  "sourceRestorationSnapshot": {
+    "date": "2026-10-29",
+    "allOriginalRecords": 21149,
+    "bookArchiveRecords": 20706,
+    "bookHealthyRecords": 27,
+    "bookPreferredProviders": 16,
+    "bookDiscoveryProviders": 5,
+    "bookDiscoveryCategories": 2,
+    "rssHealthy": 19,
+    "articleFeeds": 2,
+    "websiteEntries": 17,
+    "providerDeduplicationDeployed": true,
+    "allSourceFunctionalRestorationComplete": false,
+    "originalShaLedgerVerified": true
+  }
+}

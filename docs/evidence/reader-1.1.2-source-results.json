@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-26",
+  "nativeParserVerifiedSites": 13,
+  "generalFictionSites": 11,
+  "classicSites": 2,
+  "allSafeVariantIdsVerified": true,
+  "allSearchDetailsTocFreeContentPassed": true,
+  "noBookOrSourceDatabaseImportPerformedByLiveTests": true,
+  "noPrivateNovelBodyInArtifacts": true,
+  "pack": {
+    "file": "阅读_新增书源_2026-10-26.json",
+    "bytes": 28426,
+    "sha256": "fd7605e00d9f8410acfb8ba9b0b2effbf9a39db94f1ab5ad426d6b87f52af9d2"
+  },
+  "sources": [
+    {
+      "name": "纵横·公开免费章节〔核验版〕",
+      "id": "https://www.zongheng.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "黑岩·官方综合小说〔核验版〕",
+      "id": "https://www.heiyan.com/#reader-verified-20261026",
+      "exploreEnabled": true,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "17K·公开免费章节〔核验版〕",
+      "id": "https://www.17k.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "晋江·公开免费章节〔核验版〕",
+      "id": "https://www.jjwxc.net/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "逐浪·公开免费章节〔核验版〕",
+      "id": "https://m.zhulang.com/#reader-verified-20261026",
+      "exploreEnabled": true,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "SF菠萝包·官方公开免费章节〔核验版〕",
+      "id": "https://book.sfacg.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "QQ阅读·官方公开免费章节〔核验版〕",
+      "id": "https://book.qq.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "红袖读书·官方公开免费章节〔核验版〕",
+      "id": "https://www.hongxiu.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "话本小说·官方公开章节〔核验版〕",
+      "id": "https://www.ihuaben.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "若初文学·官方公开免费章节〔核验版〕",
+      "id": "https://www.ruochu.com/#reader-verified-20261026",
+      "exploreEnabled": false,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "酷匠·公开免费章节〔核验版〕",
+      "id": "https://m.kujiang.com/#reader-verified-20261026",
+      "exploreEnabled": true,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "维基文库·中文分章古籍〔核验版〕",
+      "id": "https://zh.wikisource.org/#reader-verified-20261026",
+      "exploreEnabled": true,
+      "nativePipelinePassed": true
+    },
+    {
+      "name": "古文岛·公开小说目录〔核验版〕",
+      "id": "https://www.guwendao.net/#reader-verified-20261026",
+      "exploreEnabled": true,
+      "nativePipelinePassed": true
+    }
+  ],
+  "results": [
+    {
+      "sourceUrl": "https://www.zongheng.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-1.log"
+    },
+    {
+      "sourceUrl": "https://www.heiyan.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-2.log"
+    },
+    {
+      "sourceUrl": "https://www.17k.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-3.log"
+    },
+    {
+      "sourceUrl": "https://www.jjwxc.net/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-4.log"
+    },
+    {
+      "sourceUrl": "https://m.zhulang.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-5.log"
+    },
+    {
+      "sourceUrl": "https://book.sfacg.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-6.log"
+    },
+    {
+      "sourceUrl": "https://book.qq.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-7.log"
+    },
+    {
+      "sourceUrl": "https://www.hongxiu.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-8.log"
+    },
+    {
+      "sourceUrl": "https://www.ihuaben.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-9.log"
+    },
+    {
+      "sourceUrl": "https://www.ruochu.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-10.log"
+    },
+    {
+      "sourceUrl": "https://m.kujiang.com/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-11.log"
+    },
+    {
+      "sourceUrl": "https://zh.wikisource.org/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-12.log"
+    },
+    {
+      "sourceUrl": "https://www.guwendao.net/#reader-verified-20261026",
+      "passed": true,
+      "log": "reader-1.1.2-safe-source-13.log"
+    }
+  ]
+}

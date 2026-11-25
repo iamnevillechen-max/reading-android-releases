@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reader_diagnostics_title">上載使用日誌</string>
+    <string name="reader_diagnostics_summary">點此傳送最近的聽書操作、應用程式版本及閃退線索，不含書名和正文。</string>
+    <string name="reader_diagnostics_sending">正在上載使用日誌…</string>
+    <string name="reader_diagnostics_sent">已收到日誌，回條 %1$s。點此可上載新的日誌。</string>
+    <string name="reader_diagnostics_failed">上載未完成。請檢查網絡，稍後點此重試。</string>
+</resources>

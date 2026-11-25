@@ -1,0 +1,225 @@
+{
+  "build": "PASS",
+  "unit": [
+    {
+      "name": "io.legado.app.ExampleUnitTest",
+      "tests": "1",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.207Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.001"
+    },
+    {
+      "name": "io.legado.app.JsTest",
+      "tests": "7",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.210Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.201"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.AggregateLoaderTest",
+      "tests": "3",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.412Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.241"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.AggregationPolicyTest",
+      "tests": "5",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.656Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.023"
+    },
+    {
+      "name": "io.legado.app.model.aggregation.RssAggregationTest",
+      "tests": "2",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.683Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.01"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.ChapterMergerTest",
+      "tests": "27",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.698Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.149"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+      "tests": "13",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.853Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.01"
+    },
+    {
+      "name": "io.legado.app.model.multisource.core.ReadingPositionTest",
+      "tests": "12",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-25T17:32:11.864Z",
+      "hostname": "nevilledeMacBook-Neo.local",
+      "time": "0.017"
+    }
+  ],
+  "instrumentation": [
+    {
+      "name": "io.legado.app.multisource.MultiSourceIntegrationTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "9.788",
+      "timestamp": "2026-10-25T17:08:17",
+      "hostname": "localhost"
+    }
+  ],
+  "unitTotal": 70,
+  "instrumentationTotal": 9,
+  "device": "Android 15 API35 ARM64 dedicated emulator",
+  "source": "preserved original da17bb2 with implementation changes",
+  "logs": [
+    "implementation-build-final.log",
+    "multisource-instrumentation.log"
+  ],
+  "deliveryBuild": {
+    "status": "PASS",
+    "log": "docs/evidence/implementation-ui-fix-build.log",
+    "unitTotal": 70,
+    "unit": [
+      {
+        "name": "io.legado.app.ExampleUnitTest",
+        "tests": "1",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.207Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.001"
+      },
+      {
+        "name": "io.legado.app.JsTest",
+        "tests": "7",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.210Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.201"
+      },
+      {
+        "name": "io.legado.app.model.aggregation.AggregateLoaderTest",
+        "tests": "3",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.412Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.241"
+      },
+      {
+        "name": "io.legado.app.model.aggregation.AggregationPolicyTest",
+        "tests": "5",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.656Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.023"
+      },
+      {
+        "name": "io.legado.app.model.aggregation.RssAggregationTest",
+        "tests": "2",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.683Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.01"
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ChapterMergerTest",
+        "tests": "27",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.698Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.149"
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.IdentityMatcherTest",
+        "tests": "13",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.853Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.01"
+      },
+      {
+        "name": "io.legado.app.model.multisource.core.ReadingPositionTest",
+        "tests": "12",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:32:11.864Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.017"
+      }
+    ],
+    "adapterInstrumentation": [
+      {
+        "name": "io.legado.app.base.adapter.RecyclerAdapterDiffTest",
+        "tests": "2",
+        "failures": "0",
+        "errors": "0",
+        "skipped": "0",
+        "time": "0.704",
+        "timestamp": "2026-10-25T17:33:03",
+        "hostname": "localhost"
+      }
+    ],
+    "adapterInstrumentationLog": "docs/evidence/adapter-instrumentation.log",
+    "apks": [
+      {
+        "path": "upstream/app/build/outputs/apk/app/debug/multiread_app_1.0.0-dev.apk",
+        "bytes": 32482016,
+        "sha256": "15d56b3ee71c9bcf3fae95771503b696fcfec7c4c66840cb498e0ede1ac70f45"
+      }
+    ],
+    "instrumentationNote": "Seven deterministic multi-source pipeline tests passed before subsequent notice/UI-only changes. Two RecyclerAdapterDiffTest cases passed on this final UI-fix build; configured book/RSS fixtures retained."
+  },
+  "adapterInstrumentation": [
+    {
+      "name": "io.legado.app.base.adapter.RecyclerAdapterDiffTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.704",
+      "timestamp": "2026-10-25T17:33:03",
+      "hostname": "localhost"
+    }
+  ]
+}

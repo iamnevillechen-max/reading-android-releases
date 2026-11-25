@@ -1,0 +1,79 @@
+[
+  {
+    "bookSourceUrl": "https://zh.wikisource.org",
+    "bookSourceName": "维基文库·中文分章古籍",
+    "bookSourceGroup": "已核验·公开古籍",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 0,
+    "bookSourceComment": "2026-10-26 核验西遊記：搜索、真实作者、100回目录、第一回正文。仅匹配同一本书的「第…回/章/卷/節」分章；其他排版不保证。搜索结果无结构化作者时保持空白，不伪造；详情页读取作者。 正文保留段落及诗词列表，去除导航。",
+    "header": "{\"User-Agent\": \"ReadingSourceValidation/1.0 (+https://github.com/iamnevillechen-max/reading-android-releases)\"}",
+    "searchUrl": "https://zh.wikisource.org/w/index.php?title=Special:Search&search={{key}}&fulltext=1&ns0=1&limit=20&offset={{(page-1)*20}}",
+    "exploreUrl": "[{\"title\": \"四大名著\", \"url\": \"https://zh.wikisource.org/wiki/Portal:%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97\"}]",
+    "ruleSearch": {
+      "bookList": ".mw-search-results li:has(.mw-search-result-heading a[href~=/wiki/[^/]+$])",
+      "name": ".mw-search-result-heading a@text",
+      "bookUrl": ".mw-search-result-heading a@href",
+      "intro": ".searchresult@text"
+    },
+    "ruleExplore": {
+      "bookList": "#mw-content-text .mw-parser-output a[href~=/wiki/[^:/]+$]:matchesOwn(^(西遊記|西游记|三國演義|三国演义|水滸傳|水浒传|紅樓夢|红楼梦)$)",
+      "name": "text",
+      "bookUrl": "href"
+    },
+    "ruleBookInfo": {
+      "name": "#firstHeading@text",
+      "author": "#headerContainer a[href^=/wiki/Author:]@text",
+      "intro": "#headerContainer@text"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar prefix = decodeURIComponent(String(baseUrl).replace(/^https?:\\/\\/[^/]+/, \"\").split(/[?#]/)[0]).replace(/\\/$/, \"\") + \"/\";\nvar links = java.getElements(\"#mw-content-text .mw-parser-output a[href]\");\nvar chapters = []; var seen = {};\nfor (var i = 0; i < links.size(); i++) {\n  var item = links.get(i);\n  var path = decodeURIComponent(String(item.attr(\"href\")).split(/[?#]/)[0]);\n  var tail = path.indexOf(prefix) === 0 ? path.substring(prefix.length) : \"\";\n  if (/^第[^/]+[回章卷節节]$/.test(tail) && !seen[path]) { chapters.push(item); seen[path] = true; }\n}\nchapters;",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar nodes = java.getElements(\"#mw-content-text .mw-parser-output\");\nif (nodes.size() === 0) \"\";\nelse {\n  var body = nodes.get(0).clone();\n  body.select(\"#headerContainer,.ws-noexport,.noprint,.mw-editsection,script,style,noscript\").remove();\n  body.html();\n}"
+    }
+  },
+  {
+    "bookSourceUrl": "https://www.guwendao.net",
+    "bookSourceName": "古文岛·公开小说目录",
+    "bookSourceGroup": "已核验·公开古籍",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 1,
+    "bookSourceComment": "2026-10-26 核验红楼梦：公开小说目录本地筛选、真实作者、120回目录、第一回原文。站内搜索需登录，本规则只读取公开小说目录并在本机按标题筛选；按原目录分页，未匹配不代表全站没有该书。未读取翻译/现代注释。原古诗文网已公开更名/重定向古文岛。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://www.guwendao.net/guwen/Default.aspx?type=%E5%B0%8F%E8%AF%B4%E5%AE%B6%E7%B1%BB&p={{page}}&reader_query={{key}}",
+    "exploreUrl": "[{\"title\": \"古典小说\", \"url\": \"https://www.guwendao.net/guwen/Default.aspx?type=%E5%B0%8F%E8%AF%B4%E5%AE%B6%E7%B1%BB&p={{page}}\"}]",
+    "ruleSearch": {
+      "bookList": "@js:\nvar match = /[?&]reader_query=([^&]*)/.exec(String(baseUrl));\nvar key = match ? decodeURIComponent(match[1].replace(/\\+/g, \" \")) : \"\";\nkey = String(java.t2s(key)).trim();\nvar rows = java.getElements(\"div.sonspic:has(.cont > p > a[href~=/guwen/book_[0-9a-f]+\\\\.aspx$])\");\nvar found = [];\nfor (var i = 0; i < rows.size(); i++) {\n  var row = rows.get(i); var name = String(row.select(\".cont > p > a[href*=/guwen/book_]\").first().text());\n  if (key === \"\" || String(java.t2s(name)).indexOf(key) >= 0) found.push(row);\n}\nfound;",
+      "name": ".cont > p > a[href*=/guwen/book_]@text",
+      "bookUrl": ".cont > p > a[href*=/guwen/book_]@href",
+      "author": ".book-tag:nth-child(2) span@text",
+      "intro": ".cont > p@text"
+    },
+    "ruleExplore": {
+      "bookList": "div.sonspic:has(.cont > p > a[href~=/guwen/book_[0-9a-f]+\\.aspx$])",
+      "name": ".cont > p > a[href*=/guwen/book_]@text",
+      "bookUrl": ".cont > p > a[href*=/guwen/book_]@href",
+      "author": ".book-tag:nth-child(2) span@text",
+      "intro": ".cont > p@text"
+    },
+    "ruleBookInfo": {
+      "name": "#sonsyuanwen h1@text",
+      "author": "#sonsyuanwen .book-tag:nth-child(2) span@text",
+      "intro": "#sonsyuanwen .cont > p@text"
+    },
+    "ruleToc": {
+      "chapterList": ".bookcont a[href~=/guwen/bookv_[0-9a-f]+\\.aspx$]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": ".contson@html"
+    }
+  }
+]

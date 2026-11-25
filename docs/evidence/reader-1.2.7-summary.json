@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Hong_Kong",
+  "version": "1.2.7",
+  "versionCode": 10207,
+  "sourceRevision": "e1b9704de77c14ebd344b8a6f0b3c37a94ebdbb0",
+  "apkSha256": "a3681a752c2193565147a1477777929bc52a8c15f1afcf6a66906cb62a6059e6",
+  "apkBytes": 30940944,
+  "databaseSchemaChanged": false,
+  "jvm": {
+    "tests": 206,
+    "suites": 34,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android": {
+    "tests": 18,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 32.317,
+    "sameFinalApkSingleRun": true,
+    "cases": [
+      "pauseAndStopSuppressLateLayoutCompletion",
+      "staleLayoutCannotResumeAfterReplacementAtTheSameChapter",
+      "promotedLayoutResumesOnceOnlyAfterCompletion",
+      "delayedAudioKeepsParagraphOrderAndHonorsPauseWhileRefilling",
+      "legacyPositionIsHeldThenExplicitApplyAndReopenKeepTheSameRenderedWords",
+      "anOlderUnmarkedDerivedOffsetKeepsItsExistingReadableVersion",
+      "unrelatedBookmarkCannotBypassLegacyHoldButTheSelectedBookmarkStillWorks",
+      "previousVersionReferenceRequiresMatchingRulesRawHashAndAge",
+      "disconnectedPreloadRetainsEveryReadableOriginalAndReadingRecord",
+      "cancellingCachedPreloadPublishesNoPartialResultAndCanResume",
+      "cachedNextTenChaptersArePreparedWithoutChangingReaderOrStoredProgress",
+      "damagedDerivedFileFallsBackToOriginalAndIsRebuiltOnTheNextPreload",
+      "unrelatedChapterCannotReplaceTheSavedBookEvenWithTheSameIndexNumber",
+      "lostCatalogueFindsSameChapterRatherThanGuessingItsIndexAndKeepsUserData",
+      "pendingOpeningCannotInstallAfterTheSameBookIsReopened",
+      "deadDetailDoesNotBlockAnExistingChapterFromTheBookshelf",
+      "cachedEmptyShellIsRecoveredDespiteAnUnmarkedSavedPosition",
+      "numberOnlySavedChapterWithoutContextNeverGuessesAnIndex"
+    ],
+    "log": "reader-1.2.7-native.log",
+    "installedOverPublished126": true
+  },
+  "baseline": {
+    "version": "1.2.6",
+    "reproduced": "A transient failure caused the next paragraph to be requested instead of retrying the failed one.",
+    "log": ".toolchain/reader-1.2.7-baseline-retry-native.log"
+  },
+  "fixes": [
+    "File-based online narration prepares up to two paragraphs before starting and waits at most 1.5 seconds for the second one after the first is ready. It retains the queue and plays ready paragraphs in order.",
+    "A transient connection or HTTP 5xx/408 failure retries the same paragraph once; failure cannot silently skip a paragraph.",
+    "Chapter layout completion signals readiness before the page stream closes. A promoted layout resumes narration once for its current reading session.",
+    "Resume uses the current chapter, and the system speech service avoids stopping an already drained queue."
+  ],
+  "limits": [
+    "Controlled loopback WAV, real Media3 service and Android layout on a dedicated emulator. System TTS queue logic was tested without a speech engine installed. The specific handset or narration provider was not measured."
+  ],
+  "handset": {
+    "installationRequested": false,
+    "finalVersionInstalled": false,
+    "dataPreservationVerified": false
+  },
+  "testDevice": {
+    "stoppedAndRemoved": true,
+    "allocatedBytesRemoved": 639750144,
+    "otherDevicesAndSharedSdkUntouched": true
+  },
+  "publication": {
+    "status": "published and public latest/APK/source verified",
+    "repository": "iamnevillechen-max/reading-android-releases",
+    "release": "https://github.com/iamnevillechen-max/reading-android-releases/releases/tag/v1.2.7",
+    "assetsServerDigestVerified": 4,
+    "publicDownloads": [
+      {
+        "kind": "apk",
+        "bytes": 30940944,
+        "sha256": "a3681a752c2193565147a1477777929bc52a8c15f1afcf6a66906cb62a6059e6",
+        "retries": [
+          {
+            "bytesBeforeRetry": 8781824,
+            "errorType": "timeout"
+          }
+        ]
+      },
+      {
+        "kind": "source",
+        "bytes": 9752728,
+        "sha256": "196a1cd1a63986b2be6e023e63427f280970ea1c218134a2a5528c06584a3549",
+        "retries": []
+      }
+    ],
+    "log": ".toolchain/reader-1.2.7-publication.log"
+  },
+  "sameInstalledSigningCertificate": true,
+  "privacy": {
+    "passed": true,
+    "needlesChecked": 7,
+    "archives": [
+      {
+        "kind": "apk",
+        "entries": 1663,
+        "sensitiveMatches": 0
+      },
+      {
+        "kind": "source",
+        "entries": 2504,
+        "sensitiveMatches": 0
+      }
+    ],
+    "cloudNetworkRequests": 0
+  }
+}

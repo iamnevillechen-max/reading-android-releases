@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceUrl": "https://m.zhulang.com",
+    "bookSourceName": "逐浪·公开免费章节",
+    "bookSourceGroup": "综合小说·公开免费章节",
+    "bookSourceType": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "customOrder": 5,
+    "bookSourceComment": "逐浪官网公开免费章节。目录排除标注VIP的章节，付费内容不提供；免费名单随正常目录刷新更新。已核对《武神天下》禹枫的搜索、目录与免费正文。搜索当前支持公开第一页，推荐与男频可用于发现。",
+    "header": "{\"User-Agent\": \"Mozilla/5.0\"}",
+    "searchUrl": "https://m.zhulang.com/search/index.html?k={{key}}",
+    "exploreUrl": "[{\"title\": \"推荐\", \"url\": \"https://m.zhulang.com/\"}, {\"title\": \"男频\", \"url\": \"https://m.zhulang.com/category/boys.html\"}]",
+    "ruleSearch": {
+      "bookList": "#ret-list > li > a",
+      "name": "h3@text",
+      "author": "h4@text",
+      "bookUrl": "href",
+      "intro": "p@text"
+    },
+    "ruleExplore": {
+      "bookList": ".bk-list li > a:has(h3)",
+      "name": "h3@text",
+      "author": "h4@text##\\s*\\|.*##",
+      "kind": "h4@text##^.*?\\|\\s*##",
+      "bookUrl": "href",
+      "intro": "p@text"
+    },
+    "ruleBookInfo": {
+      "name": "dl.bk-info h3@text",
+      "author": "dl.bk-info a.yellow@text",
+      "tocUrl": "@js: var m=String(baseUrl).match(new RegExp('/([0-9]+)/index[.]html')); m ? 'https://book.zhulang.com/'+m[1]+'/' : '';"
+    },
+    "ruleToc": {
+      "chapterList": "@js: var es=java.getElements('.catalog-cnt .chapter-list li > a'); var out=[]; var allowed={}; var b=String(baseUrl).match(new RegExp('^https://book[.]zhulang[.]com/([0-9]+)/')); for(var i=0;i<es.size();i++){var e=es.get(i); var u=String(e.attr('href')); var m=u.match(new RegExp('^https://book[.]zhulang[.]com/([0-9]+)/([0-9]+)[.]html$')); if(b && m && m[1]===b[1] && String(e.text()).toLowerCase().indexOf('[vip]')<0){out.push(e);allowed[m[2]]=true;}} book.putVariable('readerZhulangFreeChapters',JSON.stringify({bookId:b?b[1]:'',chapters:allowed})); out;",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@js: var safe=false; try{var g=JSON.parse(String(book.getVariable('readerZhulangFreeChapters')||'{}')); var m=String(baseUrl).match(new RegExp('^https://book[.]zhulang[.]com/([0-9]+)/([0-9]+)[.]html$')); safe=!!(m && g.bookId===m[1] && g.chapters && g.chapters[m[2]]===true);}catch(e){} var es=java.getElements('#read-content'); if(safe && es.size()>0){var c=es.get(0).clone(); c.select('script,style,iframe').remove(); c.html();}else{'';}"
+    }
+  }
+]

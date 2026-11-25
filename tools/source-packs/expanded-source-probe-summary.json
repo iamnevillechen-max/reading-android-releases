@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-26",
+  "status": "provisional_pending_native_verification",
+  "newAdapters": [
+    {
+      "sourceUrl": "https://book.sfacg.com",
+      "normalAnonymousRequests": [
+        {
+          "url": "https://s.sfacg.com/?Key=%E6%88%91%EF%BC%8C%E7%8E%B0%E5%BD%B9%E5%A3%B0%E4%BC%98%EF%BC%81&S=1&SS=0",
+          "status": 200,
+          "bytes": 7978,
+          "seconds": 3.68
+        },
+        {
+          "url": "https://book.sfacg.com/Novel/673212/",
+          "status": 200,
+          "bytes": 73264,
+          "seconds": 6.34
+        },
+        {
+          "url": "https://book.sfacg.com/Novel/673212/MainIndex/",
+          "status": 200,
+          "bytes": 283119,
+          "seconds": 5.11
+        },
+        {
+          "url": "https://book.sfacg.com/Novel/673212/884181/8075296/",
+          "status": 200,
+          "bytes": 49574,
+          "seconds": 3.09
+        }
+      ],
+      "chaptersStoredInPack": false,
+      "nativeVerified": false
+    },
+    {
+      "sourceUrl": "https://book.qq.com",
+      "normalAnonymousRequests": [
+        {
+          "url": "https://book.qq.com/so/%E5%90%9E%E5%99%AC%E6%98%9F%E7%A9%BA2%E8%B5%B7%E6%BA%90%E5%A4%A7%E9%99%86",
+          "status": 200,
+          "bytes": 39807,
+          "seconds": 2.36
+        },
+        {
+          "url": "https://book.qq.com/book-detail/49391084",
+          "status": 200,
+          "bytes": 452057,
+          "seconds": 3.32
+        },
+        {
+          "url": "https://book.qq.com/book-chapter/49391084",
+          "status": 200,
+          "bytes": 397687,
+          "seconds": 4.51
+        },
+        {
+          "url": "https://book.qq.com/book-read/49391084/1",
+          "status": 200,
+          "bytes": 107788,
+          "seconds": 4.42
+        }
+      ],
+      "chaptersStoredInPack": false,
+      "nativeVerified": false
+    },
+    {
+      "sourceUrl": "https://www.hongxiu.com",
+      "normalAnonymousRequests": [
+        {
+          "url": "https://www.hongxiu.com/so/%E5%8D%81%E9%87%8C%E8%8A%B3%E8%8F%B2",
+          "status": 200,
+          "bytes": 50755,
+          "seconds": 2.97
+        },
+        {
+          "url": "https://www.hongxiu.com/book/29754400704255704",
+          "status": 200,
+          "bytes": 364829,
+          "seconds": 3.95
+        },
+        {
+          "url": "https://www.hongxiu.com/chapterlist/29754400704255704",
+          "status": 200,
+          "bytes": 460438,
+          "seconds": 4.23
+        },
+        {
+          "url": "https://www.hongxiu.com/chapter/29754400704255704/79881150553706927",
+          "status": 200,
+          "bytes": 70576,
+          "seconds": 4.23
+        }
+      ],
+      "chaptersStoredInPack": false,
+      "nativeVerified": false
+    },
+    {
+      "sourceUrl": "https://www.ihuaben.com",
+      "normalAnonymousRequests": [
+        {
+          "url": "https://so.ihuaben.com/search?keyword=%E4%BD%A0%E6%83%B9%E5%A5%B9%EF%BC%9F%E7%96%AF%E7%99%AB%E5%A4%A7%E4%BD%AC%E5%A5%B9%E6%9C%80%E7%88%B1%E6%96%A9%E9%AC%BC%E7%81%AD%E7%A5%9E",
+          "status": 200,
+          "bytes": 13927,
+          "seconds": 2.56
+        },
+        {
+          "url": "https://www.ihuaben.com/book/12259567.html",
+          "status": 200,
+          "bytes": 123704,
+          "seconds": 3.75
+        },
+        {
+          "url": "https://www.ihuaben.com/list/12259567.html",
+          "status": 200,
+          "bytes": 312767,
+          "seconds": 3.89
+        },
+        {
+          "url": "https://www.ihuaben.com/book/12259567/74458324.html",
+          "status": 200,
+          "bytes": 45701,
+          "seconds": 4.47
+        }
+      ],
+      "chaptersStoredInPack": false,
+      "nativeVerified": false
+    },
+    {
+      "sourceUrl": "https://www.ruochu.com",
+      "normalAnonymousRequests": [
+        {
+          "url": "https://search.ruochu.com/web/search?queryString=%E5%90%91%E5%8D%97%E5%8F%88%E5%90%91%E5%8C%97&highlight=false&page=1&f=f",
+          "status": 200,
+          "bytes": 22178,
+          "seconds": 3.15
+        },
+        {
+          "url": "https://www.ruochu.com/book/161629",
+          "status": 200,
+          "bytes": 41788,
+          "seconds": 4.4
+        },
+        {
+          "url": "https://www.ruochu.com/chapter/161629",
+          "status": 200,
+          "bytes": 29416,
+          "seconds": 4.31
+        },
+        {
+          "url": "https://www.ruochu.com/book/161629/14066024",
+          "status": 200,
+          "bytes": 44034,
+          "seconds": 3.22
+        }
+      ],
+      "chaptersStoredInPack": false,
+      "nativeVerified": false
+    }
+  ],
+  "excluded": [
+    {
+      "site": "起点",
+      "reason": "官方请求返回209字节验证页面，未绕过"
+    },
+    {
+      "site": "掌阅",
+      "reason": "官方请求返回209字节验证页面，未绕过"
+    },
+    {
+      "site": "不可能的世界",
+      "reason": "HTTPS证书失效，未关闭证书验证"
+    },
+    {
+      "site": "青果",
+      "reason": "连接重置，未列可用"
+    },
+    {
+      "site": "潇湘",
+      "reason": "连接重置，未列可用"
+    },
+    {
+      "site": "轻之文库",
+      "reason": "两次HTTPS请求超时，未列可用"
+    }
+  ]
+}

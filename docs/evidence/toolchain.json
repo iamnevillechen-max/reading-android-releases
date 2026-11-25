@@ -1,0 +1,62 @@
+{
+  "upstream": {
+    "official": "https://github.com/gedoor/legado",
+    "preservedFork": "https://github.com/lcore8/gedoor-legado",
+    "commit": "da17bb2bed44f30b12a524c2457e32a20b16fa41",
+    "license": "GPL-3.0",
+    "pristineBaseline": ".toolchain/baseline"
+  },
+  "gradle": {
+    "version": "8.13",
+    "url": "https://downloads.gradle.org/distributions/gradle-8.13-bin.zip",
+    "sha256": "20f1b1176237254a6fc204d8434196fa11a4cfb387567519c61556e8710aed78"
+  },
+  "androidPlatform": {
+    "api": 36,
+    "revision": 2,
+    "url": "https://dl.google.com/android/repository/platform-36_r02.zip",
+    "sha1": "2c1a80dd4d9f7d0e6dd336ec603d9b5c55a6f576"
+  },
+  "java": "17.0.21+9",
+  "buildScript": "tools/build.sh",
+  "baselineBuild": {
+    "status": "PASS",
+    "commit": "da17bb2bed44f30b12a524c2457e32a20b16fa41",
+    "log": "docs/evidence/baseline-build-final.log",
+    "unitTotal": 8,
+    "unit": [
+      {
+        "name": "io.legado.app.ExampleUnitTest",
+        "tests": "1",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:13:11.133Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.0"
+      },
+      {
+        "name": "io.legado.app.JsTest",
+        "tests": "7",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-10-25T17:13:11.135Z",
+        "hostname": "nevilledeMacBook-Neo.local",
+        "time": "0.205"
+      }
+    ],
+    "apks": [
+      {
+        "path": ".toolchain/baseline/app/build/outputs/apk/app/debug/legado_app_3.26.102601.apk",
+        "bytes": 31986798,
+        "sha256": "cd3953752eac1b8fa62675c29ef74cb36e87721d02a9e3e5c8b91f7a22c81be4"
+      }
+    ]
+  },
+  "buildDefaults": {
+    "maxWorkers": 2,
+    "maxHeap": "2g",
+    "metaspace": "768m"
+  }
+}
