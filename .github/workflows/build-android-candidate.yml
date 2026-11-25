@@ -42,11 +42,9 @@ jobs:
           sdkmanager "platforms;android-36" "build-tools;35.0.0" >/dev/null
           cat > "$RUNNER_TEMP/central-mirror.gradle" <<'GRADLE'
           settingsEvaluated { settings ->
-              [settings.pluginManagement.repositories, settings.dependencyResolutionManagement.repositories].each { repositories ->
-                  repositories.withType(org.gradle.api.artifacts.repositories.MavenArtifactRepository).configureEach {
-                      if (url.host == "repo.maven.apache.org") {
-                          url = URI.create("https://maven-central.storage-download.googleapis.com/maven2/")
-                      }
+              settings.dependencyResolutionManagement.repositories.withType(org.gradle.api.artifacts.repositories.MavenArtifactRepository).configureEach { repository ->
+                  if (repository.url.host == "repo.maven.apache.org") {
+                      repository.setUrl("https://maven-central.storage-download.googleapis.com/maven2/")
                   }
               }
           }
