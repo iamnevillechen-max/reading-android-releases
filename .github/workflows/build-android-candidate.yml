@@ -40,7 +40,18 @@ jobs:
           set -euo pipefail
           export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
           sdkmanager "platforms;android-36" "build-tools;35.0.0" >/dev/null
-          ./gradlew --console=plain --max-workers=3 -Dorg.gradle.jvmargs="-Xmx4g -Dfile.encoding=UTF-8" :app:assembleAppDebug :app:testAppDebugUnitTest :app:assembleAppDebugAndroidTest
+          cat > "$RUNNER_TEMP/central-mirror.gradle" <<'GRADLE'
+          settingsEvaluated { settings ->
+              [settings.pluginManagement.repositories, settings.dependencyResolutionManagement.repositories].each { repositories ->
+                  repositories.withType(org.gradle.api.artifacts.repositories.MavenArtifactRepository).configureEach {
+                      if (url.host == "repo.maven.apache.org") {
+                          url = URI.create("https://maven-central.storage-download.googleapis.com/maven2/")
+                      }
+                  }
+              }
+          }
+          GRADLE
+          ./gradlew -I "$RUNNER_TEMP/central-mirror.gradle" --console=plain --max-workers=3 -Dorg.gradle.jvmargs="-Xmx4g -Dfile.encoding=UTF-8" :app:assembleAppDebug :app:testAppDebugUnitTest :app:assembleAppDebugAndroidTest
       - name: Save compiled artifacts and JVM reports
         uses: actions/upload-artifact@v4
         with:
