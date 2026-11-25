@@ -94,7 +94,8 @@ jobs:
             [[ "$BASELINE_CASE" =~ ^io\.legado\.app\.[A-Za-z0-9_.]+#[A-Za-z0-9_]+$ ]]
             prepare_library
             echo "::group::Baseline observation on $BASE"
-            adb shell am instrument -w -r -e class "$BASELINE_CASE" "$PKG.test/androidx.test.runner.AndroidJUnitRunner"
+            adb shell am instrument -w -r -e class "$BASELINE_CASE" "$PKG.test/androidx.test.runner.AndroidJUnitRunner" || echo "Baseline runner exited before completion"
+            adb logcat -b crash -d -t 100
             echo "::endgroup::"
             adb shell am force-stop "$PKG"
           fi
@@ -102,7 +103,10 @@ jobs:
           adb shell "run-as $PKG sh -c 'echo before-update > files/upgrade-marker'"
           adb install -r candidate/Reader.apk
           [[ "$(adb shell run-as "$PKG" cat files/upgrade-marker | tr -d '\r')" == before-update ]]
-          adb shell dumpsys package "$PKG" | grep -m1 'versionName='
+          adb shell dumpsys package "$PKG" > package.txt
+          installed=$(sed -n 's/^[[:space:]]*versionName=//p' package.txt | tr -d '\r')
+          [[ "$installed" == "${TAG#v}" ]]
+          echo "Upgraded $BASE to $TAG and retained the application's private marker"
           IFS=',' read -ra selected <<< "$CASES"
           (( ${#selected[@]} > 0 && ${#selected[@]} <= 40 ))
           failures=0
@@ -118,7 +122,10 @@ jobs:
             adb shell am instrument -w -r "${flags[@]}" -e class "$method" "$PKG.test/androidx.test.runner.AndroidJUnitRunner" | tee result.txt
             if (( ${#flags[@]} )); then adb logcat -d -s ReaderReleaseReceipt:I '*:S'; fi
             echo "::endgroup::"
-            if ! grep -Eq '^OK \([1-9][0-9]* tests?\)' result.txt; then failures=$((failures+1)); fi
+            if ! grep -Eq '^OK \([1-9][0-9]* tests?\)' result.txt; then
+              failures=$((failures+1))
+              adb logcat -b crash -d -t 100
+            fi
           done
           [[ "$failures" == 0 ]]
 
