@@ -1,0 +1,54 @@
+name: Build Reader from source
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Draft release containing Reader-build-input.tar.gz
+        required: true
+        type: string
+      source_sha:
+        description: SHA-256 of the source archive
+        required: true
+        type: string
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write # Reading an unpublished release requires collaborator access.
+    steps:
+      - name: Fetch the exact source tree
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ inputs.tag }}
+          SOURCE_SHA: ${{ inputs.source_sha }}
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && "$SOURCE_SHA" =~ ^[a-f0-9]{64}$ ]]
+          gh release download "$TAG" -p Reader-build-input.tar.gz
+          printf '%s  Reader-build-input.tar.gz\n' "$SOURCE_SHA" | sha256sum -c -
+          tar -xzf Reader-build-input.tar.gz
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Compile app, unit tests and test application
+        working-directory: upstream
+        run: |
+          set -euo pipefail
+          export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+          sdkmanager "platforms;android-36" "build-tools;35.0.0" >/dev/null
+          ./gradlew --console=plain --max-workers=3 -Dorg.gradle.jvmargs="-Xmx4g -Dfile.encoding=UTF-8" :app:assembleAppDebug :app:testAppDebugUnitTest :app:assembleAppDebugAndroidTest
+      - name: Save compiled artifacts and JVM reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: unsigned-for-distribution
+          retention-days: 1
+          if-no-files-found: error
+          path: |
+            upstream/app/build/outputs/apk/app/debug/
+            upstream/app/build/outputs/apk/androidTest/app/debug/
+            upstream/app/build/test-results/testAppDebugUnitTest/TEST-*.xml
+
