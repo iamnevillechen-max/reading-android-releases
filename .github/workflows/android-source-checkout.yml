@@ -1,0 +1,74 @@
+name: Prepare Android source for cloud development
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Published Reader release tag
+        type: string
+        required: true
+      source_sha:
+        description: Verified SHA-256 of the complete corresponding source archive
+        type: string
+        required: true
+jobs:
+  source:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    env:
+      TAG: ${{ inputs.tag }}
+      SOURCE_SHA: ${{ inputs.source_sha }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Import the verified source and initialize the development branch
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && "$SOURCE_SHA" =~ ^[a-f0-9]{64}$ ]]
+          [[ "$(gh release view "$TAG" --json isDraft --jq '.isDraft')" == false ]]
+          name="Reader-${TAG#v}-source.zip"
+          gh release download "$TAG" -p "$name" --dir "$RUNNER_TEMP"
+          printf '%s  %s\n' "$SOURCE_SHA" "$RUNNER_TEMP/$name" | sha256sum -c -
+          archive="$RUNNER_TEMP/$name" python3 - <<'PY'
+          import os, shutil, stat, zipfile
+          from pathlib import Path, PurePosixPath
+          entries = Path(os.environ["RUNNER_TEMP"]) / "reader-source-files"
+          with zipfile.ZipFile(os.environ["archive"]) as archive, entries.open("wb") as paths:
+              for item in archive.infolist():
+                  parts = PurePosixPath(item.filename).parts
+                  if len(parts) < 2 or parts[0] != "multiread" or set(parts) & {"..", ".git"} or parts[1] == ".github":
+                      raise ValueError("Unexpected source path")
+                  if item.is_dir():
+                      continue
+                  if stat.S_ISLNK(item.external_attr >> 16):
+                      raise ValueError("Unexpected source link")
+                  path = Path(*parts[1:])
+                  path.parent.mkdir(parents=True, exist_ok=True)
+                  with archive.open(item) as source, path.open("wb") as target:
+                      shutil.copyfileobj(source, target)
+                  path.chmod(0o755 if item.external_attr >> 16 & 0o111 else 0o644)
+                  paths.write(os.fsencode(path) + b"\0")
+          PY
+          test -x upstream/gradlew
+          test -f server/feedback/worker.mjs
+          test -f server/shared/content-quality-v1.json
+          printf '%s\n' "$SOURCE_SHA" > .reader-source-sha256
+          git --literal-pathspecs add -f --pathspec-from-file="$RUNNER_TEMP/reader-source-files" --pathspec-file-nul
+          git add .reader-source-sha256
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -q -m "Import 阅读 Android ${TAG#v} from its verified corresponding source"
+          ref="source-$TAG"
+          if git ls-remote --exit-code origin "refs/heads/$ref" >/dev/null; then
+            git fetch -q origin "refs/heads/$ref"
+            [[ "$(git show FETCH_HEAD:.reader-source-sha256)" == "$SOURCE_SHA" ]]
+            commit=$(git rev-parse FETCH_HEAD)
+          else
+            git push origin "HEAD:refs/heads/$ref"
+            commit=$(git rev-parse HEAD)
+          fi
+          if [[ -z "$(git ls-remote origin refs/heads/android-source)" ]]; then
+            git push origin "$commit:refs/heads/android-source"
+          fi
+          printf 'Source commit %s\n' "$commit"
