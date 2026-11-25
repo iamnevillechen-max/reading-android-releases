@@ -22,6 +22,10 @@ on:
         description: Comma-separated instrumentation classes or class#method entries
         required: true
         type: string
+      baseline_case:
+        description: Optional case to observe on the installed baseline before updating
+        required: false
+        type: string
 jobs:
   android:
     runs-on: ubuntu-24.04
@@ -34,6 +38,7 @@ jobs:
       APK_SHA: ${{ inputs.apk_sha }}
       TEST_SHA: ${{ inputs.tests_sha }}
       CASES: ${{ inputs.cases }}
+      BASELINE_CASE: ${{ inputs.baseline_case }}
       PKG: io.multiread.reader.debug
     steps:
       - name: Fetch and verify the signed binaries
@@ -73,19 +78,7 @@ jobs:
       - name: Install over the previous version and run native tests
         run: |
           set -euo pipefail
-          adb install previous/Reader.apk
-          adb shell run-as "$PKG" mkdir -p files
-          adb shell "run-as $PKG sh -c 'echo before-update > files/upgrade-marker'"
-          adb install -r candidate/Reader.apk
-          [[ "$(adb shell run-as "$PKG" cat files/upgrade-marker | tr -d '\r')" == before-update ]]
-          adb shell dumpsys package "$PKG" | grep -m1 'versionName='
-          adb install -r candidate/Reader-instrumentation.apk
-          IFS=',' read -ra selected <<< "$CASES"
-          (( ${#selected[@]} > 0 && ${#selected[@]} <= 40 ))
-          failures=0
-          for method in "${selected[@]}"; do
-            [[ "$method" =~ ^io\.legado\.app\.[A-Za-z0-9_.]+(#[A-Za-z0-9_]+)?$ ]]
-            # Each suite starts with an empty library on this disposable emulator.
+          prepare_library() {
             adb shell pm clear "$PKG" >/dev/null
             adb shell run-as "$PKG" mkdir -p shared_prefs
             printf '%s\n' '<map><int name="packVersion" value="2147483647"/></map>' |
@@ -94,6 +87,29 @@ jobs:
               adb shell "run-as $PKG sh -c 'cat > shared_prefs/local.xml'"
             adb shell input keyevent KEYCODE_WAKEUP
             adb shell wm dismiss-keyguard
+          }
+          adb install previous/Reader.apk
+          adb install -r candidate/Reader-instrumentation.apk
+          if [[ -n "$BASELINE_CASE" ]]; then
+            [[ "$BASELINE_CASE" =~ ^io\.legado\.app\.[A-Za-z0-9_.]+#[A-Za-z0-9_]+$ ]]
+            prepare_library
+            echo "::group::Baseline observation on $BASE"
+            adb shell am instrument -w -r -e class "$BASELINE_CASE" "$PKG.test/androidx.test.runner.AndroidJUnitRunner"
+            echo "::endgroup::"
+            adb shell am force-stop "$PKG"
+          fi
+          adb shell run-as "$PKG" mkdir -p files
+          adb shell "run-as $PKG sh -c 'echo before-update > files/upgrade-marker'"
+          adb install -r candidate/Reader.apk
+          [[ "$(adb shell run-as "$PKG" cat files/upgrade-marker | tr -d '\r')" == before-update ]]
+          adb shell dumpsys package "$PKG" | grep -m1 'versionName='
+          IFS=',' read -ra selected <<< "$CASES"
+          (( ${#selected[@]} > 0 && ${#selected[@]} <= 40 ))
+          failures=0
+          for method in "${selected[@]}"; do
+            [[ "$method" =~ ^io\.legado\.app\.[A-Za-z0-9_.]+(#[A-Za-z0-9_]+)?$ ]]
+            # Each suite starts with an empty library on this disposable emulator.
+            prepare_library
             echo "::group::$method"
             flags=()
             if [[ "$method" == 'io.legado.app.help.ReaderDiagnosticsTest#uploadFromMyTabReturnsLiveReceipt' ]]; then
