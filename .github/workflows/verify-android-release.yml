@@ -93,7 +93,7 @@ jobs:
             adb shell run-as "$PKG" mkdir -p shared_prefs
             printf '%s\n' '<map><int name="packVersion" value="2147483647"/></map>' |
               adb shell "run-as $PKG sh -c 'cat > shared_prefs/reader_verified_sources_v1.xml'"
-            printf '%s\n' '<map><boolean name="privacyPolicyOk" value="true"/><long name="appVersionCode" value="2147483647"/></map>' |
+            printf '%s\n' '<map><boolean name="privacyPolicyOk" value="true"/><string name="password"></string><long name="appVersionCode" value="2147483647"/></map>' |
               adb shell "run-as $PKG sh -c 'cat > shared_prefs/local.xml'"
             adb shell input keyevent KEYCODE_WAKEUP
             adb shell wm dismiss-keyguard
