@@ -87,6 +87,7 @@ jobs:
       - name: Install over the previous version and run native tests
         run: |
           set -euo pipefail
+          export PATH="$ANDROID_HOME/platform-tools:$PATH"
           prepare_library() {
             adb shell pm clear "$PKG" >/dev/null
             adb shell run-as "$PKG" mkdir -p shared_prefs
