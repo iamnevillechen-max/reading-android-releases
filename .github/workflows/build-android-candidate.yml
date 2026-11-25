@@ -10,6 +10,10 @@ on:
         description: SHA-256 of the source archive
         required: true
         type: string
+      refresh_tests:
+        description: Return only instrumentation and JVM reports for testing the same signed app
+        type: boolean
+        default: false
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -53,6 +57,7 @@ jobs:
           GRADLE
           ./gradlew -I "$RUNNER_TEMP/central-mirror.gradle" --console=plain --max-workers=3 -Dorg.gradle.jvmargs="-Xmx4g -Dfile.encoding=UTF-8" :app:assembleAppDebug :app:testAppDebugUnitTest :app:assembleAppDebugAndroidTest
       - name: Save compiled artifacts and JVM reports
+        if: ${{ !inputs.refresh_tests }}
         uses: actions/upload-artifact@v4
         with:
           name: unsigned-for-distribution
@@ -60,6 +65,16 @@ jobs:
           if-no-files-found: error
           path: |
             upstream/app/build/outputs/apk/app/debug/
+            upstream/app/build/outputs/apk/androidTest/app/debug/
+            upstream/app/build/test-results/testAppDebugUnitTest/TEST-*.xml
+      - name: Save refreshed instrumentation and JVM reports
+        if: ${{ inputs.refresh_tests }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: refreshed-instrumentation
+          retention-days: 1
+          if-no-files-found: error
+          path: |
             upstream/app/build/outputs/apk/androidTest/app/debug/
             upstream/app/build/test-results/testAppDebugUnitTest/TEST-*.xml
 
