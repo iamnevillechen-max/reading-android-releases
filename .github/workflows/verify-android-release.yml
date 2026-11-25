@@ -63,9 +63,18 @@ jobs:
           sudo chmod a+rw /dev/kvm
           export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
           sdkmanager "platform-tools" "emulator" "system-images;android-35;default;x86_64" >/dev/null
-          echo no | avdmanager create avd -n reader-check -k "system-images;android-35;default;x86_64" >/dev/null
-          nohup "$ANDROID_HOME/emulator/emulator" -avd reader-check -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader_indirect -memory 3072 > emulator.log 2>&1 &
+          export ANDROID_AVD_HOME="$RUNNER_TEMP/reader-avds"
+          mkdir -p "$ANDROID_AVD_HOME"
+          avd_path="$ANDROID_AVD_HOME/reader-check.avd"
+          echo no | avdmanager create avd -n reader-check -p "$avd_path" -k "system-images;android-35;default;x86_64" >/dev/null
+          test -f "$avd_path/config.ini"
+          printf 'avd.ini.encoding=UTF-8\npath=%s\ntarget=android-35\n' "$avd_path" > "$ANDROID_AVD_HOME/reader-check.ini"
+          "$ANDROID_HOME/emulator/emulator" -list-avds | grep -Fx reader-check
+          adb start-server
+          nohup "$ANDROID_HOME/emulator/emulator" -avd reader-check -no-window -no-audio -no-snapshot -no-boot-anim -no-metrics -gpu swiftshader -memory 3072 > emulator.log 2>&1 &
+          emulator_pid=$!
           for attempt in {1..150}; do
+            kill -0 "$emulator_pid" 2>/dev/null || { cat emulator.log; exit 1; }
             if [[ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')" == 1 ]]; then break; fi
             sleep 2
           done
