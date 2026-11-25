@@ -24,13 +24,62 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Verify the public downloads and update manifest
+        env:
+          GH_TOKEN: ""
+        run: |
+          python3 - <<'PYTHON'
+          import hashlib, json, os, re, shutil, urllib.request
+          from pathlib import Path
+
+          tag = os.environ["TAG"]
+          assert re.fullmatch(r"v[0-9]+[.][0-9]+[.][0-9]+", tag)
+          repo = os.environ["GITHUB_REPOSITORY"]
+          names = ["Reader.apk", f"Reader-{tag[1:]}-source.zip", "VerifiedBookSources.json", "update.json"]
+          work = Path(os.environ["RUNNER_TEMP"])
+          api = f"https://api.github.com/repos/{repo}/releases/tags/{tag}"
+          with urllib.request.urlopen(api, timeout=45) as response:
+              release = json.load(response)
+          assert not release["draft"] and not release["prerelease"]
+          assets = {item["name"]: item for item in release["assets"]}
+          assert set(names) <= assets.keys()
+          verified = {}
+          for name in names:
+              asset = assets[name]
+              path = work / name
+              with urllib.request.urlopen(asset["browser_download_url"], timeout=45) as response, path.open("wb") as out:
+                  shutil.copyfileobj(response, out)
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              assert path.stat().st_size == asset["size"] and asset["digest"] == f"sha256:{digest}", name
+              verified[name] = {"bytes": path.stat().st_size, "sha256": digest}
+          manifest = json.loads((work / "update.json").read_text())
+          apk = verified["Reader.apk"]
+          assert manifest["versionName"] == tag[1:] and manifest["apkUrl"] == assets["Reader.apk"]["browser_download_url"]
+          assert manifest["sha256"] == apk["sha256"] and manifest["bytes"] == apk["bytes"]
+          assert manifest["packageName"] == "io.multiread.reader.debug"
+          assert verified[names[1]]["sha256"] == os.environ["SOURCE_SHA"]
+          with urllib.request.urlopen(f"https://api.github.com/repos/{repo}/releases/latest", timeout=45) as response:
+              latest_tag = json.load(response)["tag_name"]
+          if latest_tag == tag:
+              with urllib.request.urlopen(f"https://github.com/{repo}/releases/latest/download/update.json", timeout=45) as response:
+                  assert json.load(response) == manifest
+          report = {"release": release["html_url"], "latestVersion": latest_tag[1:],
+                    "stableUpdateManifestVerified": latest_tag == tag, "serverAssetsChecked": len(assets),
+                    "publicDownloads": [{"file": name, **verified[name]} for name in names]}
+          (work / "public-release-verification.json").write_text(json.dumps(report, indent=2))
+          print(json.dumps(report))
+          PYTHON
+      - uses: actions/upload-artifact@v4
+        with:
+          name: public-release-verification
+          path: ${{ runner.temp }}/public-release-verification.json
+          retention-days: 14
       - name: Import the verified source and initialize the development branch
         run: |
           set -euo pipefail
           [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && "$SOURCE_SHA" =~ ^[a-f0-9]{64}$ ]]
           [[ "$(gh release view "$TAG" --json isDraft --jq '.isDraft')" == false ]]
           name="Reader-${TAG#v}-source.zip"
-          gh release download "$TAG" -p "$name" --dir "$RUNNER_TEMP"
           printf '%s  %s\n' "$SOURCE_SHA" "$RUNNER_TEMP/$name" | sha256sum -c -
           archive="$RUNNER_TEMP/$name" python3 - <<'PY'
           import os, shutil, stat, zipfile
@@ -72,3 +121,8 @@ jobs:
             git push origin "$commit:refs/heads/android-source"
           fi
           printf 'Source commit %s\n' "$commit"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Test the published feedback service
+        run: node --test server/feedback/worker.test.mjs
