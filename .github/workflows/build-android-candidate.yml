@@ -29,6 +29,8 @@ jobs:
           gh release download "$TAG" -p Reader-build-input.tar.gz
           printf '%s  Reader-build-input.tar.gz\n' "$SOURCE_SHA" | sha256sum -c -
           tar -xzf Reader-build-input.tar.gz
+          test -f upstream/app/build.gradle
+          test -f server/shared/content-quality-v1.json
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
